@@ -1,0 +1,40 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/production/production_catalog_test.dart
+00:00 +0: /home/user/management_toolbox/test/features/calculators/production/production_catalog_test.dart: ten production engines registered once, prior OEE identity is preserved
+00:00 +1: /home/user/management_toolbox/test/features/calculators/production/production_catalog_test.dart: oee: complete educational definition and executable example
+00:00 +2: /home/user/management_toolbox/test/features/calculators/production/production_catalog_test.dart: oee: Persian Arabic and Latin inputs agree; blank/NaN are rejected
+00:00 +3: /home/user/management_toolbox/test/features/calculators/production/production_catalog_test.dart: takt_time: complete educational definition and executable example
+00:00 +4: /home/user/management_toolbox/test/features/calculators/production/production_catalog_test.dart: takt_time: Persian Arabic and Latin inputs agree; blank/NaN are rejected
+00:00 +5: /home/user/management_toolbox/test/features/calculators/production/production_catalog_test.dart: production_capacity: complete educational definition and executable example
+00:00 +6: /home/user/management_toolbox/test/features/calculators/production/production_catalog_test.dart: production_capacity: Persian Arabic and Latin inputs agree; blank/NaN are rejected
+00:00 +7: /home/user/management_toolbox/test/features/calculators/production/production_catalog_test.dart: labor_productivity: complete educational definition and executable example
+00:00 +8: /home/user/management_toolbox/test/features/calculators/production/production_catalog_test.dart: labor_productivity: Persian Arabic and Latin inputs agree; blank/NaN are rejected
+00:00 +9: /home/user/management_toolbox/test/features/calculators/production/production_catalog_test.dart: cycle_time: complete educational definition and executable example
+00:00 +10: /home/user/management_toolbox/test/features/calculators/production/production_catalog_test.dart: cycle_time: Persian Arabic and Latin inputs agree; blank/NaN are rejected
+00:00 +11: /home/user/management_toolbox/test/features/calculators/production/production_catalog_test.dart: smed: complete educational definition and executable example
+00:00 +12: /home/user/management_toolbox/test/features/calculators/production/production_catalog_test.dart: smed: Persian Arabic and Latin inputs agree; blank/NaN are rejected
+00:00 +13: /home/user/management_toolbox/test/features/calculators/production/production_catalog_test.dart: unit_production_cost: complete educational definition and executable example
+00:00 +14: /home/user/management_toolbox/test/features/calculators/production/production_catalog_test.dart: unit_production_cost: Persian Arabic and Latin inputs agree; blank/NaN are rejected
+00:00 +15: /home/user/management_toolbox/test/features/calculators/production/production_catalog_test.dart: wip: complete educational definition and executable example
+00:00 +16: /home/user/management_toolbox/test/features/calculators/production/production_catalog_test.dart: wip: Persian Arabic and Latin inputs agree; blank/NaN are rejected
+00:00 +17: /home/user/management_toolbox/test/features/calculators/production/production_catalog_test.dart: throughput: complete educational definition and executable example
+00:00 +18: /home/user/management_toolbox/test/features/calculators/production/production_catalog_test.dart: throughput: Persian Arabic and Latin inputs agree; blank/NaN are rejected
+00:00 +19: /home/user/management_toolbox/test/features/calculators/production/production_catalog_test.dart: capacity_utilization: complete educational definition and executable example
+00:00 +20: /home/user/management_toolbox/test/features/calculators/production/production_catalog_test.dart: capacity_utilization: Persian Arabic and Latin inputs agree; blank/NaN are rejected
+00:00 +21: loading /home/user/management_toolbox/test/features/calculators/production/production_pages_test.dart
+00:01 +21: /home/user/management_toolbox/test/features/calculators/production/production_pages_test.dart: takt_time: uses generated generic page, validates and restores example
+00:03 +22: /home/user/management_toolbox/test/features/calculators/production/production_pages_test.dart: production_capacity: uses generated generic page, validates and restores example
+00:03 +23: /home/user/management_toolbox/test/features/calculators/production/production_pages_test.dart: labor_productivity: uses generated generic page, validates and restores example
+00:03 +24: /home/user/management_toolbox/test/features/calculators/production/production_pages_test.dart: cycle_time: uses generated generic page, validates and restores example
+00:04 +25: /home/user/management_toolbox/test/features/calculators/production/production_pages_test.dart: smed: uses generated generic page, validates and restores example
+00:04 +26: /home/user/management_toolbox/test/features/calculators/production/production_pages_test.dart: unit_production_cost: uses generated generic page, validates and restores example
+00:04 +27: /home/user/management_toolbox/test/features/calculators/production/production_pages_test.dart: wip: uses generated generic page, validates and restores example
+00:05 +28: /home/user/management_toolbox/test/features/calculators/production/production_pages_test.dart: throughput: uses generated generic page, validates and restores example
+00:05 +29: /home/user/management_toolbox/test/features/calculators/production/production_pages_test.dart: capacity_utilization: uses generated generic page, validates and restores example
+00:05 +30: /home/user/management_toolbox/test/features/calculators/production/production_pages_test.dart: all ten tools open from production category through public routing
+00:08 +31: /home/user/management_toolbox/test/features/calculators/production/production_pages_test.dart: new tool search favorite and history reopen keep edited inputs
+00:09 +32: /home/user/management_toolbox/test/features/calculators/production/production_pages_test.dart: SMED increase and utilization above 100 remain visible with warnings
+00:10 +33: /home/user/management_toolbox/test/features/calculators/production/production_pages_test.dart: nine new generic pages fit Size(320.0, 568.0) dark=false text scale 1.5
+00:11 +34: /home/user/management_toolbox/test/features/calculators/production/production_pages_test.dart: nine new generic pages fit Size(320.0, 568.0) dark=true text scale 1.5
+00:12 +35: /home/user/management_toolbox/test/features/calculators/production/production_pages_test.dart: nine new generic pages fit Size(1280.0, 800.0) dark=false text scale 1.5
+00:12 +36: /home/user/management_toolbox/test/features/calculators/production/production_pages_test.dart: nine new generic pages fit Size(1280.0, 800.0) dark=true text scale 1.5
+00:13 +37: All tests passed!

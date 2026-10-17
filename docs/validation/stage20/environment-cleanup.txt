@@ -1,0 +1,1 @@
+Temporary swap disabled/removed after successful APK/AAB builds. No compilers/Gradle jobs left running. Android generated .gradle/.kotlin caches removed. SDK/JDK/pub/Gradle caches external and excluded from source/Git delivery. Original incomplete project .git metadata untouched. No signing secrets or user databases supplied.

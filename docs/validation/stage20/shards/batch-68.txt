@@ -1,0 +1,3 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/quality_inventory/visual_test.dart
+00:00 +0: capture quality and inventory categories, Xbar, sigma endpoint and ABC
+00:00 +0 ~1: All tests skipped.

@@ -1,0 +1,14 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/finance/quick_ratio_test.dart
+00:00 +0: quick_ratio: reference formula
+00:00 +1: quick_ratio: typed bind and domain validation
+00:00 +2: quick_ratio: nonfinite current_assets
+00:00 +3: quick_ratio: lower bound current_assets
+00:00 +4: quick_ratio: nonfinite inventory
+00:00 +5: quick_ratio: lower bound inventory
+00:00 +6: quick_ratio: nonfinite prepayments
+00:00 +7: quick_ratio: lower bound prepayments
+00:00 +8: quick_ratio: nonfinite current_liabilities
+00:00 +9: quick_ratio: lower bound current_liabilities
+00:00 +10: quick_ratio: 20 independent Decimal formula fixtures
+00:00 +11: quick_ratio: zero cross-field and numerical edge cases
+00:00 +12: All tests passed!

@@ -1,0 +1,7 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/decision/scalar_test.dart
+00:00 +0: Cost benefit signs, equal alternatives and zero cost have explicit meaning
+00:00 +1: Common period is context only, never hidden annualization or discounting
+00:00 +2: Break even symmetric alternatives and zero crossing remain defined
+00:00 +3: Identical, parallel and negative crossings have distinct errors
+00:00 +4: Overflow and nonzero underflow reject instead of manufacturing a finite result
+00:00 +5: All tests passed!

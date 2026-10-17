@@ -1,0 +1,167 @@
+Resolving dependencies...
+Downloading packages...
+  material_color_utilities 0.13.0 (0.13.1 available)
+  meta 1.18.3 (1.19.0 available)
+  petitparser 7.0.2 (7.1.0 available)
+  test_api 0.7.12 (0.7.15 available)
+  vector_math 2.4.0 (2.4.3 available)
+  xml 7.0.1 (7.1.0 available)
+Got dependencies!
+6 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart
+00:00 +0: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: ahp: hand-checkable typed example and conditional interpretation
+00:00 +1: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: ahp.alternatives: nonfinite input rejects directly
+00:00 +2: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: ahp.alternatives: lower bound and fractional count reject
+00:00 +3: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: ahp.criteria: nonfinite input rejects directly
+00:00 +4: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: ahp.criteria: lower bound and fractional count reject
+00:00 +5: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: topsis: hand-checkable typed example and conditional interpretation
+00:00 +6: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: topsis.alternatives: nonfinite input rejects directly
+00:00 +7: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: topsis.alternatives: lower bound and fractional count reject
+00:00 +8: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: topsis.criteria: nonfinite input rejects directly
+00:00 +9: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: topsis.criteria: lower bound and fractional count reject
+00:00 +10: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: decision_matrix: hand-checkable typed example and conditional interpretation
+00:00 +11: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: decision_matrix.alternatives: nonfinite input rejects directly
+00:00 +12: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: decision_matrix.alternatives: lower bound and fractional count reject
+00:00 +13: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: decision_matrix.criteria: nonfinite input rejects directly
+00:00 +14: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: decision_matrix.criteria: lower bound and fractional count reject
+00:00 +15: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: expected_value_tree: hand-checkable typed example and conditional interpretation
+00:00 +16: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: expected_value_tree.root_id: nonfinite input rejects directly
+00:00 +17: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: expected_value_tree.root_id: lower bound and fractional count reject
+00:00 +18: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: weight_sensitivity: hand-checkable typed example and conditional interpretation
+00:00 +19: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: weight_sensitivity.alternatives: nonfinite input rejects directly
+00:00 +20: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: weight_sensitivity.alternatives: lower bound and fractional count reject
+00:00 +21: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: weight_sensitivity.criteria: nonfinite input rejects directly
+00:00 +22: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: weight_sensitivity.criteria: lower bound and fractional count reject
+00:00 +23: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: weight_sensitivity.selected_criterion: nonfinite input rejects directly
+00:00 +24: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: weight_sensitivity.selected_criterion: lower bound and fractional count reject
+00:00 +25: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: weighted_scoring: hand-checkable typed example and conditional interpretation
+00:00 +26: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: weighted_scoring.alternatives: nonfinite input rejects directly
+00:00 +27: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: weighted_scoring.alternatives: lower bound and fractional count reject
+00:00 +28: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: weighted_scoring.criteria: nonfinite input rejects directly
+00:00 +29: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: weighted_scoring.criteria: lower bound and fractional count reject
+00:00 +30: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: cost_benefit_comparison: hand-checkable typed example and conditional interpretation
+00:00 +31: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: cost_benefit_comparison.cost_a: nonfinite input rejects directly
+00:00 +32: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: cost_benefit_comparison.cost_a: lower bound and fractional count reject
+00:00 +33: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: cost_benefit_comparison.benefit_a: nonfinite input rejects directly
+00:00 +34: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: cost_benefit_comparison.benefit_a: lower bound and fractional count reject
+00:00 +35: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: cost_benefit_comparison.cost_b: nonfinite input rejects directly
+00:00 +36: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: cost_benefit_comparison.cost_b: lower bound and fractional count reject
+00:00 +37: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: cost_benefit_comparison.benefit_b: nonfinite input rejects directly
+00:00 +38: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: cost_benefit_comparison.benefit_b: lower bound and fractional count reject
+00:00 +39: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: cost_benefit_comparison.period_days: nonfinite input rejects directly
+00:00 +40: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: cost_benefit_comparison.period_days: lower bound and fractional count reject
+00:00 +41: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: two_option_break_even: hand-checkable typed example and conditional interpretation
+00:00 +42: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: two_option_break_even.fixed_a: nonfinite input rejects directly
+00:00 +43: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: two_option_break_even.fixed_a: lower bound and fractional count reject
+00:00 +44: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: two_option_break_even.variable_a: nonfinite input rejects directly
+00:00 +45: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: two_option_break_even.variable_a: lower bound and fractional count reject
+00:00 +46: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: two_option_break_even.fixed_b: nonfinite input rejects directly
+00:00 +47: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: two_option_break_even.fixed_b: lower bound and fractional count reject
+00:00 +48: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: two_option_break_even.variable_b: nonfinite input rejects directly
+00:00 +49: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: two_option_break_even.variable_b: lower bound and fractional count reject
+00:00 +50: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: two_option_break_even.period_days: nonfinite input rejects directly
+00:00 +51: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: two_option_break_even.period_days: lower bound and fractional count reject
+00:00 +52: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: ahp: independent Decimal, AHP closed-form or enumerated-policy oracle
+00:00 +53: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: topsis: independent Decimal, AHP closed-form or enumerated-policy oracle
+00:00 +54: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: decision_matrix: independent Decimal, AHP closed-form or enumerated-policy oracle
+00:00 +55: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: expected_value_tree: independent Decimal, AHP closed-form or enumerated-policy oracle
+00:00 +56: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: weight_sensitivity: independent Decimal, AHP closed-form or enumerated-policy oracle
+00:00 +57: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: weighted_scoring: independent Decimal, AHP closed-form or enumerated-policy oracle
+00:00 +58: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: cost_benefit_comparison: independent Decimal, AHP closed-form or enumerated-policy oracle
+00:00 +59: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: two_option_break_even: independent Decimal, AHP closed-form or enumerated-policy oracle
+00:00 +60: loading /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart
+00:01 +60: /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart: AHP known consistent hierarchy, global priorities and near ties
+00:01 +61: /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart: AHP classic reciprocal three-criterion hand-checkable geometric eigenvector
+00:01 +62: /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart: AHP inconsistent circulant has known lambda and CR, warning not fabricated refusal
+00:01 +63: /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart: AHP rejects reciprocal, diagonal, ranges and incomplete matrices
+00:01 +64: /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart: AHP convergence cap never returns guessed weights
+00:01 +65: /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart: AHP supports largest documented dimensions, RI and immutable matrices
+00:01 +66: /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart: Decision tree golden example and all negative/tied choices
+00:01 +67: /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart: Nested decisions and chance perform backward induction, not only root branching
+00:01 +68: /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart: Tree may contain only a terminal and explicit omitted optional edges stay absent
+00:01 +69: /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart: Probability zero still validates data, tiny nonzero sums are normalized only within tolerance
+00:01 +70: /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart: Tree rejects bad probabilities, incomplete sums and fake decision probabilities
+00:01 +71: /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart: Tree rejects IDs, unknown root/refs, duplicate/self edges and DAG sharing
+00:01 +72: /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart: Disconnected zero cycles reject without recursion or infinite traversal
+00:01 +73: /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart: Tree node kind/payoff and degree contracts are checked
+00:01 +74: /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart: Tree handles 100-deep valid chain and immutable snapshots
+00:01 +75: /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart: Tree raw shapes, fractional IDs/types and missing edge probability reject explicitly
+00:02 +76: loading /home/user/management_toolbox/test/features/calculators/decision/pages_test.dart
+00:03 +76: /home/user/management_toolbox/test/features/calculators/decision/pages_test.dart: ahp: generic form rendered formula error and example
+00:05 +77: /home/user/management_toolbox/test/features/calculators/decision/pages_test.dart: topsis: generic form rendered formula error and example
+00:05 +78: /home/user/management_toolbox/test/features/calculators/decision/pages_test.dart: decision_matrix: generic form rendered formula error and example
+00:06 +79: /home/user/management_toolbox/test/features/calculators/decision/pages_test.dart: expected_value_tree: generic form rendered formula error and example
+00:06 +80: /home/user/management_toolbox/test/features/calculators/decision/pages_test.dart: weight_sensitivity: generic form rendered formula error and example
+00:07 +81: /home/user/management_toolbox/test/features/calculators/decision/pages_test.dart: weighted_scoring: generic form rendered formula error and example
+00:07 +82: /home/user/management_toolbox/test/features/calculators/decision/pages_test.dart: cost_benefit_comparison: generic form rendered formula error and example
+00:08 +83: /home/user/management_toolbox/test/features/calculators/decision/pages_test.dart: two_option_break_even: generic form rendered formula error and example
+00:08 +84: /home/user/management_toolbox/test/features/calculators/decision/pages_test.dart: eight decision tools open through real category routes
+00:10 +85: /home/user/management_toolbox/test/features/calculators/decision/pages_test.dart: Decision incomplete external snapshots do not silently borrow example defaults
+00:12 +86: /home/user/management_toolbox/test/features/calculators/decision/pages_test.dart: Decision matrix list save/reopen retains weights and invalid shape disables save
+00:14 +87: /home/user/management_toolbox/test/features/calculators/decision/pages_test.dart: eight decision pages fit Size(320.0, 568.0) dark=false enlarged RTL
+00:15 +88: /home/user/management_toolbox/test/features/calculators/decision/pages_test.dart: eight decision pages fit Size(320.0, 568.0) dark=true enlarged RTL
+00:16 +89: /home/user/management_toolbox/test/features/calculators/decision/pages_test.dart: eight decision pages fit Size(1280.0, 800.0) dark=false enlarged RTL
+00:16 +90: /home/user/management_toolbox/test/features/calculators/decision/pages_test.dart: eight decision pages fit Size(1280.0, 800.0) dark=true enlarged RTL
+00:18 +91: loading /home/user/management_toolbox/test/features/calculators/decision/scalar_test.dart
+00:19 +91: /home/user/management_toolbox/test/features/calculators/decision/scalar_test.dart: Cost benefit signs, equal alternatives and zero cost have explicit meaning
+00:19 +92: /home/user/management_toolbox/test/features/calculators/decision/scalar_test.dart: Common period is context only, never hidden annualization or discounting
+00:19 +93: /home/user/management_toolbox/test/features/calculators/decision/scalar_test.dart: Break even symmetric alternatives and zero crossing remain defined
+00:19 +94: /home/user/management_toolbox/test/features/calculators/decision/scalar_test.dart: Identical, parallel and negative crossings have distinct errors
+00:19 +95: /home/user/management_toolbox/test/features/calculators/decision/scalar_test.dart: Overflow and nonzero underflow reject instead of manufacturing a finite result
+00:19 +96: loading /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart
+00:20 +96: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: decision_matrix: dimensions and matrix/weight length mismatches reject
+00:20 +97: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: decision_matrix: negative, NaN, infinite or all-zero weights reject
+00:20 +98: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: decision_matrix: nonfinite matrix cells reject, relative weights need not sum to one
+00:20 +99: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: topsis: dimensions and matrix/weight length mismatches reject
+00:20 +100: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: topsis: negative, NaN, infinite or all-zero weights reject
+00:20 +101: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: topsis: nonfinite matrix cells reject, relative weights need not sum to one
+00:20 +102: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: weighted_scoring: dimensions and matrix/weight length mismatches reject
+00:20 +103: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: weighted_scoring: negative, NaN, infinite or all-zero weights reject
+00:20 +104: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: weighted_scoring: nonfinite matrix cells reject, relative weights need not sum to one
+00:20 +105: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: weight_sensitivity: dimensions and matrix/weight length mismatches reject
+00:20 +106: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: weight_sensitivity: negative, NaN, infinite or all-zero weights reject
+00:20 +107: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: weight_sensitivity: nonfinite matrix cells reject, relative weights need not sum to one
+00:20 +108: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: decision_matrix: criterion types and counts are validated
+00:20 +109: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: topsis: criterion types and counts are validated
+00:20 +110: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: weight_sensitivity: criterion types and counts are validated
+00:20 +111: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: Known min-max hand data and cost reversal
+00:20 +112: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: Min-max handles signed data and constant columns without weight redistribution
+00:20 +113: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: TOPSIS known dominance, benefit/cost, endpoints zero/one
+00:20 +114: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: TOPSIS symmetric golden tradeoff, positive column scaling invariant
+00:20 +115: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: TOPSIS no arbitrary closeness for identical effective alternatives
+00:20 +116: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: TOPSIS zero columns/rows and overflowing raw norm remain handled
+00:20 +117: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: Weighted scoring does not silently normalize incomparable raw scales
+00:20 +118: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: Zero weights disable finite values without contaminating active-scale arithmetic
+00:20 +119: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: Two through twenty options and one through twenty criteria are dynamic
+00:20 +120: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: Rank groups use anchored relative tolerance, stable ordering, no absolute floor
+00:20 +121: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: Sensitivity sampled endpoints/ties and baseline are independently hand-checkable
+00:20 +122: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: Sensitivity rejects missing redistribution base, bad selection and samples
+00:20 +123: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: Matrix and sweep input snapshots immutable
+00:21 +124: loading /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart
+00:21 +124: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: eight decision tools and 58 catalog entries
+00:21 +125: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: ahp: full definition formula and educational numeric example
+00:21 +126: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: ahp: Arabic Persian Latin digits and malformed form data
+00:21 +127: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: topsis: full definition formula and educational numeric example
+00:21 +128: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: topsis: Arabic Persian Latin digits and malformed form data
+00:21 +129: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: decision_matrix: full definition formula and educational numeric example
+00:21 +130: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: decision_matrix: Arabic Persian Latin digits and malformed form data
+00:21 +131: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: expected_value_tree: full definition formula and educational numeric example
+00:21 +132: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: expected_value_tree: Arabic Persian Latin digits and malformed form data
+00:22 +133: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: weight_sensitivity: full definition formula and educational numeric example
+00:22 +134: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: weight_sensitivity: Arabic Persian Latin digits and malformed form data
+00:22 +135: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: weighted_scoring: full definition formula and educational numeric example
+00:22 +136: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: weighted_scoring: Arabic Persian Latin digits and malformed form data
+00:22 +137: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: cost_benefit_comparison: full definition formula and educational numeric example
+00:22 +138: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: cost_benefit_comparison: Arabic Persian Latin digits and malformed form data
+00:22 +139: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: two_option_break_even: full definition formula and educational numeric example
+00:22 +140: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: two_option_break_even: Arabic Persian Latin digits and malformed form data
+00:22 +141: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: ahp: omitted/blank required fields never become examples
+00:22 +142: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: topsis: omitted/blank required fields never become examples
+00:22 +143: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: decision_matrix: omitted/blank required fields never become examples
+00:22 +144: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: expected_value_tree: omitted/blank required fields never become examples
+00:22 +145: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: weight_sensitivity: omitted/blank required fields never become examples
+00:22 +146: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: weighted_scoring: omitted/blank required fields never become examples
+00:22 +147: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: cost_benefit_comparison: omitted/blank required fields never become examples
+00:22 +148: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: two_option_break_even: omitted/blank required fields never become examples
+00:22 +149: All tests passed!

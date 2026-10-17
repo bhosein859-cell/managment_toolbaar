@@ -1,0 +1,21 @@
+00:00 +0: loading /home/user/management_toolbox/test/core/persian_numbers_test.dart
+00:00 +0: all digit sets normalize and roundtrip
+00:00 +1: accepts ۱۲۳٫۴۵
+00:00 +2: accepts ١٢٣٫٤٥
+00:00 +3: accepts 123.45
+00:00 +4: accepts  ۱۲٣.45 
+00:00 +5: signs, fractions, thousands and zero
+00:00 +6: rejects malformed input ""
+00:00 +7: rejects malformed input " "
+00:00 +8: rejects malformed input "NaN"
+00:00 +9: rejects malformed input "Infinity"
+00:00 +10: rejects malformed input "1e3"
+00:00 +11: rejects malformed input "1,5"
+00:00 +12: rejects malformed input "۱۲٬۳۴"
+00:00 +13: rejects malformed input "1..2"
+00:00 +14: rejects malformed input "12 34"
+00:00 +15: rejects malformed input "--1"
+00:00 +16: rejects malformed input "۱۰۰٪"
+00:00 +17: rejects malformed input "۱۲٫۳٫۴"
+00:00 +18: rejects overflow and formats finite values in Persian
+00:00 +19: All tests passed!

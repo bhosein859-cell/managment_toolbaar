@@ -1,0 +1,26 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart
+00:00 +0: cp: generic form rendered formula error and example
+00:01 +1: cpk: generic form rendered formula error and example
+00:01 +2: pp: generic form rendered formula error and example
+00:02 +3: ppk: generic form rendered formula error and example
+00:02 +4: dpmo: generic form rendered formula error and example
+00:02 +5: sigma_level: generic form rendered formula error and example
+00:02 +6: xbar_control: generic form rendered formula error and example
+00:03 +7: coq: generic form rendered formula error and example
+00:03 +8: eoq: generic form rendered formula error and example
+00:03 +9: rop: generic form rendered formula error and example
+00:04 +10: safety_stock: generic form rendered formula error and example
+00:04 +11: abc: generic form rendered formula error and example
+00:04 +12: inventory_turnover: generic form rendered formula error and example
+00:05 +13: days_inventory: generic form rendered formula error and example
+00:05 +14: inventory_holding_cost: generic form rendered formula error and example
+00:05 +15: reorder_interval: generic form rendered formula error and example
+00:05 +16: eight quality tools open through real routes
+00:07 +17: eight inventory tools open through real routes
+00:08 +18: Sigma convention is explicit and endpoints clear stale result
+00:09 +19: ABC paired inputs and thresholds save and reopen through history
+00:11 +20: sixteen quality/inventory pages fit Size(320.0, 568.0) dark=false enlarged RTL
+00:13 +21: sixteen quality/inventory pages fit Size(320.0, 568.0) dark=true enlarged RTL
+00:14 +22: sixteen quality/inventory pages fit Size(1280.0, 800.0) dark=false enlarged RTL
+00:16 +23: sixteen quality/inventory pages fit Size(1280.0, 800.0) dark=true enlarged RTL
+00:17 +24: All tests passed!

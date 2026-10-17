@@ -1,0 +1,57 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/finance/break_even_test.dart
+00:00 +0: /home/user/management_toolbox/test/features/calculators/finance/break_even_test.dart: break_even: reference formula
+00:00 +1: /home/user/management_toolbox/test/features/calculators/finance/break_even_test.dart: break_even: typed bind and domain validation
+00:00 +2: /home/user/management_toolbox/test/features/calculators/finance/break_even_test.dart: break_even: nonfinite fixed_cost
+00:00 +3: /home/user/management_toolbox/test/features/calculators/finance/break_even_test.dart: break_even: lower bound fixed_cost
+00:00 +4: /home/user/management_toolbox/test/features/calculators/finance/break_even_test.dart: break_even: nonfinite unit_price
+00:00 +5: /home/user/management_toolbox/test/features/calculators/finance/break_even_test.dart: break_even: lower bound unit_price
+00:00 +6: /home/user/management_toolbox/test/features/calculators/finance/break_even_test.dart: break_even: nonfinite variable_cost
+00:00 +7: /home/user/management_toolbox/test/features/calculators/finance/break_even_test.dart: break_even: lower bound variable_cost
+00:00 +8: /home/user/management_toolbox/test/features/calculators/finance/break_even_test.dart: break_even: 20 independent Decimal formula fixtures
+00:00 +9: /home/user/management_toolbox/test/features/calculators/finance/break_even_test.dart: break_even: zero cross-field and numerical edge cases
+00:00 +10: loading /home/user/management_toolbox/test/features/calculators/finance/compound_interest_test.dart
+00:00 +10: /home/user/management_toolbox/test/features/calculators/finance/compound_interest_test.dart: compound_interest: reference formula
+00:00 +11: /home/user/management_toolbox/test/features/calculators/finance/compound_interest_test.dart: compound_interest: typed bind and domain validation
+00:00 +12: /home/user/management_toolbox/test/features/calculators/finance/compound_interest_test.dart: compound_interest: nonfinite principal
+00:01 +13: /home/user/management_toolbox/test/features/calculators/finance/compound_interest_test.dart: compound_interest: lower bound principal
+00:01 +14: /home/user/management_toolbox/test/features/calculators/finance/compound_interest_test.dart: compound_interest: nonfinite period_rate
+00:01 +15: /home/user/management_toolbox/test/features/calculators/finance/compound_interest_test.dart: compound_interest: lower bound period_rate
+00:01 +16: /home/user/management_toolbox/test/features/calculators/finance/compound_interest_test.dart: compound_interest: nonfinite periods
+00:01 +17: /home/user/management_toolbox/test/features/calculators/finance/compound_interest_test.dart: compound_interest: lower bound periods
+00:01 +18: /home/user/management_toolbox/test/features/calculators/finance/compound_interest_test.dart: compound_interest: upper bound periods
+00:01 +19: /home/user/management_toolbox/test/features/calculators/finance/compound_interest_test.dart: compound_interest: fractional periods are rejected
+00:01 +20: /home/user/management_toolbox/test/features/calculators/finance/compound_interest_test.dart: compound_interest: 20 independent Decimal formula fixtures
+00:01 +21: /home/user/management_toolbox/test/features/calculators/finance/compound_interest_test.dart: compound_interest: zero cross-field and numerical edge cases
+00:01 +22: loading /home/user/management_toolbox/test/features/calculators/finance/current_ratio_test.dart
+00:01 +22: /home/user/management_toolbox/test/features/calculators/finance/current_ratio_test.dart: current_ratio: reference formula
+00:01 +23: /home/user/management_toolbox/test/features/calculators/finance/current_ratio_test.dart: current_ratio: typed bind and domain validation
+00:01 +24: /home/user/management_toolbox/test/features/calculators/finance/current_ratio_test.dart: current_ratio: nonfinite current_assets
+00:01 +25: /home/user/management_toolbox/test/features/calculators/finance/current_ratio_test.dart: current_ratio: lower bound current_assets
+00:01 +26: /home/user/management_toolbox/test/features/calculators/finance/current_ratio_test.dart: current_ratio: nonfinite current_liabilities
+00:01 +27: /home/user/management_toolbox/test/features/calculators/finance/current_ratio_test.dart: current_ratio: lower bound current_liabilities
+00:01 +28: /home/user/management_toolbox/test/features/calculators/finance/current_ratio_test.dart: current_ratio: 20 independent Decimal formula fixtures
+00:01 +29: /home/user/management_toolbox/test/features/calculators/finance/current_ratio_test.dart: current_ratio: zero cross-field and numerical edge cases
+00:01 +30: loading /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart
+00:02 +30: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: ten finance runners, preserved NPV and 73 actual tools
+00:02 +31: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: NPV first cash flow is CF1 and discount rate belongs to each period
+00:02 +32: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: npv: full definition formula and educational numeric example
+00:02 +33: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: npv: Arabic Persian Latin digits and malformed form data
+00:02 +34: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: irr: full definition formula and educational numeric example
+00:02 +35: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: irr: Arabic Persian Latin digits and malformed form data
+00:02 +36: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: payback: full definition formula and educational numeric example
+00:02 +37: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: payback: Arabic Persian Latin digits and malformed form data
+00:02 +38: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: roi: full definition formula and educational numeric example
+00:02 +39: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: roi: Arabic Persian Latin digits and malformed form data
+00:02 +40: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: current_ratio: full definition formula and educational numeric example
+00:02 +41: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: current_ratio: Arabic Persian Latin digits and malformed form data
+00:02 +42: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: quick_ratio: full definition formula and educational numeric example
+00:02 +43: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: quick_ratio: Arabic Persian Latin digits and malformed form data
+00:02 +44: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: wacc: full definition formula and educational numeric example
+00:03 +45: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: wacc: Arabic Persian Latin digits and malformed form data
+00:03 +46: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: compound_interest: full definition formula and educational numeric example
+00:03 +47: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: compound_interest: Arabic Persian Latin digits and malformed form data
+00:03 +48: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: loan_payment: full definition formula and educational numeric example
+00:03 +49: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: loan_payment: Arabic Persian Latin digits and malformed form data
+00:03 +50: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: break_even: full definition formula and educational numeric example
+00:03 +51: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: break_even: Arabic Persian Latin digits and malformed form data
+00:03 +52: All tests passed!

@@ -1,0 +1,80 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart
+00:00 +0: time_value_money: known typed example and explicit method
+00:00 +1: time_value_money.amount: NaN and infinity reject at typed boundary
+00:00 +2: time_value_money.amount: negative financial input rejects
+00:00 +3: time_value_money.rate: NaN and infinity reject at typed boundary
+00:00 +4: time_value_money.periods: NaN and infinity reject at typed boundary
+00:00 +5: time_value_money.periods: fractional, negative and too large reject
+00:00 +6: future_present_factor: known typed example and explicit method
+00:00 +7: future_present_factor.amount: NaN and infinity reject at typed boundary
+00:00 +8: future_present_factor.amount: negative financial input rejects
+00:00 +9: future_present_factor.rate: NaN and infinity reject at typed boundary
+00:00 +10: future_present_factor.periods: NaN and infinity reject at typed boundary
+00:00 +11: future_present_factor.periods: fractional, negative and too large reject
+00:00 +12: present_future_factor: known typed example and explicit method
+00:00 +13: present_future_factor.amount: NaN and infinity reject at typed boundary
+00:00 +14: present_future_factor.amount: negative financial input rejects
+00:00 +15: present_future_factor.rate: NaN and infinity reject at typed boundary
+00:00 +16: present_future_factor.periods: NaN and infinity reject at typed boundary
+00:00 +17: present_future_factor.periods: fractional, negative and too large reject
+00:00 +18: future_annuity_factor: known typed example and explicit method
+00:00 +19: future_annuity_factor.amount: NaN and infinity reject at typed boundary
+00:00 +20: future_annuity_factor.amount: negative financial input rejects
+00:00 +21: future_annuity_factor.rate: NaN and infinity reject at typed boundary
+00:00 +22: future_annuity_factor.periods: NaN and infinity reject at typed boundary
+00:00 +23: future_annuity_factor.periods: fractional, negative and too large reject
+00:00 +24: annuity_future_factor: known typed example and explicit method
+00:00 +25: annuity_future_factor.amount: NaN and infinity reject at typed boundary
+00:00 +26: annuity_future_factor.amount: negative financial input rejects
+00:00 +27: annuity_future_factor.rate: NaN and infinity reject at typed boundary
+00:00 +28: annuity_future_factor.periods: NaN and infinity reject at typed boundary
+00:00 +29: annuity_future_factor.periods: fractional, negative and too large reject
+00:00 +30: present_annuity_factor: known typed example and explicit method
+00:00 +31: present_annuity_factor.amount: NaN and infinity reject at typed boundary
+00:00 +32: present_annuity_factor.amount: negative financial input rejects
+00:00 +33: present_annuity_factor.rate: NaN and infinity reject at typed boundary
+00:00 +34: present_annuity_factor.periods: NaN and infinity reject at typed boundary
+00:00 +35: present_annuity_factor.periods: fractional, negative and too large reject
+00:00 +36: annuity_present_factor: known typed example and explicit method
+00:00 +37: annuity_present_factor.amount: NaN and infinity reject at typed boundary
+00:00 +38: annuity_present_factor.amount: negative financial input rejects
+00:00 +39: annuity_present_factor.rate: NaN and infinity reject at typed boundary
+00:00 +40: annuity_present_factor.periods: NaN and infinity reject at typed boundary
+00:00 +41: annuity_present_factor.periods: fractional, negative and too large reject
+00:00 +42: straight_line_depreciation: known typed example and explicit method
+00:00 +43: straight_line_depreciation.cost: NaN and infinity reject at typed boundary
+00:00 +44: straight_line_depreciation.cost: negative financial input rejects
+00:00 +45: straight_line_depreciation.salvage: NaN and infinity reject at typed boundary
+00:00 +46: straight_line_depreciation.salvage: negative financial input rejects
+00:00 +47: straight_line_depreciation.life: NaN and infinity reject at typed boundary
+00:00 +48: straight_line_depreciation.life: fractional, negative and too large reject
+00:00 +49: straight_line_depreciation.year: NaN and infinity reject at typed boundary
+00:00 +50: straight_line_depreciation.year: fractional, negative and too large reject
+00:00 +51: declining_balance_depreciation: known typed example and explicit method
+00:00 +52: declining_balance_depreciation.cost: NaN and infinity reject at typed boundary
+00:00 +53: declining_balance_depreciation.cost: negative financial input rejects
+00:00 +54: declining_balance_depreciation.salvage: NaN and infinity reject at typed boundary
+00:00 +55: declining_balance_depreciation.salvage: negative financial input rejects
+00:00 +56: declining_balance_depreciation.depreciation_rate: NaN and infinity reject at typed boundary
+00:00 +57: declining_balance_depreciation.depreciation_rate: negative financial input rejects
+00:00 +58: declining_balance_depreciation.life: NaN and infinity reject at typed boundary
+00:00 +59: declining_balance_depreciation.life: fractional, negative and too large reject
+00:00 +60: declining_balance_depreciation.year: NaN and infinity reject at typed boundary
+00:00 +61: declining_balance_depreciation.year: fractional, negative and too large reject
+00:00 +62: inflation_adjustment: known typed example and explicit method
+00:00 +63: inflation_adjustment.amount: NaN and infinity reject at typed boundary
+00:00 +64: inflation_adjustment.amount: negative financial input rejects
+00:00 +65: inflation_adjustment.rate: NaN and infinity reject at typed boundary
+00:00 +66: inflation_adjustment.periods: NaN and infinity reject at typed boundary
+00:00 +67: inflation_adjustment.periods: fractional, negative and too large reject
+00:00 +68: time_value_money: forty independent Decimal sums or ledger references
+00:00 +69: future_present_factor: forty independent Decimal sums or ledger references
+00:00 +70: present_future_factor: forty independent Decimal sums or ledger references
+00:00 +71: future_annuity_factor: forty independent Decimal sums or ledger references
+00:00 +72: annuity_future_factor: forty independent Decimal sums or ledger references
+00:00 +73: present_annuity_factor: forty independent Decimal sums or ledger references
+00:00 +74: annuity_present_factor: forty independent Decimal sums or ledger references
+00:00 +75: straight_line_depreciation: forty independent Decimal sums or ledger references
+00:00 +76: declining_balance_depreciation: forty independent Decimal sums or ledger references
+00:00 +77: inflation_adjustment: forty independent Decimal sums or ledger references
+00:00 +78: All tests passed!

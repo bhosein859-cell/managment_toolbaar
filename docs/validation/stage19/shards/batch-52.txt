@@ -1,0 +1,12 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/production/wip_test.dart
+00:00 +0: wip: independent numeric reference
+00:00 +1: wip: typed bind validates independently of form
+00:00 +2: wip: rejects negative/nonfinite throughput_rate in direct calculation
+00:00 +3: wip: zero throughput_rate is rejected
+00:00 +4: wip: rejects negative/nonfinite flow_time in direct calculation
+00:00 +5: wip: zero flow_time is a real valid boundary
+00:00 +6: wip: overflow returns Persian numeric-range failure, not Infinity
+00:00 +7: wip: underflow is not disguised as zero
+00:00 +8: wip: 20 independent Decimal fixtures
+00:00 +9: wip: semantic and scale boundaries
+00:00 +10: All tests passed!

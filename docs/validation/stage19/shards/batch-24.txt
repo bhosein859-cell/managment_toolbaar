@@ -1,0 +1,18 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart
+00:00 +0: irr: generic form rendered formula error and example
+00:01 +1: payback: generic form rendered formula error and example
+00:01 +2: roi: generic form rendered formula error and example
+00:01 +3: current_ratio: generic form rendered formula error and example
+00:01 +4: quick_ratio: generic form rendered formula error and example
+00:02 +5: wacc: generic form rendered formula error and example
+00:02 +6: compound_interest: generic form rendered formula error and example
+00:02 +7: loan_payment: generic form rendered formula error and example
+00:03 +8: break_even: generic form rendered formula error and example
+00:03 +9: ten finance tools open through real category routes
+00:05 +10: IRR missing root ambiguous roots and convergence failure show no stale result
+00:05 +11: new loan favorite save and reopen keep period-rate input
+00:07 +12: nine finance pages fit Size(320.0, 568.0) dark=false enlarged RTL
+00:08 +13: nine finance pages fit Size(320.0, 568.0) dark=true enlarged RTL
+00:08 +14: nine finance pages fit Size(1280.0, 800.0) dark=false enlarged RTL
+00:09 +15: nine finance pages fit Size(1280.0, 800.0) dark=true enlarged RTL
+00:10 +16: All tests passed!

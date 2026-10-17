@@ -1,0 +1,14 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/domain/models_test.dart
+00:00 +0: nine categories and typed Persian category metadata
+00:00 +1: definitions store display-only educational content and terms
+00:00 +2: definition snapshots fields and rejects duplicate and unknown references
+00:00 +3: invalid numeric ranges, bounds and defaults fail at configuration time
+00:00 +4: choice configuration is immutable, unique and validates default
+00:00 +5: numeric series validates limits and snapshots its defaults
+00:00 +6: raw and normalized input snapshots cannot be mutated from outside
+00:00 +7: non-finite values cannot enter typed models: NaN
+00:00 +8: non-finite values cannot enter typed models: Infinity
+00:00 +9: non-finite values cannot enter typed models: -Infinity
+00:00 +10: results carry immutable metrics, warnings, units and interpretation
+00:00 +11: failure, binding and warning messages are structured and nonempty
+00:00 +12: All tests passed!

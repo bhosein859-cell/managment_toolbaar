@@ -1,0 +1,37 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/prototypes/prototype_visual_test.dart
+00:00 +0: /home/user/management_toolbox/test/features/calculators/prototypes/prototype_visual_test.dart: capture oee form and explanations
+00:00 +0 ~1: /home/user/management_toolbox/test/features/calculators/prototypes/prototype_visual_test.dart: capture npv form and explanations
+00:00 +0 ~2: /home/user/management_toolbox/test/features/calculators/prototypes/prototype_visual_test.dart: capture cp form and explanations
+00:00 +0 ~3: loading /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart
+00:00 +0 ~3: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: cpk: inverted/equal specs and zero sigma
+00:00 +1 ~3: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: cpk: avoids overflowing width/denominator; refuses underflow
+00:00 +2 ~3: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: pp: inverted/equal specs and zero sigma
+00:00 +3 ~3: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: pp: avoids overflowing width/denominator; refuses underflow
+00:00 +4 ~3: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: ppk: inverted/equal specs and zero sigma
+00:00 +5 ~3: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: ppk: avoids overflowing width/denominator; refuses underflow
+00:00 +6 ~3: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: cpk: negative outside specs, zero on spec, not clipped
+00:00 +7 ~3: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: ppk: negative outside specs, zero on spec, not clipped
+00:00 +8 ~3: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: DPMO: endpoints and binary opportunities and exact integer cap
+00:00 +9 ~3: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: Sigma: no fabricated endpoints, rare tail, selectable convention, negative Z
+00:00 +10 ~3: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: Sigma bind rejects unknown shift without inventing enum
+00:00 +11 ~3: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: Normal quantile: independent tabulated tails and center, errors < 5e-8
+00:00 +12 ~3: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: Normal quantile: monotonicity and symmetric central probabilities
+00:00 +13 ~3: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: Xbar: exact subgroup means/ranges, d2 method, allowed negative LCL
+00:00 +14 ~3: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: Xbar: one-point signal indices are chronological, no stability verdict
+00:00 +15 ~3: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: Xbar: incomplete/single/empty/oversized groups and constant range
+00:00 +16 ~3: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: Xbar: nonfinite, overflowing ranges and lost scaled observations reject
+00:00 +17 ~3: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: Xbar: copied immutable observations and supported constants
+00:00 +18 ~3: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: COQ: PAF/COPQ identity, zero total gives undefined share not division
+00:00 +19 ~3: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: EOQ: continuous optimum and annual ordering/holding balance
+00:00 +20 ~3: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: ROP: zero and inventory-position buffer, overflow and underflow guarded
+00:00 +21 ~3: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: SS: deterministic lead time, service 50 percent, no variation and independent terms
+00:00 +22 ~3: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: SS: nonnegative zero mean cannot have positive SD, correct field errors
+00:00 +23 ~3: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: ABC: crossing-item policy, exact boundary and zero-value C
+00:00 +24 ~3: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: ABC: stable ties follow original SKU row; shares sum to one
+00:00 +25 ~3: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: ABC: list lengths, empty, negatives, nonfinite, zero total, unordered thresholds
+00:00 +26 ~3: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: ABC: multiplication/sum range and immutable paired lists
+00:00 +27 ~3: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: Turnover/DIO: period reciprocity, zero COGS/stock conventions
+00:00 +28 ~3: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: Holding cost: linear horizon, explicit year and permitted zeros
+00:00 +29 ~3: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: Reorder interval: explicitly chosen year, inverse demand and continuous Q
+00:00 +30 ~3: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: Numeric helpers: compensation, safe hypot and division fallback
+00:00 +31 ~3: All tests passed!

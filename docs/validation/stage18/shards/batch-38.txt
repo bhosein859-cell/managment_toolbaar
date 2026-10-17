@@ -1,0 +1,33 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/history/repository_test.dart
+00:00 +0: /home/user/management_toolbox/test/features/history/repository_test.dart: (setUpAll)
+00:00 +0: /home/user/management_toolbox/test/features/history/repository_test.dart: fresh SQLite has no fabricated favorites or history
+00:00 +1: /home/user/management_toolbox/test/features/history/repository_test.dart: favorite add/remove is idempotent as toggle parity, primary key prevents duplicates
+00:00 +2: /home/user/management_toolbox/test/features/history/repository_test.dart: favorite identity validation prevents arbitrary SQL or empty names
+00:00 +3: /home/user/management_toolbox/test/features/history/repository_test.dart: one through eleven inserts retain exactly min(count,10), same timestamps do not collide
+00:00 +4: /home/user/management_toolbox/test/features/history/repository_test.dart: history cap is global across calculators, not ten per calculator
+00:00 +5: /home/user/management_toolbox/test/features/history/repository_test.dart: insertion sequence determines recent order even if system clock moves backward
+00:00 +6: /home/user/management_toolbox/test/features/history/repository_test.dart: rapid concurrent inserts on one Drift connection are serialized and retain final ten
+00:00 +7: /home/user/management_toolbox/test/features/history/repository_test.dart: rapid concurrent toggles preserve parity and uniqueness
+00:00 +8: /home/user/management_toolbox/test/features/history/repository_test.dart: snapshot is immutable and retains exact text/result/timestamp
+00:00 +9: /home/user/management_toolbox/test/features/history/repository_test.dart: failed retention delete rolls back insertion, pruning and autoincrement sequence
+00:00 +10: /home/user/management_toolbox/test/features/history/repository_test.dart: failed favorite write is not reported as committed
+00:00 +11: /home/user/management_toolbox/test/features/history/repository_test.dart: unknown payload versions and malformed JSON fail read without resetting DB
+00:00 +12: /home/user/management_toolbox/test/features/history/repository_test.dart: failed snapshot decode rolls back favorite changes as well
+00:00 +13: /home/user/management_toolbox/test/features/history/repository_test.dart: close is safe twice and does not silently reopen a closed repository
+00:00 +14: /home/user/management_toolbox/test/features/history/repository_test.dart: file survives close/reopen, history evictions persist and IDs are not reused
+00:00 +15: /home/user/management_toolbox/test/features/history/repository_test.dart: separate background isolate connection persists actual file
+00:00 +16: /home/user/management_toolbox/test/features/history/repository_test.dart: unwritable path fails explicitly rather than fallback to memory
+00:00 +17: /home/user/management_toolbox/test/features/history/repository_test.dart: (tearDownAll)
+00:00 +17: loading /home/user/management_toolbox/test/features/home/home_pages_test.dart
+00:01 +17: /home/user/management_toolbox/test/features/home/home_pages_test.dart: home shows all nine honest category counts and session sections
+00:03 +18: /home/user/management_toolbox/test/features/home/home_pages_test.dart: overview and each category show implemented tools
+00:04 +19: /home/user/management_toolbox/test/features/home/home_pages_test.dart: live fuzzy search is marked, opens real engine and retains query on return
+00:06 +20: /home/user/management_toolbox/test/features/home/home_pages_test.dart: Arabic/halfspace aliases search without rewriting text; no match is safe
+00:07 +21: /home/user/management_toolbox/test/features/home/home_pages_test.dart: favorite updates across pages; valid saved snapshot reopens exact prior inputs
+00:09 +22: /home/user/management_toolbox/test/features/home/home_pages_test.dart: home star does not navigate; explicitly isolated test databases stay isolated
+00:11 +23: /home/user/management_toolbox/test/features/home/home_pages_test.dart: invalid typed route arguments safely show not found
+00:11 +24: /home/user/management_toolbox/test/features/home/home_pages_test.dart: home and actual calculator fit Size(320.0, 568.0) dark=false with text scale 1.5
+00:12 +25: /home/user/management_toolbox/test/features/home/home_pages_test.dart: home and actual calculator fit Size(320.0, 568.0) dark=true with text scale 1.5
+00:12 +26: /home/user/management_toolbox/test/features/home/home_pages_test.dart: home and actual calculator fit Size(1280.0, 800.0) dark=false with text scale 1.5
+00:13 +27: /home/user/management_toolbox/test/features/home/home_pages_test.dart: home and actual calculator fit Size(1280.0, 800.0) dark=true with text scale 1.5
+00:14 +28: All tests passed!

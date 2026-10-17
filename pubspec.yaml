@@ -1,0 +1,44 @@
+name: management_toolbox
+description: "جعبه‌ابزار مدیریت؛ ابزارهای محاسباتی آفلاین برای اندروید و ویندوز"
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.13.5
+  flutter: '>=3.47.7'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+  flutter_math_fork: 0.7.4
+  drift: 2.35.2
+  sqlite3: 3.7.1
+  path_provider: 2.1.6
+  # Pin the endorsed Android implementation: avoid unrelated JNI desktop
+  # native-plugin build requirements introduced by the 2.3.x line.
+  path_provider_android: 2.2.22
+  path: 1.9.1
+  share_plus: 13.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: 6.0.0
+  # PDF candidate is a development-only compatibility/shaping probe.
+  pdf: 3.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/branding/logo.png
+    - assets/fonts/OFL.txt
+  fonts:
+    - family: Vazirmatn
+      fonts:
+        - asset: assets/fonts/Vazirmatn-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Vazirmatn-Bold.ttf
+          weight: 700

@@ -1,0 +1,2 @@
+Running Gradle task 'assembleRelease'...                          702.1s
+Gradle task assembleRelease failed with exit code 143

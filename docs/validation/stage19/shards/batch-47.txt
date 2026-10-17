@@ -1,0 +1,3 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/production/production_visual_test.dart
+00:00 +0: capture actual production category and generic production pages
+00:00 +0 ~1: All tests skipped.

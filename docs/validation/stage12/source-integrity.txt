@@ -1,0 +1,12 @@
+Stage 12 vs delivered Stage 11 byte baseline
+Baseline SHA256: 5313cfeb4d79dfcb6880eddfe0d41b194a4796abbec9372807487e56c62f802b
+Baseline files: 382; current source files: 429
+Added: 47; modified: 14; removed: 0
+
+PASS: all baseline files remain present.
+PASS: changed baseline files exactly match the 14-file explicit allowlist.
+PASS: every previous engine/registry except AppCatalog remains byte-identical, including Cp, NPV, all production/finance/quality/inventory engines and definitions.
+PASS: generic UI, normalization, input/result models except the optional-empty NumberList field rule, themes, branding, fonts, hosts, pubspec and lockfile remain byte-identical.
+PASS: eight new typed project engines, one registry, three project helpers/models; no added packages.
+PASS: no generated dependency/build/coverage/cache or signing/credential files in source set.
+No native app build, device review, GitHub push or publication performed.

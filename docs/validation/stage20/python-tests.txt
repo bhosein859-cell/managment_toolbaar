@@ -1,0 +1,18 @@
+test_adaptive_icon_and_manifest_reference (test_final_assets.FinalAssetsTest.test_adaptive_icon_and_manifest_reference) ... ok
+test_android_legacy_and_12_splashes_day_night (test_final_assets.FinalAssetsTest.test_android_legacy_and_12_splashes_day_night) ... ok
+test_ico_contains_all_final_sizes_and_is_wired (test_final_assets.FinalAssetsTest.test_ico_contains_all_final_sizes_and_is_wired) ... ok
+test_launcher_png_sizes (test_final_assets.FinalAssetsTest.test_launcher_png_sizes) ... ok
+test_no_debug_print_calls_in_production_dart (test_final_assets.FinalAssetsTest.test_no_debug_print_calls_in_production_dart) ... ok
+test_complete_tree_is_preserved_with_checksums (test_package_windows.WindowsPackageTest.test_complete_tree_is_preserved_with_checksums) ... ok
+test_empty_dll_is_rejected (test_package_windows.WindowsPackageTest.test_empty_dll_is_rejected) ... ok
+test_exe_alone_is_rejected (test_package_windows.WindowsPackageTest.test_exe_alone_is_rejected) ... ok
+test_missing_assets_are_rejected (test_package_windows.WindowsPackageTest.test_missing_assets_are_rejected) ... ok
+test_native_sqlite_is_required (test_package_windows.WindowsPackageTest.test_native_sqlite_is_required) ... ok
+test_output_inside_input_is_rejected (test_package_windows.WindowsPackageTest.test_output_inside_input_is_rejected) ... ok
+test_reserved_manifest_collision_is_rejected (test_package_windows.WindowsPackageTest.test_reserved_manifest_collision_is_rejected) ... ok
+test_symlink_is_rejected (test_package_windows.WindowsPackageTest.test_symlink_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.095s
+
+OK

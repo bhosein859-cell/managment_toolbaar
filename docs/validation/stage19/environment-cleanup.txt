@@ -1,0 +1,1 @@
+Temporary 2 GiB swap disabled and removed after successful builds. No compiler/Gradle job left running. Android .gradle/.kotlin generated caches removed; SDK/JDK/pub/Gradle caches remain outside the project and are excluded from the source archive. No signing secrets or user database supplied.

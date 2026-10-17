@@ -1,0 +1,9 @@
+pert_duration: 4.333333333333333
+cpm: 8.0
+project_float: 2.0
+evm_performance: 0.8
+three_point: 4.666666666666667
+eac_etc: 1250.0000000000005
+sv_cv: -20.0
+duration_comparison: 2.0
+8 project engines, structured DAG validation, 50-tool catalog: PASS

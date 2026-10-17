@@ -1,0 +1,10 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/utilities/storage_test.dart
+00:00 +0: /home/user/management_toolbox/test/features/utilities/storage_test.dart: all five utilities persist exact raw inputs, results and favorites across file reopen without schema change
+00:00 +1: loading /home/user/management_toolbox/test/localization/persian_ui_test.dart
+00:01 +1: /home/user/management_toolbox/test/localization/persian_ui_test.dart: bundled regular, bold and OFL assets are available offline
+00:01 +2: /home/user/management_toolbox/test/localization/persian_ui_test.dart: themes follow system brightness and use local font
+00:04 +3: /home/user/management_toolbox/test/localization/persian_ui_test.dart: settings switch theme without resetting route; all three modes work
+00:07 +4: /home/user/management_toolbox/test/localization/persian_ui_test.dart: lab accepts Persian Arabic and Latin, rejects invalid values
+00:09 +5: /home/user/management_toolbox/test/localization/persian_ui_test.dart: RTL lab fits Size(320.0, 568.0) with enlarged text
+00:09 +6: /home/user/management_toolbox/test/localization/persian_ui_test.dart: RTL lab fits Size(1280.0, 720.0) with enlarged text
+00:10 +7: All tests passed!

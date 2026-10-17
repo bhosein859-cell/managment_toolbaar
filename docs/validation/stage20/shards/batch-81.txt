@@ -1,0 +1,20 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/utilities/pages_export_test.dart
+00:00 +0: real clipboard adapter sends the complete Unicode result to platform
+00:00 +1: real share adapter preserves text and maps native statuses
+00:00 +2: percentage_of: reactive result, copy/share and disabled PDF
+00:01 +3: percentage_change: reactive result, copy/share and disabled PDF
+00:01 +4: percentage_base: reactive result, copy/share and disabled PDF
+00:01 +5: discount: reactive result, copy/share and disabled PDF
+00:02 +6: unit_conversion: reactive result, copy/share and disabled PDF
+00:02 +7: latest live input and result are paired even before next frame; invalid input cannot copy
+00:02 +8: busy export blocks duplicates and clears after completion
+00:03 +9: share status ResultShareStatus.shared is reported honestly
+00:03 +10: share status ResultShareStatus.dismissed is reported honestly
+00:03 +11: share status ResultShareStatus.unavailable is reported honestly
+00:03 +12: clipboard/share exceptions are surfaced and do not crash
+00:03 +13: glossary/utilities RTL layout Size(320.0, 568.0) dark=false
+00:04 +14: glossary/utilities RTL layout Size(320.0, 568.0) dark=true
+00:04 +15: glossary/utilities RTL layout Size(1280.0, 800.0) dark=false
+00:04 +16: glossary/utilities RTL layout Size(1280.0, 800.0) dark=true
+00:04 +17: home -> offline glossary -> real percentage calculator -> favorite/history
+00:06 +18: All tests passed!

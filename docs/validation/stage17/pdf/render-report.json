@@ -1,0 +1,43 @@
+{
+  "candidate": "pdf 3.13.1; default use_bidi=true; local Vazirmatn Regular/Bold",
+  "renderer": "PyMuPDF 1.28.2",
+  "pages": 4,
+  "all_pages_rasterized": true,
+  "temperature_visual_lines_left_to_right": [
+    "٪25−رییغت؛C°0هبF°"
+  ],
+  "temperature_unit_direction_failure": true,
+  "manual_review": "page-1.png: Persian glyphs are mostly joined, but F°/C° reversed, negative/percent and ROI parentheses misordered; mixed NPV/amount/currency association is unreliable.",
+  "application_pdf_export_enabled": false,
+  "gate": "FAIL: mixed-direction correctness required, not merely joined letters",
+  "first_page_visual_glyph_order": [
+    "شرازگ",
+    "یشیامزآ",
+    "یسراف",
+    "4زا1هحفص",
+    "رازباه‌بعج",
+    "تیریدم",
+    "هدنزاس",
+    "نیسح",
+    "یرایتخب",
+    "،یلاگچ،شهوژپ",
+    "شرتسگ",
+    "و",
+    "تیفیک",
+    "؛موری‌م",
+    "یروه‌رهب",
+    "و",
+    "یراذگه‌یامرس",
+    "83.79%",
+    "=",
+    "؛لایرOEE",
+    "125,000و٪۲۰خرن",
+    "=",
+    "NPV",
+    "32لیدبت",
+    "٪25−رییغت؛C°0هبF°",
+    "هاگراک",
+    "۱۲۳٫۴۵)هجیتن؛۱۴۰۵/۰۷/۲۴",
+    "ROI):"
+  ]
+}

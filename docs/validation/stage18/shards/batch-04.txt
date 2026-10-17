@@ -1,0 +1,44 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart
+00:00 +0: /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart: AHP known consistent hierarchy, global priorities and near ties
+00:00 +1: /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart: AHP classic reciprocal three-criterion hand-checkable geometric eigenvector
+00:00 +2: /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart: AHP inconsistent circulant has known lambda and CR, warning not fabricated refusal
+00:00 +3: /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart: AHP rejects reciprocal, diagonal, ranges and incomplete matrices
+00:00 +4: /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart: AHP convergence cap never returns guessed weights
+00:00 +5: /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart: AHP supports largest documented dimensions, RI and immutable matrices
+00:00 +6: /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart: Decision tree golden example and all negative/tied choices
+00:00 +7: /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart: Nested decisions and chance perform backward induction, not only root branching
+00:00 +8: /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart: Tree may contain only a terminal and explicit omitted optional edges stay absent
+00:00 +9: /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart: Probability zero still validates data, tiny nonzero sums are normalized only within tolerance
+00:00 +10: /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart: Tree rejects bad probabilities, incomplete sums and fake decision probabilities
+00:00 +11: /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart: Tree rejects IDs, unknown root/refs, duplicate/self edges and DAG sharing
+00:00 +12: /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart: Disconnected zero cycles reject without recursion or infinite traversal
+00:00 +13: /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart: Tree node kind/payoff and degree contracts are checked
+00:00 +14: /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart: Tree handles 100-deep valid chain and immutable snapshots
+00:00 +15: /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart: Tree raw shapes, fractional IDs/types and missing edge probability reject explicitly
+00:00 +16: loading /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart
+00:00 +16: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: eight decision tools and 73 catalog entries
+00:00 +17: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: ahp: full definition formula and educational numeric example
+00:00 +18: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: ahp: Arabic Persian Latin digits and malformed form data
+00:00 +19: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: topsis: full definition formula and educational numeric example
+00:00 +20: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: topsis: Arabic Persian Latin digits and malformed form data
+00:00 +21: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: decision_matrix: full definition formula and educational numeric example
+00:00 +22: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: decision_matrix: Arabic Persian Latin digits and malformed form data
+00:00 +23: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: expected_value_tree: full definition formula and educational numeric example
+00:00 +24: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: expected_value_tree: Arabic Persian Latin digits and malformed form data
+00:00 +25: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: weight_sensitivity: full definition formula and educational numeric example
+00:00 +26: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: weight_sensitivity: Arabic Persian Latin digits and malformed form data
+00:00 +27: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: weighted_scoring: full definition formula and educational numeric example
+00:01 +28: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: weighted_scoring: Arabic Persian Latin digits and malformed form data
+00:01 +29: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: cost_benefit_comparison: full definition formula and educational numeric example
+00:01 +30: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: cost_benefit_comparison: Arabic Persian Latin digits and malformed form data
+00:01 +31: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: two_option_break_even: full definition formula and educational numeric example
+00:01 +32: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: two_option_break_even: Arabic Persian Latin digits and malformed form data
+00:01 +33: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: ahp: omitted/blank required fields never become examples
+00:01 +34: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: topsis: omitted/blank required fields never become examples
+00:01 +35: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: decision_matrix: omitted/blank required fields never become examples
+00:01 +36: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: expected_value_tree: omitted/blank required fields never become examples
+00:01 +37: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: weight_sensitivity: omitted/blank required fields never become examples
+00:01 +38: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: weighted_scoring: omitted/blank required fields never become examples
+00:01 +39: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: cost_benefit_comparison: omitted/blank required fields never become examples
+00:01 +40: /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart: two_option_break_even: omitted/blank required fields never become examples
+00:01 +41: All tests passed!

@@ -1,0 +1,99 @@
+Resolving dependencies...
+Downloading packages...
+  material_color_utilities 0.13.0 (0.13.1 available)
+  meta 1.18.3 (1.19.0 available)
+  test_api 0.7.12 (0.7.15 available)
+  vector_math 2.4.0 (2.4.3 available)
+Got dependencies!
+4 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+00:00 +0: loading /home/user/management_toolbox/test/localization/persian_ui_test.dart
+00:00 +0: /home/user/management_toolbox/test/localization/persian_ui_test.dart: bundled regular, bold and OFL assets are available offline
+00:00 +1: /home/user/management_toolbox/test/localization/persian_ui_test.dart: themes follow system brightness and use local font
+00:01 +2: /home/user/management_toolbox/test/localization/persian_ui_test.dart: settings switch theme without resetting route; all three modes work
+00:01 +3: /home/user/management_toolbox/test/localization/persian_ui_test.dart: lab accepts Persian Arabic and Latin, rejects invalid values
+00:02 +4: /home/user/management_toolbox/test/localization/persian_ui_test.dart: RTL lab fits Size(320.0, 568.0) with enlarged text
+00:02 +5: /home/user/management_toolbox/test/localization/persian_ui_test.dart: RTL lab fits Size(1280.0, 720.0) with enlarged text
+00:03 +6: loading /home/user/management_toolbox/test/localization/visual_capture_test.dart
+00:03 +6: /home/user/management_toolbox/test/localization/visual_capture_test.dart: capture real-font lab light
+00:03 +6 ~1: /home/user/management_toolbox/test/localization/visual_capture_test.dart: capture real-font lab dark
+00:04 +6 ~2: loading /home/user/management_toolbox/test/app/architecture_test.dart
+00:05 +6 ~2: /home/user/management_toolbox/test/app/architecture_test.dart: failure retains a Persian message and machine-readable code
+00:05 +7 ~2: /home/user/management_toolbox/test/app/architecture_test.dart: base themes use Material 3 in both brightness modes
+00:05 +8 ~2: /home/user/management_toolbox/test/app/architecture_test.dart: domain stays independent from Flutter, data and presentation
+00:05 +9 ~2: /home/user/management_toolbox/test/app/architecture_test.dart: welcome is RTL, credits creator and navigates to home
+00:06 +10 ~2: /home/user/management_toolbox/test/app/architecture_test.dart: unknown route provides a safe return home
+00:06 +11 ~2: /home/user/management_toolbox/test/app/architecture_test.dart: error fallback renders without app dependencies
+00:06 +12 ~2: loading /home/user/management_toolbox/test/app/app_test.dart
+00:07 +12 ~2: /home/user/management_toolbox/test/app/app_test.dart: shows the foundation page without the sample counter
+00:08 +13 ~2: /home/user/management_toolbox/test/app/app_test.dart: foundation fits viewport Size(360.0, 640.0)
+00:08 +14 ~2: /home/user/management_toolbox/test/app/app_test.dart: foundation fits viewport Size(1280.0, 720.0)
+00:08 +15 ~2: loading /home/user/management_toolbox/test/features/calculators/domain/engine_test.dart
+00:09 +15 ~2: /home/user/management_toolbox/test/features/calculators/domain/engine_test.dart: compiled engine receives typed normalized parameters
+00:09 +16 ~2: /home/user/management_toolbox/test/features/calculators/domain/engine_test.dart: invalid input never reaches bind or calculate
+00:09 +17 ~2: /home/user/management_toolbox/test/features/calculators/domain/engine_test.dart: cross-field rejection prevents calculation
+00:09 +18 ~2: /home/user/management_toolbox/test/features/calculators/domain/engine_test.dart: legitimate domain failure is returned without fabricated result
+00:09 +19 ~2: /home/user/management_toolbox/test/features/calculators/domain/engine_test.dart: unexpected error or nonfinite result is safe and diagnosable: true/false
+00:09 +20 ~2: /home/user/management_toolbox/test/features/calculators/domain/engine_test.dart: unexpected error or nonfinite result is safe and diagnosable: false/true
+00:09 +21 ~2: /home/user/management_toolbox/test/features/calculators/domain/engine_test.dart: unexpected error or nonfinite result is safe and diagnosable: false/false
+00:09 +22 ~2: /home/user/management_toolbox/test/features/calculators/domain/engine_test.dart: diagnostics callback failure does not leak or replace user failure
+00:09 +23 ~2: /home/user/management_toolbox/test/features/calculators/domain/engine_test.dart: different engine identity is rejected before execution
+00:09 +24 ~2: /home/user/management_toolbox/test/features/calculators/domain/engine_test.dart: arbitrary formula text is inert; only compiled engine code runs
+00:09 +25 ~2: /home/user/management_toolbox/test/features/calculators/domain/engine_test.dart: runner remains usable after invalid input followed by valid input
+00:09 +26 ~2: /home/user/management_toolbox/test/features/calculators/domain/engine_test.dart: typed rejected binding snapshots issues and rejects empty failure
+00:10 +27 ~2: loading /home/user/management_toolbox/test/features/calculators/domain/models_test.dart
+00:10 +27 ~2: /home/user/management_toolbox/test/features/calculators/domain/models_test.dart: eight categories and typed Persian category metadata
+00:10 +28 ~2: /home/user/management_toolbox/test/features/calculators/domain/models_test.dart: definitions store display-only educational content and terms
+00:10 +29 ~2: /home/user/management_toolbox/test/features/calculators/domain/models_test.dart: definition snapshots fields and rejects duplicate and unknown references
+00:10 +30 ~2: /home/user/management_toolbox/test/features/calculators/domain/models_test.dart: invalid numeric ranges, bounds and defaults fail at configuration time
+00:10 +31 ~2: /home/user/management_toolbox/test/features/calculators/domain/models_test.dart: choice configuration is immutable, unique and validates default
+00:10 +32 ~2: /home/user/management_toolbox/test/features/calculators/domain/models_test.dart: numeric series validates limits and snapshots its defaults
+00:10 +33 ~2: /home/user/management_toolbox/test/features/calculators/domain/models_test.dart: raw and normalized input snapshots cannot be mutated from outside
+00:10 +34 ~2: /home/user/management_toolbox/test/features/calculators/domain/models_test.dart: non-finite values cannot enter typed models: NaN
+00:10 +35 ~2: /home/user/management_toolbox/test/features/calculators/domain/models_test.dart: non-finite values cannot enter typed models: Infinity
+00:10 +36 ~2: /home/user/management_toolbox/test/features/calculators/domain/models_test.dart: non-finite values cannot enter typed models: -Infinity
+00:10 +37 ~2: /home/user/management_toolbox/test/features/calculators/domain/models_test.dart: results carry immutable metrics, warnings, units and interpretation
+00:10 +38 ~2: /home/user/management_toolbox/test/features/calculators/domain/models_test.dart: failure, binding and warning messages are structured and nonempty
+00:11 +39 ~2: loading /home/user/management_toolbox/test/features/calculators/domain/input_normalizer_test.dart
+00:11 +39 ~2: /home/user/management_toolbox/test/features/calculators/domain/input_normalizer_test.dart: normalizes ۱۲۳٫۴۵ before binding
+00:11 +40 ~2: /home/user/management_toolbox/test/features/calculators/domain/input_normalizer_test.dart: normalizes ١٢٣٫٤٥ before binding
+00:11 +41 ~2: /home/user/management_toolbox/test/features/calculators/domain/input_normalizer_test.dart: normalizes 123.45 before binding
+00:11 +42 ~2: /home/user/management_toolbox/test/features/calculators/domain/input_normalizer_test.dart: normalizes ۱۲٣.45 before binding
+00:11 +43 ~2: /home/user/management_toolbox/test/features/calculators/domain/input_normalizer_test.dart: normalizes signs, thousands and inclusive bounds
+00:11 +44 ~2: /home/user/management_toolbox/test/features/calculators/domain/input_normalizer_test.dart: percentages are checked as display points then converted once
+00:11 +45 ~2: /home/user/management_toolbox/test/features/calculators/domain/input_normalizer_test.dart: missing gets default, explicit blank never reuses it
+00:11 +46 ~2: /home/user/management_toolbox/test/features/calculators/domain/input_normalizer_test.dart: required, optional blank and unknown fields have distinct handling
+00:11 +47 ~2: /home/user/management_toolbox/test/features/calculators/domain/input_normalizer_test.dart: invalid numeric input never produces a value: NaN
+00:11 +48 ~2: /home/user/management_toolbox/test/features/calculators/domain/input_normalizer_test.dart: invalid numeric input never produces a value: Infinity
+00:11 +49 ~2: /home/user/management_toolbox/test/features/calculators/domain/input_normalizer_test.dart: invalid numeric input never produces a value: 1,5
+00:11 +50 ~2: /home/user/management_toolbox/test/features/calculators/domain/input_normalizer_test.dart: invalid numeric input never produces a value: abc
+00:12 +51 ~2: /home/user/management_toolbox/test/features/calculators/domain/input_normalizer_test.dart: invalid numeric input never produces a value: ۱٫۲٫۳
+00:12 +52 ~2: /home/user/management_toolbox/test/features/calculators/domain/input_normalizer_test.dart: invalid numeric input never produces a value: 1e3
+00:12 +53 ~2: /home/user/management_toolbox/test/features/calculators/domain/input_normalizer_test.dart: invalid numeric input never produces a value: overflow
+00:12 +54 ~2: /home/user/management_toolbox/test/features/calculators/domain/input_normalizer_test.dart: bounds and integer validation provide Persian issues
+00:12 +55 ~2: /home/user/management_toolbox/test/features/calculators/domain/input_normalizer_test.dart: choice accepts stable IDs rather than display labels, supports defaults
+00:12 +56 ~2: /home/user/management_toolbox/test/features/calculators/domain/input_normalizer_test.dart: optional fields and list defaults are normalized predictably
+00:12 +57 ~2: /home/user/management_toolbox/test/features/calculators/domain/input_normalizer_test.dart: list parses three digit systems and reports index-specific errors
+00:12 +58 ~2: /home/user/management_toolbox/test/features/calculators/domain/input_normalizer_test.dart: wrong raw value types are rejected even when optional and empty
+00:12 +59 ~2: /home/user/management_toolbox/test/features/calculators/domain/input_normalizer_test.dart: all field issues accumulate and invalid input is immutable
+00:12 +60 ~2: loading /home/user/management_toolbox/test/core/persian_numbers_test.dart
+00:13 +60 ~2: /home/user/management_toolbox/test/core/persian_numbers_test.dart: all digit sets normalize and roundtrip
+00:13 +61 ~2: /home/user/management_toolbox/test/core/persian_numbers_test.dart: accepts ۱۲۳٫۴۵
+00:13 +62 ~2: /home/user/management_toolbox/test/core/persian_numbers_test.dart: accepts ١٢٣٫٤٥
+00:13 +63 ~2: /home/user/management_toolbox/test/core/persian_numbers_test.dart: accepts 123.45
+00:13 +64 ~2: /home/user/management_toolbox/test/core/persian_numbers_test.dart: accepts  ۱۲٣.45
+00:13 +65 ~2: /home/user/management_toolbox/test/core/persian_numbers_test.dart: signs, fractions, thousands and zero
+00:13 +66 ~2: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input ""
+00:13 +67 ~2: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input " "
+00:13 +68 ~2: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "NaN"
+00:13 +69 ~2: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "Infinity"
+00:13 +70 ~2: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "1e3"
+00:13 +71 ~2: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "1,5"
+00:13 +72 ~2: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "۱۲٬۳۴"
+00:13 +73 ~2: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "1..2"
+00:13 +74 ~2: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "12 34"
+00:13 +75 ~2: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "--1"
+00:13 +76 ~2: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "۱۰۰٪"
+00:13 +77 ~2: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "۱۲٫۳٫۴"
+00:13 +78 ~2: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects overflow and formats finite values in Persian
+00:13 +79 ~2: All tests passed!

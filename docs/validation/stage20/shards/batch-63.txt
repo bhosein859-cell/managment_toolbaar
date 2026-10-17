@@ -1,0 +1,5 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/prototypes/prototype_visual_test.dart
+00:00 +0: capture oee form and explanations
+00:00 +0 ~1: capture npv form and explanations
+00:00 +0 ~2: capture cp form and explanations
+00:00 +0 ~3: All tests skipped.

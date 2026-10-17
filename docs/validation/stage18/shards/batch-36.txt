@@ -1,0 +1,21 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/history/controller_test.dart
+00:00 +0: /home/user/management_toolbox/test/features/history/controller_test.dart: read failure is visible, not an empty-success store; retry recovers
+00:00 +1: /home/user/management_toolbox/test/features/history/controller_test.dart: write failures never optimistically mutate favorites or history
+00:00 +2: /home/user/management_toolbox/test/features/history/controller_test.dart: busy state lasts until durable commit and exposes only committed snapshot
+00:00 +3: /home/user/management_toolbox/test/features/history/controller_test.dart: rapid queued writes have deterministic tap order and survive failures
+00:00 +4: /home/user/management_toolbox/test/features/history/controller_test.dart: closed and uninitialized controllers reject actions
+00:00 +5: /home/user/management_toolbox/test/features/history/controller_test.dart: retired catalog IDs are hidden without deleting stored data
+00:00 +6: /home/user/management_toolbox/test/features/history/controller_test.dart: disposing during an active write safely closes after completion and never notifies disposed listeners
+00:00 +7: loading /home/user/management_toolbox/test/features/history/migration_test.dart
+00:01 +7: /home/user/management_toolbox/test/features/history/migration_test.dart: fresh schema matches independent v2 fixture and required constraints
+00:01 +8: /home/user/management_toolbox/test/features/history/migration_test.dart: v1 to v2 preserves favorites/payloads/timestamps, prunes oldest five atomically
+00:01 +9: /home/user/management_toolbox/test/features/history/migration_test.dart: v1 migration with 0 rows retains min(count,10)
+00:01 +10: /home/user/management_toolbox/test/features/history/migration_test.dart: v1 migration with 1 rows retains min(count,10)
+00:01 +11: /home/user/management_toolbox/test/features/history/migration_test.dart: v1 migration with 10 rows retains min(count,10)
+00:01 +12: /home/user/management_toolbox/test/features/history/migration_test.dart: v1 migration with 11 rows retains min(count,10)
+00:01 +13: /home/user/management_toolbox/test/features/history/migration_test.dart: already-current reopen is idempotent and IDs continue after migration
+00:01 +14: /home/user/management_toolbox/test/features/history/migration_test.dart: retention invariant is enforced for direct SQLite writers too
+00:01 +15: /home/user/management_toolbox/test/features/history/migration_test.dart: failed migration rolls back ALTER, retention and version without deleting data
+00:01 +16: /home/user/management_toolbox/test/features/history/migration_test.dart: newer database is refused, never downgraded or recreated
+00:01 +17: /home/user/management_toolbox/test/features/history/migration_test.dart: corrupt file is not deleted or silently replaced with an empty database
+00:01 +18: All tests passed!

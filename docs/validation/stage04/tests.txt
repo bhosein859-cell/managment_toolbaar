@@ -1,0 +1,51 @@
+Resolving dependencies...
+Downloading packages...
+  material_color_utilities 0.13.0 (0.13.1 available)
+  meta 1.18.3 (1.19.0 available)
+  test_api 0.7.12 (0.7.15 available)
+  vector_math 2.4.0 (2.4.3 available)
+Got dependencies!
+4 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+00:00 +0: loading /home/user/management_toolbox/test/localization/persian_ui_test.dart
+00:00 +0: /home/user/management_toolbox/test/localization/persian_ui_test.dart: bundled regular, bold and OFL assets are available offline
+00:00 +1: /home/user/management_toolbox/test/localization/persian_ui_test.dart: themes follow system brightness and use local font
+00:01 +2: /home/user/management_toolbox/test/localization/persian_ui_test.dart: settings switch theme without resetting route; all three modes work
+00:01 +3: /home/user/management_toolbox/test/localization/persian_ui_test.dart: lab accepts Persian Arabic and Latin, rejects invalid values
+00:02 +4: /home/user/management_toolbox/test/localization/persian_ui_test.dart: RTL lab fits Size(320.0, 568.0) with enlarged text
+00:02 +5: /home/user/management_toolbox/test/localization/persian_ui_test.dart: RTL lab fits Size(1280.0, 720.0) with enlarged text
+00:03 +6: loading /home/user/management_toolbox/test/localization/visual_capture_test.dart
+00:03 +6: /home/user/management_toolbox/test/localization/visual_capture_test.dart: capture real-font lab light
+00:03 +6 ~1: /home/user/management_toolbox/test/localization/visual_capture_test.dart: capture real-font lab dark
+00:03 +6 ~2: loading /home/user/management_toolbox/test/app/architecture_test.dart
+00:04 +6 ~2: /home/user/management_toolbox/test/app/architecture_test.dart: failure retains a Persian message and machine-readable code
+00:04 +7 ~2: /home/user/management_toolbox/test/app/architecture_test.dart: base themes use Material 3 in both brightness modes
+00:04 +8 ~2: /home/user/management_toolbox/test/app/architecture_test.dart: domain stays independent from Flutter, data and presentation
+00:04 +9 ~2: /home/user/management_toolbox/test/app/architecture_test.dart: welcome is RTL, credits creator and navigates to home
+00:05 +10 ~2: /home/user/management_toolbox/test/app/architecture_test.dart: unknown route provides a safe return home
+00:05 +11 ~2: /home/user/management_toolbox/test/app/architecture_test.dart: error fallback renders without app dependencies
+00:05 +12 ~2: loading /home/user/management_toolbox/test/app/app_test.dart
+00:05 +12 ~2: /home/user/management_toolbox/test/app/app_test.dart: shows the foundation page without the sample counter
+00:06 +13 ~2: /home/user/management_toolbox/test/app/app_test.dart: foundation fits viewport Size(360.0, 640.0)
+00:06 +14 ~2: /home/user/management_toolbox/test/app/app_test.dart: foundation fits viewport Size(1280.0, 720.0)
+00:06 +15 ~2: loading /home/user/management_toolbox/test/core/persian_numbers_test.dart
+00:07 +15 ~2: /home/user/management_toolbox/test/core/persian_numbers_test.dart: all digit sets normalize and roundtrip
+00:07 +16 ~2: /home/user/management_toolbox/test/core/persian_numbers_test.dart: accepts ۱۲۳٫۴۵
+00:07 +17 ~2: /home/user/management_toolbox/test/core/persian_numbers_test.dart: accepts ١٢٣٫٤٥
+00:07 +18 ~2: /home/user/management_toolbox/test/core/persian_numbers_test.dart: accepts 123.45
+00:07 +19 ~2: /home/user/management_toolbox/test/core/persian_numbers_test.dart: accepts  ۱۲٣.45
+00:07 +20 ~2: /home/user/management_toolbox/test/core/persian_numbers_test.dart: signs, fractions, thousands and zero
+00:07 +21 ~2: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input ""
+00:07 +22 ~2: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input " "
+00:07 +23 ~2: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "NaN"
+00:07 +24 ~2: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "Infinity"
+00:07 +25 ~2: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "1e3"
+00:07 +26 ~2: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "1,5"
+00:07 +27 ~2: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "۱۲٬۳۴"
+00:07 +28 ~2: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "1..2"
+00:07 +29 ~2: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "12 34"
+00:07 +30 ~2: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "--1"
+00:07 +31 ~2: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "۱۰۰٪"
+00:07 +32 ~2: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "۱۲٫۳٫۴"
+00:07 +33 ~2: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects overflow and formats finite values in Persian
+00:07 +34 ~2: All tests passed!

@@ -1,0 +1,13 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/home/home_pages_test.dart
+00:00 +0: home shows all nine honest category counts and session sections
+00:01 +1: overview and each category show implemented tools
+00:03 +2: live fuzzy search is marked, opens real engine and retains query on return
+00:05 +3: Arabic/halfspace aliases search without rewriting text; no match is safe
+00:05 +4: favorite updates across pages; valid saved snapshot reopens exact prior inputs
+00:07 +5: home star does not navigate; explicitly isolated test databases stay isolated
+00:09 +6: invalid typed route arguments safely show not found
+00:09 +7: home and actual calculator fit Size(320.0, 568.0) dark=false with text scale 1.5
+00:10 +8: home and actual calculator fit Size(320.0, 568.0) dark=true with text scale 1.5
+00:10 +9: home and actual calculator fit Size(1280.0, 800.0) dark=false with text scale 1.5
+00:11 +10: home and actual calculator fit Size(1280.0, 800.0) dark=true with text scale 1.5
+00:11 +11: All tests passed!

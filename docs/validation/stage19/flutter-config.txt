@@ -1,0 +1,4 @@
+Setting "android-sdk" value to "/home/user/.cache/android19/sdk".
+Setting "jdk-dir" value to "/home/user/.cache/java19/home".
+
+You may need to restart any open editors for them to read new settings.

@@ -1,0 +1,13 @@
+Stage 13 vs delivered Stage 12 byte baseline
+Baseline SHA256: 2a0984fdba6461910cbd9654f0062bc1b5b2d6917384111660d9980c801276bb
+Baseline files: 429; current source files: 472
+Added: 43; modified: 16; removed: 0
+
+PASS: all baseline source files remain present.
+PASS: modified baseline files exactly match the 16-file explicit allowlist.
+PASS: all previous calculator engines/registries (except AppCatalog aggregation), models, helpers, field/result widgets, branding, fonts, themes, hosts, pubspec and lockfile remain byte-identical.
+PASS: strict omitted-field normalization and incomplete snapshot handling are opt-in for HR only; legacy behavior regression passed.
+PASS: six new typed HR engines and one HR helper/registry; no added packages.
+PASS: source set excludes generated dependencies/build/cache/coverage, local SDK configuration, IDE files and signing credentials.
+Snapshot has no .git metadata; source is compared against the delivered archive, not an invented Git history. Whitespace uses git diff --no-index --check on source-only snapshots.
+No native app build, device review, GitHub push or publication performed.

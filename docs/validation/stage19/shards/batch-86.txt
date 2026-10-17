@@ -1,0 +1,5 @@
+00:00 +0: loading /home/user/management_toolbox/test/release/offline_smoke_test.dart
+00:00 +0: all 73 real examples, glossary, 11th-record retention and favorites reopen without Dart HTTP
+00:00 +1: offline app shell, glossary and Persian/Latin form input work with HTTP denied
+00:02 +2: source main manifest (not merged output) and local assets have no direct network dependency
+00:02 +3: All tests passed!

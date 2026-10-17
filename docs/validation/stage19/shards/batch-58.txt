@@ -1,0 +1,3 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/project/visual_test.dart
+00:00 +0: capture project category structured CPM results cycle error and EVM
+00:00 +0 ~1: All tests skipped.

@@ -1,0 +1,2 @@
+Generated: /home/user/.cache/domain-smoke05
+Pure Dart domain smoke check passed.

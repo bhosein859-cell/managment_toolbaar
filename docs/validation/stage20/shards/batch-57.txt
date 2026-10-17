@@ -1,0 +1,18 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/project/pages_test.dart
+00:00 +0: pert_duration: generic form rendered formula error and example
+00:01 +1: cpm: generic form rendered formula error and example
+00:01 +2: project_float: generic form rendered formula error and example
+00:02 +3: evm_performance: generic form rendered formula error and example
+00:02 +4: three_point: generic form rendered formula error and example
+00:02 +5: eac_etc: generic form rendered formula error and example
+00:03 +6: sv_cv: generic form rendered formula error and example
+00:03 +7: duration_comparison: generic form rendered formula error and example
+00:03 +8: eight project tools open through real category routes
+00:05 +9: structured CPM rejects refs and cycles without stale results
+00:06 +10: EAC method choice handles undefined indices explicitly
+00:06 +11: structured CPM graph save/reopen and invalid form disabled
+00:08 +12: eight project pages fit Size(320.0, 568.0) dark=false enlarged RTL
+00:09 +13: eight project pages fit Size(320.0, 568.0) dark=true enlarged RTL
+00:10 +14: eight project pages fit Size(1280.0, 800.0) dark=false enlarged RTL
+00:11 +15: eight project pages fit Size(1280.0, 800.0) dark=true enlarged RTL
+00:12 +16: All tests passed!

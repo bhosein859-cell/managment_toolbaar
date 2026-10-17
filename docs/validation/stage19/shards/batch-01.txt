@@ -1,0 +1,10 @@
+00:00 +0: loading /home/user/management_toolbox/test/accessibility/interaction_test.dart
+00:00 +0: Ctrl+F, Tab and Shift+Tab give search and predictable traversal
+00:02 +1: Alt+I focuses input; Tab advances; Ctrl+Enter saves only live valid result
+00:02 +2: category mouse hover and keyboard Enter use the same real action
+00:02 +3: glossary query and category survive wide/narrow resize and keyboard insets
+00:03 +4: motion honors OS preference and explicit opt-out
+00:03 +5: dedicated history navigation, keyboard back and raw-input reopen
+00:05 +6: home touch targets and labels; category name/action and favorite state are explicit
+00:05 +7: mouse wheel scrolls history without touch drag
+00:06 +8: All tests passed!

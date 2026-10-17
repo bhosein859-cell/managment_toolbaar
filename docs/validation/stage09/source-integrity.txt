@@ -1,0 +1,8 @@
+Baseline: management_toolbox_stage_08_source.zip
+No source file removed.
+Exactly five existing files modified: README, catalog, router and two catalog/count test files.
+Preserved byte-for-byte: 66 existing Android/Windows host, asset and calculator feature files.
+Existing OEE/NPV/Cp definitions and engines preserved.
+Generic CalculatorPage and all existing calculator models/normalizer preserved.
+pubspec.yaml and pubspec.lock preserved; no new dependency.
+New code uses the same repository and generic calculator page.

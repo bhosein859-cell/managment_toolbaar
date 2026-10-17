@@ -1,0 +1,13 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/hr/boundaries_test.dart
+00:00 +0: CPH zero observed costs is legitimate, zero hires is undefined
+00:00 +1: Turnover endpoints approximation, zero exits and >100 percent not clipped
+00:00 +2: Productivity: fractional standardized output, zero output and positive denominator
+00:00 +3: Training ROI: attribution, break-even, loss and no clamping
+00:00 +4: Training ROI: numerical extremes, percentage display remains fractional
+00:00 +5: Replacement: exact list denominator, same-day zero, subday and old vacancies
+00:00 +6: Replacement: empty, oversized, negative/nonfinite items reject with row
+00:00 +7: Replacement list snapshots immutable
+00:00 +8: Absence direct model identity, zero absence and incompatible cover
+00:00 +9: Observed zero warning is not a definitive good/bad label
+00:00 +10: Strict missing-field policy is opt-in; existing default contract preserved
+00:00 +11: All tests passed!

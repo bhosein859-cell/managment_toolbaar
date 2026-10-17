@@ -1,0 +1,3 @@
+Running build hooks...Running build hooks...write: PASS; SQLite 3.54.0; committed, file-backed, background isolate
+Running build hooks...Running build hooks...read-remove: PASS; SQLite 3.54.0; committed, file-backed, background isolate
+Running build hooks...Running build hooks...verify-removed: PASS; SQLite 3.54.0; committed, file-backed, background isolate

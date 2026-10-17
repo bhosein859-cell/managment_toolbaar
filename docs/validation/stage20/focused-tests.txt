@@ -1,0 +1,12 @@
+00:00 +0: loading /home/user/management_toolbox/test/release/final_delivery_test.dart
+00:00 +0: /home/user/management_toolbox/test/release/final_delivery_test.dart: README table contains exactly the real 73 calculator IDs
+00:00 +1: /home/user/management_toolbox/test/release/final_delivery_test.dart: table update preserves surrounding docs and rejects malformed markers
+00:00 +2: /home/user/management_toolbox/test/release/final_delivery_test.dart: branded RTL startup then welcome on TargetPlatform.windows
+00:00 +3: /home/user/management_toolbox/test/release/final_delivery_test.dart: branded RTL startup then welcome on TargetPlatform.android
+00:00 +4: /home/user/management_toolbox/test/release/final_delivery_test.dart: startup fits 360px viewport with large Persian text
+00:01 +5: /home/user/management_toolbox/test/release/final_delivery_test.dart: storage failure exits splash and keeps retry available
+00:01 +6: loading /home/user/management_toolbox/test/release/offline_smoke_test.dart
+00:01 +6: /home/user/management_toolbox/test/release/offline_smoke_test.dart: all 73 real examples, glossary, 11th-record retention and favorites reopen without Dart HTTP
+00:02 +7: /home/user/management_toolbox/test/release/offline_smoke_test.dart: offline app shell, glossary and Persian/Latin form input work with HTTP denied
+00:05 +8: /home/user/management_toolbox/test/release/offline_smoke_test.dart: source main manifest (not merged output) and local assets have no direct network dependency
+00:05 +9: All tests passed!

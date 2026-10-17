@@ -1,0 +1,18 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/presentation/form_controller_test.dart
+00:00 +0: /home/user/management_toolbox/test/features/calculators/presentation/form_controller_test.dart: defaults are shown and computed through the engine
+00:00 +1: /home/user/management_toolbox/test/features/calculators/presentation/form_controller_test.dart: updates live from ۲۰۰ with percentages converted once
+00:00 +2: /home/user/management_toolbox/test/features/calculators/presentation/form_controller_test.dart: updates live from ٢٠٠ with percentages converted once
+00:00 +3: /home/user/management_toolbox/test/features/calculators/presentation/form_controller_test.dart: updates live from 200 with percentages converted once
+00:00 +4: /home/user/management_toolbox/test/features/calculators/presentation/form_controller_test.dart: invalid and partial inputs remove stale result immediately
+00:00 +5: /home/user/management_toolbox/test/features/calculators/presentation/form_controller_test.dart: examples replace inputs rather than carrying stale values; reset restores defaults
+00:00 +6: /home/user/management_toolbox/test/features/calculators/presentation/form_controller_test.dart: initial inputs are restored and invalid unknown data is surfaced globally
+00:00 +7: /home/user/management_toolbox/test/features/calculators/presentation/form_controller_test.dart: choice validation and blank defaults follow domain rules
+00:00 +8: /home/user/management_toolbox/test/features/calculators/presentation/form_controller_test.dart: structured lists preserve each item and reject malformed elements
+00:00 +9: /home/user/management_toolbox/test/features/calculators/presentation/form_controller_test.dart: domain and unexpected failures do not retain result or interpretation
+00:00 +10: /home/user/management_toolbox/test/features/calculators/presentation/form_controller_test.dart: demo formula examples and endpoint reductions are correct
+00:00 +11: loading /home/user/management_toolbox/test/features/calculators/presentation/formatting_test.dart
+00:00 +11: /home/user/management_toolbox/test/features/calculators/presentation/formatting_test.dart: editable default values roundtrip without rounding to zero
+00:00 +12: /home/user/management_toolbox/test/features/calculators/presentation/formatting_test.dart: numbers percentages text and lists are Persian and units retained
+00:00 +13: /home/user/management_toolbox/test/features/calculators/presentation/formatting_test.dart: scientific formatting never shows false zero or overflow
+00:00 +14: /home/user/management_toolbox/test/features/calculators/presentation/formatting_test.dart: guidance includes bounds units percentage conventions and optional integer flags
+00:00 +15: All tests passed!

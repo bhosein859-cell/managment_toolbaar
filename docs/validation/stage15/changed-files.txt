@@ -1,0 +1,63 @@
+Stage 15 vs delivered Stage 14 byte baseline
+Baseline SHA256: 5dfaf9a9a1c178d98744190da89482bc1d6dd1344427f45b63ace07b4b14af6c
+Baseline files: 509; current source files: 544
+Added: 35; modified: 18; removed: 0
+Previous engine source bytes unchanged; pubspec.yaml and pubspec.lock unchanged.
+Existing Android/Windows platform and asset bytes unchanged.
+
+MODIFIED
+README.md
+lib/app/catalog/app_catalog.dart
+lib/app/routing/app_router.dart
+test/features/calculators/decision/catalog_test.dart
+test/features/calculators/finance/finance_catalog_test.dart
+test/features/calculators/hr/catalog_test.dart
+test/features/calculators/production/production_catalog_test.dart
+test/features/calculators/project/catalog_test.dart
+test/features/calculators/quality_inventory/catalog_test.dart
+test/features/home/home_pages_test.dart
+test/features/home/home_visual_test.dart
+test/features/home/search_test.dart
+tool/verify_decision_engines.dart
+tool/verify_finance_engines.dart
+tool/verify_hr_engines.dart
+tool/verify_production_engines.dart
+tool/verify_project_engines.dart
+tool/verify_quality_inventory_engines.dart
+
+ADDED
+docs/calculators/stage15.md
+docs/validation/stage15/analyze.txt
+docs/validation/stage15/aot.txt
+docs/validation/stage15/changed-files.txt
+docs/validation/stage15/coverage.md
+docs/validation/stage15/economics-lcov.info
+docs/validation/stage15/economics-tests.txt
+docs/validation/stage15/format.txt
+docs/validation/stage15/full-tests.txt
+docs/validation/stage15/home-tests.txt
+docs/validation/stage15/pub-get.txt
+docs/validation/stage15/reference-reproducibility.txt
+docs/validation/stage15/sdk-version.txt
+docs/validation/stage15/smoke-tests.txt
+docs/validation/stage15/source-check.txt
+lib/app/catalog/engineering_economics_calculators.dart
+lib/features/calculators/domain/engineering_economics/engineering_math.dart
+lib/features/calculators/domain/engines/engineering_economics/annuity_future_factor_engine.dart
+lib/features/calculators/domain/engines/engineering_economics/annuity_present_factor_engine.dart
+lib/features/calculators/domain/engines/engineering_economics/declining_balance_depreciation_engine.dart
+lib/features/calculators/domain/engines/engineering_economics/future_annuity_factor_engine.dart
+lib/features/calculators/domain/engines/engineering_economics/future_present_factor_engine.dart
+lib/features/calculators/domain/engines/engineering_economics/inflation_adjustment_engine.dart
+lib/features/calculators/domain/engines/engineering_economics/present_annuity_factor_engine.dart
+lib/features/calculators/domain/engines/engineering_economics/present_future_factor_engine.dart
+lib/features/calculators/domain/engines/engineering_economics/straight_line_depreciation_engine.dart
+lib/features/calculators/domain/engines/engineering_economics/time_value_money_engine.dart
+test/features/calculators/engineering_economics/boundaries_test.dart
+test/features/calculators/engineering_economics/catalog_test.dart
+test/features/calculators/engineering_economics/engines_test.dart
+test/features/calculators/engineering_economics/fixtures.dart
+test/features/calculators/engineering_economics/pages_test.dart
+test/fixtures/engineering_economics_reference.json
+tool/generate_engineering_economics_reference.py
+tool/verify_engineering_economics_engines.dart

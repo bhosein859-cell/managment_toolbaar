@@ -1,0 +1,23 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/production/production_catalog_test.dart
+00:00 +0: ten production engines registered once, prior OEE identity is preserved
+00:00 +1: oee: complete educational definition and executable example
+00:00 +2: oee: Persian Arabic and Latin inputs agree; blank/NaN are rejected
+00:00 +3: takt_time: complete educational definition and executable example
+00:00 +4: takt_time: Persian Arabic and Latin inputs agree; blank/NaN are rejected
+00:00 +5: production_capacity: complete educational definition and executable example
+00:00 +6: production_capacity: Persian Arabic and Latin inputs agree; blank/NaN are rejected
+00:00 +7: labor_productivity: complete educational definition and executable example
+00:00 +8: labor_productivity: Persian Arabic and Latin inputs agree; blank/NaN are rejected
+00:00 +9: cycle_time: complete educational definition and executable example
+00:00 +10: cycle_time: Persian Arabic and Latin inputs agree; blank/NaN are rejected
+00:00 +11: smed: complete educational definition and executable example
+00:00 +12: smed: Persian Arabic and Latin inputs agree; blank/NaN are rejected
+00:00 +13: unit_production_cost: complete educational definition and executable example
+00:00 +14: unit_production_cost: Persian Arabic and Latin inputs agree; blank/NaN are rejected
+00:00 +15: wip: complete educational definition and executable example
+00:00 +16: wip: Persian Arabic and Latin inputs agree; blank/NaN are rejected
+00:00 +17: throughput: complete educational definition and executable example
+00:00 +18: throughput: Persian Arabic and Latin inputs agree; blank/NaN are rejected
+00:00 +19: capacity_utilization: complete educational definition and executable example
+00:00 +20: capacity_utilization: Persian Arabic and Latin inputs agree; blank/NaN are rejected
+00:00 +21: All tests passed!

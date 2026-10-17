@@ -1,0 +1,1 @@
+PASS: YAML parsed, three jobs, all action refs immutable 40-hex SHA. Workflow NOT executed online.

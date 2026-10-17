@@ -1,0 +1,11 @@
+Stage 11 vs delivered Stage 10 byte baseline
+Baseline SHA256: c9f9f4feafff29f71e44903a2aebbb26560a6ede1a9454dd4a6e1a89988e5caa
+Baseline files: 330; current source files: 382
+Added: 52; modified: 10; removed: 0
+
+PASS: all baseline files remain present.
+PASS: modified baseline files exactly match the ten-file explicit allowlist.
+PASS: Cp engine/definition/runner, NPV, all production/finance engines, generic UI, Domain models, normalization, themes, fonts, logo, branding, hosts, pubspec and lockfiles remain byte-identical.
+PASS: 15 new typed engines, two registries and two statistical/numeric helpers added without package changes.
+PASS: no generated dependency/build/coverage/cache or signing/credential files in source set.
+No native app build, device validation, GitHub push or publication performed.

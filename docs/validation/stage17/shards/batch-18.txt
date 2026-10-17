@@ -1,0 +1,79 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/history/migration_test.dart
+00:00 +0: /home/user/management_toolbox/test/features/history/migration_test.dart: fresh schema matches independent v2 fixture and required constraints
+00:00 +1: /home/user/management_toolbox/test/features/history/migration_test.dart: v1 to v2 preserves favorites/payloads/timestamps, prunes oldest five atomically
+00:00 +2: /home/user/management_toolbox/test/features/history/migration_test.dart: v1 migration with 0 rows retains min(count,10)
+00:00 +3: /home/user/management_toolbox/test/features/history/migration_test.dart: v1 migration with 1 rows retains min(count,10)
+00:00 +4: /home/user/management_toolbox/test/features/history/migration_test.dart: v1 migration with 10 rows retains min(count,10)
+00:00 +5: /home/user/management_toolbox/test/features/history/migration_test.dart: v1 migration with 11 rows retains min(count,10)
+00:00 +6: /home/user/management_toolbox/test/features/history/migration_test.dart: already-current reopen is idempotent and IDs continue after migration
+00:00 +7: /home/user/management_toolbox/test/features/history/migration_test.dart: retention invariant is enforced for direct SQLite writers too
+00:00 +8: /home/user/management_toolbox/test/features/history/migration_test.dart: failed migration rolls back ALTER, retention and version without deleting data
+00:00 +9: /home/user/management_toolbox/test/features/history/migration_test.dart: newer database is refused, never downgraded or recreated
+00:00 +10: /home/user/management_toolbox/test/features/history/migration_test.dart: corrupt file is not deleted or silently replaced with an empty database
+00:00 +11: loading /home/user/management_toolbox/test/features/history/open_database_test.dart
+00:01 +11: /home/user/management_toolbox/test/features/history/open_database_test.dart: production opener creates stable support file in background isolate and reopens it
+00:01 +12: /home/user/management_toolbox/test/features/history/open_database_test.dart: retry reconstructs a failed lazy opener; never masks failure with memory storage
+WARNING (drift): It looks like you've created the database class ToolboxDatabase multiple times. When these two databases use the same QueryExecutor, race conditions will occur and might corrupt the database. 
+Try to follow the advice at https://drift.simonbinder.eu/faq/#using-the-database or, if you know what you're doing, set driftRuntimeOptions.dontWarnAboutMultipleDatabases = true
+Here is the stacktrace from when the database was opened a second time:
+#0      GeneratedDatabase._handleInstantiated (package:drift/src/runtime/api/db_base.dart:96:30)
+#1      GeneratedDatabase._whenConstructed (package:drift/src/runtime/api/db_base.dart:73:12)
+#2      new GeneratedDatabase (package:drift/src/runtime/api/db_base.dart:64:5)
+#3      new ToolboxDatabase (package:management_toolbox/core/storage/toolbox_database.dart)
+#4      openApplicationDatabase (package:management_toolbox/core/storage/open_local_database.dart:14:7)
+#5      main.<anonymous closure>.create (file:///home/user/management_toolbox/test/features/history/open_database_test.dart:36:33)
+#6      DriftToolRepository.load (package:management_toolbox/features/history/data/drift_tool_repository.dart:36:26)
+<asynchronous suspension>
+#7      main.<anonymous closure> (file:///home/user/management_toolbox/test/features/history/open_database_test.dart:50:13)
+<asynchronous suspension>
+#8      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)
+<asynchronous suspension>
+#9      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#10     Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+This warning will only appear on debug builds.
+WARNING (drift): It looks like you've created the database class ToolboxDatabase multiple times. When these two databases use the same QueryExecutor, race conditions will occur and might corrupt the database. 
+Try to follow the advice at https://drift.simonbinder.eu/faq/#using-the-database or, if you know what you're doing, set driftRuntimeOptions.dontWarnAboutMultipleDatabases = true
+Here is the stacktrace from when the database was opened a second time:
+#0      GeneratedDatabase._handleInstantiated (package:drift/src/runtime/api/db_base.dart:96:30)
+#1      GeneratedDatabase._whenConstructed (package:drift/src/runtime/api/db_base.dart:73:12)
+#2      new GeneratedDatabase (package:drift/src/runtime/api/db_base.dart:64:5)
+#3      new ToolboxDatabase (package:management_toolbox/core/storage/toolbox_database.dart)
+#4      openApplicationDatabase (package:management_toolbox/core/storage/open_local_database.dart:14:7)
+#5      main.<anonymous closure>.create (file:///home/user/management_toolbox/test/features/history/open_database_test.dart:36:33)
+#6      main.<anonymous closure> (file:///home/user/management_toolbox/test/features/history/open_database_test.dart:54:42)
+<asynchronous suspension>
+#7      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)
+<asynchronous suspension>
+#8      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#9      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+This warning will only appear on debug builds.
+00:01 +13: loading /home/user/management_toolbox/test/features/history/persistence_pages_test.dart
+00:02 +13: /home/user/management_toolbox/test/features/history/persistence_pages_test.dart: actual SQLite file retains favorite and exact saved inputs through app shutdown/reopen
+00:07 +14: /home/user/management_toolbox/test/features/history/persistence_pages_test.dart: startup read failure blocks false empty state and retry opens the same stored data
+00:07 +15: /home/user/management_toolbox/test/features/history/persistence_pages_test.dart: failed save reports error, not success; retry commits once
+00:09 +16: /home/user/management_toolbox/test/features/history/persistence_pages_test.dart: tap-time snapshot never pairs stale result with newly edited or invalid input
+00:10 +17: loading /home/user/management_toolbox/test/features/history/repository_test.dart
+00:11 +17: /home/user/management_toolbox/test/features/history/repository_test.dart: (setUpAll)
+00:11 +17: /home/user/management_toolbox/test/features/history/repository_test.dart: fresh SQLite has no fabricated favorites or history
+00:11 +18: /home/user/management_toolbox/test/features/history/repository_test.dart: favorite add/remove is idempotent as toggle parity, primary key prevents duplicates
+00:11 +19: /home/user/management_toolbox/test/features/history/repository_test.dart: favorite identity validation prevents arbitrary SQL or empty names
+00:11 +20: /home/user/management_toolbox/test/features/history/repository_test.dart: one through eleven inserts retain exactly min(count,10), same timestamps do not collide
+00:11 +21: /home/user/management_toolbox/test/features/history/repository_test.dart: history cap is global across calculators, not ten per calculator
+00:11 +22: /home/user/management_toolbox/test/features/history/repository_test.dart: insertion sequence determines recent order even if system clock moves backward
+00:11 +23: /home/user/management_toolbox/test/features/history/repository_test.dart: rapid concurrent inserts on one Drift connection are serialized and retain final ten
+00:11 +24: /home/user/management_toolbox/test/features/history/repository_test.dart: rapid concurrent toggles preserve parity and uniqueness
+00:11 +25: /home/user/management_toolbox/test/features/history/repository_test.dart: snapshot is immutable and retains exact text/result/timestamp
+00:11 +26: /home/user/management_toolbox/test/features/history/repository_test.dart: failed retention delete rolls back insertion, pruning and autoincrement sequence
+00:11 +27: /home/user/management_toolbox/test/features/history/repository_test.dart: failed favorite write is not reported as committed
+00:11 +28: /home/user/management_toolbox/test/features/history/repository_test.dart: unknown payload versions and malformed JSON fail read without resetting DB
+00:11 +29: /home/user/management_toolbox/test/features/history/repository_test.dart: failed snapshot decode rolls back favorite changes as well
+00:11 +30: /home/user/management_toolbox/test/features/history/repository_test.dart: close is safe twice and does not silently reopen a closed repository
+00:11 +31: /home/user/management_toolbox/test/features/history/repository_test.dart: file survives close/reopen, history evictions persist and IDs are not reused
+00:11 +32: /home/user/management_toolbox/test/features/history/repository_test.dart: separate background isolate connection persists actual file
+00:11 +33: /home/user/management_toolbox/test/features/history/repository_test.dart: unwritable path fails explicitly rather than fallback to memory
+00:11 +34: /home/user/management_toolbox/test/features/history/repository_test.dart: (tearDownAll)
+00:11 +34: All tests passed!

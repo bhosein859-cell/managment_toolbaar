@@ -1,0 +1,49 @@
+00:00 +0: loading /home/user/management_toolbox/test/app/app_test.dart
+00:00 +0: /home/user/management_toolbox/test/app/app_test.dart: shows the foundation page without the sample counter
+00:01 +1: /home/user/management_toolbox/test/app/app_test.dart: foundation fits viewport Size(360.0, 640.0)
+00:01 +2: /home/user/management_toolbox/test/app/app_test.dart: foundation fits viewport Size(1280.0, 720.0)
+00:01 +3: loading /home/user/management_toolbox/test/app/architecture_test.dart
+00:02 +3: /home/user/management_toolbox/test/app/architecture_test.dart: failure retains a Persian message and machine-readable code
+00:02 +4: /home/user/management_toolbox/test/app/architecture_test.dart: base themes use Material 3 in both brightness modes
+00:02 +5: /home/user/management_toolbox/test/app/architecture_test.dart: domain stays independent from Flutter, data and presentation
+00:02 +6: /home/user/management_toolbox/test/app/architecture_test.dart: welcome is RTL, credits creator and navigates to home
+00:04 +7: /home/user/management_toolbox/test/app/architecture_test.dart: unknown route provides a safe return home
+00:05 +8: /home/user/management_toolbox/test/app/architecture_test.dart: error fallback renders without app dependencies
+00:05 +9: loading /home/user/management_toolbox/test/core/persian_numbers_test.dart
+00:06 +9: /home/user/management_toolbox/test/core/persian_numbers_test.dart: all digit sets normalize and roundtrip
+00:06 +10: /home/user/management_toolbox/test/core/persian_numbers_test.dart: accepts ۱۲۳٫۴۵
+00:06 +11: /home/user/management_toolbox/test/core/persian_numbers_test.dart: accepts ١٢٣٫٤٥
+00:06 +12: /home/user/management_toolbox/test/core/persian_numbers_test.dart: accepts 123.45
+00:06 +13: /home/user/management_toolbox/test/core/persian_numbers_test.dart: accepts  ۱۲٣.45 
+00:06 +14: /home/user/management_toolbox/test/core/persian_numbers_test.dart: signs, fractions, thousands and zero
+00:06 +15: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input ""
+00:06 +16: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input " "
+00:06 +17: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "NaN"
+00:06 +18: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "Infinity"
+00:06 +19: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "1e3"
+00:06 +20: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "1,5"
+00:06 +21: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "۱۲٬۳۴"
+00:06 +22: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "1..2"
+00:06 +23: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "12 34"
+00:06 +24: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "--1"
+00:06 +25: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "۱۰۰٪"
+00:06 +26: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "۱۲٫۳٫۴"
+00:06 +27: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects overflow and formats finite values in Persian
+00:06 +28: loading /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart
+00:06 +28: /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart: AHP known consistent hierarchy, global priorities and near ties
+00:06 +29: /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart: AHP classic reciprocal three-criterion hand-checkable geometric eigenvector
+00:06 +30: /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart: AHP inconsistent circulant has known lambda and CR, warning not fabricated refusal
+00:06 +31: /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart: AHP rejects reciprocal, diagonal, ranges and incomplete matrices
+00:06 +32: /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart: AHP convergence cap never returns guessed weights
+00:06 +33: /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart: AHP supports largest documented dimensions, RI and immutable matrices
+00:06 +34: /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart: Decision tree golden example and all negative/tied choices
+00:07 +35: /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart: Nested decisions and chance perform backward induction, not only root branching
+00:07 +36: /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart: Tree may contain only a terminal and explicit omitted optional edges stay absent
+00:07 +37: /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart: Probability zero still validates data, tiny nonzero sums are normalized only within tolerance
+00:07 +38: /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart: Tree rejects bad probabilities, incomplete sums and fake decision probabilities
+00:07 +39: /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart: Tree rejects IDs, unknown root/refs, duplicate/self edges and DAG sharing
+00:07 +40: /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart: Disconnected zero cycles reject without recursion or infinite traversal
+00:07 +41: /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart: Tree node kind/payoff and degree contracts are checked
+00:07 +42: /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart: Tree handles 100-deep valid chain and immutable snapshots
+00:07 +43: /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart: Tree raw shapes, fractional IDs/types and missing edge probability reject explicitly
+00:07 +44: All tests passed!

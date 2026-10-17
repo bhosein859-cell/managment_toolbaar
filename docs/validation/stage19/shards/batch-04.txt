@@ -1,0 +1,5 @@
+00:00 +0: loading /home/user/management_toolbox/test/app/app_test.dart
+00:00 +0: shows the foundation page without the sample counter
+00:00 +1: foundation fits viewport Size(360.0, 640.0)
+00:00 +2: foundation fits viewport Size(1280.0, 720.0)
+00:00 +3: All tests passed!

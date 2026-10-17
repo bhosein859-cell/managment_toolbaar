@@ -1,0 +1,12 @@
+[1/1] Android SDK
+  ├─ [1/6] android-arm-profile/linux-x64                           274ms
+  ├─ [2/6] android-arm-release/linux-x64                           113ms
+  ├─ [3/6] android-arm64-profile/linux-x64                         125ms
+  ├─ [4/6] android-arm64-release/linux-x64                          92ms
+  ├─ [5/6] android-x64-profile/linux-x64                           100ms
+  └─ [6/6] android-x64-release/linux-x64                            83ms
+Running Gradle task 'assembleRelease'...
+Font asset "MaterialIcons-Regular.otf" was tree-shaken, reducing it from 1645184 to 5532 bytes (99.7% reduction). Tree-shaking can be disabled by providing the --no-tree-shake-icons flag when building your app.
+Running Gradle task 'assembleRelease'...                          304.7s
+✓ Built build/app/outputs/flutter-apk/app-release.apk (22.7MB)
+APK_exit=0

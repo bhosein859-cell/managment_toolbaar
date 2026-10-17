@@ -1,0 +1,7 @@
+cost_per_hire: 10000000.0
+employee_turnover: 0.05
+employee_productivity: 5.0
+training_roi: 1.0
+replacement_time: 30.0
+absence_cost: 22000000.0
+6 HR typed engines, explicit observations, 50-tool catalog: PASS

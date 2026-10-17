@@ -1,0 +1,3 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/hr/visual_test.dart
+00:00 +0: capture HR category turnover zero denominator and training ROI
+00:00 +0 ~1: All tests skipped.

@@ -1,0 +1,171 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/history/controller_test.dart
+00:00 +0: /home/user/management_toolbox/test/features/history/controller_test.dart: read failure is visible, not an empty-success store; retry recovers
+00:00 +1: /home/user/management_toolbox/test/features/history/controller_test.dart: write failures never optimistically mutate favorites or history
+00:00 +2: /home/user/management_toolbox/test/features/history/controller_test.dart: busy state lasts until durable commit and exposes only committed snapshot
+00:00 +3: /home/user/management_toolbox/test/features/history/controller_test.dart: rapid queued writes have deterministic tap order and survive failures
+00:00 +4: /home/user/management_toolbox/test/features/history/controller_test.dart: closed and uninitialized controllers reject actions
+00:00 +5: /home/user/management_toolbox/test/features/history/controller_test.dart: retired catalog IDs are hidden without deleting stored data
+00:00 +6: /home/user/management_toolbox/test/features/history/controller_test.dart: disposing during an active write safely closes after completion and never notifies disposed listeners
+00:01 +7: loading /home/user/management_toolbox/test/features/history/open_database_test.dart
+00:02 +7: /home/user/management_toolbox/test/features/history/open_database_test.dart: production opener creates stable support file in background isolate and reopens it
+00:02 +8: /home/user/management_toolbox/test/features/history/open_database_test.dart: retry reconstructs a failed lazy opener; never masks failure with memory storage
+WARNING (drift): It looks like you've created the database class ToolboxDatabase multiple times. When these two databases use the same QueryExecutor, race conditions will occur and might corrupt the database.
+Try to follow the advice at https://drift.simonbinder.eu/faq/#using-the-database or, if you know what you're doing, set driftRuntimeOptions.dontWarnAboutMultipleDatabases = true
+Here is the stacktrace from when the database was opened a second time:
+#0      GeneratedDatabase._handleInstantiated (package:drift/src/runtime/api/db_base.dart:96:30)
+#1      GeneratedDatabase._whenConstructed (package:drift/src/runtime/api/db_base.dart:73:12)
+#2      new GeneratedDatabase (package:drift/src/runtime/api/db_base.dart:64:5)
+#3      new ToolboxDatabase (package:management_toolbox/core/storage/toolbox_database.dart)
+#4      openApplicationDatabase (package:management_toolbox/core/storage/open_local_database.dart:14:7)
+#5      main.<anonymous closure>.create (file:///home/user/management_toolbox/test/features/history/open_database_test.dart:36:33)
+#6      DriftToolRepository.load (package:management_toolbox/features/history/data/drift_tool_repository.dart:36:26)
+<asynchronous suspension>
+#7      main.<anonymous closure> (file:///home/user/management_toolbox/test/features/history/open_database_test.dart:50:13)
+<asynchronous suspension>
+#8      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)
+<asynchronous suspension>
+#9      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#10     Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+This warning will only appear on debug builds.
+WARNING (drift): It looks like you've created the database class ToolboxDatabase multiple times. When these two databases use the same QueryExecutor, race conditions will occur and might corrupt the database.
+Try to follow the advice at https://drift.simonbinder.eu/faq/#using-the-database or, if you know what you're doing, set driftRuntimeOptions.dontWarnAboutMultipleDatabases = true
+Here is the stacktrace from when the database was opened a second time:
+#0      GeneratedDatabase._handleInstantiated (package:drift/src/runtime/api/db_base.dart:96:30)
+#1      GeneratedDatabase._whenConstructed (package:drift/src/runtime/api/db_base.dart:73:12)
+#2      new GeneratedDatabase (package:drift/src/runtime/api/db_base.dart:64:5)
+#3      new ToolboxDatabase (package:management_toolbox/core/storage/toolbox_database.dart)
+#4      openApplicationDatabase (package:management_toolbox/core/storage/open_local_database.dart:14:7)
+#5      main.<anonymous closure>.create (file:///home/user/management_toolbox/test/features/history/open_database_test.dart:36:33)
+#6      main.<anonymous closure> (file:///home/user/management_toolbox/test/features/history/open_database_test.dart:54:42)
+<asynchronous suspension>
+#7      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)
+<asynchronous suspension>
+#8      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#9      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+This warning will only appear on debug builds.
+00:03 +9: loading /home/user/management_toolbox/test/features/history/codec_test.dart
+00:04 +9: /home/user/management_toolbox/test/features/history/codec_test.dart: oee: raw input and complete result/warnings round trip losslessly
+00:04 +10: /home/user/management_toolbox/test/features/history/codec_test.dart: takt_time: raw input and complete result/warnings round trip losslessly
+00:04 +11: /home/user/management_toolbox/test/features/history/codec_test.dart: production_capacity: raw input and complete result/warnings round trip losslessly
+00:04 +12: /home/user/management_toolbox/test/features/history/codec_test.dart: labor_productivity: raw input and complete result/warnings round trip losslessly
+00:04 +13: /home/user/management_toolbox/test/features/history/codec_test.dart: cycle_time: raw input and complete result/warnings round trip losslessly
+00:04 +14: /home/user/management_toolbox/test/features/history/codec_test.dart: smed: raw input and complete result/warnings round trip losslessly
+00:04 +15: /home/user/management_toolbox/test/features/history/codec_test.dart: unit_production_cost: raw input and complete result/warnings round trip losslessly
+00:04 +16: /home/user/management_toolbox/test/features/history/codec_test.dart: wip: raw input and complete result/warnings round trip losslessly
+00:04 +17: /home/user/management_toolbox/test/features/history/codec_test.dart: throughput: raw input and complete result/warnings round trip losslessly
+00:04 +18: /home/user/management_toolbox/test/features/history/codec_test.dart: capacity_utilization: raw input and complete result/warnings round trip losslessly
+00:04 +19: /home/user/management_toolbox/test/features/history/codec_test.dart: npv: raw input and complete result/warnings round trip losslessly
+00:04 +20: /home/user/management_toolbox/test/features/history/codec_test.dart: irr: raw input and complete result/warnings round trip losslessly
+00:04 +21: /home/user/management_toolbox/test/features/history/codec_test.dart: payback: raw input and complete result/warnings round trip losslessly
+00:04 +22: /home/user/management_toolbox/test/features/history/codec_test.dart: roi: raw input and complete result/warnings round trip losslessly
+00:04 +23: /home/user/management_toolbox/test/features/history/codec_test.dart: current_ratio: raw input and complete result/warnings round trip losslessly
+00:04 +24: /home/user/management_toolbox/test/features/history/codec_test.dart: quick_ratio: raw input and complete result/warnings round trip losslessly
+00:04 +25: /home/user/management_toolbox/test/features/history/codec_test.dart: wacc: raw input and complete result/warnings round trip losslessly
+00:04 +26: /home/user/management_toolbox/test/features/history/codec_test.dart: compound_interest: raw input and complete result/warnings round trip losslessly
+00:04 +27: /home/user/management_toolbox/test/features/history/codec_test.dart: loan_payment: raw input and complete result/warnings round trip losslessly
+00:04 +28: /home/user/management_toolbox/test/features/history/codec_test.dart: break_even: raw input and complete result/warnings round trip losslessly
+00:04 +29: /home/user/management_toolbox/test/features/history/codec_test.dart: cp: raw input and complete result/warnings round trip losslessly
+00:04 +30: /home/user/management_toolbox/test/features/history/codec_test.dart: cpk: raw input and complete result/warnings round trip losslessly
+00:04 +31: /home/user/management_toolbox/test/features/history/codec_test.dart: pp: raw input and complete result/warnings round trip losslessly
+00:04 +32: /home/user/management_toolbox/test/features/history/codec_test.dart: ppk: raw input and complete result/warnings round trip losslessly
+00:04 +33: /home/user/management_toolbox/test/features/history/codec_test.dart: dpmo: raw input and complete result/warnings round trip losslessly
+00:04 +34: /home/user/management_toolbox/test/features/history/codec_test.dart: sigma_level: raw input and complete result/warnings round trip losslessly
+00:04 +35: /home/user/management_toolbox/test/features/history/codec_test.dart: xbar_control: raw input and complete result/warnings round trip losslessly
+00:04 +36: /home/user/management_toolbox/test/features/history/codec_test.dart: coq: raw input and complete result/warnings round trip losslessly
+00:04 +37: /home/user/management_toolbox/test/features/history/codec_test.dart: eoq: raw input and complete result/warnings round trip losslessly
+00:04 +38: /home/user/management_toolbox/test/features/history/codec_test.dart: rop: raw input and complete result/warnings round trip losslessly
+00:04 +39: /home/user/management_toolbox/test/features/history/codec_test.dart: safety_stock: raw input and complete result/warnings round trip losslessly
+00:04 +40: /home/user/management_toolbox/test/features/history/codec_test.dart: abc: raw input and complete result/warnings round trip losslessly
+00:04 +41: /home/user/management_toolbox/test/features/history/codec_test.dart: inventory_turnover: raw input and complete result/warnings round trip losslessly
+00:04 +42: /home/user/management_toolbox/test/features/history/codec_test.dart: days_inventory: raw input and complete result/warnings round trip losslessly
+00:04 +43: /home/user/management_toolbox/test/features/history/codec_test.dart: inventory_holding_cost: raw input and complete result/warnings round trip losslessly
+00:04 +44: /home/user/management_toolbox/test/features/history/codec_test.dart: reorder_interval: raw input and complete result/warnings round trip losslessly
+00:04 +45: /home/user/management_toolbox/test/features/history/codec_test.dart: pert_duration: raw input and complete result/warnings round trip losslessly
+00:04 +46: /home/user/management_toolbox/test/features/history/codec_test.dart: cpm: raw input and complete result/warnings round trip losslessly
+00:04 +47: /home/user/management_toolbox/test/features/history/codec_test.dart: project_float: raw input and complete result/warnings round trip losslessly
+00:04 +48: /home/user/management_toolbox/test/features/history/codec_test.dart: evm_performance: raw input and complete result/warnings round trip losslessly
+00:04 +49: /home/user/management_toolbox/test/features/history/codec_test.dart: three_point: raw input and complete result/warnings round trip losslessly
+00:04 +50: /home/user/management_toolbox/test/features/history/codec_test.dart: eac_etc: raw input and complete result/warnings round trip losslessly
+00:04 +51: /home/user/management_toolbox/test/features/history/codec_test.dart: sv_cv: raw input and complete result/warnings round trip losslessly
+00:04 +52: /home/user/management_toolbox/test/features/history/codec_test.dart: duration_comparison: raw input and complete result/warnings round trip losslessly
+00:04 +53: /home/user/management_toolbox/test/features/history/codec_test.dart: cost_per_hire: raw input and complete result/warnings round trip losslessly
+00:04 +54: /home/user/management_toolbox/test/features/history/codec_test.dart: employee_turnover: raw input and complete result/warnings round trip losslessly
+00:04 +55: /home/user/management_toolbox/test/features/history/codec_test.dart: employee_productivity: raw input and complete result/warnings round trip losslessly
+00:04 +56: /home/user/management_toolbox/test/features/history/codec_test.dart: training_roi: raw input and complete result/warnings round trip losslessly
+00:04 +57: /home/user/management_toolbox/test/features/history/codec_test.dart: replacement_time: raw input and complete result/warnings round trip losslessly
+00:04 +58: /home/user/management_toolbox/test/features/history/codec_test.dart: absence_cost: raw input and complete result/warnings round trip losslessly
+00:04 +59: /home/user/management_toolbox/test/features/history/codec_test.dart: ahp: raw input and complete result/warnings round trip losslessly
+00:04 +60: /home/user/management_toolbox/test/features/history/codec_test.dart: topsis: raw input and complete result/warnings round trip losslessly
+00:04 +61: /home/user/management_toolbox/test/features/history/codec_test.dart: decision_matrix: raw input and complete result/warnings round trip losslessly
+00:04 +62: /home/user/management_toolbox/test/features/history/codec_test.dart: expected_value_tree: raw input and complete result/warnings round trip losslessly
+00:04 +63: /home/user/management_toolbox/test/features/history/codec_test.dart: weight_sensitivity: raw input and complete result/warnings round trip losslessly
+00:04 +64: /home/user/management_toolbox/test/features/history/codec_test.dart: weighted_scoring: raw input and complete result/warnings round trip losslessly
+00:04 +65: /home/user/management_toolbox/test/features/history/codec_test.dart: cost_benefit_comparison: raw input and complete result/warnings round trip losslessly
+00:04 +66: /home/user/management_toolbox/test/features/history/codec_test.dart: two_option_break_even: raw input and complete result/warnings round trip losslessly
+00:04 +67: /home/user/management_toolbox/test/features/history/codec_test.dart: time_value_money: raw input and complete result/warnings round trip losslessly
+00:04 +68: /home/user/management_toolbox/test/features/history/codec_test.dart: future_present_factor: raw input and complete result/warnings round trip losslessly
+00:04 +69: /home/user/management_toolbox/test/features/history/codec_test.dart: present_future_factor: raw input and complete result/warnings round trip losslessly
+00:04 +70: /home/user/management_toolbox/test/features/history/codec_test.dart: future_annuity_factor: raw input and complete result/warnings round trip losslessly
+00:04 +71: /home/user/management_toolbox/test/features/history/codec_test.dart: annuity_future_factor: raw input and complete result/warnings round trip losslessly
+00:04 +72: /home/user/management_toolbox/test/features/history/codec_test.dart: present_annuity_factor: raw input and complete result/warnings round trip losslessly
+00:04 +73: /home/user/management_toolbox/test/features/history/codec_test.dart: annuity_present_factor: raw input and complete result/warnings round trip losslessly
+00:04 +74: /home/user/management_toolbox/test/features/history/codec_test.dart: straight_line_depreciation: raw input and complete result/warnings round trip losslessly
+00:04 +75: /home/user/management_toolbox/test/features/history/codec_test.dart: declining_balance_depreciation: raw input and complete result/warnings round trip losslessly
+00:04 +76: /home/user/management_toolbox/test/features/history/codec_test.dart: inflation_adjustment: raw input and complete result/warnings round trip losslessly
+00:04 +77: /home/user/management_toolbox/test/features/history/codec_test.dart: codec preserves Persian/Arabic digits, whitespace, choices, missing and empty fields
+00:04 +78: /home/user/management_toolbox/test/features/history/codec_test.dart: all result variants, units, displays and warning severity survive
+00:05 +79: /home/user/management_toolbox/test/features/history/codec_test.dart: invalid input payload rejects: null
+00:05 +80: /home/user/management_toolbox/test/features/history/codec_test.dart: invalid input payload rejects: []
+00:05 +81: /home/user/management_toolbox/test/features/history/codec_test.dart: invalid input payload rejects: true
+00:05 +82: /home/user/management_toolbox/test/features/history/codec_test.dart: invalid input payload rejects: {broken
+00:05 +83: /home/user/management_toolbox/test/features/history/codec_test.dart: invalid input payload rejects: {"a":{"type":"future"}}
+00:05 +84: /home/user/management_toolbox/test/features/history/codec_test.dart: invalid input payload rejects: {"a":{"type":"text","text":2}}
+00:05 +85: /home/user/management_toolbox/test/features/history/codec_test.dart: invalid input payload rejects: {"a":{"type":"list","items":["1",null]}}
+00:05 +86: /home/user/management_toolbox/test/features/history/codec_test.dart: unknown display/severity, nonfinite values and wrong unit types never get defaults
+00:05 +87: loading /home/user/management_toolbox/test/features/history/migration_test.dart
+00:06 +87: /home/user/management_toolbox/test/features/history/migration_test.dart: fresh schema matches independent v2 fixture and required constraints
+00:06 +88: /home/user/management_toolbox/test/features/history/migration_test.dart: v1 to v2 preserves favorites/payloads/timestamps, prunes oldest five atomically
+00:06 +89: /home/user/management_toolbox/test/features/history/migration_test.dart: v1 migration with 0 rows retains min(count,10)
+00:06 +90: /home/user/management_toolbox/test/features/history/migration_test.dart: v1 migration with 1 rows retains min(count,10)
+00:06 +91: /home/user/management_toolbox/test/features/history/migration_test.dart: v1 migration with 10 rows retains min(count,10)
+00:06 +92: /home/user/management_toolbox/test/features/history/migration_test.dart: v1 migration with 11 rows retains min(count,10)
+00:06 +93: /home/user/management_toolbox/test/features/history/migration_test.dart: already-current reopen is idempotent and IDs continue after migration
+00:06 +94: /home/user/management_toolbox/test/features/history/migration_test.dart: retention invariant is enforced for direct SQLite writers too
+00:06 +95: /home/user/management_toolbox/test/features/history/migration_test.dart: failed migration rolls back ALTER, retention and version without deleting data
+00:06 +96: /home/user/management_toolbox/test/features/history/migration_test.dart: newer database is refused, never downgraded or recreated
+00:06 +97: /home/user/management_toolbox/test/features/history/migration_test.dart: corrupt file is not deleted or silently replaced with an empty database
+00:07 +98: loading /home/user/management_toolbox/test/features/history/repository_test.dart
+00:08 +98: /home/user/management_toolbox/test/features/history/repository_test.dart: (setUpAll)
+00:08 +98: /home/user/management_toolbox/test/features/history/repository_test.dart: fresh SQLite has no fabricated favorites or history
+00:08 +99: /home/user/management_toolbox/test/features/history/repository_test.dart: favorite add/remove is idempotent as toggle parity, primary key prevents duplicates
+00:08 +100: /home/user/management_toolbox/test/features/history/repository_test.dart: favorite identity validation prevents arbitrary SQL or empty names
+00:08 +101: /home/user/management_toolbox/test/features/history/repository_test.dart: one through eleven inserts retain exactly min(count,10), same timestamps do not collide
+00:08 +102: /home/user/management_toolbox/test/features/history/repository_test.dart: history cap is global across calculators, not ten per calculator
+00:08 +103: /home/user/management_toolbox/test/features/history/repository_test.dart: insertion sequence determines recent order even if system clock moves backward
+00:08 +104: /home/user/management_toolbox/test/features/history/repository_test.dart: rapid concurrent inserts on one Drift connection are serialized and retain final ten
+00:08 +105: /home/user/management_toolbox/test/features/history/repository_test.dart: rapid concurrent toggles preserve parity and uniqueness
+00:08 +106: /home/user/management_toolbox/test/features/history/repository_test.dart: snapshot is immutable and retains exact text/result/timestamp
+00:08 +107: /home/user/management_toolbox/test/features/history/repository_test.dart: failed retention delete rolls back insertion, pruning and autoincrement sequence
+00:08 +108: /home/user/management_toolbox/test/features/history/repository_test.dart: failed favorite write is not reported as committed
+00:08 +109: /home/user/management_toolbox/test/features/history/repository_test.dart: unknown payload versions and malformed JSON fail read without resetting DB
+00:08 +110: /home/user/management_toolbox/test/features/history/repository_test.dart: failed snapshot decode rolls back favorite changes as well
+00:08 +111: /home/user/management_toolbox/test/features/history/repository_test.dart: close is safe twice and does not silently reopen a closed repository
+00:08 +112: /home/user/management_toolbox/test/features/history/repository_test.dart: file survives close/reopen, history evictions persist and IDs are not reused
+00:08 +113: /home/user/management_toolbox/test/features/history/repository_test.dart: separate background isolate connection persists actual file
+00:08 +114: /home/user/management_toolbox/test/features/history/repository_test.dart: unwritable path fails explicitly rather than fallback to memory
+00:08 +115: /home/user/management_toolbox/test/features/history/repository_test.dart: (tearDownAll)
+00:09 +115: loading /home/user/management_toolbox/test/features/history/persistence_pages_test.dart
+00:10 +115: /home/user/management_toolbox/test/features/history/persistence_pages_test.dart: actual SQLite file retains favorite and exact saved inputs through app shutdown/reopen
+00:16 +116: /home/user/management_toolbox/test/features/history/persistence_pages_test.dart: startup read failure blocks false empty state and retry opens the same stored data
+00:16 +117: /home/user/management_toolbox/test/features/history/persistence_pages_test.dart: failed save reports error, not success; retry commits once
+00:18 +118: /home/user/management_toolbox/test/features/history/persistence_pages_test.dart: tap-time snapshot never pairs stale result with newly edited or invalid input
+00:20 +119: loading /home/user/management_toolbox/test/features/home/session_test.dart
+00:20 +119: /home/user/management_toolbox/test/features/home/session_test.dart: (setUpAll)
+00:20 +119: /home/user/management_toolbox/test/features/home/session_test.dart: favorites committed through repository; explicitly separate databases are isolated
+00:21 +120: /home/user/management_toolbox/test/features/home/session_test.dart: repository snapshots preserve inputs and retain ten committed calculations
+00:21 +121: /home/user/management_toolbox/test/features/home/session_test.dart: (tearDownAll)
+00:22 +121: All tests passed!

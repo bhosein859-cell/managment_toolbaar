@@ -1,0 +1,33 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/engineering_economics/catalog_test.dart
+00:00 +0: ten economics tools and 73 catalog entries
+00:00 +1: time_value_money: full definition formula and educational numeric example
+00:00 +2: time_value_money: Arabic Persian Latin digits and malformed form data
+00:00 +3: future_present_factor: full definition formula and educational numeric example
+00:00 +4: future_present_factor: Arabic Persian Latin digits and malformed form data
+00:00 +5: present_future_factor: full definition formula and educational numeric example
+00:00 +6: present_future_factor: Arabic Persian Latin digits and malformed form data
+00:00 +7: future_annuity_factor: full definition formula and educational numeric example
+00:00 +8: future_annuity_factor: Arabic Persian Latin digits and malformed form data
+00:00 +9: annuity_future_factor: full definition formula and educational numeric example
+00:00 +10: annuity_future_factor: Arabic Persian Latin digits and malformed form data
+00:00 +11: present_annuity_factor: full definition formula and educational numeric example
+00:00 +12: present_annuity_factor: Arabic Persian Latin digits and malformed form data
+00:00 +13: annuity_present_factor: full definition formula and educational numeric example
+00:00 +14: annuity_present_factor: Arabic Persian Latin digits and malformed form data
+00:00 +15: straight_line_depreciation: full definition formula and educational numeric example
+00:00 +16: straight_line_depreciation: Arabic Persian Latin digits and malformed form data
+00:00 +17: declining_balance_depreciation: full definition formula and educational numeric example
+00:00 +18: declining_balance_depreciation: Arabic Persian Latin digits and malformed form data
+00:00 +19: inflation_adjustment: full definition formula and educational numeric example
+00:00 +20: inflation_adjustment: Arabic Persian Latin digits and malformed form data
+00:00 +21: time_value_money: omitted/blank required fields never become examples
+00:00 +22: future_present_factor: omitted/blank required fields never become examples
+00:00 +23: present_future_factor: omitted/blank required fields never become examples
+00:00 +24: future_annuity_factor: omitted/blank required fields never become examples
+00:00 +25: annuity_future_factor: omitted/blank required fields never become examples
+00:00 +26: present_annuity_factor: omitted/blank required fields never become examples
+00:00 +27: annuity_present_factor: omitted/blank required fields never become examples
+00:00 +28: straight_line_depreciation: omitted/blank required fields never become examples
+00:00 +29: declining_balance_depreciation: omitted/blank required fields never become examples
+00:00 +30: inflation_adjustment: omitted/blank required fields never become examples
+00:00 +31: All tests passed!

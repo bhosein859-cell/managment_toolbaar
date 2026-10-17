@@ -1,0 +1,17 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/hr/pages_test.dart
+00:00 +0: cost_per_hire: generic form rendered formula error and example
+00:01 +1: employee_turnover: generic form rendered formula error and example
+00:01 +2: employee_productivity: generic form rendered formula error and example
+00:02 +3: training_roi: generic form rendered formula error and example
+00:02 +4: replacement_time: generic form rendered formula error and example
+00:02 +5: absence_cost: generic form rendered formula error and example
+00:02 +6: six HR tools open through real category routes
+00:04 +7: zero average turnover and blank observations have Persian errors
+00:05 +8: negative training ROI remains descriptive, not clamped
+00:05 +9: HR context and time list save/reopen, invalid fields disable save
+00:06 +10: HR incomplete external snapshots do not silently borrow example defaults
+00:07 +11: six HR pages fit Size(320.0, 568.0) dark=false enlarged RTL
+00:08 +12: six HR pages fit Size(320.0, 568.0) dark=true enlarged RTL
+00:08 +13: six HR pages fit Size(1280.0, 800.0) dark=false enlarged RTL
+00:09 +14: six HR pages fit Size(1280.0, 800.0) dark=true enlarged RTL
+00:09 +15: All tests passed!

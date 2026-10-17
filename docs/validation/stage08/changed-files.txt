@@ -1,0 +1,52 @@
+Compared byte-for-byte with management_toolbox_stage_07_source.zip
+
+ADDED (36)
+docs/stage08_home_search.md
+docs/validation/stage08/analyze.txt
+docs/validation/stage08/benchmark-compile.txt
+docs/validation/stage08/changed-files.txt
+docs/validation/stage08/coverage-summary.md
+docs/validation/stage08/domain-smoke.txt
+docs/validation/stage08/engines-smoke.txt
+docs/validation/stage08/format.txt
+docs/validation/stage08/home-tests.txt
+docs/validation/stage08/lockfile-check.txt
+docs/validation/stage08/search-benchmark.json
+docs/validation/stage08/source-integrity.txt
+docs/validation/stage08/tests.txt
+docs/validation/stage08/visual-capture.txt
+docs/validation/stage08/whitespace-check.txt
+docs/visual/stage08/empty-category-mobile.png
+docs/visual/stage08/fuzzy-search-mobile.png
+docs/visual/stage08/home-dark-mobile.png
+docs/visual/stage08/home-light-desktop.png
+lib/app/catalog/app_catalog.dart
+lib/app/routing/calculator_request.dart
+lib/app/state/tool_session_scope.dart
+lib/core/utils/search_text.dart
+lib/features/calculators/calculators.dart
+lib/features/history/domain/recent_calculation.dart
+lib/features/home/domain/catalog_search.dart
+lib/features/home/domain/tool_catalog.dart
+lib/features/home/presentation/controllers/tool_session_controller.dart
+lib/features/home/presentation/pages/category_page.dart
+lib/features/home/presentation/widgets/category_grid.dart
+lib/features/home/presentation/widgets/tool_tile.dart
+test/features/home/home_pages_test.dart
+test/features/home/home_visual_test.dart
+test/features/home/search_test.dart
+test/features/home/session_test.dart
+tool/benchmark_catalog_search.dart
+
+MODIFIED (7)
+README.md
+lib/app/app.dart
+lib/app/catalog/prototype_calculators.dart
+lib/app/routing/app_router.dart
+lib/features/calculators/presentation/pages/calculator_page.dart
+lib/features/home/presentation/pages/home_page.dart
+test/app/architecture_test.dart
+
+REMOVED (2)
+lib/features/history/domain/.gitkeep
+lib/features/home/domain/.gitkeep

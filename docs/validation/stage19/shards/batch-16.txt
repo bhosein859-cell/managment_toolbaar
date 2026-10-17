@@ -1,0 +1,35 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/engineering_economics/boundaries_test.dart
+00:00 +0: time_value_money: rate at/below minus 100 percent is impossible
+00:00 +1: time_value_money: negative rates above minus one, zero amounts and zero rate are supported
+00:00 +2: future_present_factor: rate at/below minus 100 percent is impossible
+00:00 +3: future_present_factor: negative rates above minus one, zero amounts and zero rate are supported
+00:00 +4: present_future_factor: rate at/below minus 100 percent is impossible
+00:00 +5: present_future_factor: negative rates above minus one, zero amounts and zero rate are supported
+00:00 +6: future_annuity_factor: rate at/below minus 100 percent is impossible
+00:00 +7: future_annuity_factor: negative rates above minus one, zero amounts and zero rate are supported
+00:00 +8: annuity_future_factor: rate at/below minus 100 percent is impossible
+00:00 +9: annuity_future_factor: negative rates above minus one, zero amounts and zero rate are supported
+00:00 +10: present_annuity_factor: rate at/below minus 100 percent is impossible
+00:00 +11: present_annuity_factor: negative rates above minus one, zero amounts and zero rate are supported
+00:00 +12: annuity_present_factor: rate at/below minus 100 percent is impossible
+00:00 +13: annuity_present_factor: negative rates above minus one, zero amounts and zero rate are supported
+00:00 +14: inflation_adjustment: rate at/below minus 100 percent is impossible
+00:00 +15: inflation_adjustment: negative rates above minus one, zero amounts and zero rate are supported
+00:00 +16: All six zero-rate factor limits are explicit
+00:00 +17: Zero periods: same-time single sums, empty annuities, undefined inverse annuities
+00:00 +18: Known end-of-period payments agree with explicit sums and reciprocal identities
+00:00 +19: One end-period payment is not an annuity-due shifted payment
+00:00 +20: Near-zero rates do not divide by a cancellation-rounded zero
+00:00 +21: Stable reciprocal formulas avoid intermediate overflow
+00:00 +22: Unrepresentable factors, amounts and nonzero underflow reject
+00:00 +23: Inflation adjustment is purchasing-power deflation, not nominal interest subtraction
+00:00 +24: straight_line_depreciation: salvage cannot exceed cost and year cannot exceed useful life
+00:00 +25: straight_line_depreciation: acquisition time and already-at-salvage assets remain valid
+00:00 +26: declining_balance_depreciation: salvage cannot exceed cost and year cannot exceed useful life
+00:00 +27: declining_balance_depreciation: acquisition time and already-at-salvage assets remain valid
+00:00 +28: Straight line conservation and exact terminal salvage
+00:00 +29: Declining balance clamps expense to salvage without negative depreciation
+00:00 +30: Declining balance zero and 100 percent boundaries, invalid percentages
+00:00 +31: Declining balance never silently switches method or clears remaining book at life
+00:00 +32: Declining book avoids factor underflow when the book itself is representable
+00:00 +33: All tests passed!

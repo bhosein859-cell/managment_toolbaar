@@ -1,0 +1,741 @@
+{
+  "baseline": "management_toolbox_stage_19_source.zip",
+  "baseline_sha256": "86dc0637334a89d263a23b169ba5f2a3d5cc696837a5075c5dae1afc49f29058",
+  "all_prior_files_preserved": true,
+  "byte_identical_prior_lib_assets_dependency_files_except_app_composition": 182,
+  "protected": [
+    {
+      "path": "assets/branding/logo.png",
+      "sha256": "6a630c511f828846ab08da74facc6e25788901ab6ba96fda3ad09aa05d4aca01"
+    },
+    {
+      "path": "assets/fonts/NOTICE.md",
+      "sha256": "0144aabeec157daf55c402889a8b243efb96c11f7842584f200b70d377b10f99"
+    },
+    {
+      "path": "assets/fonts/OFL.txt",
+      "sha256": "17e355067c8284f47743a1ee3b1ef7ff684ff0601eda357f9353b10b3016ab31"
+    },
+    {
+      "path": "assets/fonts/Vazirmatn-Bold.ttf",
+      "sha256": "f635fdbea28f265de395ba83b4b1570dcf2f58d13c65469e61903b1c2d2ae723"
+    },
+    {
+      "path": "assets/fonts/Vazirmatn-Regular.ttf",
+      "sha256": "b69fd4c680b8f3f225feabcc655a2c585d97627b8f5f5c0f9985e894069f3a56"
+    },
+    {
+      "path": "lib/app/catalog/app_catalog.dart",
+      "sha256": "0ec1a59c87ba16176be79bb0a0ccfed9ffa1bde51c9bbbaa6d879471e5f358d6"
+    },
+    {
+      "path": "lib/app/catalog/decision_calculators.dart",
+      "sha256": "45b49edd0634db35f08fe51a43509fd145997daf92ceebc8aa72c60f4a135dae"
+    },
+    {
+      "path": "lib/app/catalog/engineering_economics_calculators.dart",
+      "sha256": "9de3f72e42e0ed4d78bf05ab0debfc43dada4bdea0f98a2535a520e4234d0a2c"
+    },
+    {
+      "path": "lib/app/catalog/finance_calculators.dart",
+      "sha256": "8ecbc98938213269b3a366e8880a002870525e028c2b6f2fc924182b33be67ff"
+    },
+    {
+      "path": "lib/app/catalog/form_demo.dart",
+      "sha256": "3b6e885ea2204e8e6b593fbcf9d20a49905fc88c5a640ec1238b4a280b205f8e"
+    },
+    {
+      "path": "lib/app/catalog/hr_calculators.dart",
+      "sha256": "b826d10ddf0e9010b4ec2efb4f80fad198e607d030e024fd5dd0b7abcfbc8f42"
+    },
+    {
+      "path": "lib/app/catalog/inventory_calculators.dart",
+      "sha256": "a9ea5ade474b487673de086bfb7c414982c9f49ce5ace478fa2a9a3323e69a7a"
+    },
+    {
+      "path": "lib/app/catalog/production_calculators.dart",
+      "sha256": "0b4f0256b0ae8bbe73b2a3cac4275b2f3b32284633e441d578931d0c5f1747f9"
+    },
+    {
+      "path": "lib/app/catalog/project_calculators.dart",
+      "sha256": "410a740bf5fc36619f839afdf0fb5df8fbf538b6b43181842944f7db91fe607d"
+    },
+    {
+      "path": "lib/app/catalog/prototype_calculators.dart",
+      "sha256": "82e53b58978b97a297001333af4314bfdd8b797aab8474623e9e139d5c5a18f9"
+    },
+    {
+      "path": "lib/app/catalog/quality_calculators.dart",
+      "sha256": "a313b735da8244f14bd7051697709c33bddfe31fb5b33a14dbf7ea475776ba22"
+    },
+    {
+      "path": "lib/app/catalog/utility_calculators.dart",
+      "sha256": "9e551e188522662d4ec2371fdadc2ee7e543e0d68155f6d9332848303a07407d"
+    },
+    {
+      "path": "lib/app/routing/app_router.dart",
+      "sha256": "457a7f767c06bfd2130a2ce716c0ef6e799fa1fa584bde211bb759e80ec56599"
+    },
+    {
+      "path": "lib/app/routing/calculator_request.dart",
+      "sha256": "11232209d75262f6b2aafaf8d625fa9a0ba66869c3c27bf86edaf251cd342bc6"
+    },
+    {
+      "path": "lib/app/state/tool_session_scope.dart",
+      "sha256": "89a38100eb83727a4bc34e393eef2a2cc511bb13d5301c3815a058632e6732d6"
+    },
+    {
+      "path": "lib/app/theme/app_theme.dart",
+      "sha256": "297a68055d095adbfb6952453f2962cca229e1939aa8f42ca2cfb610753be087"
+    },
+    {
+      "path": "lib/app/theme/category_colors.dart",
+      "sha256": "b91727aac5d570cbca379c802b1e7da8f9e7367d6e80b15936df49af8fdf9636"
+    },
+    {
+      "path": "lib/app/theme/theme_settings.dart",
+      "sha256": "bae22b1178b56fff78e062c22cf2e03561f0d0adbde2635a181298bf8eefd8af"
+    },
+    {
+      "path": "lib/core/README.md",
+      "sha256": "a7577cff48240011d5193444e05264e67fb4a2dd9544d0147edc9fe8c3f4be34"
+    },
+    {
+      "path": "lib/core/errors/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "lib/core/errors/app_failure.dart",
+      "sha256": "387b2491141bd7eb9dcbdbaf85aa6502bb48e3a8cf60dc0019edefbe18649ea8"
+    },
+    {
+      "path": "lib/core/storage/open_local_database.dart",
+      "sha256": "2410410e222056251ebb95811dd747fe497d98d234a129af55457a8649190d95"
+    },
+    {
+      "path": "lib/core/storage/toolbox_database.dart",
+      "sha256": "6abef0a20575ca2d0a782a24045b8938ad9c8b1d1d9f518b5570d119568520a0"
+    },
+    {
+      "path": "lib/core/utils/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "lib/core/utils/persian_numbers.dart",
+      "sha256": "538549c93d5cf28a90636e8da1fecc0a6ce06e10b0654a90c006d26952f76f01"
+    },
+    {
+      "path": "lib/core/utils/search_text.dart",
+      "sha256": "eb472cff486afd39a9bac346943609b71b50c1c86a729e59787d884afdd5f831"
+    },
+    {
+      "path": "lib/core/widgets/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "lib/core/widgets/error_view.dart",
+      "sha256": "9eba961739b4ec58f1c0468efb8dbc61fa54c8bf48ba0f0d9062131668394b30"
+    },
+    {
+      "path": "lib/core/widgets/interaction_support.dart",
+      "sha256": "30b7c0f874dc60543e21c4054481c57c578e0da2ef9961ff9d29b23334b7c516"
+    },
+    {
+      "path": "lib/core/widgets/ltr_text.dart",
+      "sha256": "ee0e161a1e3192d653e5a2b2d6fb24408f0424385f5d606e778ccc3930c4cef0"
+    },
+    {
+      "path": "lib/features/README.md",
+      "sha256": "5ff2de885ad45b9c2f320b470b13677e3d300c2b77bcdd6a30256e4eae68edcd"
+    },
+    {
+      "path": "lib/features/calculators/calculators.dart",
+      "sha256": "c63164161161af3531525971265e57f4d01f56f85509bf771e43fb20d288d4c5"
+    },
+    {
+      "path": "lib/features/calculators/data/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "lib/features/calculators/domain/README.md",
+      "sha256": "eca28788c3585fc2383f8455c71ba44b7f56eccda03c461354d8d3729488cafe"
+    },
+    {
+      "path": "lib/features/calculators/domain/calculator_domain.dart",
+      "sha256": "138a6b1fde0914588bb9a9e2c50e1f04994c6e8574d329db98001bed14e36edb"
+    },
+    {
+      "path": "lib/features/calculators/domain/decision/ahp_solver.dart",
+      "sha256": "cf1afa03078f714d06973bfbef4edac59883f9b85d322a1b71837566e45c7c7e"
+    },
+    {
+      "path": "lib/features/calculators/domain/decision/decision_math.dart",
+      "sha256": "9398638b93e6a79420221a5b869a4aed0e40b99130b20672ef1fa172f5cac34d"
+    },
+    {
+      "path": "lib/features/calculators/domain/decision/decision_table.dart",
+      "sha256": "e5bfe0b3ae28b151cc236565123a3074c4118db7b9bf6920ed676f1adcb5309f"
+    },
+    {
+      "path": "lib/features/calculators/domain/decision/decision_tree.dart",
+      "sha256": "05be5dff7a24bb8eacb2ef5ba485ab30fa18c48af142122c99fc98584544093a"
+    },
+    {
+      "path": "lib/features/calculators/domain/engine/calculator_engine.dart",
+      "sha256": "d266060b8c296f454f14ea61eb72520436fb8941891a812e30c9ae5f6b6b699a"
+    },
+    {
+      "path": "lib/features/calculators/domain/engine/calculator_runner.dart",
+      "sha256": "288b61f24bdb967e1b2ac378f4c3965b1f0da1721a08e553582540fc90fb1413"
+    },
+    {
+      "path": "lib/features/calculators/domain/engineering_economics/engineering_math.dart",
+      "sha256": "a927409f8c8a7ef542d0669d103ea51fd0364d5b74a6bd4bd55fb74427ccdaf3"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/cp_engine.dart",
+      "sha256": "8e183cc88acea920568a0284d2718a5dfc589e6f84d489972743a35a45c53fe3"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/decision/ahp_engine.dart",
+      "sha256": "c7292ddfc9670c6526567823a0302eefece25127b5da351e8536737a5b848c15"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/decision/cost_benefit_comparison_engine.dart",
+      "sha256": "25fe2a268911eba95e4eda75858ebb74c6aba2daf3ed682ad3014109777acd9d"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/decision/decision_matrix_engine.dart",
+      "sha256": "7876d09ecb318200fe7d9649206519a83a0a86cdc09fe57eddd449e1bff9ef57"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/decision/expected_value_tree_engine.dart",
+      "sha256": "59cb8cc8dfb6a147c6404fbcc47bd9af61a3e5d011558831f8318f1f6cac69de"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/decision/topsis_engine.dart",
+      "sha256": "26a9a1246e9df534f5e590fbb69fb7ae6c64a6b9b62afde2108d22fc7f80bc01"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/decision/two_option_break_even_engine.dart",
+      "sha256": "4d3d1c0cf8b2dbe0bc8addc3334f79dd830c8cfb79f93ba63f37c082553f9402"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/decision/weight_sensitivity_engine.dart",
+      "sha256": "0bfc2a59dc8f31190ffaf72fa506b21e37e1d13b798caf7b0058e636e9e92688"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/decision/weighted_scoring_engine.dart",
+      "sha256": "b0f24253500f48e5a0ee77d11ae4123022061f722d283fa754549a08e1508026"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/engineering_economics/annuity_future_factor_engine.dart",
+      "sha256": "ca4c82905b3b010550dca937914e0194f8b61e8d9dafb0f951545b4eba3834bd"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/engineering_economics/annuity_present_factor_engine.dart",
+      "sha256": "51cb5f7e4e4be50b468929140f02e50196129211f4fb6e4f4deaa0f7f150b67c"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/engineering_economics/declining_balance_depreciation_engine.dart",
+      "sha256": "f5436769d99ecf722e036ef9e148a92457ba377f64b1025263006994469143c9"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/engineering_economics/future_annuity_factor_engine.dart",
+      "sha256": "e11920368a34c7aa4dbbdb7b69f7c0582d4609126a176debb83f3290c291e49e"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/engineering_economics/future_present_factor_engine.dart",
+      "sha256": "e168217168f1cc94f6afca5e372e0ef1223e91cb32d473f7566fb391e8be58a8"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/engineering_economics/inflation_adjustment_engine.dart",
+      "sha256": "9a6a6c177f2509263ea1fd870672ed42f058db086553066dcd741319503472ed"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/engineering_economics/present_annuity_factor_engine.dart",
+      "sha256": "3d060e8a343e1ad8aeb91a5e09b27e0974769ac9d74dcf78022a725c4a3c1ac6"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/engineering_economics/present_future_factor_engine.dart",
+      "sha256": "bd014be41087eaf297a6be51efb95b1d3d153a6e052b7e00078fe6d3d84ba951"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/engineering_economics/straight_line_depreciation_engine.dart",
+      "sha256": "5aa624dd60c39ebed1036650428d9a5c0c5dddc024857c8d2b50748ce7476542"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/engineering_economics/time_value_money_engine.dart",
+      "sha256": "a45c4162826dae21431f0eaadbc785e8d6bfd9b5806d821dd303770ad63129ea"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/finance/break_even_engine.dart",
+      "sha256": "496c4edca6c6f57ec164fc3494884d1153c4441ea5043ad5e835091e5eda2a8b"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/finance/compound_interest_engine.dart",
+      "sha256": "f8ea4e276b0f366f76eec0521f3b8c2207e47f63338b36953803b0524de5430a"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/finance/current_ratio_engine.dart",
+      "sha256": "d99214e1440c8e449823c9fd434c9670ed84320c55fc94f3458c731987335a5f"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/finance/finance_support.dart",
+      "sha256": "991e06ea31e0881cef802f7af536891989c780685e045f7f4f830602ac3d3e99"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/finance/irr_engine.dart",
+      "sha256": "ebe68c3ebec7af5a42344e7d002c21a3768cf73d4f171e0d0e6512fc54e1042a"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/finance/loan_payment_engine.dart",
+      "sha256": "e1ef18a8f27314e39821a36d058944ec4f6639c6e87c23ec0b0621481a25ff3c"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/finance/payback_engine.dart",
+      "sha256": "309661f1670aac0fd4a6f314194d5fbcaffc3601820bec667a52f933385a9f21"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/finance/quick_ratio_engine.dart",
+      "sha256": "7a234dfb61575f31691802e743182112463b783d85c8e5b95bf884b06871d89f"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/finance/roi_engine.dart",
+      "sha256": "8d602ae6a454ddbb8780edee2fd331374204b0cceb71a7241d335358ceb490c2"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/finance/wacc_engine.dart",
+      "sha256": "b311011fe4847c9cdcbc3e96ed3c8152ad9fec5f314d4cfb2e37ffe8c7b69b67"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/form_demo_engine.dart",
+      "sha256": "00b3411580da4fd38a42dad384e3043427bc9512e37a09a6284b8d2b3f560e74"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/hr/absence_cost_engine.dart",
+      "sha256": "9e048f093e12d6a61ecb28108084398aaa2785adee57c4bcdfa251a8c96eb4f7"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/hr/cost_per_hire_engine.dart",
+      "sha256": "d50694570d02cbcde6f5050576ad17c2961c8fe557a7fe06642067aaafa56ed1"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/hr/employee_productivity_engine.dart",
+      "sha256": "76156473c4faded5addbbf23f9e7895a362c21606a72f42c17e3aa322efb353e"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/hr/employee_turnover_engine.dart",
+      "sha256": "48f44772e9ed7be6415797403ef486140c9fa155f4843c80a8e09d549a45f00c"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/hr/replacement_time_engine.dart",
+      "sha256": "47417ff6d53422d9534077e34296df0c3cd828c2b444ac77a93de455f8a689e6"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/hr/training_roi_engine.dart",
+      "sha256": "77f33129d04b7b3242343ef5f471da54d932694be381cc1ea550e1555ad4054b"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/inventory/abc_engine.dart",
+      "sha256": "e95f221f32dceaec5b98ab0a5012e5b84bd127e6d5f1f3d9eabdaf4b2fd7c903"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/inventory/days_inventory_engine.dart",
+      "sha256": "3c996f45064190c5a4b2bb08d90c5c5a025811da38a3af65557ab4ba9658a334"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/inventory/eoq_engine.dart",
+      "sha256": "0c9216c357d6e3aff2acf4da27ecf566a1625481cfeeb80ad598cff7fa3ea578"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/inventory/inventory_holding_cost_engine.dart",
+      "sha256": "84719646fa5454b53246ee5c638588e8065fe893a2ecfb89e7ed51e3f8432a61"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/inventory/inventory_turnover_engine.dart",
+      "sha256": "6e19e384468b40e2dd569e180971de1edd9e1cc1ff50927ad39ec78e0d2be8a3"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/inventory/reorder_interval_engine.dart",
+      "sha256": "67cfd707cb9c66338afa9e3288648d5632554328f33a6947e345ed2bc369c585"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/inventory/rop_engine.dart",
+      "sha256": "0b4f612bdf96aeceacfd9922258027c08d70e76fafc25f86eb54216314ccdaf1"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/inventory/safety_stock_engine.dart",
+      "sha256": "076a7a44ea2143a94bbaad838911ec1845562e47551710e9b2b8175ebd61cbc8"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/npv_engine.dart",
+      "sha256": "43d32889d2512735cf040c351dedd05748ff2391f12715d55ff5900e31aa6c16"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/oee_engine.dart",
+      "sha256": "9bc0e219dca5eefcf059ed3cd3e808d448e3cfe2a27c786d79316c49df882a30"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/production/capacity_utilization_engine.dart",
+      "sha256": "63bf6d9fb19a76a55408f54f61f40fafe6df2e0d10a02bbafb12e18883664037"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/production/cycle_time_engine.dart",
+      "sha256": "ee120f1332f05455c51da4c6453c87c1dc293ef2a74aab20e7646b80c3253fb2"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/production/labor_productivity_engine.dart",
+      "sha256": "8c6336e33a144f9f8c7dc400db966fe84f79a949f6dcddc11b12fae3d463a61c"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/production/production_capacity_engine.dart",
+      "sha256": "dcee0212d461394acc557c9b94fec153e4970eb95ba5af88449bcd1e9767bec6"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/production/production_support.dart",
+      "sha256": "2f79b7b573567559e33b8b8545f29f51f9f122d190af020c6fa6b21c6d146273"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/production/smed_engine.dart",
+      "sha256": "5ec3a80d65b7f645f988583b120fa0c69aea2bb1b5cf3ff4091b9556eeddb8c1"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/production/takt_time_engine.dart",
+      "sha256": "306b8ae9d6e549d704a7d5a91764f29652c91951aa1da6b5def105ff6f2a901a"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/production/throughput_engine.dart",
+      "sha256": "da8a33221ccfbe9afbcc23de9e8475ccf58fcbae17f538992b888032be93e631"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/production/unit_production_cost_engine.dart",
+      "sha256": "4ca7b5333e523bd2f0000fa48da27ceda6d1dda54e3448b51ce31ba83df2b0b3"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/production/wip_engine.dart",
+      "sha256": "cece38cd528ca0888ea00f8c98dab553a17a726ebef04bec37751e1b94db6c60"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/project/cpm_engine.dart",
+      "sha256": "6219bb86737236af740c623c7651c2ca8c06301d40ed696ca1107ad076798299"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/project/duration_comparison_engine.dart",
+      "sha256": "ea417776009562bb25ed3edfba401a41555c71b46d6a92ba426c8a9e415920a4"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/project/eac_etc_engine.dart",
+      "sha256": "2ac21898aae278a917aa642feb8ec0698bae50e6489a227514f4ca4fe9cbb978"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/project/evm_performance_engine.dart",
+      "sha256": "650a2921024a28e4ee36275d7b1e7aa83e1f0f6322d2a35e1f77c01cba99af4d"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/project/pert_duration_engine.dart",
+      "sha256": "8ccd91e18dd239fcf755c1d600e7fa63a5ac7b16678a61619d6842c1e9b93a51"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/project/project_float_engine.dart",
+      "sha256": "eb81f0f9fbe4afe548c6fd123e8df21ec0d0cc68a8dd2ca4986cae7b37e39e6a"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/project/sv_cv_engine.dart",
+      "sha256": "fd67c2d37bc91494a71b2937ce31a68b0261dc6337f236fc484586ff5e38895b"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/project/three_point_engine.dart",
+      "sha256": "7ff89b7fd9e03ba0c842012012a825611252a5b29919e050f5d2589e6371df3d"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/quality/coq_engine.dart",
+      "sha256": "e72e937796608d18a7f8a1d40134d5f7c40a4cc4104afa5e11c1c58175e94431"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/quality/cpk_engine.dart",
+      "sha256": "87760b0fe5ed125764b4ae1cb7268867ab2abb5ed5b13335cfdbe769322ad4b2"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/quality/dpmo_engine.dart",
+      "sha256": "e648483344cad8befb49ba64a75497788efb0965db75dab88246a289bcf85be4"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/quality/pp_engine.dart",
+      "sha256": "755ecea66c92496440e00f0d5e6b06f924938176b5112cea38c264f822c5b9a6"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/quality/ppk_engine.dart",
+      "sha256": "9d59f95cfcdf510c880d11297b99672b3275c6e9551d956067f78241e58fef13"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/quality/sigma_level_engine.dart",
+      "sha256": "662b1e36fe3a984bff4a82cea74216b2915ddd438299f7a14f9023ee8606f876"
+    },
+    {
+      "path": "lib/features/calculators/domain/engines/quality/xbar_control_engine.dart",
+      "sha256": "81d087d7e48100bee78d391e5fa6de5d9afdd2162ee2b150755aa13a0368526f"
+    },
+    {
+      "path": "lib/features/calculators/domain/hr/hr_support.dart",
+      "sha256": "9cd3556b62eabc162719ea753ce4d072d08922ed638a0256e277fcb29a73389c"
+    },
+    {
+      "path": "lib/features/calculators/domain/models/calculation_result.dart",
+      "sha256": "de77ba4517141e3c89b42e19b93089d27a6d649b8331cf4f229a905908164332"
+    },
+    {
+      "path": "lib/features/calculators/domain/models/calculator_category.dart",
+      "sha256": "844c94d22f97cca23213ec9aba6f7d3e54cdfb350bafefeed5174759fdf7946c"
+    },
+    {
+      "path": "lib/features/calculators/domain/models/calculator_definition.dart",
+      "sha256": "980bd18a247f5cecf2a42c9a9013bd110d6a1ef29b3e80ab3c022b2bd8781ddd"
+    },
+    {
+      "path": "lib/features/calculators/domain/models/calculator_input.dart",
+      "sha256": "2db01dfb851c7bed92934fce8249e617f67295e0ceafc50ea28fd046c6ed5074"
+    },
+    {
+      "path": "lib/features/calculators/domain/models/input_field_definition.dart",
+      "sha256": "a072cab7074a4e734006b9a7d090890869e13b38c80f8acf175a33edc381d602"
+    },
+    {
+      "path": "lib/features/calculators/domain/project/estimate_moments.dart",
+      "sha256": "2faf83d2113a9b513cd05ac8c65ecf6f3da03de20255cfd44dffadb8cc985db7"
+    },
+    {
+      "path": "lib/features/calculators/domain/project/network_metrics.dart",
+      "sha256": "ac931390445e60d1317a3c3a4ff68975facb69656744da0aab779abcfdffea65"
+    },
+    {
+      "path": "lib/features/calculators/domain/project/project_network.dart",
+      "sha256": "d2a3e41f1c0ee8a22d907d88072d032595152b902658c87a8f3111f38a71f207"
+    },
+    {
+      "path": "lib/features/calculators/domain/services/input_normalizer.dart",
+      "sha256": "dbe9baad64ff616b454c34db58433751250b11828d9b93f010737d2c95135870"
+    },
+    {
+      "path": "lib/features/calculators/domain/src/guards.dart",
+      "sha256": "989b8726ae47fb2cb72c8eaa7fb039553f9ead089ba39dfe492be774c5e26d25"
+    },
+    {
+      "path": "lib/features/calculators/domain/statistics/normal_quantile.dart",
+      "sha256": "b1b8fb5f3364c00df59e66ab1fd55434d336332cfead3cc1f082176681b532dd"
+    },
+    {
+      "path": "lib/features/calculators/domain/statistics/tool_numeric.dart",
+      "sha256": "ba7a083b521a6a38ddbdc26571808eacf5e1c0fd03ab4bed0137906e97eccc0b"
+    },
+    {
+      "path": "lib/features/calculators/presentation/README.md",
+      "sha256": "73c6adc5e5673c7b6981a9d289f148e9cffb257a678b09330c6a96fc3baba801"
+    },
+    {
+      "path": "lib/features/calculators/presentation/controllers/calculator_form_controller.dart",
+      "sha256": "eec2e13c42d6b907e7ad32d08ffd70506eb4342d966a801a2cb3fbba28df2c1c"
+    },
+    {
+      "path": "lib/features/calculators/presentation/formatting/calculator_text.dart",
+      "sha256": "e1c19f2b588992e1c0c9e392fe3e459cf15d72c56cbbb24006f7e0408667ed83"
+    },
+    {
+      "path": "lib/features/calculators/presentation/formatting/result_text_export.dart",
+      "sha256": "48b6de3d9edcd766027510ea27f69d4fadfe8ccb9e49c2e5eee6b9162c9eeb77"
+    },
+    {
+      "path": "lib/features/calculators/presentation/pages/calculator_page.dart",
+      "sha256": "8d5bf31c325c8890f52f0dc6b09382c371818a73dd5eb15b418c69c364dbf7db"
+    },
+    {
+      "path": "lib/features/calculators/presentation/services/result_actions.dart",
+      "sha256": "24fecaf7c0a82b03684317c0c5ca047c153569c644d3e45429440218b44eedaa"
+    },
+    {
+      "path": "lib/features/calculators/presentation/widgets/calculator_field.dart",
+      "sha256": "fe515389ae2380c7d34f2ef959603570be207c59efe46eef222e3b24e536af48"
+    },
+    {
+      "path": "lib/features/calculators/presentation/widgets/calculator_formula.dart",
+      "sha256": "98c9206a9da7f95f8f07d017faaf0829f3b0dba24660838e4ddb01de6c2c7b41"
+    },
+    {
+      "path": "lib/features/calculators/presentation/widgets/calculator_result_card.dart",
+      "sha256": "3d2a8635c001a9305d74100ceaa6c651924898fe5756a6e5f68c5463c8a0d3ee"
+    },
+    {
+      "path": "lib/features/favorites/data/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "lib/features/favorites/domain/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "lib/features/favorites/presentation/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "lib/features/glossary/data/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "lib/features/glossary/domain/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "lib/features/glossary/domain/glossary_catalog.dart",
+      "sha256": "6cea3f171e35323ec39c7953592772c47fa86470763a82161a7c1e0f2f95982e"
+    },
+    {
+      "path": "lib/features/glossary/presentation/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "lib/features/glossary/presentation/glossary_page.dart",
+      "sha256": "dda9f14bb1e1b56bdc4996ea72c51500a562dbbd7d63a6bbd1e4aaaa895c9a6b"
+    },
+    {
+      "path": "lib/features/history/data/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "lib/features/history/data/calculation_snapshot_codec.dart",
+      "sha256": "fb47230e8045f8db93905d7d593b97b3b289200976d7f2c6c772c8dac59956d4"
+    },
+    {
+      "path": "lib/features/history/data/drift_tool_repository.dart",
+      "sha256": "2464e1e71723fae4f4da330a569d16ca2dff6999836e1a0ff988d497c98cc86d"
+    },
+    {
+      "path": "lib/features/history/domain/recent_calculation.dart",
+      "sha256": "737859b00c9c46a4bc792860b65d9438f8c8702cf1ada451c12d9f05014368d9"
+    },
+    {
+      "path": "lib/features/history/domain/tool_repository.dart",
+      "sha256": "f54ec12c594ba5f9463cdc48b808caa3c7854628fb4bd0a4528bf02e55cf5fa2"
+    },
+    {
+      "path": "lib/features/history/presentation/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "lib/features/history/presentation/pages/history_page.dart",
+      "sha256": "7dba964ad857f35f27527bb05664c32f5f14de129beaf52f50913adc1caed3b1"
+    },
+    {
+      "path": "lib/features/home/data/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "lib/features/home/domain/catalog_search.dart",
+      "sha256": "ff835176ecdb8705d261350472b968eb2e298e257b9a49af192db899ed79eee0"
+    },
+    {
+      "path": "lib/features/home/domain/tool_catalog.dart",
+      "sha256": "5d1bbc8c48f19c6bef51293c089e8db6bf4dcae2fda0eba164f9c8607abf1e6e"
+    },
+    {
+      "path": "lib/features/home/presentation/controllers/tool_session_controller.dart",
+      "sha256": "c515f31680730a99d9dcd00faa10c07d1b91f7188e11c4ae716fd0d8376dbcec"
+    },
+    {
+      "path": "lib/features/home/presentation/pages/category_page.dart",
+      "sha256": "102e2f70ef199abcd3ec638886c95cfa02631e6eb0ada0f1eab234e10101a139"
+    },
+    {
+      "path": "lib/features/home/presentation/pages/home_page.dart",
+      "sha256": "4aa1a13ba67efa7fe9294e9e87e137414f18ccfde8bfad70bc4a5c5c2e83f361"
+    },
+    {
+      "path": "lib/features/home/presentation/widgets/category_grid.dart",
+      "sha256": "aaa1a3e25f7d7e20a4cd35d668e291120a1ab7194a6591c62f31c010d2f2cf05"
+    },
+    {
+      "path": "lib/features/home/presentation/widgets/tool_tile.dart",
+      "sha256": "5662975e335f66e152a38e2cbbbdf73b9f7161fa7fcc6cbe888e898e65c5daab"
+    },
+    {
+      "path": "lib/features/settings/data/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "lib/features/settings/domain/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "lib/features/settings/presentation/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "lib/features/settings/presentation/pages/settings_page.dart",
+      "sha256": "5fcb8751e338dc80425e14ac6ba2edaf65aabb1abebd296865c2114821e61044"
+    },
+    {
+      "path": "lib/features/utilities/data/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "lib/features/utilities/domain/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "lib/features/utilities/domain/discount.dart",
+      "sha256": "b32b68b341507306c738127a701ebd050a168a9b02efe3d160781eaf408c0add"
+    },
+    {
+      "path": "lib/features/utilities/domain/percentage_base.dart",
+      "sha256": "6f227d47ddbd0d9f2f6d7dc78a2f1a0ab669bad2d9aeaca56a6a9773af931a97"
+    },
+    {
+      "path": "lib/features/utilities/domain/percentage_change.dart",
+      "sha256": "e75189ec31796fc0f541f42595179f06e3003c6e0c83e5df278ff7fd91e688b4"
+    },
+    {
+      "path": "lib/features/utilities/domain/percentage_of.dart",
+      "sha256": "62db4c293dad35b455e01a8df85cb7d26cfdc3802a3690e9d3463ea2639c8f79"
+    },
+    {
+      "path": "lib/features/utilities/domain/unit_conversion.dart",
+      "sha256": "e846f2f6ae9dd3203ad8f8f102ccc0516e924fdb941276d80de9421bed14c932"
+    },
+    {
+      "path": "lib/features/utilities/presentation/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "lib/features/utilities/presentation/pages/typography_lab_page.dart",
+      "sha256": "dc3d49d112c737321072d1955a106565a69ce57abefeb2c646290c6a76ac18d0"
+    },
+    {
+      "path": "lib/features/welcome/data/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "lib/features/welcome/domain/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "lib/features/welcome/presentation/pages/welcome_page.dart",
+      "sha256": "4bce950879243747465620057504570b01b1d1853e8d831f827b88d53e36e0b2"
+    },
+    {
+      "path": "lib/main.dart",
+      "sha256": "9256268e2a0b76bfae79f1637448bf29f84257372d41cec315971000a5cefc9b"
+    },
+    {
+      "path": "pubspec.lock",
+      "sha256": "f1c1442722e468162613a14499578c8b855e7f6d15fd1c17420e3de05891efae"
+    },
+    {
+      "path": "pubspec.yaml",
+      "sha256": "77ef1eb135a70397b25d9c6d9e8329f2bbfc41cbace245027a8a14c45666ae1e"
+    }
+  ],
+  "intentional_runtime_changes": [
+    "lib/app/app.dart",
+    "lib/core/widgets/app_startup_splash.dart"
+  ],
+  "runtime_dependencies_changed": false
+}

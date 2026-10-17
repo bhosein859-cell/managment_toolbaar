@@ -1,0 +1,24 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart
+00:00 +0: ten finance runners, preserved NPV and 73 actual tools
+00:00 +1: NPV first cash flow is CF1 and discount rate belongs to each period
+00:00 +2: npv: full definition formula and educational numeric example
+00:00 +3: npv: Arabic Persian Latin digits and malformed form data
+00:00 +4: irr: full definition formula and educational numeric example
+00:00 +5: irr: Arabic Persian Latin digits and malformed form data
+00:00 +6: payback: full definition formula and educational numeric example
+00:00 +7: payback: Arabic Persian Latin digits and malformed form data
+00:00 +8: roi: full definition formula and educational numeric example
+00:00 +9: roi: Arabic Persian Latin digits and malformed form data
+00:00 +10: current_ratio: full definition formula and educational numeric example
+00:00 +11: current_ratio: Arabic Persian Latin digits and malformed form data
+00:00 +12: quick_ratio: full definition formula and educational numeric example
+00:00 +13: quick_ratio: Arabic Persian Latin digits and malformed form data
+00:00 +14: wacc: full definition formula and educational numeric example
+00:00 +15: wacc: Arabic Persian Latin digits and malformed form data
+00:00 +16: compound_interest: full definition formula and educational numeric example
+00:00 +17: compound_interest: Arabic Persian Latin digits and malformed form data
+00:00 +18: loan_payment: full definition formula and educational numeric example
+00:00 +19: loan_payment: Arabic Persian Latin digits and malformed form data
+00:00 +20: break_even: full definition formula and educational numeric example
+00:00 +21: break_even: Arabic Persian Latin digits and malformed form data
+00:00 +22: All tests passed!

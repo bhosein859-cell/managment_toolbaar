@@ -1,0 +1,23 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/production/unit_production_cost_test.dart
+00:00 +0: /home/user/management_toolbox/test/features/calculators/production/unit_production_cost_test.dart: unit_production_cost: independent numeric reference
+00:00 +1: /home/user/management_toolbox/test/features/calculators/production/unit_production_cost_test.dart: unit_production_cost: typed bind validates independently of form
+00:00 +2: /home/user/management_toolbox/test/features/calculators/production/unit_production_cost_test.dart: unit_production_cost: rejects negative/nonfinite allocated_cost in direct calculation
+00:00 +3: /home/user/management_toolbox/test/features/calculators/production/unit_production_cost_test.dart: unit_production_cost: zero allocated_cost is a real valid boundary
+00:00 +4: /home/user/management_toolbox/test/features/calculators/production/unit_production_cost_test.dart: unit_production_cost: rejects negative/nonfinite good_output in direct calculation
+00:00 +5: /home/user/management_toolbox/test/features/calculators/production/unit_production_cost_test.dart: unit_production_cost: zero good_output is rejected
+00:00 +6: /home/user/management_toolbox/test/features/calculators/production/unit_production_cost_test.dart: unit_production_cost: overflow returns Persian numeric-range failure, not Infinity
+00:00 +7: /home/user/management_toolbox/test/features/calculators/production/unit_production_cost_test.dart: unit_production_cost: underflow is not disguised as zero
+00:00 +8: /home/user/management_toolbox/test/features/calculators/production/unit_production_cost_test.dart: unit_production_cost: 20 independent Decimal fixtures
+00:00 +9: /home/user/management_toolbox/test/features/calculators/production/unit_production_cost_test.dart: unit_production_cost: semantic and scale boundaries
+00:00 +10: loading /home/user/management_toolbox/test/features/calculators/production/wip_test.dart
+00:00 +10: /home/user/management_toolbox/test/features/calculators/production/wip_test.dart: wip: independent numeric reference
+00:00 +11: /home/user/management_toolbox/test/features/calculators/production/wip_test.dart: wip: typed bind validates independently of form
+00:00 +12: /home/user/management_toolbox/test/features/calculators/production/wip_test.dart: wip: rejects negative/nonfinite throughput_rate in direct calculation
+00:00 +13: /home/user/management_toolbox/test/features/calculators/production/wip_test.dart: wip: zero throughput_rate is rejected
+00:00 +14: /home/user/management_toolbox/test/features/calculators/production/wip_test.dart: wip: rejects negative/nonfinite flow_time in direct calculation
+00:00 +15: /home/user/management_toolbox/test/features/calculators/production/wip_test.dart: wip: zero flow_time is a real valid boundary
+00:00 +16: /home/user/management_toolbox/test/features/calculators/production/wip_test.dart: wip: overflow returns Persian numeric-range failure, not Infinity
+00:00 +17: /home/user/management_toolbox/test/features/calculators/production/wip_test.dart: wip: underflow is not disguised as zero
+00:00 +18: /home/user/management_toolbox/test/features/calculators/production/wip_test.dart: wip: 20 independent Decimal fixtures
+00:00 +19: /home/user/management_toolbox/test/features/calculators/production/wip_test.dart: wip: semantic and scale boundaries
+00:00 +20: All tests passed!

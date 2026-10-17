@@ -1,0 +1,123 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart
+00:00 +0: cpk: independently typed example and assumptions
+00:00 +1: cpk.usl: rejects NaN and both infinities directly
+00:00 +2: cpk.lsl: rejects NaN and both infinities directly
+00:00 +3: cpk.mean: rejects NaN and both infinities directly
+00:00 +4: cpk.sigma: rejects NaN and both infinities directly
+00:00 +5: cpk.sigma: rejects lower-bound violation
+00:00 +6: pp: independently typed example and assumptions
+00:00 +7: pp.usl: rejects NaN and both infinities directly
+00:00 +8: pp.lsl: rejects NaN and both infinities directly
+00:00 +9: pp.sigma: rejects NaN and both infinities directly
+00:00 +10: pp.sigma: rejects lower-bound violation
+00:00 +11: ppk: independently typed example and assumptions
+00:00 +12: ppk.usl: rejects NaN and both infinities directly
+00:00 +13: ppk.lsl: rejects NaN and both infinities directly
+00:00 +14: ppk.mean: rejects NaN and both infinities directly
+00:00 +15: ppk.sigma: rejects NaN and both infinities directly
+00:00 +16: ppk.sigma: rejects lower-bound violation
+00:00 +17: dpmo: independently typed example and assumptions
+00:00 +18: dpmo.defects: rejects NaN and both infinities directly
+00:00 +19: dpmo.defects: rejects lower-bound violation
+00:00 +20: dpmo.defects: rejects fractional count
+00:00 +21: dpmo.units: rejects NaN and both infinities directly
+00:00 +22: dpmo.units: rejects lower-bound violation
+00:00 +23: dpmo.units: rejects fractional count
+00:00 +24: dpmo.opportunities: rejects NaN and both infinities directly
+00:00 +25: dpmo.opportunities: rejects lower-bound violation
+00:00 +26: dpmo.opportunities: rejects fractional count
+00:00 +27: sigma_level: independently typed example and assumptions
+00:00 +28: sigma_level.dpmo: rejects NaN and both infinities directly
+00:00 +29: sigma_level.dpmo: rejects lower-bound violation
+00:00 +30: sigma_level.dpmo: rejects upper-bound violation
+00:00 +31: xbar_control: independently typed example and assumptions
+00:00 +32: xbar_control.subgroup_size: rejects NaN and both infinities directly
+00:00 +33: xbar_control.subgroup_size: rejects lower-bound violation
+00:00 +34: xbar_control.subgroup_size: rejects upper-bound violation
+00:00 +35: xbar_control.subgroup_size: rejects fractional count
+00:00 +36: coq: independently typed example and assumptions
+00:00 +37: coq.prevention: rejects NaN and both infinities directly
+00:00 +38: coq.prevention: rejects lower-bound violation
+00:00 +39: coq.appraisal: rejects NaN and both infinities directly
+00:00 +40: coq.appraisal: rejects lower-bound violation
+00:00 +41: coq.internal_failure: rejects NaN and both infinities directly
+00:00 +42: coq.internal_failure: rejects lower-bound violation
+00:00 +43: coq.external_failure: rejects NaN and both infinities directly
+00:00 +44: coq.external_failure: rejects lower-bound violation
+00:00 +45: eoq: independently typed example and assumptions
+00:00 +46: eoq.annual_demand: rejects NaN and both infinities directly
+00:00 +47: eoq.annual_demand: rejects lower-bound violation
+00:00 +48: eoq.order_cost: rejects NaN and both infinities directly
+00:00 +49: eoq.order_cost: rejects lower-bound violation
+00:00 +50: eoq.holding_cost: rejects NaN and both infinities directly
+00:00 +51: eoq.holding_cost: rejects lower-bound violation
+00:00 +52: rop: independently typed example and assumptions
+00:00 +53: rop.daily_demand: rejects NaN and both infinities directly
+00:00 +54: rop.daily_demand: rejects lower-bound violation
+00:00 +55: rop.lead_time: rejects NaN and both infinities directly
+00:00 +56: rop.lead_time: rejects lower-bound violation
+00:00 +57: rop.safety_stock: rejects NaN and both infinities directly
+00:00 +58: rop.safety_stock: rejects lower-bound violation
+00:00 +59: safety_stock: independently typed example and assumptions
+00:00 +60: safety_stock.mean_demand: rejects NaN and both infinities directly
+00:00 +61: safety_stock.mean_demand: rejects lower-bound violation
+00:00 +62: safety_stock.demand_sd: rejects NaN and both infinities directly
+00:00 +63: safety_stock.demand_sd: rejects lower-bound violation
+00:00 +64: safety_stock.mean_lead: rejects NaN and both infinities directly
+00:00 +65: safety_stock.mean_lead: rejects lower-bound violation
+00:00 +66: safety_stock.lead_sd: rejects NaN and both infinities directly
+00:00 +67: safety_stock.lead_sd: rejects lower-bound violation
+00:00 +68: safety_stock.service_level: rejects NaN and both infinities directly
+00:00 +69: safety_stock.service_level: rejects lower-bound violation
+00:00 +70: safety_stock.service_level: rejects upper-bound violation
+00:00 +71: abc: independently typed example and assumptions
+00:00 +72: abc.a_threshold: rejects NaN and both infinities directly
+00:00 +73: abc.a_threshold: rejects lower-bound violation
+00:00 +74: abc.a_threshold: rejects upper-bound violation
+00:00 +75: abc.b_threshold: rejects NaN and both infinities directly
+00:00 +76: abc.b_threshold: rejects lower-bound violation
+00:00 +77: abc.b_threshold: rejects upper-bound violation
+00:00 +78: inventory_turnover: independently typed example and assumptions
+00:00 +79: inventory_turnover.cogs: rejects NaN and both infinities directly
+00:00 +80: inventory_turnover.cogs: rejects lower-bound violation
+00:00 +81: inventory_turnover.average_inventory: rejects NaN and both infinities directly
+00:00 +82: inventory_turnover.average_inventory: rejects lower-bound violation
+00:00 +83: days_inventory: independently typed example and assumptions
+00:00 +84: days_inventory.average_inventory: rejects NaN and both infinities directly
+00:00 +85: days_inventory.average_inventory: rejects lower-bound violation
+00:00 +86: days_inventory.cogs: rejects NaN and both infinities directly
+00:00 +87: days_inventory.cogs: rejects lower-bound violation
+00:00 +88: days_inventory.period_days: rejects NaN and both infinities directly
+00:00 +89: days_inventory.period_days: rejects lower-bound violation
+00:00 +90: inventory_holding_cost: independently typed example and assumptions
+00:00 +91: inventory_holding_cost.average_value: rejects NaN and both infinities directly
+00:00 +92: inventory_holding_cost.average_value: rejects lower-bound violation
+00:00 +93: inventory_holding_cost.annual_rate: rejects NaN and both infinities directly
+00:00 +94: inventory_holding_cost.annual_rate: rejects lower-bound violation
+00:00 +95: inventory_holding_cost.period_days: rejects NaN and both infinities directly
+00:00 +96: inventory_holding_cost.period_days: rejects lower-bound violation
+00:00 +97: inventory_holding_cost.year_days: rejects NaN and both infinities directly
+00:00 +98: inventory_holding_cost.year_days: rejects lower-bound violation
+00:00 +99: reorder_interval: independently typed example and assumptions
+00:00 +100: reorder_interval.order_quantity: rejects NaN and both infinities directly
+00:00 +101: reorder_interval.order_quantity: rejects lower-bound violation
+00:00 +102: reorder_interval.annual_demand: rejects NaN and both infinities directly
+00:00 +103: reorder_interval.annual_demand: rejects lower-bound violation
+00:00 +104: reorder_interval.year_days: rejects NaN and both infinities directly
+00:00 +105: reorder_interval.year_days: rejects lower-bound violation
+00:00 +106: cpk: 20 independent Python Decimal/statistics references
+00:00 +107: pp: 20 independent Python Decimal/statistics references
+00:00 +108: ppk: 20 independent Python Decimal/statistics references
+00:00 +109: dpmo: 20 independent Python Decimal/statistics references
+00:00 +110: sigma_level: 20 independent Python Decimal/statistics references
+00:00 +111: xbar_control: 20 independent Python Decimal/statistics references
+00:00 +112: coq: 20 independent Python Decimal/statistics references
+00:00 +113: eoq: 20 independent Python Decimal/statistics references
+00:00 +114: rop: 20 independent Python Decimal/statistics references
+00:00 +115: safety_stock: 20 independent Python Decimal/statistics references
+00:00 +116: abc: 20 independent Python Decimal/statistics references
+00:00 +117: inventory_turnover: 20 independent Python Decimal/statistics references
+00:00 +118: days_inventory: 20 independent Python Decimal/statistics references
+00:00 +119: inventory_holding_cost: 20 independent Python Decimal/statistics references
+00:00 +120: reorder_interval: 20 independent Python Decimal/statistics references
+00:00 +121: All tests passed!

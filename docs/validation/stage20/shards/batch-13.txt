@@ -1,0 +1,14 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/domain/engine_test.dart
+00:00 +0: compiled engine receives typed normalized parameters
+00:00 +1: invalid input never reaches bind or calculate
+00:00 +2: cross-field rejection prevents calculation
+00:00 +3: legitimate domain failure is returned without fabricated result
+00:00 +4: unexpected error or nonfinite result is safe and diagnosable: true/false
+00:00 +5: unexpected error or nonfinite result is safe and diagnosable: false/true
+00:00 +6: unexpected error or nonfinite result is safe and diagnosable: false/false
+00:00 +7: diagnostics callback failure does not leak or replace user failure
+00:00 +8: different engine identity is rejected before execution
+00:00 +9: arbitrary formula text is inert; only compiled engine code runs
+00:00 +10: runner remains usable after invalid input followed by valid input
+00:00 +11: typed rejected binding snapshots issues and rejects empty failure
+00:00 +12: All tests passed!

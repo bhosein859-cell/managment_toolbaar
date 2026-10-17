@@ -1,0 +1,13 @@
+test_complete_tree_is_preserved_with_checksums (test_package_windows.WindowsPackageTest.test_complete_tree_is_preserved_with_checksums) ... ok
+test_empty_dll_is_rejected (test_package_windows.WindowsPackageTest.test_empty_dll_is_rejected) ... ok
+test_exe_alone_is_rejected (test_package_windows.WindowsPackageTest.test_exe_alone_is_rejected) ... ok
+test_missing_assets_are_rejected (test_package_windows.WindowsPackageTest.test_missing_assets_are_rejected) ... ok
+test_native_sqlite_is_required (test_package_windows.WindowsPackageTest.test_native_sqlite_is_required) ... ok
+test_output_inside_input_is_rejected (test_package_windows.WindowsPackageTest.test_output_inside_input_is_rejected) ... ok
+test_reserved_manifest_collision_is_rejected (test_package_windows.WindowsPackageTest.test_reserved_manifest_collision_is_rejected) ... ok
+test_symlink_is_rejected (test_package_windows.WindowsPackageTest.test_symlink_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.013s
+
+OK

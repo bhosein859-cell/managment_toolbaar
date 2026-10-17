@@ -1,0 +1,23 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/domain/input_normalizer_test.dart
+00:00 +0: normalizes ۱۲۳٫۴۵ before binding
+00:00 +1: normalizes ١٢٣٫٤٥ before binding
+00:00 +2: normalizes 123.45 before binding
+00:00 +3: normalizes ۱۲٣.45 before binding
+00:00 +4: normalizes signs, thousands and inclusive bounds
+00:00 +5: percentages are checked as display points then converted once
+00:00 +6: missing gets default, explicit blank never reuses it
+00:00 +7: required, optional blank and unknown fields have distinct handling
+00:00 +8: invalid numeric input never produces a value: NaN
+00:00 +9: invalid numeric input never produces a value: Infinity
+00:00 +10: invalid numeric input never produces a value: 1,5
+00:00 +11: invalid numeric input never produces a value: abc
+00:00 +12: invalid numeric input never produces a value: ۱٫۲٫۳
+00:00 +13: invalid numeric input never produces a value: 1e3
+00:00 +14: invalid numeric input never produces a value: overflow
+00:00 +15: bounds and integer validation provide Persian issues
+00:00 +16: choice accepts stable IDs rather than display labels, supports defaults
+00:00 +17: optional fields and list defaults are normalized predictably
+00:00 +18: list parses three digit systems and reports index-specific errors
+00:00 +19: wrong raw value types are rejected even when optional and empty
+00:00 +20: all field issues accumulate and invalid input is immutable
+00:00 +21: All tests passed!

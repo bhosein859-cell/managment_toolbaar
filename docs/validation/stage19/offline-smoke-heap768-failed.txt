@@ -1,0 +1,147 @@
+00:00 +0: loading /home/user/management_toolbox/test/release/offline_smoke_test.dart
+evacuation failed
+evacuation failed
+Exhausted heap space, trying to allocate 262176 bytes.
+Unhandled exception:
+Crash when compiling:
+Out of Memory
+
+#0      _LinkedHashMapMixin._init (dart:_compact_hash)
+#1      _LinkedHashMapMixin._rehash (dart:_compact_hash)
+#2      _LinkedHashMapMixin._insert (dart:_compact_hash)
+#3      _LinkedHashMapMixin._set (dart:_compact_hash)
+#4      ClosedWorldClassHierarchy._topologicalSortVisit (package:kernel/class_hierarchy.dart)
+#5      ClosedWorldClassHierarchy._initialize (package:kernel/class_hierarchy.dart)
+#6      new ClassHierarchy (package:kernel/class_hierarchy.dart)
+#7      SourceLoader.computeHierarchy (package:front_end/src/source/source_loader.dart)
+#8      KernelTarget.buildOutlines.<anonymous closure> (package:front_end/src/kernel/kernel_target.dart)
+#9      withCrashReporting (package:front_end/src/base/crash.dart)
+#10     KernelTarget.buildOutlines (package:front_end/src/kernel/kernel_target.dart)
+#11     IncrementalCompiler.computeDelta.<anonymous closure> (package:front_end/src/base/incremental_compiler.dart)
+#12     _SuspendState._createAsyncStarCallback.<anonymous closure> (dart:async-patch/async_patch.dart)
+#13     _rootRunUnary (dart:async/zone_root.dart)
+#14     Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart)
+#15     Future._propagateToListeners (dart:async/future_impl.dart)
+#16     Future._completeWithValue (dart:async/future_impl.dart)
+#17     _SuspendState._createAsyncStarCallback.<anonymous closure> (dart:async-patch/async_patch.dart)
+#18     _rootRunUnary (dart:async/zone_root.dart)
+#19     Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart)
+#20     Future._propagateToListeners (dart:async/future_impl.dart)
+#21     Future._completeWithValue (dart:async/future_impl.dart)
+#22     _SuspendState._createAsyncStarCallback.<anonymous closure> (dart:async-patch/async_patch.dart)
+#23     _rootRunUnary (dart:async/zone_root.dart)
+#24     Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart)
+#25     Future._propagateToListeners (dart:async/future_impl.dart)
+#26     Future._completeWithValue (dart:async/future_impl.dart)
+#27     _SuspendState._createAsyncStarCallback.<anonymous closure> (dart:async-patch/async_patch.dart)
+#28     _rootRunUnary (dart:async/zone_root.dart)
+#29     Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart)
+#30     Future._propagateToListeners (dart:async/future_impl.dart)
+#31     Future._completeWithValue (dart:async/future_impl.dart)
+#32     _SuspendState._createAsyncStarCallback.<anonymous closure> (dart:async-patch/async_patch.dart)
+#33     _rootRunUnary (dart:async/zone_root.dart)
+#34     Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart)
+#35     Future._propagateToListeners (dart:async/future_impl.dart)
+#36     Future._completeWithValue (dart:async/future_impl.dart)
+#37     _SuspendState._createAsyncStarCallback.<anonymous closure> (dart:async-patch/async_patch.dart)
+#38     _rootRunUnary (dart:async/zone_root.dart)
+#39     Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart)
+#40     Future._propagateToListeners (dart:async/future_impl.dart)
+#41     Future._completeWithValue (dart:async/future_impl.dart)
+#42     _SuspendState._createAsyncStarCallback.<anonymous closure> (dart:async-patch/async_patch.dart)
+#43     _rootRunUnary (dart:async/zone_root.dart)
+#44     Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart)
+#45     Future._propagateToListeners (dart:async/future_impl.dart)
+#46     Future._completeWithValue (dart:async/future_impl.dart)
+#47     Future._asyncCompleteWithValue.<anonymous closure> (dart:async/future_impl.dart)
+#48     _rootRun (dart:async/zone_root.dart)
+#49     _CustomZone.run (dart:async/zone.dart)
+#50     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart)
+#51     _microtaskLoop (dart:async/schedule_microtask.dart)
+#52     _startMicrotaskLoop (dart:async/schedule_microtask.dart)
+#53     _Timer._runTimers (dart:isolate-patch/timer_impl.dart)
+#54     _Timer._handleMessage (dart:isolate-patch/timer_impl.dart)
+#55     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart)
+00:00 +0 -1: loading /home/user/management_toolbox/test/release/offline_smoke_test.dart [E]
+  Error: The Dart compiler exited unexpectedly.
+  package:flutter_tools/src/base/common.dart 34:3  throwToolExit
+  package:flutter_tools/src/compile.dart 1011:15   DefaultResidentCompiler._compile.<fn>
+  dart:async/zone_root.dart 27:47                  _rootRun
+  dart:async/zone.dart 810:35                      _CustomZone.run
+  dart:async/zone.dart 702:7                       _CustomZone.runGuarded
+  dart:async/stream_impl.dart 434:13               _BufferingStreamSubscription._sendDone.sendDone
+  dart:async/stream_impl.dart 444:7                _BufferingStreamSubscription._sendDone
+  dart:async/stream_impl.dart 333:7                _BufferingStreamSubscription._close
+  dart:async/stream_transformers.dart 91:11        _SinkTransformerStreamSubscription._close
+  dart:async/stream_transformers.dart 21:11        _EventSinkWrapper.close
+  dart:convert/string_conversion.dart 244:11       _StringAdapterSink.close
+  dart:convert/line_splitter.dart 141:11           _LineSplitterSink.close
+  dart:async/stream_transformers.dart 136:24       _SinkTransformerStreamSubscription._handleDone
+  dart:async/zone_root.dart 27:47                  _rootRun
+  dart:async/zone.dart 810:35                      _CustomZone.run
+  dart:async/zone.dart 702:7                       _CustomZone.runGuarded
+  dart:async/stream_impl.dart 434:13               _BufferingStreamSubscription._sendDone.sendDone
+  dart:async/stream_impl.dart 444:7                _BufferingStreamSubscription._sendDone
+  dart:async/stream_impl.dart 333:7                _BufferingStreamSubscription._close
+  dart:async/stream_transformers.dart 91:11        _SinkTransformerStreamSubscription._close
+  dart:async/stream_transformers.dart 21:11        _EventSinkWrapper.close
+  dart:async/stream_transformers.dart 258:12       _HandlerEventSink.close
+  dart:async/stream_transformers.dart 136:24       _SinkTransformerStreamSubscription._handleDone
+  dart:async/zone_root.dart 27:47                  _rootRun
+  dart:async/zone.dart 810:35                      _CustomZone.run
+  dart:async/zone.dart 702:7                       _CustomZone.runGuarded
+  dart:async/stream_impl.dart 434:13               _BufferingStreamSubscription._sendDone.sendDone
+  dart:async/stream_impl.dart 444:7                _BufferingStreamSubscription._sendDone
+  dart:async/stream_impl.dart 333:7                _BufferingStreamSubscription._close
+  dart:async/stream_transformers.dart 91:11        _SinkTransformerStreamSubscription._close
+  dart:async/stream_transformers.dart 21:11        _EventSinkWrapper.close
+  dart:convert/string_conversion.dart 244:11       _StringAdapterSink.close
+  dart:convert/string_conversion.dart 304:20       _Utf8ConversionSink.close
+  dart:convert/chunked_conversion.dart 79:18       _ConverterStreamEventSink.close
+  dart:async/stream_transformers.dart 136:24       _SinkTransformerStreamSubscription._handleDone
+  dart:async/zone_root.dart 27:47                  _rootRun
+  dart:async/zone.dart 810:35                      _CustomZone.run
+  dart:async/zone.dart 702:7                       _CustomZone.runGuarded
+  dart:async/stream_impl.dart 434:13               _BufferingStreamSubscription._sendDone.sendDone
+  dart:async/stream_impl.dart 444:7                _BufferingStreamSubscription._sendDone
+  dart:async/stream_impl.dart 333:7                _BufferingStreamSubscription._close
+  dart:async/stream_controller.dart 806:19         _SyncStreamControllerDispatch._sendDone
+  dart:async/stream_controller.dart 652:7          _StreamController._closeUnchecked
+  dart:async/stream_controller.dart 645:5          _StreamController.close
+  dart:io-patch/socket_patch.dart 2913:21          _Socket._onData
+  dart:async/zone_root.dart 56:13                  _rootRunUnary
+  dart:async/zone.dart 816:35                      _CustomZone.runUnary
+  dart:async/zone.dart 710:7                       _CustomZone.runUnaryGuarded
+  dart:async/stream_impl.dart 381:11               _BufferingStreamSubscription._sendData
+  dart:async/stream_impl.dart 312:7                _BufferingStreamSubscription._add
+  dart:async/stream_controller.dart 798:19         _SyncStreamControllerDispatch._sendData
+  dart:async/stream_controller.dart 663:7          _StreamController._add
+  dart:async/stream_controller.dart 618:5          _StreamController.add
+  dart:io-patch/socket_patch.dart 2351:33          new _RawSocket.<fn>
+  dart:io-patch/socket_patch.dart 1672:18          _NativeSocket.issueReadEvent.issue
+  dart:async/schedule_microtask.dart 40:35         _microtaskLoop
+  dart:async/schedule_microtask.dart 49:5          _startMicrotaskLoop
+  dart:isolate-patch/isolate_patch.dart 127:13     _runPendingImmediateCallback
+  dart:isolate-patch/isolate_patch.dart 193:5      _RawReceivePort._handleMessage
+  
+  Null check operator used on a null value
+  package:flutter_tools/src/test/test_compiler.dart 271:34  TestCompiler._onCompilationRequest
+  
+  Error: The Dart compiler exited unexpectedly.
+  package:flutter_tools/src/base/common.dart 34:3  throwToolExit
+  package:flutter_tools/src/compile.dart 1024:11   DefaultResidentCompiler._compile.<fn>
+  dart:async/zone_root.dart 48:47                  _rootRunUnary
+  dart:async/zone.dart 816:35                      _CustomZone.runUnary
+  dart:async/future_impl.dart 948:45               Future._propagateToListeners.handleValueCallback
+  dart:async/future_impl.dart 977:13               Future._propagateToListeners
+  dart:async/future_impl.dart 720:5                Future._completeWithValue
+  dart:async/future_impl.dart 804:7                Future._asyncCompleteWithValue.<fn>
+  dart:async/zone_root.dart 35:13                  _rootRun
+  dart:async/zone.dart 810:35                      _CustomZone.run
+  dart:async/zone.dart 702:7                       _CustomZone.runGuarded
+  dart:async/zone.dart 743:23                      _CustomZone.bindCallbackGuarded.<fn>
+  dart:async/schedule_microtask.dart 40:35         _microtaskLoop
+  dart:async/schedule_microtask.dart 49:5          _startMicrotaskLoop
+  dart:isolate-patch/isolate_patch.dart 127:13     _runPendingImmediateCallback
+  dart:isolate-patch/isolate_patch.dart 193:5      _RawReceivePort._handleMessage
+  

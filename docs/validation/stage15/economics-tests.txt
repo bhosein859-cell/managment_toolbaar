@@ -1,0 +1,175 @@
+Resolving dependencies...
+Downloading packages...
+  material_color_utilities 0.13.0 (0.13.1 available)
+  meta 1.18.3 (1.19.0 available)
+  petitparser 7.0.2 (7.1.0 available)
+  test_api 0.7.12 (0.7.15 available)
+  vector_math 2.4.0 (2.4.3 available)
+  xml 7.0.1 (7.1.0 available)
+Got dependencies!
+6 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart
+00:00 +0: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: time_value_money: known typed example and explicit method
+00:00 +1: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: time_value_money.amount: NaN and infinity reject at typed boundary
+00:00 +2: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: time_value_money.amount: negative financial input rejects
+00:00 +3: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: time_value_money.rate: NaN and infinity reject at typed boundary
+00:00 +4: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: time_value_money.periods: NaN and infinity reject at typed boundary
+00:00 +5: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: time_value_money.periods: fractional, negative and too large reject
+00:00 +6: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: future_present_factor: known typed example and explicit method
+00:00 +7: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: future_present_factor.amount: NaN and infinity reject at typed boundary
+00:00 +8: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: future_present_factor.amount: negative financial input rejects
+00:00 +9: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: future_present_factor.rate: NaN and infinity reject at typed boundary
+00:00 +10: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: future_present_factor.periods: NaN and infinity reject at typed boundary
+00:00 +11: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: future_present_factor.periods: fractional, negative and too large reject
+00:00 +12: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: present_future_factor: known typed example and explicit method
+00:00 +13: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: present_future_factor.amount: NaN and infinity reject at typed boundary
+00:00 +14: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: present_future_factor.amount: negative financial input rejects
+00:00 +15: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: present_future_factor.rate: NaN and infinity reject at typed boundary
+00:00 +16: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: present_future_factor.periods: NaN and infinity reject at typed boundary
+00:00 +17: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: present_future_factor.periods: fractional, negative and too large reject
+00:00 +18: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: future_annuity_factor: known typed example and explicit method
+00:00 +19: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: future_annuity_factor.amount: NaN and infinity reject at typed boundary
+00:00 +20: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: future_annuity_factor.amount: negative financial input rejects
+00:00 +21: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: future_annuity_factor.rate: NaN and infinity reject at typed boundary
+00:00 +22: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: future_annuity_factor.periods: NaN and infinity reject at typed boundary
+00:00 +23: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: future_annuity_factor.periods: fractional, negative and too large reject
+00:00 +24: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: annuity_future_factor: known typed example and explicit method
+00:00 +25: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: annuity_future_factor.amount: NaN and infinity reject at typed boundary
+00:00 +26: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: annuity_future_factor.amount: negative financial input rejects
+00:00 +27: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: annuity_future_factor.rate: NaN and infinity reject at typed boundary
+00:00 +28: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: annuity_future_factor.periods: NaN and infinity reject at typed boundary
+00:00 +29: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: annuity_future_factor.periods: fractional, negative and too large reject
+00:00 +30: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: present_annuity_factor: known typed example and explicit method
+00:00 +31: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: present_annuity_factor.amount: NaN and infinity reject at typed boundary
+00:00 +32: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: present_annuity_factor.amount: negative financial input rejects
+00:00 +33: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: present_annuity_factor.rate: NaN and infinity reject at typed boundary
+00:00 +34: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: present_annuity_factor.periods: NaN and infinity reject at typed boundary
+00:00 +35: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: present_annuity_factor.periods: fractional, negative and too large reject
+00:00 +36: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: annuity_present_factor: known typed example and explicit method
+00:00 +37: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: annuity_present_factor.amount: NaN and infinity reject at typed boundary
+00:00 +38: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: annuity_present_factor.amount: negative financial input rejects
+00:00 +39: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: annuity_present_factor.rate: NaN and infinity reject at typed boundary
+00:00 +40: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: annuity_present_factor.periods: NaN and infinity reject at typed boundary
+00:00 +41: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: annuity_present_factor.periods: fractional, negative and too large reject
+00:00 +42: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: straight_line_depreciation: known typed example and explicit method
+00:00 +43: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: straight_line_depreciation.cost: NaN and infinity reject at typed boundary
+00:00 +44: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: straight_line_depreciation.cost: negative financial input rejects
+00:00 +45: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: straight_line_depreciation.salvage: NaN and infinity reject at typed boundary
+00:00 +46: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: straight_line_depreciation.salvage: negative financial input rejects
+00:00 +47: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: straight_line_depreciation.life: NaN and infinity reject at typed boundary
+00:00 +48: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: straight_line_depreciation.life: fractional, negative and too large reject
+00:00 +49: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: straight_line_depreciation.year: NaN and infinity reject at typed boundary
+00:00 +50: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: straight_line_depreciation.year: fractional, negative and too large reject
+00:00 +51: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: declining_balance_depreciation: known typed example and explicit method
+00:00 +52: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: declining_balance_depreciation.cost: NaN and infinity reject at typed boundary
+00:00 +53: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: declining_balance_depreciation.cost: negative financial input rejects
+00:00 +54: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: declining_balance_depreciation.salvage: NaN and infinity reject at typed boundary
+00:00 +55: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: declining_balance_depreciation.salvage: negative financial input rejects
+00:00 +56: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: declining_balance_depreciation.depreciation_rate: NaN and infinity reject at typed boundary
+00:00 +57: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: declining_balance_depreciation.depreciation_rate: negative financial input rejects
+00:00 +58: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: declining_balance_depreciation.life: NaN and infinity reject at typed boundary
+00:00 +59: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: declining_balance_depreciation.life: fractional, negative and too large reject
+00:00 +60: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: declining_balance_depreciation.year: NaN and infinity reject at typed boundary
+00:00 +61: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: declining_balance_depreciation.year: fractional, negative and too large reject
+00:00 +62: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: inflation_adjustment: known typed example and explicit method
+00:00 +63: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: inflation_adjustment.amount: NaN and infinity reject at typed boundary
+00:00 +64: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: inflation_adjustment.amount: negative financial input rejects
+00:00 +65: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: inflation_adjustment.rate: NaN and infinity reject at typed boundary
+00:00 +66: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: inflation_adjustment.periods: NaN and infinity reject at typed boundary
+00:00 +67: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: inflation_adjustment.periods: fractional, negative and too large reject
+00:00 +68: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: time_value_money: forty independent Decimal sums or ledger references
+00:00 +69: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: future_present_factor: forty independent Decimal sums or ledger references
+00:00 +70: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: present_future_factor: forty independent Decimal sums or ledger references
+00:00 +71: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: future_annuity_factor: forty independent Decimal sums or ledger references
+00:00 +72: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: annuity_future_factor: forty independent Decimal sums or ledger references
+00:00 +73: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: present_annuity_factor: forty independent Decimal sums or ledger references
+00:00 +74: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: annuity_present_factor: forty independent Decimal sums or ledger references
+00:00 +75: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: straight_line_depreciation: forty independent Decimal sums or ledger references
+00:00 +76: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: declining_balance_depreciation: forty independent Decimal sums or ledger references
+00:00 +77: /home/user/management_toolbox/test/features/calculators/engineering_economics/engines_test.dart: inflation_adjustment: forty independent Decimal sums or ledger references
+00:00 +78: loading /home/user/management_toolbox/test/features/calculators/engineering_economics/pages_test.dart
+00:01 +78: /home/user/management_toolbox/test/features/calculators/engineering_economics/pages_test.dart: time_value_money: generic form rendered formula error and example
+00:02 +79: /home/user/management_toolbox/test/features/calculators/engineering_economics/pages_test.dart: future_present_factor: generic form rendered formula error and example
+00:03 +80: /home/user/management_toolbox/test/features/calculators/engineering_economics/pages_test.dart: present_future_factor: generic form rendered formula error and example
+00:03 +81: /home/user/management_toolbox/test/features/calculators/engineering_economics/pages_test.dart: future_annuity_factor: generic form rendered formula error and example
+00:03 +82: /home/user/management_toolbox/test/features/calculators/engineering_economics/pages_test.dart: annuity_future_factor: generic form rendered formula error and example
+00:04 +83: /home/user/management_toolbox/test/features/calculators/engineering_economics/pages_test.dart: present_annuity_factor: generic form rendered formula error and example
+00:04 +84: /home/user/management_toolbox/test/features/calculators/engineering_economics/pages_test.dart: annuity_present_factor: generic form rendered formula error and example
+00:04 +85: /home/user/management_toolbox/test/features/calculators/engineering_economics/pages_test.dart: straight_line_depreciation: generic form rendered formula error and example
+00:05 +86: /home/user/management_toolbox/test/features/calculators/engineering_economics/pages_test.dart: declining_balance_depreciation: generic form rendered formula error and example
+00:05 +87: /home/user/management_toolbox/test/features/calculators/engineering_economics/pages_test.dart: inflation_adjustment: generic form rendered formula error and example
+00:05 +88: /home/user/management_toolbox/test/features/calculators/engineering_economics/pages_test.dart: ten economics tools open through real category routes
+00:08 +89: /home/user/management_toolbox/test/features/calculators/engineering_economics/pages_test.dart: Economics incomplete external snapshots do not silently borrow example defaults
+00:09 +90: /home/user/management_toolbox/test/features/calculators/engineering_economics/pages_test.dart: Zero-rate factor inputs save/reopen and undefined zero-period inverse disables save
+00:10 +91: /home/user/management_toolbox/test/features/calculators/engineering_economics/pages_test.dart: ten economics pages fit Size(320.0, 568.0) dark=false enlarged RTL
+00:11 +92: /home/user/management_toolbox/test/features/calculators/engineering_economics/pages_test.dart: ten economics pages fit Size(320.0, 568.0) dark=true enlarged RTL
+00:12 +93: /home/user/management_toolbox/test/features/calculators/engineering_economics/pages_test.dart: ten economics pages fit Size(1280.0, 800.0) dark=false enlarged RTL
+00:12 +94: /home/user/management_toolbox/test/features/calculators/engineering_economics/pages_test.dart: ten economics pages fit Size(1280.0, 800.0) dark=true enlarged RTL
+00:13 +95: loading /home/user/management_toolbox/test/features/calculators/engineering_economics/boundaries_test.dart
+00:14 +95: /home/user/management_toolbox/test/features/calculators/engineering_economics/boundaries_test.dart: time_value_money: rate at/below minus 100 percent is impossible
+00:14 +96: /home/user/management_toolbox/test/features/calculators/engineering_economics/boundaries_test.dart: time_value_money: negative rates above minus one, zero amounts and zero rate are supported
+00:14 +97: /home/user/management_toolbox/test/features/calculators/engineering_economics/boundaries_test.dart: future_present_factor: rate at/below minus 100 percent is impossible
+00:14 +98: /home/user/management_toolbox/test/features/calculators/engineering_economics/boundaries_test.dart: future_present_factor: negative rates above minus one, zero amounts and zero rate are supported
+00:14 +99: /home/user/management_toolbox/test/features/calculators/engineering_economics/boundaries_test.dart: present_future_factor: rate at/below minus 100 percent is impossible
+00:14 +100: /home/user/management_toolbox/test/features/calculators/engineering_economics/boundaries_test.dart: present_future_factor: negative rates above minus one, zero amounts and zero rate are supported
+00:14 +101: /home/user/management_toolbox/test/features/calculators/engineering_economics/boundaries_test.dart: future_annuity_factor: rate at/below minus 100 percent is impossible
+00:14 +102: /home/user/management_toolbox/test/features/calculators/engineering_economics/boundaries_test.dart: future_annuity_factor: negative rates above minus one, zero amounts and zero rate are supported
+00:14 +103: /home/user/management_toolbox/test/features/calculators/engineering_economics/boundaries_test.dart: annuity_future_factor: rate at/below minus 100 percent is impossible
+00:14 +104: /home/user/management_toolbox/test/features/calculators/engineering_economics/boundaries_test.dart: annuity_future_factor: negative rates above minus one, zero amounts and zero rate are supported
+00:14 +105: /home/user/management_toolbox/test/features/calculators/engineering_economics/boundaries_test.dart: present_annuity_factor: rate at/below minus 100 percent is impossible
+00:14 +106: /home/user/management_toolbox/test/features/calculators/engineering_economics/boundaries_test.dart: present_annuity_factor: negative rates above minus one, zero amounts and zero rate are supported
+00:14 +107: /home/user/management_toolbox/test/features/calculators/engineering_economics/boundaries_test.dart: annuity_present_factor: rate at/below minus 100 percent is impossible
+00:14 +108: /home/user/management_toolbox/test/features/calculators/engineering_economics/boundaries_test.dart: annuity_present_factor: negative rates above minus one, zero amounts and zero rate are supported
+00:14 +109: /home/user/management_toolbox/test/features/calculators/engineering_economics/boundaries_test.dart: inflation_adjustment: rate at/below minus 100 percent is impossible
+00:14 +110: /home/user/management_toolbox/test/features/calculators/engineering_economics/boundaries_test.dart: inflation_adjustment: negative rates above minus one, zero amounts and zero rate are supported
+00:14 +111: /home/user/management_toolbox/test/features/calculators/engineering_economics/boundaries_test.dart: All six zero-rate factor limits are explicit
+00:14 +112: /home/user/management_toolbox/test/features/calculators/engineering_economics/boundaries_test.dart: Zero periods: same-time single sums, empty annuities, undefined inverse annuities
+00:14 +113: /home/user/management_toolbox/test/features/calculators/engineering_economics/boundaries_test.dart: Known end-of-period payments agree with explicit sums and reciprocal identities
+00:14 +114: /home/user/management_toolbox/test/features/calculators/engineering_economics/boundaries_test.dart: One end-period payment is not an annuity-due shifted payment
+00:14 +115: /home/user/management_toolbox/test/features/calculators/engineering_economics/boundaries_test.dart: Near-zero rates do not divide by a cancellation-rounded zero
+00:14 +116: /home/user/management_toolbox/test/features/calculators/engineering_economics/boundaries_test.dart: Stable reciprocal formulas avoid intermediate overflow
+00:14 +117: /home/user/management_toolbox/test/features/calculators/engineering_economics/boundaries_test.dart: Unrepresentable factors, amounts and nonzero underflow reject
+00:14 +118: /home/user/management_toolbox/test/features/calculators/engineering_economics/boundaries_test.dart: Inflation adjustment is purchasing-power deflation, not nominal interest subtraction
+00:14 +119: /home/user/management_toolbox/test/features/calculators/engineering_economics/boundaries_test.dart: straight_line_depreciation: salvage cannot exceed cost and year cannot exceed useful life
+00:14 +120: /home/user/management_toolbox/test/features/calculators/engineering_economics/boundaries_test.dart: straight_line_depreciation: acquisition time and already-at-salvage assets remain valid
+00:14 +121: /home/user/management_toolbox/test/features/calculators/engineering_economics/boundaries_test.dart: declining_balance_depreciation: salvage cannot exceed cost and year cannot exceed useful life
+00:14 +122: /home/user/management_toolbox/test/features/calculators/engineering_economics/boundaries_test.dart: declining_balance_depreciation: acquisition time and already-at-salvage assets remain valid
+00:14 +123: /home/user/management_toolbox/test/features/calculators/engineering_economics/boundaries_test.dart: Straight line conservation and exact terminal salvage
+00:14 +124: /home/user/management_toolbox/test/features/calculators/engineering_economics/boundaries_test.dart: Declining balance clamps expense to salvage without negative depreciation
+00:14 +125: /home/user/management_toolbox/test/features/calculators/engineering_economics/boundaries_test.dart: Declining balance zero and 100 percent boundaries, invalid percentages
+00:14 +126: /home/user/management_toolbox/test/features/calculators/engineering_economics/boundaries_test.dart: Declining balance never silently switches method or clears remaining book at life
+00:14 +127: /home/user/management_toolbox/test/features/calculators/engineering_economics/boundaries_test.dart: Declining book avoids factor underflow when the book itself is representable
+00:14 +128: loading /home/user/management_toolbox/test/features/calculators/engineering_economics/catalog_test.dart
+00:15 +128: /home/user/management_toolbox/test/features/calculators/engineering_economics/catalog_test.dart: ten economics tools and 68 catalog entries
+00:15 +129: /home/user/management_toolbox/test/features/calculators/engineering_economics/catalog_test.dart: time_value_money: full definition formula and educational numeric example
+00:15 +130: /home/user/management_toolbox/test/features/calculators/engineering_economics/catalog_test.dart: time_value_money: Arabic Persian Latin digits and malformed form data
+00:15 +131: /home/user/management_toolbox/test/features/calculators/engineering_economics/catalog_test.dart: future_present_factor: full definition formula and educational numeric example
+00:15 +132: /home/user/management_toolbox/test/features/calculators/engineering_economics/catalog_test.dart: future_present_factor: Arabic Persian Latin digits and malformed form data
+00:15 +133: /home/user/management_toolbox/test/features/calculators/engineering_economics/catalog_test.dart: present_future_factor: full definition formula and educational numeric example
+00:15 +134: /home/user/management_toolbox/test/features/calculators/engineering_economics/catalog_test.dart: present_future_factor: Arabic Persian Latin digits and malformed form data
+00:15 +135: /home/user/management_toolbox/test/features/calculators/engineering_economics/catalog_test.dart: future_annuity_factor: full definition formula and educational numeric example
+00:15 +136: /home/user/management_toolbox/test/features/calculators/engineering_economics/catalog_test.dart: future_annuity_factor: Arabic Persian Latin digits and malformed form data
+00:15 +137: /home/user/management_toolbox/test/features/calculators/engineering_economics/catalog_test.dart: annuity_future_factor: full definition formula and educational numeric example
+00:15 +138: /home/user/management_toolbox/test/features/calculators/engineering_economics/catalog_test.dart: annuity_future_factor: Arabic Persian Latin digits and malformed form data
+00:15 +139: /home/user/management_toolbox/test/features/calculators/engineering_economics/catalog_test.dart: present_annuity_factor: full definition formula and educational numeric example
+00:15 +140: /home/user/management_toolbox/test/features/calculators/engineering_economics/catalog_test.dart: present_annuity_factor: Arabic Persian Latin digits and malformed form data
+00:15 +141: /home/user/management_toolbox/test/features/calculators/engineering_economics/catalog_test.dart: annuity_present_factor: full definition formula and educational numeric example
+00:15 +142: /home/user/management_toolbox/test/features/calculators/engineering_economics/catalog_test.dart: annuity_present_factor: Arabic Persian Latin digits and malformed form data
+00:15 +143: /home/user/management_toolbox/test/features/calculators/engineering_economics/catalog_test.dart: straight_line_depreciation: full definition formula and educational numeric example
+00:15 +144: /home/user/management_toolbox/test/features/calculators/engineering_economics/catalog_test.dart: straight_line_depreciation: Arabic Persian Latin digits and malformed form data
+00:15 +145: /home/user/management_toolbox/test/features/calculators/engineering_economics/catalog_test.dart: declining_balance_depreciation: full definition formula and educational numeric example
+00:15 +146: /home/user/management_toolbox/test/features/calculators/engineering_economics/catalog_test.dart: declining_balance_depreciation: Arabic Persian Latin digits and malformed form data
+00:15 +147: /home/user/management_toolbox/test/features/calculators/engineering_economics/catalog_test.dart: inflation_adjustment: full definition formula and educational numeric example
+00:15 +148: /home/user/management_toolbox/test/features/calculators/engineering_economics/catalog_test.dart: inflation_adjustment: Arabic Persian Latin digits and malformed form data
+00:15 +149: /home/user/management_toolbox/test/features/calculators/engineering_economics/catalog_test.dart: time_value_money: omitted/blank required fields never become examples
+00:15 +150: /home/user/management_toolbox/test/features/calculators/engineering_economics/catalog_test.dart: future_present_factor: omitted/blank required fields never become examples
+00:15 +151: /home/user/management_toolbox/test/features/calculators/engineering_economics/catalog_test.dart: present_future_factor: omitted/blank required fields never become examples
+00:15 +152: /home/user/management_toolbox/test/features/calculators/engineering_economics/catalog_test.dart: future_annuity_factor: omitted/blank required fields never become examples
+00:15 +153: /home/user/management_toolbox/test/features/calculators/engineering_economics/catalog_test.dart: annuity_future_factor: omitted/blank required fields never become examples
+00:15 +154: /home/user/management_toolbox/test/features/calculators/engineering_economics/catalog_test.dart: present_annuity_factor: omitted/blank required fields never become examples
+00:15 +155: /home/user/management_toolbox/test/features/calculators/engineering_economics/catalog_test.dart: annuity_present_factor: omitted/blank required fields never become examples
+00:15 +156: /home/user/management_toolbox/test/features/calculators/engineering_economics/catalog_test.dart: straight_line_depreciation: omitted/blank required fields never become examples
+00:15 +157: /home/user/management_toolbox/test/features/calculators/engineering_economics/catalog_test.dart: declining_balance_depreciation: omitted/blank required fields never become examples
+00:15 +158: /home/user/management_toolbox/test/features/calculators/engineering_economics/catalog_test.dart: inflation_adjustment: omitted/blank required fields never become examples
+00:16 +159: All tests passed!

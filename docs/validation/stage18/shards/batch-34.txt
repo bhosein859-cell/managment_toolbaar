@@ -1,0 +1,26 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart
+00:00 +0: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: cp: generic form rendered formula error and example
+00:01 +1: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: cpk: generic form rendered formula error and example
+00:02 +2: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: pp: generic form rendered formula error and example
+00:02 +3: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: ppk: generic form rendered formula error and example
+00:02 +4: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: dpmo: generic form rendered formula error and example
+00:03 +5: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: sigma_level: generic form rendered formula error and example
+00:03 +6: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: xbar_control: generic form rendered formula error and example
+00:03 +7: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: coq: generic form rendered formula error and example
+00:04 +8: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: eoq: generic form rendered formula error and example
+00:04 +9: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: rop: generic form rendered formula error and example
+00:04 +10: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: safety_stock: generic form rendered formula error and example
+00:05 +11: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: abc: generic form rendered formula error and example
+00:05 +12: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: inventory_turnover: generic form rendered formula error and example
+00:05 +13: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: days_inventory: generic form rendered formula error and example
+00:06 +14: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: inventory_holding_cost: generic form rendered formula error and example
+00:06 +15: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: reorder_interval: generic form rendered formula error and example
+00:06 +16: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: eight quality tools open through real routes
+00:08 +17: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: eight inventory tools open through real routes
+00:10 +18: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: Sigma convention is explicit and endpoints clear stale result
+00:10 +19: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: ABC paired inputs and thresholds save and reopen through history
+00:13 +20: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: sixteen quality/inventory pages fit Size(320.0, 568.0) dark=false enlarged RTL
+00:15 +21: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: sixteen quality/inventory pages fit Size(320.0, 568.0) dark=true enlarged RTL
+00:17 +22: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: sixteen quality/inventory pages fit Size(1280.0, 800.0) dark=false enlarged RTL
+
+Batch terminated at timeout; not a successful run.

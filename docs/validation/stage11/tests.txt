@@ -1,0 +1,764 @@
+Resolving dependencies...
+Downloading packages...
+  material_color_utilities 0.13.0 (0.13.1 available)
+  meta 1.18.3 (1.19.0 available)
+  petitparser 7.0.2 (7.1.0 available)
+  test_api 0.7.12 (0.7.15 available)
+  vector_math 2.4.0 (2.4.3 available)
+  xml 7.0.1 (7.1.0 available)
+Got dependencies!
+6 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+00:00 +0: loading /home/user/management_toolbox/test/localization/persian_ui_test.dart
+00:00 +0: /home/user/management_toolbox/test/localization/persian_ui_test.dart: bundled regular, bold and OFL assets are available offline
+00:00 +1: /home/user/management_toolbox/test/localization/persian_ui_test.dart: themes follow system brightness and use local font
+00:03 +2: /home/user/management_toolbox/test/localization/persian_ui_test.dart: settings switch theme without resetting route; all three modes work
+00:05 +3: /home/user/management_toolbox/test/localization/persian_ui_test.dart: lab accepts Persian Arabic and Latin, rejects invalid values
+00:06 +4: /home/user/management_toolbox/test/localization/persian_ui_test.dart: RTL lab fits Size(320.0, 568.0) with enlarged text
+00:07 +5: /home/user/management_toolbox/test/localization/persian_ui_test.dart: RTL lab fits Size(1280.0, 720.0) with enlarged text
+00:08 +6: loading /home/user/management_toolbox/test/localization/visual_capture_test.dart
+00:09 +6: /home/user/management_toolbox/test/localization/visual_capture_test.dart: capture real-font lab light
+00:09 +6 ~1: /home/user/management_toolbox/test/localization/visual_capture_test.dart: capture real-font lab dark
+00:10 +6 ~2: loading /home/user/management_toolbox/test/app/architecture_test.dart
+00:10 +6 ~2: /home/user/management_toolbox/test/app/architecture_test.dart: failure retains a Persian message and machine-readable code
+00:10 +7 ~2: /home/user/management_toolbox/test/app/architecture_test.dart: base themes use Material 3 in both brightness modes
+00:10 +8 ~2: /home/user/management_toolbox/test/app/architecture_test.dart: domain stays independent from Flutter, data and presentation
+00:10 +9 ~2: /home/user/management_toolbox/test/app/architecture_test.dart: welcome is RTL, credits creator and navigates to home
+00:12 +10 ~2: /home/user/management_toolbox/test/app/architecture_test.dart: unknown route provides a safe return home
+00:13 +11 ~2: /home/user/management_toolbox/test/app/architecture_test.dart: error fallback renders without app dependencies
+00:14 +12 ~2: loading /home/user/management_toolbox/test/app/app_test.dart
+00:15 +12 ~2: /home/user/management_toolbox/test/app/app_test.dart: shows the foundation page without the sample counter
+00:16 +13 ~2: /home/user/management_toolbox/test/app/app_test.dart: foundation fits viewport Size(360.0, 640.0)
+00:16 +14 ~2: /home/user/management_toolbox/test/app/app_test.dart: foundation fits viewport Size(1280.0, 720.0)
+00:16 +15 ~2: loading /home/user/management_toolbox/test/features/home/home_visual_test.dart
+00:17 +15 ~2: /home/user/management_toolbox/test/features/home/home_visual_test.dart: capture home search and empty category with actual session data
+00:18 +15 ~3: loading /home/user/management_toolbox/test/features/home/search_test.dart
+00:19 +15 ~3: /home/user/management_toolbox/test/features/home/search_test.dart: eight honest categories, thirty-six implemented tools, empty categories stay empty
+00:19 +16 ~3: /home/user/management_toolbox/test/features/home/search_test.dart: catalog guards missing categories and duplicate IDs
+00:19 +17 ~3: /home/user/management_toolbox/test/features/home/search_test.dart: normalizes Arabic letters digits marks spaces and punctuation without changing source
+00:19 +18 ~3: /home/user/management_toolbox/test/features/home/search_test.dart: finds OEE by name/alias/normalization: OEE
+00:19 +19 ~3: /home/user/management_toolbox/test/features/home/search_test.dart: finds OEE by name/alias/normalization: اثربخشي كلي تجهيزات
+00:19 +20 ~3: /home/user/management_toolbox/test/features/home/search_test.dart: finds OEE by name/alias/normalization: بهره‌وری تجهیزات
+00:19 +21 ~3: /home/user/management_toolbox/test/features/home/search_test.dart: finds OEE by name/alias/normalization: بهره وری تجهیزات
+00:19 +22 ~3: /home/user/management_toolbox/test/features/home/search_test.dart: finds OEE by name/alias/normalization: بهرهوری تجهیزات
+00:19 +23 ~3: /home/user/management_toolbox/test/features/home/search_test.dart: finds NPV by English/alias/description: NPV
+00:19 +24 ~3: /home/user/management_toolbox/test/features/home/search_test.dart: finds NPV by English/alias/description: Net present VALUE
+00:19 +25 ~3: /home/user/management_toolbox/test/features/home/search_test.dart: finds NPV by English/alias/description: ارزش خالص فعلی
+00:19 +26 ~3: /home/user/management_toolbox/test/features/home/search_test.dart: finds NPV by English/alias/description: ارزش‌خالص‌فعلی
+00:19 +27 ~3: /home/user/management_toolbox/test/features/home/search_test.dart: finds NPV by English/alias/description: ارزشخالصفعلی
+00:19 +28 ~3: /home/user/management_toolbox/test/features/home/search_test.dart: finds NPV by English/alias/description: دوره‌های برابر
+00:19 +29 ~3: /home/user/management_toolbox/test/features/home/search_test.dart: finds Cp by metadata: Cp
+00:19 +30 ~3: /home/user/management_toolbox/test/features/home/search_test.dart: finds Cp by metadata: توانمندي فرايند
+00:19 +31 ~3: /home/user/management_toolbox/test/features/home/search_test.dart: finds Cp by metadata: Process Capability Index
+00:19 +32 ~3: /home/user/management_toolbox/test/features/home/search_test.dart: broad Quality search includes Cp among eight quality tools
+00:19 +33 ~3: /home/user/management_toolbox/test/features/home/search_test.dart: multi-token queries can match across indexed fields
+00:19 +34 ~3: /home/user/management_toolbox/test/features/home/search_test.dart: light fuzzy handles deletion/substitution/transposition: nvp
+00:19 +35 ~3: /home/user/management_toolbox/test/features/home/search_test.dart: light fuzzy handles deletion/substitution/transposition: اثربخشب
+00:19 +36 ~3: /home/user/management_toolbox/test/features/home/search_test.dart: light fuzzy handles deletion/substitution/transposition: capabilty
+00:19 +37 ~3: /home/user/management_toolbox/test/features/home/search_test.dart: short inputs do not get speculative fuzzy matches
+00:19 +38 ~3: /home/user/management_toolbox/test/features/home/search_test.dart: all three digit sets match the same synthetic metadata
+00:19 +39 ~3: /home/user/management_toolbox/test/features/home/search_test.dart: exact metadata outranks fuzzy hits, ties and limits are deterministic
+00:19 +40 ~3: /home/user/management_toolbox/test/features/home/search_test.dart: banded Damerau agrees with full reference on exhaustive short strings
+00:20 +41 ~3: loading /home/user/management_toolbox/test/features/home/home_pages_test.dart
+00:20 +41 ~3: /home/user/management_toolbox/test/features/home/home_pages_test.dart: home shows all eight honest category counts and session sections
+00:22 +42 ~3: /home/user/management_toolbox/test/features/home/home_pages_test.dart: overview and each category show correct lists including empty state
+00:24 +43 ~3: /home/user/management_toolbox/test/features/home/home_pages_test.dart: live fuzzy search is marked, opens real engine and retains query on return
+00:25 +44 ~3: /home/user/management_toolbox/test/features/home/home_pages_test.dart: Arabic/halfspace aliases search without rewriting text; no match is safe
+00:26 +45 ~3: /home/user/management_toolbox/test/features/home/home_pages_test.dart: favorite updates across pages; valid saved snapshot reopens exact prior inputs
+00:28 +46 ~3: /home/user/management_toolbox/test/features/home/home_pages_test.dart: home star does not navigate and a new app session resets ephemeral data
+00:29 +47 ~3: /home/user/management_toolbox/test/features/home/home_pages_test.dart: invalid typed route arguments safely show not found
+00:29 +48 ~3: /home/user/management_toolbox/test/features/home/home_pages_test.dart: home and actual calculator fit Size(320.0, 568.0) dark=false with text scale 1.5
+00:30 +49 ~3: /home/user/management_toolbox/test/features/home/home_pages_test.dart: home and actual calculator fit Size(320.0, 568.0) dark=true with text scale 1.5
+00:30 +50 ~3: /home/user/management_toolbox/test/features/home/home_pages_test.dart: home and actual calculator fit Size(1280.0, 800.0) dark=false with text scale 1.5
+00:31 +51 ~3: /home/user/management_toolbox/test/features/home/home_pages_test.dart: home and actual calculator fit Size(1280.0, 800.0) dark=true with text scale 1.5
+00:32 +52 ~3: loading /home/user/management_toolbox/test/features/home/session_test.dart
+00:32 +52 ~3: /home/user/management_toolbox/test/features/home/session_test.dart: favorites toggle and immutable snapshots do not persist into a new session
+00:32 +53 ~3: /home/user/management_toolbox/test/features/home/session_test.dart: explicit snapshots preserve inputs and cap in-memory history at ten
+00:33 +54 ~3: loading /home/user/management_toolbox/test/features/calculators/presentation/calculator_visual_test.dart
+00:34 +54 ~3: /home/user/management_toolbox/test/features/calculators/presentation/calculator_visual_test.dart: capture calculator light-desktop
+00:34 +54 ~4: /home/user/management_toolbox/test/features/calculators/presentation/calculator_visual_test.dart: capture calculator dark-mobile
+00:35 +54 ~5: loading /home/user/management_toolbox/test/features/calculators/presentation/form_controller_test.dart
+00:35 +54 ~5: /home/user/management_toolbox/test/features/calculators/presentation/form_controller_test.dart: defaults are shown and computed through the engine
+00:35 +55 ~5: /home/user/management_toolbox/test/features/calculators/presentation/form_controller_test.dart: updates live from ۲۰۰ with percentages converted once
+00:35 +56 ~5: /home/user/management_toolbox/test/features/calculators/presentation/form_controller_test.dart: updates live from ٢٠٠ with percentages converted once
+00:35 +57 ~5: /home/user/management_toolbox/test/features/calculators/presentation/form_controller_test.dart: updates live from 200 with percentages converted once
+00:35 +58 ~5: /home/user/management_toolbox/test/features/calculators/presentation/form_controller_test.dart: invalid and partial inputs remove stale result immediately
+00:35 +59 ~5: /home/user/management_toolbox/test/features/calculators/presentation/form_controller_test.dart: examples replace inputs rather than carrying stale values; reset restores defaults
+00:35 +60 ~5: /home/user/management_toolbox/test/features/calculators/presentation/form_controller_test.dart: initial inputs are restored and invalid unknown data is surfaced globally
+00:35 +61 ~5: /home/user/management_toolbox/test/features/calculators/presentation/form_controller_test.dart: choice validation and blank defaults follow domain rules
+00:35 +62 ~5: /home/user/management_toolbox/test/features/calculators/presentation/form_controller_test.dart: structured lists preserve each item and reject malformed elements
+00:35 +63 ~5: /home/user/management_toolbox/test/features/calculators/presentation/form_controller_test.dart: domain and unexpected failures do not retain result or interpretation
+00:35 +64 ~5: /home/user/management_toolbox/test/features/calculators/presentation/form_controller_test.dart: demo formula examples and endpoint reductions are correct
+00:36 +65 ~5: loading /home/user/management_toolbox/test/features/calculators/presentation/formatting_test.dart
+00:37 +65 ~5: /home/user/management_toolbox/test/features/calculators/presentation/formatting_test.dart: editable default values roundtrip without rounding to zero
+00:37 +66 ~5: /home/user/management_toolbox/test/features/calculators/presentation/formatting_test.dart: numbers percentages text and lists are Persian and units retained
+00:37 +67 ~5: /home/user/management_toolbox/test/features/calculators/presentation/formatting_test.dart: scientific formatting never shows false zero or overflow
+00:37 +68 ~5: /home/user/management_toolbox/test/features/calculators/presentation/formatting_test.dart: guidance includes bounds units percentage conventions and optional integer flags
+00:38 +69 ~5: loading /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart
+00:38 +69 ~5: /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart: renders typed defaults, units, ranges, explanations and LaTeX offline
+00:40 +70 ~5: /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart: recalculates live and never shows stale result after invalid edit
+00:41 +71 ~5: /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart: selecting a unit updates output and preserves numeric input
+00:42 +72 ~5: /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart: loading an example fills controls; reset restores original defaults
+00:42 +73 ~5: /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart: numeric list uses newline entries and never splits thousands commas
+00:42 +74 ~5: /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart: domain failures and exceptions hide numeric output and expose safe Persian errors
+00:43 +75 ~5: /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart: same runner survives theme rebuild; replacement runner resets safely
+00:43 +76 ~5: /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart: restores prior raw inputs and surfaces invalid initial values
+00:43 +77 ~5: /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart: invalid LaTeX falls back to safe text rather than breaking page
+00:43 +78 ~5: /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart: textual and numeric-series results and warnings are rendered
+00:43 +79 ~5: /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart: RTL layout Size(320.0, 568.0) dark=false at text scale 1.5 has no overflow
+00:44 +80 ~5: /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart: RTL layout Size(320.0, 568.0) dark=true at text scale 1.5 has no overflow
+00:44 +81 ~5: /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart: RTL layout Size(1280.0, 800.0) dark=false at text scale 1.5 has no overflow
+00:44 +82 ~5: /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart: RTL layout Size(1280.0, 800.0) dark=true at text scale 1.5 has no overflow
+00:45 +83 ~5: /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart: demo is reachable from the existing app home
+00:46 +84 ~5: loading /home/user/management_toolbox/test/features/calculators/domain/engine_test.dart
+00:46 +84 ~5: /home/user/management_toolbox/test/features/calculators/domain/engine_test.dart: compiled engine receives typed normalized parameters
+00:47 +85 ~5: /home/user/management_toolbox/test/features/calculators/domain/engine_test.dart: invalid input never reaches bind or calculate
+00:47 +86 ~5: /home/user/management_toolbox/test/features/calculators/domain/engine_test.dart: cross-field rejection prevents calculation
+00:47 +87 ~5: /home/user/management_toolbox/test/features/calculators/domain/engine_test.dart: legitimate domain failure is returned without fabricated result
+00:47 +88 ~5: /home/user/management_toolbox/test/features/calculators/domain/engine_test.dart: unexpected error or nonfinite result is safe and diagnosable: true/false
+00:47 +89 ~5: /home/user/management_toolbox/test/features/calculators/domain/engine_test.dart: unexpected error or nonfinite result is safe and diagnosable: false/true
+00:47 +90 ~5: /home/user/management_toolbox/test/features/calculators/domain/engine_test.dart: unexpected error or nonfinite result is safe and diagnosable: false/false
+00:47 +91 ~5: /home/user/management_toolbox/test/features/calculators/domain/engine_test.dart: diagnostics callback failure does not leak or replace user failure
+00:47 +92 ~5: /home/user/management_toolbox/test/features/calculators/domain/engine_test.dart: different engine identity is rejected before execution
+00:47 +93 ~5: /home/user/management_toolbox/test/features/calculators/domain/engine_test.dart: arbitrary formula text is inert; only compiled engine code runs
+00:47 +94 ~5: /home/user/management_toolbox/test/features/calculators/domain/engine_test.dart: runner remains usable after invalid input followed by valid input
+00:47 +95 ~5: /home/user/management_toolbox/test/features/calculators/domain/engine_test.dart: typed rejected binding snapshots issues and rejects empty failure
+00:47 +96 ~5: loading /home/user/management_toolbox/test/features/calculators/domain/models_test.dart
+00:48 +96 ~5: /home/user/management_toolbox/test/features/calculators/domain/models_test.dart: eight categories and typed Persian category metadata
+00:48 +97 ~5: /home/user/management_toolbox/test/features/calculators/domain/models_test.dart: definitions store display-only educational content and terms
+00:48 +98 ~5: /home/user/management_toolbox/test/features/calculators/domain/models_test.dart: definition snapshots fields and rejects duplicate and unknown references
+00:48 +99 ~5: /home/user/management_toolbox/test/features/calculators/domain/models_test.dart: invalid numeric ranges, bounds and defaults fail at configuration time
+00:48 +100 ~5: /home/user/management_toolbox/test/features/calculators/domain/models_test.dart: choice configuration is immutable, unique and validates default
+00:48 +101 ~5: /home/user/management_toolbox/test/features/calculators/domain/models_test.dart: numeric series validates limits and snapshots its defaults
+00:48 +102 ~5: /home/user/management_toolbox/test/features/calculators/domain/models_test.dart: raw and normalized input snapshots cannot be mutated from outside
+00:48 +103 ~5: /home/user/management_toolbox/test/features/calculators/domain/models_test.dart: non-finite values cannot enter typed models: NaN
+00:48 +104 ~5: /home/user/management_toolbox/test/features/calculators/domain/models_test.dart: non-finite values cannot enter typed models: Infinity
+00:48 +105 ~5: /home/user/management_toolbox/test/features/calculators/domain/models_test.dart: non-finite values cannot enter typed models: -Infinity
+00:48 +106 ~5: /home/user/management_toolbox/test/features/calculators/domain/models_test.dart: results carry immutable metrics, warnings, units and interpretation
+00:48 +107 ~5: /home/user/management_toolbox/test/features/calculators/domain/models_test.dart: failure, binding and warning messages are structured and nonempty
+00:49 +108 ~5: loading /home/user/management_toolbox/test/features/calculators/domain/input_normalizer_test.dart
+00:49 +108 ~5: /home/user/management_toolbox/test/features/calculators/domain/input_normalizer_test.dart: normalizes ۱۲۳٫۴۵ before binding
+00:49 +109 ~5: /home/user/management_toolbox/test/features/calculators/domain/input_normalizer_test.dart: normalizes ١٢٣٫٤٥ before binding
+00:49 +110 ~5: /home/user/management_toolbox/test/features/calculators/domain/input_normalizer_test.dart: normalizes 123.45 before binding
+00:49 +111 ~5: /home/user/management_toolbox/test/features/calculators/domain/input_normalizer_test.dart: normalizes ۱۲٣.45 before binding
+00:49 +112 ~5: /home/user/management_toolbox/test/features/calculators/domain/input_normalizer_test.dart: normalizes signs, thousands and inclusive bounds
+00:49 +113 ~5: /home/user/management_toolbox/test/features/calculators/domain/input_normalizer_test.dart: percentages are checked as display points then converted once
+00:49 +114 ~5: /home/user/management_toolbox/test/features/calculators/domain/input_normalizer_test.dart: missing gets default, explicit blank never reuses it
+00:49 +115 ~5: /home/user/management_toolbox/test/features/calculators/domain/input_normalizer_test.dart: required, optional blank and unknown fields have distinct handling
+00:49 +116 ~5: /home/user/management_toolbox/test/features/calculators/domain/input_normalizer_test.dart: invalid numeric input never produces a value: NaN
+00:49 +117 ~5: /home/user/management_toolbox/test/features/calculators/domain/input_normalizer_test.dart: invalid numeric input never produces a value: Infinity
+00:49 +118 ~5: /home/user/management_toolbox/test/features/calculators/domain/input_normalizer_test.dart: invalid numeric input never produces a value: 1,5
+00:49 +119 ~5: /home/user/management_toolbox/test/features/calculators/domain/input_normalizer_test.dart: invalid numeric input never produces a value: abc
+00:49 +120 ~5: /home/user/management_toolbox/test/features/calculators/domain/input_normalizer_test.dart: invalid numeric input never produces a value: ۱٫۲٫۳
+00:49 +121 ~5: /home/user/management_toolbox/test/features/calculators/domain/input_normalizer_test.dart: invalid numeric input never produces a value: 1e3
+00:49 +122 ~5: /home/user/management_toolbox/test/features/calculators/domain/input_normalizer_test.dart: invalid numeric input never produces a value: overflow
+00:49 +123 ~5: /home/user/management_toolbox/test/features/calculators/domain/input_normalizer_test.dart: bounds and integer validation provide Persian issues
+00:49 +124 ~5: /home/user/management_toolbox/test/features/calculators/domain/input_normalizer_test.dart: choice accepts stable IDs rather than display labels, supports defaults
+00:49 +125 ~5: /home/user/management_toolbox/test/features/calculators/domain/input_normalizer_test.dart: optional fields and list defaults are normalized predictably
+00:49 +126 ~5: /home/user/management_toolbox/test/features/calculators/domain/input_normalizer_test.dart: list parses three digit systems and reports index-specific errors
+00:49 +127 ~5: /home/user/management_toolbox/test/features/calculators/domain/input_normalizer_test.dart: wrong raw value types are rejected even when optional and empty
+00:49 +128 ~5: /home/user/management_toolbox/test/features/calculators/domain/input_normalizer_test.dart: all field issues accumulate and invalid input is immutable
+00:50 +129 ~5: loading /home/user/management_toolbox/test/features/calculators/production/throughput_test.dart
+00:50 +129 ~5: /home/user/management_toolbox/test/features/calculators/production/throughput_test.dart: throughput: independent numeric reference
+00:50 +130 ~5: /home/user/management_toolbox/test/features/calculators/production/throughput_test.dart: throughput: typed bind validates independently of form
+00:50 +131 ~5: /home/user/management_toolbox/test/features/calculators/production/throughput_test.dart: throughput: rejects negative/nonfinite good_output in direct calculation
+00:50 +132 ~5: /home/user/management_toolbox/test/features/calculators/production/throughput_test.dart: throughput: zero good_output is a real valid boundary
+00:50 +133 ~5: /home/user/management_toolbox/test/features/calculators/production/throughput_test.dart: throughput: rejects negative/nonfinite elapsed_time in direct calculation
+00:50 +134 ~5: /home/user/management_toolbox/test/features/calculators/production/throughput_test.dart: throughput: zero elapsed_time is rejected
+00:50 +135 ~5: /home/user/management_toolbox/test/features/calculators/production/throughput_test.dart: throughput: overflow returns Persian numeric-range failure, not Infinity
+00:50 +136 ~5: /home/user/management_toolbox/test/features/calculators/production/throughput_test.dart: throughput: underflow is not disguised as zero
+00:50 +137 ~5: /home/user/management_toolbox/test/features/calculators/production/throughput_test.dart: throughput: 20 independent Decimal fixtures
+00:50 +138 ~5: /home/user/management_toolbox/test/features/calculators/production/throughput_test.dart: throughput: semantic and scale boundaries
+00:51 +139 ~5: loading /home/user/management_toolbox/test/features/calculators/production/wip_test.dart
+00:52 +139 ~5: /home/user/management_toolbox/test/features/calculators/production/wip_test.dart: wip: independent numeric reference
+00:52 +140 ~5: /home/user/management_toolbox/test/features/calculators/production/wip_test.dart: wip: typed bind validates independently of form
+00:52 +141 ~5: /home/user/management_toolbox/test/features/calculators/production/wip_test.dart: wip: rejects negative/nonfinite throughput_rate in direct calculation
+00:52 +142 ~5: /home/user/management_toolbox/test/features/calculators/production/wip_test.dart: wip: zero throughput_rate is rejected
+00:52 +143 ~5: /home/user/management_toolbox/test/features/calculators/production/wip_test.dart: wip: rejects negative/nonfinite flow_time in direct calculation
+00:52 +144 ~5: /home/user/management_toolbox/test/features/calculators/production/wip_test.dart: wip: zero flow_time is a real valid boundary
+00:52 +145 ~5: /home/user/management_toolbox/test/features/calculators/production/wip_test.dart: wip: overflow returns Persian numeric-range failure, not Infinity
+00:52 +146 ~5: /home/user/management_toolbox/test/features/calculators/production/wip_test.dart: wip: underflow is not disguised as zero
+00:52 +147 ~5: /home/user/management_toolbox/test/features/calculators/production/wip_test.dart: wip: 20 independent Decimal fixtures
+00:52 +148 ~5: /home/user/management_toolbox/test/features/calculators/production/wip_test.dart: wip: semantic and scale boundaries
+00:52 +149 ~5: loading /home/user/management_toolbox/test/features/calculators/production/labor_productivity_test.dart
+00:53 +149 ~5: /home/user/management_toolbox/test/features/calculators/production/labor_productivity_test.dart: labor_productivity: independent numeric reference
+00:53 +150 ~5: /home/user/management_toolbox/test/features/calculators/production/labor_productivity_test.dart: labor_productivity: typed bind validates independently of form
+00:53 +151 ~5: /home/user/management_toolbox/test/features/calculators/production/labor_productivity_test.dart: labor_productivity: rejects negative/nonfinite good_output in direct calculation
+00:53 +152 ~5: /home/user/management_toolbox/test/features/calculators/production/labor_productivity_test.dart: labor_productivity: zero good_output is a real valid boundary
+00:53 +153 ~5: /home/user/management_toolbox/test/features/calculators/production/labor_productivity_test.dart: labor_productivity: rejects negative/nonfinite labor_hours in direct calculation
+00:53 +154 ~5: /home/user/management_toolbox/test/features/calculators/production/labor_productivity_test.dart: labor_productivity: zero labor_hours is rejected
+00:53 +155 ~5: /home/user/management_toolbox/test/features/calculators/production/labor_productivity_test.dart: labor_productivity: overflow returns Persian numeric-range failure, not Infinity
+00:53 +156 ~5: /home/user/management_toolbox/test/features/calculators/production/labor_productivity_test.dart: labor_productivity: underflow is not disguised as zero
+00:53 +157 ~5: /home/user/management_toolbox/test/features/calculators/production/labor_productivity_test.dart: labor_productivity: 20 independent Decimal fixtures
+00:53 +158 ~5: /home/user/management_toolbox/test/features/calculators/production/labor_productivity_test.dart: labor_productivity: semantic and scale boundaries
+00:54 +159 ~5: loading /home/user/management_toolbox/test/features/calculators/production/capacity_utilization_test.dart
+00:55 +159 ~5: /home/user/management_toolbox/test/features/calculators/production/capacity_utilization_test.dart: capacity_utilization: independent numeric reference
+00:55 +160 ~5: /home/user/management_toolbox/test/features/calculators/production/capacity_utilization_test.dart: capacity_utilization: typed bind validates independently of form
+00:55 +161 ~5: /home/user/management_toolbox/test/features/calculators/production/capacity_utilization_test.dart: capacity_utilization: rejects negative/nonfinite actual_output in direct calculation
+00:55 +162 ~5: /home/user/management_toolbox/test/features/calculators/production/capacity_utilization_test.dart: capacity_utilization: zero actual_output is a real valid boundary
+00:55 +163 ~5: /home/user/management_toolbox/test/features/calculators/production/capacity_utilization_test.dart: capacity_utilization: rejects negative/nonfinite design_capacity in direct calculation
+00:55 +164 ~5: /home/user/management_toolbox/test/features/calculators/production/capacity_utilization_test.dart: capacity_utilization: zero design_capacity is rejected
+00:55 +165 ~5: /home/user/management_toolbox/test/features/calculators/production/capacity_utilization_test.dart: capacity_utilization: overflow returns Persian numeric-range failure, not Infinity
+00:55 +166 ~5: /home/user/management_toolbox/test/features/calculators/production/capacity_utilization_test.dart: capacity_utilization: underflow is not disguised as zero
+00:55 +167 ~5: /home/user/management_toolbox/test/features/calculators/production/capacity_utilization_test.dart: capacity_utilization: 20 independent Decimal fixtures
+00:55 +168 ~5: /home/user/management_toolbox/test/features/calculators/production/capacity_utilization_test.dart: capacity_utilization: semantic and scale boundaries
+00:55 +169 ~5: loading /home/user/management_toolbox/test/features/calculators/production/production_pages_test.dart
+00:56 +169 ~5: /home/user/management_toolbox/test/features/calculators/production/production_pages_test.dart: takt_time: uses generated generic page, validates and restores example
+00:58 +170 ~5: /home/user/management_toolbox/test/features/calculators/production/production_pages_test.dart: production_capacity: uses generated generic page, validates and restores example
+00:58 +171 ~5: /home/user/management_toolbox/test/features/calculators/production/production_pages_test.dart: labor_productivity: uses generated generic page, validates and restores example
+00:59 +172 ~5: /home/user/management_toolbox/test/features/calculators/production/production_pages_test.dart: cycle_time: uses generated generic page, validates and restores example
+00:59 +173 ~5: /home/user/management_toolbox/test/features/calculators/production/production_pages_test.dart: smed: uses generated generic page, validates and restores example
+00:59 +174 ~5: /home/user/management_toolbox/test/features/calculators/production/production_pages_test.dart: unit_production_cost: uses generated generic page, validates and restores example
+01:00 +175 ~5: /home/user/management_toolbox/test/features/calculators/production/production_pages_test.dart: wip: uses generated generic page, validates and restores example
+01:00 +176 ~5: /home/user/management_toolbox/test/features/calculators/production/production_pages_test.dart: throughput: uses generated generic page, validates and restores example
+01:00 +177 ~5: /home/user/management_toolbox/test/features/calculators/production/production_pages_test.dart: capacity_utilization: uses generated generic page, validates and restores example
+01:01 +178 ~5: /home/user/management_toolbox/test/features/calculators/production/production_pages_test.dart: all ten tools open from production category through public routing
+01:03 +179 ~5: /home/user/management_toolbox/test/features/calculators/production/production_pages_test.dart: new tool search favorite and history reopen keep edited inputs
+01:05 +180 ~5: /home/user/management_toolbox/test/features/calculators/production/production_pages_test.dart: SMED increase and utilization above 100 remain visible with warnings
+01:05 +181 ~5: /home/user/management_toolbox/test/features/calculators/production/production_pages_test.dart: nine new generic pages fit Size(320.0, 568.0) dark=false text scale 1.5
+01:06 +182 ~5: /home/user/management_toolbox/test/features/calculators/production/production_pages_test.dart: nine new generic pages fit Size(320.0, 568.0) dark=true text scale 1.5
+01:06 +183 ~5: /home/user/management_toolbox/test/features/calculators/production/production_pages_test.dart: nine new generic pages fit Size(1280.0, 800.0) dark=false text scale 1.5
+01:07 +184 ~5: /home/user/management_toolbox/test/features/calculators/production/production_pages_test.dart: nine new generic pages fit Size(1280.0, 800.0) dark=true text scale 1.5
+01:08 +185 ~5: loading /home/user/management_toolbox/test/features/calculators/production/takt_time_test.dart
+01:08 +185 ~5: /home/user/management_toolbox/test/features/calculators/production/takt_time_test.dart: takt_time: independent numeric reference
+01:08 +186 ~5: /home/user/management_toolbox/test/features/calculators/production/takt_time_test.dart: takt_time: typed bind validates independently of form
+01:08 +187 ~5: /home/user/management_toolbox/test/features/calculators/production/takt_time_test.dart: takt_time: rejects negative/nonfinite available_time in direct calculation
+01:08 +188 ~5: /home/user/management_toolbox/test/features/calculators/production/takt_time_test.dart: takt_time: zero available_time is rejected
+01:08 +189 ~5: /home/user/management_toolbox/test/features/calculators/production/takt_time_test.dart: takt_time: rejects negative/nonfinite demand in direct calculation
+01:08 +190 ~5: /home/user/management_toolbox/test/features/calculators/production/takt_time_test.dart: takt_time: zero demand is rejected
+01:08 +191 ~5: /home/user/management_toolbox/test/features/calculators/production/takt_time_test.dart: takt_time: overflow returns Persian numeric-range failure, not Infinity
+01:08 +192 ~5: /home/user/management_toolbox/test/features/calculators/production/takt_time_test.dart: takt_time: underflow is not disguised as zero
+01:08 +193 ~5: /home/user/management_toolbox/test/features/calculators/production/takt_time_test.dart: takt_time: 20 independent Decimal fixtures
+01:08 +194 ~5: /home/user/management_toolbox/test/features/calculators/production/takt_time_test.dart: takt_time: semantic and scale boundaries
+01:09 +195 ~5: loading /home/user/management_toolbox/test/features/calculators/production/production_catalog_test.dart
+01:10 +195 ~5: /home/user/management_toolbox/test/features/calculators/production/production_catalog_test.dart: ten production engines registered once, prior OEE identity is preserved
+01:10 +196 ~5: /home/user/management_toolbox/test/features/calculators/production/production_catalog_test.dart: oee: complete educational definition and executable example
+01:10 +197 ~5: /home/user/management_toolbox/test/features/calculators/production/production_catalog_test.dart: oee: Persian Arabic and Latin inputs agree; blank/NaN are rejected
+01:10 +198 ~5: /home/user/management_toolbox/test/features/calculators/production/production_catalog_test.dart: takt_time: complete educational definition and executable example
+01:10 +199 ~5: /home/user/management_toolbox/test/features/calculators/production/production_catalog_test.dart: takt_time: Persian Arabic and Latin inputs agree; blank/NaN are rejected
+01:10 +200 ~5: /home/user/management_toolbox/test/features/calculators/production/production_catalog_test.dart: production_capacity: complete educational definition and executable example
+01:10 +201 ~5: /home/user/management_toolbox/test/features/calculators/production/production_catalog_test.dart: production_capacity: Persian Arabic and Latin inputs agree; blank/NaN are rejected
+01:10 +202 ~5: /home/user/management_toolbox/test/features/calculators/production/production_catalog_test.dart: labor_productivity: complete educational definition and executable example
+01:10 +203 ~5: /home/user/management_toolbox/test/features/calculators/production/production_catalog_test.dart: labor_productivity: Persian Arabic and Latin inputs agree; blank/NaN are rejected
+01:10 +204 ~5: /home/user/management_toolbox/test/features/calculators/production/production_catalog_test.dart: cycle_time: complete educational definition and executable example
+01:10 +205 ~5: /home/user/management_toolbox/test/features/calculators/production/production_catalog_test.dart: cycle_time: Persian Arabic and Latin inputs agree; blank/NaN are rejected
+01:10 +206 ~5: /home/user/management_toolbox/test/features/calculators/production/production_catalog_test.dart: smed: complete educational definition and executable example
+01:10 +207 ~5: /home/user/management_toolbox/test/features/calculators/production/production_catalog_test.dart: smed: Persian Arabic and Latin inputs agree; blank/NaN are rejected
+01:10 +208 ~5: /home/user/management_toolbox/test/features/calculators/production/production_catalog_test.dart: unit_production_cost: complete educational definition and executable example
+01:10 +209 ~5: /home/user/management_toolbox/test/features/calculators/production/production_catalog_test.dart: unit_production_cost: Persian Arabic and Latin inputs agree; blank/NaN are rejected
+01:10 +210 ~5: /home/user/management_toolbox/test/features/calculators/production/production_catalog_test.dart: wip: complete educational definition and executable example
+01:10 +211 ~5: /home/user/management_toolbox/test/features/calculators/production/production_catalog_test.dart: wip: Persian Arabic and Latin inputs agree; blank/NaN are rejected
+01:10 +212 ~5: /home/user/management_toolbox/test/features/calculators/production/production_catalog_test.dart: throughput: complete educational definition and executable example
+01:10 +213 ~5: /home/user/management_toolbox/test/features/calculators/production/production_catalog_test.dart: throughput: Persian Arabic and Latin inputs agree; blank/NaN are rejected
+01:10 +214 ~5: /home/user/management_toolbox/test/features/calculators/production/production_catalog_test.dart: capacity_utilization: complete educational definition and executable example
+01:10 +215 ~5: /home/user/management_toolbox/test/features/calculators/production/production_catalog_test.dart: capacity_utilization: Persian Arabic and Latin inputs agree; blank/NaN are rejected
+01:11 +216 ~5: loading /home/user/management_toolbox/test/features/calculators/production/production_capacity_test.dart
+01:11 +216 ~5: /home/user/management_toolbox/test/features/calculators/production/production_capacity_test.dart: production_capacity: independent numeric reference
+01:11 +217 ~5: /home/user/management_toolbox/test/features/calculators/production/production_capacity_test.dart: production_capacity: typed bind validates independently of form
+01:11 +218 ~5: /home/user/management_toolbox/test/features/calculators/production/production_capacity_test.dart: production_capacity: rejects negative/nonfinite available_time in direct calculation
+01:11 +219 ~5: /home/user/management_toolbox/test/features/calculators/production/production_capacity_test.dart: production_capacity: zero available_time is a real valid boundary
+01:11 +220 ~5: /home/user/management_toolbox/test/features/calculators/production/production_capacity_test.dart: production_capacity: rejects negative/nonfinite ideal_cycle in direct calculation
+01:11 +221 ~5: /home/user/management_toolbox/test/features/calculators/production/production_capacity_test.dart: production_capacity: zero ideal_cycle is rejected
+01:11 +222 ~5: /home/user/management_toolbox/test/features/calculators/production/production_capacity_test.dart: production_capacity: rejects negative/nonfinite parallel_resources in direct calculation
+01:11 +223 ~5: /home/user/management_toolbox/test/features/calculators/production/production_capacity_test.dart: production_capacity: zero parallel_resources is rejected
+01:11 +224 ~5: /home/user/management_toolbox/test/features/calculators/production/production_capacity_test.dart: production_capacity: overflow returns Persian numeric-range failure, not Infinity
+01:11 +225 ~5: /home/user/management_toolbox/test/features/calculators/production/production_capacity_test.dart: production_capacity: underflow is not disguised as zero
+01:11 +226 ~5: /home/user/management_toolbox/test/features/calculators/production/production_capacity_test.dart: production_capacity: 20 independent Decimal fixtures
+01:11 +227 ~5: /home/user/management_toolbox/test/features/calculators/production/production_capacity_test.dart: production_capacity: semantic and scale boundaries
+01:12 +228 ~5: loading /home/user/management_toolbox/test/features/calculators/production/production_visual_test.dart
+01:13 +228 ~5: /home/user/management_toolbox/test/features/calculators/production/production_visual_test.dart: capture actual production category and generic production pages
+01:13 +228 ~6: loading /home/user/management_toolbox/test/features/calculators/production/smed_test.dart
+01:14 +228 ~6: /home/user/management_toolbox/test/features/calculators/production/smed_test.dart: smed: independent numeric reference
+01:14 +229 ~6: /home/user/management_toolbox/test/features/calculators/production/smed_test.dart: smed: typed bind validates independently of form
+01:14 +230 ~6: /home/user/management_toolbox/test/features/calculators/production/smed_test.dart: smed: rejects negative/nonfinite before_time in direct calculation
+01:14 +231 ~6: /home/user/management_toolbox/test/features/calculators/production/smed_test.dart: smed: zero before_time is rejected
+01:14 +232 ~6: /home/user/management_toolbox/test/features/calculators/production/smed_test.dart: smed: rejects negative/nonfinite after_time in direct calculation
+01:14 +233 ~6: /home/user/management_toolbox/test/features/calculators/production/smed_test.dart: smed: zero after_time is a real valid boundary
+01:14 +234 ~6: /home/user/management_toolbox/test/features/calculators/production/smed_test.dart: smed: overflow returns Persian numeric-range failure, not Infinity
+01:14 +235 ~6: /home/user/management_toolbox/test/features/calculators/production/smed_test.dart: smed: 20 independent Decimal fixtures
+01:14 +236 ~6: /home/user/management_toolbox/test/features/calculators/production/smed_test.dart: smed: semantic and scale boundaries
+01:15 +237 ~6: loading /home/user/management_toolbox/test/features/calculators/production/unit_production_cost_test.dart
+01:15 +237 ~6: /home/user/management_toolbox/test/features/calculators/production/unit_production_cost_test.dart: unit_production_cost: independent numeric reference
+01:15 +238 ~6: /home/user/management_toolbox/test/features/calculators/production/unit_production_cost_test.dart: unit_production_cost: typed bind validates independently of form
+01:15 +239 ~6: /home/user/management_toolbox/test/features/calculators/production/unit_production_cost_test.dart: unit_production_cost: rejects negative/nonfinite allocated_cost in direct calculation
+01:15 +240 ~6: /home/user/management_toolbox/test/features/calculators/production/unit_production_cost_test.dart: unit_production_cost: zero allocated_cost is a real valid boundary
+01:15 +241 ~6: /home/user/management_toolbox/test/features/calculators/production/unit_production_cost_test.dart: unit_production_cost: rejects negative/nonfinite good_output in direct calculation
+01:15 +242 ~6: /home/user/management_toolbox/test/features/calculators/production/unit_production_cost_test.dart: unit_production_cost: zero good_output is rejected
+01:15 +243 ~6: /home/user/management_toolbox/test/features/calculators/production/unit_production_cost_test.dart: unit_production_cost: overflow returns Persian numeric-range failure, not Infinity
+01:15 +244 ~6: /home/user/management_toolbox/test/features/calculators/production/unit_production_cost_test.dart: unit_production_cost: underflow is not disguised as zero
+01:15 +245 ~6: /home/user/management_toolbox/test/features/calculators/production/unit_production_cost_test.dart: unit_production_cost: 20 independent Decimal fixtures
+01:16 +246 ~6: /home/user/management_toolbox/test/features/calculators/production/unit_production_cost_test.dart: unit_production_cost: semantic and scale boundaries
+01:16 +247 ~6: loading /home/user/management_toolbox/test/features/calculators/production/cycle_time_test.dart
+01:17 +247 ~6: /home/user/management_toolbox/test/features/calculators/production/cycle_time_test.dart: cycle_time: independent numeric reference
+01:17 +248 ~6: /home/user/management_toolbox/test/features/calculators/production/cycle_time_test.dart: cycle_time: typed bind validates independently of form
+01:17 +249 ~6: /home/user/management_toolbox/test/features/calculators/production/cycle_time_test.dart: cycle_time: rejects negative/nonfinite run_time in direct calculation
+01:17 +250 ~6: /home/user/management_toolbox/test/features/calculators/production/cycle_time_test.dart: cycle_time: zero run_time is rejected
+01:17 +251 ~6: /home/user/management_toolbox/test/features/calculators/production/cycle_time_test.dart: cycle_time: rejects negative/nonfinite total_output in direct calculation
+01:17 +252 ~6: /home/user/management_toolbox/test/features/calculators/production/cycle_time_test.dart: cycle_time: zero total_output is rejected
+01:17 +253 ~6: /home/user/management_toolbox/test/features/calculators/production/cycle_time_test.dart: cycle_time: overflow returns Persian numeric-range failure, not Infinity
+01:17 +254 ~6: /home/user/management_toolbox/test/features/calculators/production/cycle_time_test.dart: cycle_time: underflow is not disguised as zero
+01:17 +255 ~6: /home/user/management_toolbox/test/features/calculators/production/cycle_time_test.dart: cycle_time: 20 independent Decimal fixtures
+01:17 +256 ~6: /home/user/management_toolbox/test/features/calculators/production/cycle_time_test.dart: cycle_time: semantic and scale boundaries
+01:18 +257 ~6: loading /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart
+01:18 +257 ~6: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: required reference gives fraction 0.8379 and percentage output metadata
+01:18 +258 ~6: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: catalog percentages normalize once and examples match expected value
+01:18 +259 ~6: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: availability at 0 percent is handled
+01:18 +260 ~6: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: availability at 100 percent is handled
+01:18 +261 ~6: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: invalid availability "-1" is rejected with field issue
+01:18 +262 ~6: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: invalid availability "100.01" is rejected with field issue
+01:18 +263 ~6: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: invalid availability "NaN" is rejected with field issue
+01:18 +264 ~6: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: invalid availability "" is rejected with field issue
+01:18 +265 ~6: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: invalid availability "Infinity" is rejected with field issue
+01:18 +266 ~6: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: performance at 0 percent is handled
+01:18 +267 ~6: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: performance at 100 percent is handled
+01:18 +268 ~6: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: invalid performance "-1" is rejected with field issue
+01:18 +269 ~6: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: invalid performance "100.01" is rejected with field issue
+01:18 +270 ~6: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: invalid performance "NaN" is rejected with field issue
+01:18 +271 ~6: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: invalid performance "" is rejected with field issue
+01:18 +272 ~6: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: invalid performance "Infinity" is rejected with field issue
+01:18 +273 ~6: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: quality at 0 percent is handled
+01:18 +274 ~6: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: quality at 100 percent is handled
+01:18 +275 ~6: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: invalid quality "-1" is rejected with field issue
+01:18 +276 ~6: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: invalid quality "100.01" is rejected with field issue
+01:18 +277 ~6: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: invalid quality "NaN" is rejected with field issue
+01:18 +278 ~6: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: invalid quality "" is rejected with field issue
+01:18 +279 ~6: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: invalid quality "Infinity" is rejected with field issue
+01:18 +280 ~6: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: typed engine validates all ratios even outside normalizer
+01:18 +281 ~6: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: underflow is not silently reported as zero for all-positive inputs
+01:18 +282 ~6: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: accepts digit set ۹۰
+01:18 +283 ~6: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: accepts digit set ٩٠
+01:18 +284 ~6: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: accepts digit set 90
+01:19 +285 ~6: loading /home/user/management_toolbox/test/features/calculators/prototypes/prototype_pages_test.dart
+01:20 +285 ~6: /home/user/management_toolbox/test/features/calculators/prototypes/prototype_pages_test.dart: OEE renders 83.79 percent and hides stale result on invalid ratio
+01:22 +286 ~6: /home/user/management_toolbox/test/features/calculators/prototypes/prototype_pages_test.dart: NPV cash flows begin at period 1; rate -100 is rejected in UI
+01:23 +287 ~6: /home/user/management_toolbox/test/features/calculators/prototypes/prototype_pages_test.dart: Cp sigma and limits are validated with assumptions visible
+01:24 +288 ~6: /home/user/management_toolbox/test/features/calculators/prototypes/prototype_pages_test.dart: all three tools are reachable from home and retain existing tools
+01:25 +289 ~6: /home/user/management_toolbox/test/features/calculators/prototypes/prototype_pages_test.dart: oee fits RTL Size(320.0, 568.0) with enlarged text
+01:25 +290 ~6: /home/user/management_toolbox/test/features/calculators/prototypes/prototype_pages_test.dart: oee fits RTL Size(1280.0, 800.0) with enlarged text
+01:25 +291 ~6: /home/user/management_toolbox/test/features/calculators/prototypes/prototype_pages_test.dart: npv fits RTL Size(320.0, 568.0) with enlarged text
+01:26 +292 ~6: /home/user/management_toolbox/test/features/calculators/prototypes/prototype_pages_test.dart: npv fits RTL Size(1280.0, 800.0) with enlarged text
+01:26 +293 ~6: /home/user/management_toolbox/test/features/calculators/prototypes/prototype_pages_test.dart: cp fits RTL Size(320.0, 568.0) with enlarged text
+01:26 +294 ~6: /home/user/management_toolbox/test/features/calculators/prototypes/prototype_pages_test.dart: cp fits RTL Size(1280.0, 800.0) with enlarged text
+01:27 +295 ~6: loading /home/user/management_toolbox/test/features/calculators/prototypes/prototype_visual_test.dart
+01:27 +295 ~6: /home/user/management_toolbox/test/features/calculators/prototypes/prototype_visual_test.dart: capture oee form and explanations
+01:27 +295 ~7: /home/user/management_toolbox/test/features/calculators/prototypes/prototype_visual_test.dart: capture npv form and explanations
+01:27 +295 ~8: /home/user/management_toolbox/test/features/calculators/prototypes/prototype_visual_test.dart: capture cp form and explanations
+01:28 +295 ~9: loading /home/user/management_toolbox/test/features/calculators/prototypes/npv_test.dart
+01:29 +295 ~9: /home/user/management_toolbox/test/features/calculators/prototypes/npv_test.dart: known NPV discounts CF1 and CF2, does not count CF0 twice
+01:29 +296 ~9: /home/user/management_toolbox/test/features/calculators/prototypes/npv_test.dart: zero discount rate is signed cash-flow sum minus initial investment
+01:29 +297 ~9: /home/user/management_toolbox/test/features/calculators/prototypes/npv_test.dart: negative discount greater than -1 is valid and warned
+01:29 +298 ~9: /home/user/management_toolbox/test/features/calculators/prototypes/npv_test.dart: 50 independent 80-digit Decimal fixtures agree within tolerance
+01:29 +299 ~9: /home/user/management_toolbox/test/features/calculators/prototypes/npv_test.dart: compensated sum retains small mixed-sign cash flows
+01:29 +300 ~9: /home/user/management_toolbox/test/features/calculators/prototypes/npv_test.dart: fallback handles overflowing denominator with representable PV
+01:29 +301 ~9: /home/user/management_toolbox/test/features/calculators/prototypes/npv_test.dart: subnormal discount factor uses stable fallback rather than rounded denominator
+01:29 +302 ~9: /home/user/management_toolbox/test/features/calculators/prototypes/npv_test.dart: zero flows stay exactly zero at extreme valid negative rates
+01:29 +303 ~9: /home/user/management_toolbox/test/features/calculators/prototypes/npv_test.dart: invalid direct discount -1.0 rejected
+01:29 +304 ~9: /home/user/management_toolbox/test/features/calculators/prototypes/npv_test.dart: invalid direct discount -1.01 rejected
+01:29 +305 ~9: /home/user/management_toolbox/test/features/calculators/prototypes/npv_test.dart: invalid direct discount NaN rejected
+01:29 +306 ~9: /home/user/management_toolbox/test/features/calculators/prototypes/npv_test.dart: invalid direct discount Infinity rejected
+01:29 +307 ~9: /home/user/management_toolbox/test/features/calculators/prototypes/npv_test.dart: negative/nonfinite initial investment is rejected
+01:29 +308 ~9: /home/user/management_toolbox/test/features/calculators/prototypes/npv_test.dart: empty too-long and nonfinite series rejected
+01:29 +309 ~9: /home/user/management_toolbox/test/features/calculators/prototypes/npv_test.dart: numeric overflow and underflow produce explicit failure, not made-up result
+01:29 +310 ~9: /home/user/management_toolbox/test/features/calculators/prototypes/npv_test.dart: parameters snapshot cash-flow list
+01:29 +311 ~9: /home/user/management_toolbox/test/features/calculators/prototypes/npv_test.dart: catalog rejects exactly -100 percent and invalid initial text
+01:29 +312 ~9: /home/user/management_toolbox/test/features/calculators/prototypes/npv_test.dart: unit changes only label, example matches known reference
+01:29 +313 ~9: /home/user/management_toolbox/test/features/calculators/prototypes/npv_test.dart: direct bind rejects invalid rate and currency
+01:29 +314 ~9: loading /home/user/management_toolbox/test/features/calculators/prototypes/cp_test.dart
+01:30 +314 ~9: /home/user/management_toolbox/test/features/calculators/prototypes/cp_test.dart: known examples and dimensionless result
+01:30 +315 ~9: /home/user/management_toolbox/test/features/calculators/prototypes/cp_test.dart: negative specification limits are valid, common unit scaling invariant
+01:30 +316 ~9: /home/user/management_toolbox/test/features/calculators/prototypes/cp_test.dart: equal or reversed limits (10.0, 10.0) rejected
+01:30 +317 ~9: /home/user/management_toolbox/test/features/calculators/prototypes/cp_test.dart: equal or reversed limits (9.0, 10.0) rejected
+01:30 +318 ~9: /home/user/management_toolbox/test/features/calculators/prototypes/cp_test.dart: invalid sigma 0.0 rejected
+01:30 +319 ~9: /home/user/management_toolbox/test/features/calculators/prototypes/cp_test.dart: invalid sigma -1.0 rejected
+01:30 +320 ~9: /home/user/management_toolbox/test/features/calculators/prototypes/cp_test.dart: invalid sigma NaN rejected
+01:30 +321 ~9: /home/user/management_toolbox/test/features/calculators/prototypes/cp_test.dart: invalid sigma Infinity rejected
+01:30 +322 ~9: /home/user/management_toolbox/test/features/calculators/prototypes/cp_test.dart: nonfinite specification limits rejected independently
+01:30 +323 ~9: /home/user/management_toolbox/test/features/calculators/prototypes/cp_test.dart: very large common scale avoids intermediate width/denominator overflow
+01:30 +324 ~9: /home/user/management_toolbox/test/features/calculators/prototypes/cp_test.dart: subnormal common scale does not create a false zero
+01:30 +325 ~9: /home/user/management_toolbox/test/features/calculators/prototypes/cp_test.dart: unrepresentable huge/tiny Cp produces range failure
+01:30 +326 ~9: /home/user/management_toolbox/test/features/calculators/prototypes/cp_test.dart: catalog sigma zero and relationship errors are field-specific
+01:30 +327 ~9: /home/user/management_toolbox/test/features/calculators/prototypes/cp_test.dart: direct bind checks limits and all declared measurement units work
+01:31 +328 ~9: loading /home/user/management_toolbox/test/features/calculators/finance/wacc_test.dart
+01:31 +328 ~9: /home/user/management_toolbox/test/features/calculators/finance/wacc_test.dart: wacc: reference formula
+01:31 +329 ~9: /home/user/management_toolbox/test/features/calculators/finance/wacc_test.dart: wacc: typed bind and domain validation
+01:31 +330 ~9: /home/user/management_toolbox/test/features/calculators/finance/wacc_test.dart: wacc: nonfinite equity
+01:31 +331 ~9: /home/user/management_toolbox/test/features/calculators/finance/wacc_test.dart: wacc: lower bound equity
+01:31 +332 ~9: /home/user/management_toolbox/test/features/calculators/finance/wacc_test.dart: wacc: nonfinite debt
+01:31 +333 ~9: /home/user/management_toolbox/test/features/calculators/finance/wacc_test.dart: wacc: lower bound debt
+01:31 +334 ~9: /home/user/management_toolbox/test/features/calculators/finance/wacc_test.dart: wacc: nonfinite equity_cost
+01:31 +335 ~9: /home/user/management_toolbox/test/features/calculators/finance/wacc_test.dart: wacc: lower bound equity_cost
+01:31 +336 ~9: /home/user/management_toolbox/test/features/calculators/finance/wacc_test.dart: wacc: nonfinite debt_cost
+01:31 +337 ~9: /home/user/management_toolbox/test/features/calculators/finance/wacc_test.dart: wacc: lower bound debt_cost
+01:31 +338 ~9: /home/user/management_toolbox/test/features/calculators/finance/wacc_test.dart: wacc: nonfinite tax_rate
+01:31 +339 ~9: /home/user/management_toolbox/test/features/calculators/finance/wacc_test.dart: wacc: lower bound tax_rate
+01:31 +340 ~9: /home/user/management_toolbox/test/features/calculators/finance/wacc_test.dart: wacc: upper bound tax_rate
+01:31 +341 ~9: /home/user/management_toolbox/test/features/calculators/finance/wacc_test.dart: wacc: 20 independent Decimal formula fixtures
+01:31 +342 ~9: /home/user/management_toolbox/test/features/calculators/finance/wacc_test.dart: wacc: zero cross-field and numerical edge cases
+01:32 +343 ~9: loading /home/user/management_toolbox/test/features/calculators/finance/quick_ratio_test.dart
+01:33 +343 ~9: /home/user/management_toolbox/test/features/calculators/finance/quick_ratio_test.dart: quick_ratio: reference formula
+01:33 +344 ~9: /home/user/management_toolbox/test/features/calculators/finance/quick_ratio_test.dart: quick_ratio: typed bind and domain validation
+01:33 +345 ~9: /home/user/management_toolbox/test/features/calculators/finance/quick_ratio_test.dart: quick_ratio: nonfinite current_assets
+01:33 +346 ~9: /home/user/management_toolbox/test/features/calculators/finance/quick_ratio_test.dart: quick_ratio: lower bound current_assets
+01:33 +347 ~9: /home/user/management_toolbox/test/features/calculators/finance/quick_ratio_test.dart: quick_ratio: nonfinite inventory
+01:33 +348 ~9: /home/user/management_toolbox/test/features/calculators/finance/quick_ratio_test.dart: quick_ratio: lower bound inventory
+01:33 +349 ~9: /home/user/management_toolbox/test/features/calculators/finance/quick_ratio_test.dart: quick_ratio: nonfinite prepayments
+01:33 +350 ~9: /home/user/management_toolbox/test/features/calculators/finance/quick_ratio_test.dart: quick_ratio: lower bound prepayments
+01:33 +351 ~9: /home/user/management_toolbox/test/features/calculators/finance/quick_ratio_test.dart: quick_ratio: nonfinite current_liabilities
+01:33 +352 ~9: /home/user/management_toolbox/test/features/calculators/finance/quick_ratio_test.dart: quick_ratio: lower bound current_liabilities
+01:33 +353 ~9: /home/user/management_toolbox/test/features/calculators/finance/quick_ratio_test.dart: quick_ratio: 20 independent Decimal formula fixtures
+01:33 +354 ~9: /home/user/management_toolbox/test/features/calculators/finance/quick_ratio_test.dart: quick_ratio: zero cross-field and numerical edge cases
+01:33 +355 ~9: loading /home/user/management_toolbox/test/features/calculators/finance/compound_interest_test.dart
+01:34 +355 ~9: /home/user/management_toolbox/test/features/calculators/finance/compound_interest_test.dart: compound_interest: reference formula
+01:34 +356 ~9: /home/user/management_toolbox/test/features/calculators/finance/compound_interest_test.dart: compound_interest: typed bind and domain validation
+01:34 +357 ~9: /home/user/management_toolbox/test/features/calculators/finance/compound_interest_test.dart: compound_interest: nonfinite principal
+01:34 +358 ~9: /home/user/management_toolbox/test/features/calculators/finance/compound_interest_test.dart: compound_interest: lower bound principal
+01:34 +359 ~9: /home/user/management_toolbox/test/features/calculators/finance/compound_interest_test.dart: compound_interest: nonfinite period_rate
+01:34 +360 ~9: /home/user/management_toolbox/test/features/calculators/finance/compound_interest_test.dart: compound_interest: lower bound period_rate
+01:34 +361 ~9: /home/user/management_toolbox/test/features/calculators/finance/compound_interest_test.dart: compound_interest: nonfinite periods
+01:34 +362 ~9: /home/user/management_toolbox/test/features/calculators/finance/compound_interest_test.dart: compound_interest: lower bound periods
+01:34 +363 ~9: /home/user/management_toolbox/test/features/calculators/finance/compound_interest_test.dart: compound_interest: upper bound periods
+01:34 +364 ~9: /home/user/management_toolbox/test/features/calculators/finance/compound_interest_test.dart: compound_interest: fractional periods are rejected
+01:34 +365 ~9: /home/user/management_toolbox/test/features/calculators/finance/compound_interest_test.dart: compound_interest: 20 independent Decimal formula fixtures
+01:34 +366 ~9: /home/user/management_toolbox/test/features/calculators/finance/compound_interest_test.dart: compound_interest: zero cross-field and numerical edge cases
+01:35 +367 ~9: loading /home/user/management_toolbox/test/features/calculators/finance/payback_test.dart
+01:35 +367 ~9: /home/user/management_toolbox/test/features/calculators/finance/payback_test.dart: payback reference is 2.6 periods with uniform intraperiod receipts
+01:35 +368 ~9: /home/user/management_toolbox/test/features/calculators/finance/payback_test.dart: payback zero investment exact endpoint and zero-flow periods
+01:35 +369 ~9: /home/user/management_toolbox/test/features/calculators/finance/payback_test.dart: payback not recovered never returns a made-up period
+01:35 +370 ~9: /home/user/management_toolbox/test/features/calculators/finance/payback_test.dart: payback invalid initial cost direct validation
+01:35 +371 ~9: /home/user/management_toolbox/test/features/calculators/finance/payback_test.dart: payback negative future flow is explicitly unsupported, not ignored
+01:35 +372 ~9: /home/user/management_toolbox/test/features/calculators/finance/payback_test.dart: payback immutable inputs typed bind and underflow safeguards
+01:35 +373 ~9: /home/user/management_toolbox/test/features/calculators/finance/payback_test.dart: payback 20 independent Decimal fixtures
+01:36 +374 ~9: loading /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart
+01:36 +374 ~9: /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart: irr: generic form rendered formula error and example
+01:38 +375 ~9: /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart: payback: generic form rendered formula error and example
+01:39 +376 ~9: /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart: roi: generic form rendered formula error and example
+01:39 +377 ~9: /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart: current_ratio: generic form rendered formula error and example
+01:39 +378 ~9: /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart: quick_ratio: generic form rendered formula error and example
+01:40 +379 ~9: /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart: wacc: generic form rendered formula error and example
+01:40 +380 ~9: /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart: compound_interest: generic form rendered formula error and example
+01:41 +381 ~9: /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart: loan_payment: generic form rendered formula error and example
+01:41 +382 ~9: /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart: break_even: generic form rendered formula error and example
+01:41 +383 ~9: /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart: ten finance tools open through real category routes
+01:44 +384 ~9: /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart: IRR missing root ambiguous roots and convergence failure show no stale result
+01:44 +385 ~9: /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart: new loan favorite save and reopen keep period-rate input
+01:46 +386 ~9: /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart: nine finance pages fit Size(320.0, 568.0) dark=false enlarged RTL
+01:47 +387 ~9: /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart: nine finance pages fit Size(320.0, 568.0) dark=true enlarged RTL
+01:47 +388 ~9: /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart: nine finance pages fit Size(1280.0, 800.0) dark=false enlarged RTL
+01:48 +389 ~9: /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart: nine finance pages fit Size(1280.0, 800.0) dark=true enlarged RTL
+01:49 +390 ~9: loading /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart
+01:50 +390 ~9: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: ten finance runners, preserved NPV and 36 actual tools
+01:50 +391 ~9: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: NPV first cash flow is CF1 and discount rate belongs to each period
+01:50 +392 ~9: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: npv: full definition formula and educational numeric example
+01:50 +393 ~9: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: npv: Arabic Persian Latin digits and malformed form data
+01:50 +394 ~9: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: irr: full definition formula and educational numeric example
+01:50 +395 ~9: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: irr: Arabic Persian Latin digits and malformed form data
+01:50 +396 ~9: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: payback: full definition formula and educational numeric example
+01:50 +397 ~9: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: payback: Arabic Persian Latin digits and malformed form data
+01:50 +398 ~9: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: roi: full definition formula and educational numeric example
+01:50 +399 ~9: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: roi: Arabic Persian Latin digits and malformed form data
+01:50 +400 ~9: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: current_ratio: full definition formula and educational numeric example
+01:50 +401 ~9: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: current_ratio: Arabic Persian Latin digits and malformed form data
+01:50 +402 ~9: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: quick_ratio: full definition formula and educational numeric example
+01:50 +403 ~9: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: quick_ratio: Arabic Persian Latin digits and malformed form data
+01:50 +404 ~9: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: wacc: full definition formula and educational numeric example
+01:50 +405 ~9: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: wacc: Arabic Persian Latin digits and malformed form data
+01:50 +406 ~9: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: compound_interest: full definition formula and educational numeric example
+01:50 +407 ~9: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: compound_interest: Arabic Persian Latin digits and malformed form data
+01:50 +408 ~9: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: loan_payment: full definition formula and educational numeric example
+01:50 +409 ~9: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: loan_payment: Arabic Persian Latin digits and malformed form data
+01:50 +410 ~9: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: break_even: full definition formula and educational numeric example
+01:50 +411 ~9: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: break_even: Arabic Persian Latin digits and malformed form data
+01:51 +412 ~9: loading /home/user/management_toolbox/test/features/calculators/finance/roi_test.dart
+01:51 +412 ~9: /home/user/management_toolbox/test/features/calculators/finance/roi_test.dart: roi: reference formula
+01:51 +413 ~9: /home/user/management_toolbox/test/features/calculators/finance/roi_test.dart: roi: typed bind and domain validation
+01:51 +414 ~9: /home/user/management_toolbox/test/features/calculators/finance/roi_test.dart: roi: nonfinite net_profit
+01:51 +415 ~9: /home/user/management_toolbox/test/features/calculators/finance/roi_test.dart: roi: nonfinite investment
+01:51 +416 ~9: /home/user/management_toolbox/test/features/calculators/finance/roi_test.dart: roi: lower bound investment
+01:51 +417 ~9: /home/user/management_toolbox/test/features/calculators/finance/roi_test.dart: roi: 20 independent Decimal formula fixtures
+01:51 +418 ~9: /home/user/management_toolbox/test/features/calculators/finance/roi_test.dart: roi: zero cross-field and numerical edge cases
+01:52 +419 ~9: loading /home/user/management_toolbox/test/features/calculators/finance/irr_test.dart
+01:53 +419 ~9: /home/user/management_toolbox/test/features/calculators/finance/irr_test.dart: IRR known unique multi-period root
+01:53 +420 ~9: /home/user/management_toolbox/test/features/calculators/finance/irr_test.dart: IRR positive negative zero and reversed financing flow signs
+01:53 +421 ~9: /home/user/management_toolbox/test/features/calculators/finance/irr_test.dart: IRR exactly balanced cash flows have zero rate
+01:53 +422 ~9: /home/user/management_toolbox/test/features/calculators/finance/irr_test.dart: IRR scale invariance at tiny and huge values
+01:53 +423 ~9: /home/user/management_toolbox/test/features/calculators/finance/irr_test.dart: IRR no sign change is genuinely no root
+01:53 +424 ~9: /home/user/management_toolbox/test/features/calculators/finance/irr_test.dart: IRR zero flows and leading zero are not fabricated answers
+01:53 +425 ~9: /home/user/management_toolbox/test/features/calculators/finance/irr_test.dart: IRR ambiguous cash flows do not silently select one root
+01:53 +426 ~9: /home/user/management_toolbox/test/features/calculators/finance/irr_test.dart: IRR iteration budget exhaustion yields failure, not last iterate
+01:53 +427 ~9: /home/user/management_toolbox/test/features/calculators/finance/irr_test.dart: IRR numerical bounds are not mislabeled as no mathematical root
+01:53 +428 ~9: /home/user/management_toolbox/test/features/calculators/finance/irr_test.dart: IRR invalid length and NaN Infinity are rejected directly
+01:53 +429 ~9: /home/user/management_toolbox/test/features/calculators/finance/irr_test.dart: IRR immutable parameters and typed binding
+01:53 +430 ~9: /home/user/management_toolbox/test/features/calculators/finance/irr_test.dart: IRR near-minus-one precision failures are explicit when necessary
+01:53 +431 ~9: /home/user/management_toolbox/test/features/calculators/finance/irr_test.dart: IRR 1000-flow horizon retains timing and tiny rates
+01:53 +432 ~9: /home/user/management_toolbox/test/features/calculators/finance/irr_test.dart: IRR independent Decimal-derived multi-period roots
+01:54 +433 ~9: loading /home/user/management_toolbox/test/features/calculators/finance/finance_visual_test.dart
+01:54 +433 ~9: /home/user/management_toolbox/test/features/calculators/finance/finance_visual_test.dart: capture finance registry IRR valid and rejected roots and loan
+01:55 +433 ~10: loading /home/user/management_toolbox/test/features/calculators/finance/loan_payment_test.dart
+01:56 +433 ~10: /home/user/management_toolbox/test/features/calculators/finance/loan_payment_test.dart: loan_payment: reference formula
+01:56 +434 ~10: /home/user/management_toolbox/test/features/calculators/finance/loan_payment_test.dart: loan_payment: typed bind and domain validation
+01:56 +435 ~10: /home/user/management_toolbox/test/features/calculators/finance/loan_payment_test.dart: loan_payment: nonfinite principal
+01:56 +436 ~10: /home/user/management_toolbox/test/features/calculators/finance/loan_payment_test.dart: loan_payment: lower bound principal
+01:56 +437 ~10: /home/user/management_toolbox/test/features/calculators/finance/loan_payment_test.dart: loan_payment: nonfinite period_rate
+01:56 +438 ~10: /home/user/management_toolbox/test/features/calculators/finance/loan_payment_test.dart: loan_payment: lower bound period_rate
+01:56 +439 ~10: /home/user/management_toolbox/test/features/calculators/finance/loan_payment_test.dart: loan_payment: nonfinite periods
+01:56 +440 ~10: /home/user/management_toolbox/test/features/calculators/finance/loan_payment_test.dart: loan_payment: lower bound periods
+01:56 +441 ~10: /home/user/management_toolbox/test/features/calculators/finance/loan_payment_test.dart: loan_payment: upper bound periods
+01:56 +442 ~10: /home/user/management_toolbox/test/features/calculators/finance/loan_payment_test.dart: loan_payment: fractional periods are rejected
+01:56 +443 ~10: /home/user/management_toolbox/test/features/calculators/finance/loan_payment_test.dart: loan_payment: 20 independent Decimal formula fixtures
+01:56 +444 ~10: /home/user/management_toolbox/test/features/calculators/finance/loan_payment_test.dart: loan_payment: zero cross-field and numerical edge cases
+01:57 +445 ~10: loading /home/user/management_toolbox/test/features/calculators/finance/break_even_test.dart
+01:57 +445 ~10: /home/user/management_toolbox/test/features/calculators/finance/break_even_test.dart: break_even: reference formula
+01:57 +446 ~10: /home/user/management_toolbox/test/features/calculators/finance/break_even_test.dart: break_even: typed bind and domain validation
+01:57 +447 ~10: /home/user/management_toolbox/test/features/calculators/finance/break_even_test.dart: break_even: nonfinite fixed_cost
+01:57 +448 ~10: /home/user/management_toolbox/test/features/calculators/finance/break_even_test.dart: break_even: lower bound fixed_cost
+01:57 +449 ~10: /home/user/management_toolbox/test/features/calculators/finance/break_even_test.dart: break_even: nonfinite unit_price
+01:57 +450 ~10: /home/user/management_toolbox/test/features/calculators/finance/break_even_test.dart: break_even: lower bound unit_price
+01:57 +451 ~10: /home/user/management_toolbox/test/features/calculators/finance/break_even_test.dart: break_even: nonfinite variable_cost
+01:57 +452 ~10: /home/user/management_toolbox/test/features/calculators/finance/break_even_test.dart: break_even: lower bound variable_cost
+01:57 +453 ~10: /home/user/management_toolbox/test/features/calculators/finance/break_even_test.dart: break_even: 20 independent Decimal formula fixtures
+01:57 +454 ~10: /home/user/management_toolbox/test/features/calculators/finance/break_even_test.dart: break_even: zero cross-field and numerical edge cases
+01:58 +455 ~10: loading /home/user/management_toolbox/test/features/calculators/finance/current_ratio_test.dart
+01:59 +455 ~10: /home/user/management_toolbox/test/features/calculators/finance/current_ratio_test.dart: current_ratio: reference formula
+01:59 +456 ~10: /home/user/management_toolbox/test/features/calculators/finance/current_ratio_test.dart: current_ratio: typed bind and domain validation
+01:59 +457 ~10: /home/user/management_toolbox/test/features/calculators/finance/current_ratio_test.dart: current_ratio: nonfinite current_assets
+01:59 +458 ~10: /home/user/management_toolbox/test/features/calculators/finance/current_ratio_test.dart: current_ratio: lower bound current_assets
+01:59 +459 ~10: /home/user/management_toolbox/test/features/calculators/finance/current_ratio_test.dart: current_ratio: nonfinite current_liabilities
+01:59 +460 ~10: /home/user/management_toolbox/test/features/calculators/finance/current_ratio_test.dart: current_ratio: lower bound current_liabilities
+01:59 +461 ~10: /home/user/management_toolbox/test/features/calculators/finance/current_ratio_test.dart: current_ratio: 20 independent Decimal formula fixtures
+01:59 +462 ~10: /home/user/management_toolbox/test/features/calculators/finance/current_ratio_test.dart: current_ratio: zero cross-field and numerical edge cases
+02:00 +463 ~10: loading /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart
+02:00 +463 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: cpk: independently typed example and assumptions
+02:00 +464 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: cpk.usl: rejects NaN and both infinities directly
+02:00 +465 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: cpk.lsl: rejects NaN and both infinities directly
+02:00 +466 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: cpk.mean: rejects NaN and both infinities directly
+02:00 +467 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: cpk.sigma: rejects NaN and both infinities directly
+02:00 +468 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: cpk.sigma: rejects lower-bound violation
+02:00 +469 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: pp: independently typed example and assumptions
+02:00 +470 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: pp.usl: rejects NaN and both infinities directly
+02:00 +471 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: pp.lsl: rejects NaN and both infinities directly
+02:00 +472 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: pp.sigma: rejects NaN and both infinities directly
+02:00 +473 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: pp.sigma: rejects lower-bound violation
+02:00 +474 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: ppk: independently typed example and assumptions
+02:00 +475 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: ppk.usl: rejects NaN and both infinities directly
+02:00 +476 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: ppk.lsl: rejects NaN and both infinities directly
+02:00 +477 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: ppk.mean: rejects NaN and both infinities directly
+02:00 +478 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: ppk.sigma: rejects NaN and both infinities directly
+02:00 +479 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: ppk.sigma: rejects lower-bound violation
+02:00 +480 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: dpmo: independently typed example and assumptions
+02:00 +481 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: dpmo.defects: rejects NaN and both infinities directly
+02:00 +482 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: dpmo.defects: rejects lower-bound violation
+02:00 +483 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: dpmo.defects: rejects fractional count
+02:00 +484 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: dpmo.units: rejects NaN and both infinities directly
+02:00 +485 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: dpmo.units: rejects lower-bound violation
+02:00 +486 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: dpmo.units: rejects fractional count
+02:00 +487 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: dpmo.opportunities: rejects NaN and both infinities directly
+02:00 +488 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: dpmo.opportunities: rejects lower-bound violation
+02:00 +489 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: dpmo.opportunities: rejects fractional count
+02:00 +490 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: sigma_level: independently typed example and assumptions
+02:00 +491 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: sigma_level.dpmo: rejects NaN and both infinities directly
+02:00 +492 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: sigma_level.dpmo: rejects lower-bound violation
+02:00 +493 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: sigma_level.dpmo: rejects upper-bound violation
+02:00 +494 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: xbar_control: independently typed example and assumptions
+02:00 +495 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: xbar_control.subgroup_size: rejects NaN and both infinities directly
+02:00 +496 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: xbar_control.subgroup_size: rejects lower-bound violation
+02:00 +497 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: xbar_control.subgroup_size: rejects upper-bound violation
+02:00 +498 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: xbar_control.subgroup_size: rejects fractional count
+02:00 +499 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: coq: independently typed example and assumptions
+02:00 +500 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: coq.prevention: rejects NaN and both infinities directly
+02:00 +501 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: coq.prevention: rejects lower-bound violation
+02:00 +502 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: coq.appraisal: rejects NaN and both infinities directly
+02:00 +503 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: coq.appraisal: rejects lower-bound violation
+02:00 +504 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: coq.internal_failure: rejects NaN and both infinities directly
+02:00 +505 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: coq.internal_failure: rejects lower-bound violation
+02:00 +506 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: coq.external_failure: rejects NaN and both infinities directly
+02:00 +507 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: coq.external_failure: rejects lower-bound violation
+02:00 +508 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: eoq: independently typed example and assumptions
+02:00 +509 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: eoq.annual_demand: rejects NaN and both infinities directly
+02:00 +510 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: eoq.annual_demand: rejects lower-bound violation
+02:01 +511 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: eoq.order_cost: rejects NaN and both infinities directly
+02:01 +512 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: eoq.order_cost: rejects lower-bound violation
+02:01 +513 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: eoq.holding_cost: rejects NaN and both infinities directly
+02:01 +514 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: eoq.holding_cost: rejects lower-bound violation
+02:01 +515 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: rop: independently typed example and assumptions
+02:01 +516 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: rop.daily_demand: rejects NaN and both infinities directly
+02:01 +517 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: rop.daily_demand: rejects lower-bound violation
+02:01 +518 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: rop.lead_time: rejects NaN and both infinities directly
+02:01 +519 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: rop.lead_time: rejects lower-bound violation
+02:01 +520 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: rop.safety_stock: rejects NaN and both infinities directly
+02:01 +521 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: rop.safety_stock: rejects lower-bound violation
+02:01 +522 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: safety_stock: independently typed example and assumptions
+02:01 +523 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: safety_stock.mean_demand: rejects NaN and both infinities directly
+02:01 +524 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: safety_stock.mean_demand: rejects lower-bound violation
+02:01 +525 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: safety_stock.demand_sd: rejects NaN and both infinities directly
+02:01 +526 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: safety_stock.demand_sd: rejects lower-bound violation
+02:01 +527 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: safety_stock.mean_lead: rejects NaN and both infinities directly
+02:01 +528 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: safety_stock.mean_lead: rejects lower-bound violation
+02:01 +529 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: safety_stock.lead_sd: rejects NaN and both infinities directly
+02:01 +530 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: safety_stock.lead_sd: rejects lower-bound violation
+02:01 +531 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: safety_stock.service_level: rejects NaN and both infinities directly
+02:01 +532 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: safety_stock.service_level: rejects lower-bound violation
+02:01 +533 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: safety_stock.service_level: rejects upper-bound violation
+02:01 +534 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: abc: independently typed example and assumptions
+02:01 +535 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: abc.a_threshold: rejects NaN and both infinities directly
+02:01 +536 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: abc.a_threshold: rejects lower-bound violation
+02:01 +537 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: abc.a_threshold: rejects upper-bound violation
+02:01 +538 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: abc.b_threshold: rejects NaN and both infinities directly
+02:01 +539 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: abc.b_threshold: rejects lower-bound violation
+02:01 +540 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: abc.b_threshold: rejects upper-bound violation
+02:01 +541 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: inventory_turnover: independently typed example and assumptions
+02:01 +542 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: inventory_turnover.cogs: rejects NaN and both infinities directly
+02:01 +543 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: inventory_turnover.cogs: rejects lower-bound violation
+02:01 +544 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: inventory_turnover.average_inventory: rejects NaN and both infinities directly
+02:01 +545 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: inventory_turnover.average_inventory: rejects lower-bound violation
+02:01 +546 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: days_inventory: independently typed example and assumptions
+02:01 +547 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: days_inventory.average_inventory: rejects NaN and both infinities directly
+02:01 +548 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: days_inventory.average_inventory: rejects lower-bound violation
+02:01 +549 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: days_inventory.cogs: rejects NaN and both infinities directly
+02:01 +550 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: days_inventory.cogs: rejects lower-bound violation
+02:01 +551 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: days_inventory.period_days: rejects NaN and both infinities directly
+02:01 +552 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: days_inventory.period_days: rejects lower-bound violation
+02:01 +553 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: inventory_holding_cost: independently typed example and assumptions
+02:01 +554 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: inventory_holding_cost.average_value: rejects NaN and both infinities directly
+02:01 +555 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: inventory_holding_cost.average_value: rejects lower-bound violation
+02:01 +556 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: inventory_holding_cost.annual_rate: rejects NaN and both infinities directly
+02:01 +557 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: inventory_holding_cost.annual_rate: rejects lower-bound violation
+02:01 +558 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: inventory_holding_cost.period_days: rejects NaN and both infinities directly
+02:01 +559 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: inventory_holding_cost.period_days: rejects lower-bound violation
+02:01 +560 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: inventory_holding_cost.year_days: rejects NaN and both infinities directly
+02:01 +561 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: inventory_holding_cost.year_days: rejects lower-bound violation
+02:01 +562 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: reorder_interval: independently typed example and assumptions
+02:01 +563 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: reorder_interval.order_quantity: rejects NaN and both infinities directly
+02:01 +564 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: reorder_interval.order_quantity: rejects lower-bound violation
+02:01 +565 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: reorder_interval.annual_demand: rejects NaN and both infinities directly
+02:01 +566 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: reorder_interval.annual_demand: rejects lower-bound violation
+02:01 +567 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: reorder_interval.year_days: rejects NaN and both infinities directly
+02:01 +568 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: reorder_interval.year_days: rejects lower-bound violation
+02:01 +569 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: cpk: 20 independent Python Decimal/statistics references
+02:01 +570 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: pp: 20 independent Python Decimal/statistics references
+02:01 +571 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: ppk: 20 independent Python Decimal/statistics references
+02:01 +572 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: dpmo: 20 independent Python Decimal/statistics references
+02:01 +573 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: sigma_level: 20 independent Python Decimal/statistics references
+02:01 +574 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: xbar_control: 20 independent Python Decimal/statistics references
+02:01 +575 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: coq: 20 independent Python Decimal/statistics references
+02:01 +576 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: eoq: 20 independent Python Decimal/statistics references
+02:01 +577 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: rop: 20 independent Python Decimal/statistics references
+02:01 +578 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: safety_stock: 20 independent Python Decimal/statistics references
+02:01 +579 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: abc: 20 independent Python Decimal/statistics references
+02:01 +580 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: inventory_turnover: 20 independent Python Decimal/statistics references
+02:01 +581 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: days_inventory: 20 independent Python Decimal/statistics references
+02:01 +582 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: inventory_holding_cost: 20 independent Python Decimal/statistics references
+02:01 +583 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: reorder_interval: 20 independent Python Decimal/statistics references
+02:02 +584 ~10: loading /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart
+02:02 +584 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: cp: generic form rendered formula error and example
+02:05 +585 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: cpk: generic form rendered formula error and example
+02:05 +586 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: pp: generic form rendered formula error and example
+02:06 +587 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: ppk: generic form rendered formula error and example
+02:06 +588 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: dpmo: generic form rendered formula error and example
+02:06 +589 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: sigma_level: generic form rendered formula error and example
+02:07 +590 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: xbar_control: generic form rendered formula error and example
+02:07 +591 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: coq: generic form rendered formula error and example
+02:08 +592 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: eoq: generic form rendered formula error and example
+02:08 +593 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: rop: generic form rendered formula error and example
+02:08 +594 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: safety_stock: generic form rendered formula error and example
+02:09 +595 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: abc: generic form rendered formula error and example
+02:09 +596 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: inventory_turnover: generic form rendered formula error and example
+02:10 +597 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: days_inventory: generic form rendered formula error and example
+02:10 +598 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: inventory_holding_cost: generic form rendered formula error and example
+02:10 +599 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: reorder_interval: generic form rendered formula error and example
+02:11 +600 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: eight quality tools open through real routes
+02:13 +601 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: eight inventory tools open through real routes
+02:15 +602 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: Sigma convention is explicit and endpoints clear stale result
+02:15 +603 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: ABC paired inputs and thresholds save and reopen through history
+02:18 +604 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: sixteen quality/inventory pages fit Size(320.0, 568.0) dark=false enlarged RTL
+02:19 +605 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: sixteen quality/inventory pages fit Size(320.0, 568.0) dark=true enlarged RTL
+02:20 +606 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: sixteen quality/inventory pages fit Size(1280.0, 800.0) dark=false enlarged RTL
+02:22 +607 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: sixteen quality/inventory pages fit Size(1280.0, 800.0) dark=true enlarged RTL
+02:23 +608 ~10: loading /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart
+02:24 +608 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: cpk: inverted/equal specs and zero sigma
+02:24 +609 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: cpk: avoids overflowing width/denominator; refuses underflow
+02:24 +610 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: pp: inverted/equal specs and zero sigma
+02:24 +611 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: pp: avoids overflowing width/denominator; refuses underflow
+02:24 +612 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: ppk: inverted/equal specs and zero sigma
+02:24 +613 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: ppk: avoids overflowing width/denominator; refuses underflow
+02:24 +614 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: cpk: negative outside specs, zero on spec, not clipped
+02:24 +615 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: ppk: negative outside specs, zero on spec, not clipped
+02:24 +616 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: DPMO: endpoints and binary opportunities and exact integer cap
+02:24 +617 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: Sigma: no fabricated endpoints, rare tail, selectable convention, negative Z
+02:24 +618 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: Sigma bind rejects unknown shift without inventing enum
+02:24 +619 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: Normal quantile: independent tabulated tails and center, errors < 5e-8
+02:24 +620 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: Normal quantile: monotonicity and symmetric central probabilities
+02:24 +621 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: Xbar: exact subgroup means/ranges, d2 method, allowed negative LCL
+02:24 +622 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: Xbar: one-point signal indices are chronological, no stability verdict
+02:24 +623 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: Xbar: incomplete/single/empty/oversized groups and constant range
+02:24 +624 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: Xbar: nonfinite, overflowing ranges and lost scaled observations reject
+02:24 +625 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: Xbar: copied immutable observations and supported constants
+02:24 +626 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: COQ: PAF/COPQ identity, zero total gives undefined share not division
+02:24 +627 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: EOQ: continuous optimum and annual ordering/holding balance
+02:24 +628 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: ROP: zero and inventory-position buffer, overflow and underflow guarded
+02:24 +629 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: SS: deterministic lead time, service 50 percent, no variation and independent terms
+02:24 +630 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: SS: nonnegative zero mean cannot have positive SD, correct field errors
+02:24 +631 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: ABC: crossing-item policy, exact boundary and zero-value C
+02:24 +632 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: ABC: stable ties follow original SKU row; shares sum to one
+02:24 +633 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: ABC: list lengths, empty, negatives, nonfinite, zero total, unordered thresholds
+02:24 +634 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: ABC: multiplication/sum range and immutable paired lists
+02:24 +635 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: Turnover/DIO: period reciprocity, zero COGS/stock conventions
+02:24 +636 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: Holding cost: linear horizon, explicit year and permitted zeros
+02:24 +637 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: Reorder interval: explicitly chosen year, inverse demand and continuous Q
+02:24 +638 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: Numeric helpers: compensation, safe hypot and division fallback
+02:25 +639 ~10: loading /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart
+02:26 +639 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: 16 tools without duplicating Cp; 36 tools in eight categories
+02:26 +640 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: cp: full definition formula and educational numeric example
+02:26 +641 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: cp: Arabic Persian Latin digits and malformed form data
+02:26 +642 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: cpk: full definition formula and educational numeric example
+02:26 +643 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: cpk: Arabic Persian Latin digits and malformed form data
+02:26 +644 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: pp: full definition formula and educational numeric example
+02:26 +645 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: pp: Arabic Persian Latin digits and malformed form data
+02:26 +646 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: ppk: full definition formula and educational numeric example
+02:26 +647 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: ppk: Arabic Persian Latin digits and malformed form data
+02:26 +648 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: dpmo: full definition formula and educational numeric example
+02:26 +649 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: dpmo: Arabic Persian Latin digits and malformed form data
+02:26 +650 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: sigma_level: full definition formula and educational numeric example
+02:26 +651 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: sigma_level: Arabic Persian Latin digits and malformed form data
+02:26 +652 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: xbar_control: full definition formula and educational numeric example
+02:26 +653 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: xbar_control: Arabic Persian Latin digits and malformed form data
+02:26 +654 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: coq: full definition formula and educational numeric example
+02:26 +655 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: coq: Arabic Persian Latin digits and malformed form data
+02:26 +656 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: eoq: full definition formula and educational numeric example
+02:26 +657 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: eoq: Arabic Persian Latin digits and malformed form data
+02:26 +658 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: rop: full definition formula and educational numeric example
+02:26 +659 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: rop: Arabic Persian Latin digits and malformed form data
+02:26 +660 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: safety_stock: full definition formula and educational numeric example
+02:26 +661 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: safety_stock: Arabic Persian Latin digits and malformed form data
+02:26 +662 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: abc: full definition formula and educational numeric example
+02:26 +663 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: abc: Arabic Persian Latin digits and malformed form data
+02:26 +664 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: inventory_turnover: full definition formula and educational numeric example
+02:26 +665 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: inventory_turnover: Arabic Persian Latin digits and malformed form data
+02:26 +666 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: days_inventory: full definition formula and educational numeric example
+02:26 +667 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: days_inventory: Arabic Persian Latin digits and malformed form data
+02:26 +668 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: inventory_holding_cost: full definition formula and educational numeric example
+02:26 +669 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: inventory_holding_cost: Arabic Persian Latin digits and malformed form data
+02:26 +670 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: reorder_interval: full definition formula and educational numeric example
+02:26 +671 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: reorder_interval: Arabic Persian Latin digits and malformed form data
+02:27 +672 ~10: loading /home/user/management_toolbox/test/features/calculators/quality_inventory/visual_test.dart
+02:28 +672 ~10: /home/user/management_toolbox/test/features/calculators/quality_inventory/visual_test.dart: capture quality and inventory categories, Xbar, sigma endpoint and ABC
+02:28 +672 ~11: loading /home/user/management_toolbox/test/core/persian_numbers_test.dart
+02:29 +672 ~11: /home/user/management_toolbox/test/core/persian_numbers_test.dart: all digit sets normalize and roundtrip
+02:29 +673 ~11: /home/user/management_toolbox/test/core/persian_numbers_test.dart: accepts ۱۲۳٫۴۵
+02:29 +674 ~11: /home/user/management_toolbox/test/core/persian_numbers_test.dart: accepts ١٢٣٫٤٥
+02:29 +675 ~11: /home/user/management_toolbox/test/core/persian_numbers_test.dart: accepts 123.45
+02:29 +676 ~11: /home/user/management_toolbox/test/core/persian_numbers_test.dart: accepts  ۱۲٣.45
+02:29 +677 ~11: /home/user/management_toolbox/test/core/persian_numbers_test.dart: signs, fractions, thousands and zero
+02:29 +678 ~11: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input ""
+02:29 +679 ~11: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input " "
+02:29 +680 ~11: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "NaN"
+02:29 +681 ~11: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "Infinity"
+02:29 +682 ~11: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "1e3"
+02:29 +683 ~11: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "1,5"
+02:29 +684 ~11: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "۱۲٬۳۴"
+02:29 +685 ~11: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "1..2"
+02:29 +686 ~11: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "12 34"
+02:29 +687 ~11: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "--1"
+02:29 +688 ~11: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "۱۰۰٪"
+02:29 +689 ~11: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "۱۲٫۳٫۴"
+02:29 +690 ~11: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects overflow and formats finite values in Persian
+02:30 +691 ~11: All tests passed!

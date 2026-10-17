@@ -1,0 +1,24 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/project/network_test.dart
+00:00 +0: CPM: golden forward/backward passes and connected path
+00:00 +1: Float: TF differs from FF with delayed downstream noncritical work
+00:00 +2: Multiple critical paths: union is not a path, deterministic connected representative
+00:00 +3: Disconnected components share virtual finish: shorter terminal gets FF
+00:00 +4: Zero milestones, all-zero networks, isolated nodes and many sources/sinks
+00:00 +5: Kahn rejects full, partial and zero-duration cycles
+00:00 +6: Unknown refs, duplicates, self edges and invalid IDs are not silently dropped
+00:00 +7: Direct model rejects nonfinite or negative duration
+00:00 +8: Network limits: empty and oversized nodes/edges reject
+00:00 +9: 200 activities schedule without recursion, also fractional durations
+00:00 +10: Count exponential paths with BigInt without enumerating paths
+00:00 +11: Tiny scale retains nonzero times, huge scale refuses lost durations/overflow
+00:00 +12: Tolerance has no one-day floor, only slack is normalized
+00:00 +13: Near-equal slack classification discloses scaled epsilon
+00:00 +14: Near-critical alternatives do not multiply or shorten the actual longest paths
+00:00 +15: Immutable inputs and schedule snapshots
+00:00 +16: cpm: structural form rejects fractional, missing, mismatched and duplicate refs
+00:00 +17: cpm: empty dependency lists mean no edges, not default graph
+00:00 +18: project_float: structural form rejects fractional, missing, mismatched and duplicate refs
+00:00 +19: project_float: empty dependency lists mean no edges, not default graph
+00:00 +20: Binding validates normalized shape, IDs and row capacities too
+00:00 +21: Optional empty series is supported only with minItems zero and nonrequired
+00:00 +22: All tests passed!

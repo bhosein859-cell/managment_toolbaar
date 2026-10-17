@@ -1,0 +1,24 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/project/boundaries_test.dart
+00:00 +0: pert_duration: ordered inputs required, never sorted silently
+00:00 +1: pert_duration: all zero or all equal is deterministic, zero variance
+00:00 +2: pert_duration: variance overflow/underflow gives numeric failure
+00:00 +3: three_point: ordered inputs required, never sorted silently
+00:00 +4: three_point: all zero or all equal is deterministic, zero variance
+00:00 +5: three_point: variance overflow/underflow gives numeric failure
+00:00 +6: PERT golden mean, SD and variance; translation and scale properties
+00:00 +7: Three-point distinguishes triangular and PERT methods
+00:00 +8: Triangular endpoint mode and symmetric distributions
+00:00 +9: EVM accepts zero EV and ahead-of-plan, efficient values above one
+00:00 +10: EVM rejects zero denominators and numerical ratio overflow/underflow
+00:00 +11: SV/CV zeros, signs, identity, no EV <= PV or AC restriction
+00:00 +12: Four EAC/ETC methods have independently checked outcomes
+00:00 +13: EAC validates BAC and fixed-scope PV/EV bounds, actual costs can exceed BAC
+00:00 +14: EAC method-specific undefined ratios do not fabricate forecast
+00:00 +15: EAC budget and bottom-up allow start-of-project zeros
+00:00 +16: Completed EV=BAC needs no undefined indices except explicit bottom-up estimate
+00:00 +17: Unused new ETC cannot change other forecast methods
+00:00 +18: EAC rejects unrepresentable ETC or lost positive costs
+00:00 +19: Duration comparison early, equal, late and zero actual
+00:00 +20: Zero planned duration keeps difference but declares ratios undefined
+00:00 +21: Duration ratios avoid nonfinite and spurious zero
+00:00 +22: All tests passed!

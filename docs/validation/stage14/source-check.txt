@@ -1,0 +1,4 @@
+Source-only git diff --no-index --check against Stage 13 ZIP baseline.
+Scope: changed/new Dart, Python, README and stage14 calculator documentation.
+No whitespace errors reported.
+Native builds/device review/GitHub push: not performed.

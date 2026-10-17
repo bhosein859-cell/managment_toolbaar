@@ -1,0 +1,21 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/history/repository_test.dart
+00:00 +0: (setUpAll)
+00:00 +0: fresh SQLite has no fabricated favorites or history
+00:00 +1: favorite add/remove is idempotent as toggle parity, primary key prevents duplicates
+00:00 +2: favorite identity validation prevents arbitrary SQL or empty names
+00:00 +3: one through eleven inserts retain exactly min(count,10), same timestamps do not collide
+00:00 +4: history cap is global across calculators, not ten per calculator
+00:00 +5: insertion sequence determines recent order even if system clock moves backward
+00:00 +6: rapid concurrent inserts on one Drift connection are serialized and retain final ten
+00:00 +7: rapid concurrent toggles preserve parity and uniqueness
+00:00 +8: snapshot is immutable and retains exact text/result/timestamp
+00:00 +9: failed retention delete rolls back insertion, pruning and autoincrement sequence
+00:00 +10: failed favorite write is not reported as committed
+00:00 +11: unknown payload versions and malformed JSON fail read without resetting DB
+00:00 +12: failed snapshot decode rolls back favorite changes as well
+00:00 +13: close is safe twice and does not silently reopen a closed repository
+00:00 +14: file survives close/reopen, history evictions persist and IDs are not reused
+00:00 +15: separate background isolate connection persists actual file
+00:00 +16: unwritable path fails explicitly rather than fallback to memory
+00:00 +17: (tearDownAll)
+00:00 +17: All tests passed!

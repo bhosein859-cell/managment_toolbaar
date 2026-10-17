@@ -1,0 +1,42 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/project/boundaries_test.dart
+00:00 +0: /home/user/management_toolbox/test/features/calculators/project/boundaries_test.dart: pert_duration: ordered inputs required, never sorted silently
+00:00 +1: /home/user/management_toolbox/test/features/calculators/project/boundaries_test.dart: pert_duration: all zero or all equal is deterministic, zero variance
+00:00 +2: /home/user/management_toolbox/test/features/calculators/project/boundaries_test.dart: pert_duration: variance overflow/underflow gives numeric failure
+00:00 +3: /home/user/management_toolbox/test/features/calculators/project/boundaries_test.dart: three_point: ordered inputs required, never sorted silently
+00:00 +4: /home/user/management_toolbox/test/features/calculators/project/boundaries_test.dart: three_point: all zero or all equal is deterministic, zero variance
+00:00 +5: /home/user/management_toolbox/test/features/calculators/project/boundaries_test.dart: three_point: variance overflow/underflow gives numeric failure
+00:00 +6: /home/user/management_toolbox/test/features/calculators/project/boundaries_test.dart: PERT golden mean, SD and variance; translation and scale properties
+00:00 +7: /home/user/management_toolbox/test/features/calculators/project/boundaries_test.dart: Three-point distinguishes triangular and PERT methods
+00:00 +8: /home/user/management_toolbox/test/features/calculators/project/boundaries_test.dart: Triangular endpoint mode and symmetric distributions
+00:00 +9: /home/user/management_toolbox/test/features/calculators/project/boundaries_test.dart: EVM accepts zero EV and ahead-of-plan, efficient values above one
+00:00 +10: /home/user/management_toolbox/test/features/calculators/project/boundaries_test.dart: EVM rejects zero denominators and numerical ratio overflow/underflow
+00:00 +11: /home/user/management_toolbox/test/features/calculators/project/boundaries_test.dart: SV/CV zeros, signs, identity, no EV <= PV or AC restriction
+00:00 +12: /home/user/management_toolbox/test/features/calculators/project/boundaries_test.dart: Four EAC/ETC methods have independently checked outcomes
+00:00 +13: /home/user/management_toolbox/test/features/calculators/project/boundaries_test.dart: EAC validates BAC and fixed-scope PV/EV bounds, actual costs can exceed BAC
+00:00 +14: /home/user/management_toolbox/test/features/calculators/project/boundaries_test.dart: EAC method-specific undefined ratios do not fabricate forecast
+00:00 +15: /home/user/management_toolbox/test/features/calculators/project/boundaries_test.dart: EAC budget and bottom-up allow start-of-project zeros
+00:00 +16: /home/user/management_toolbox/test/features/calculators/project/boundaries_test.dart: Completed EV=BAC needs no undefined indices except explicit bottom-up estimate
+00:00 +17: /home/user/management_toolbox/test/features/calculators/project/boundaries_test.dart: Unused new ETC cannot change other forecast methods
+00:00 +18: /home/user/management_toolbox/test/features/calculators/project/boundaries_test.dart: EAC rejects unrepresentable ETC or lost positive costs
+00:00 +19: /home/user/management_toolbox/test/features/calculators/project/boundaries_test.dart: Duration comparison early, equal, late and zero actual
+00:00 +20: /home/user/management_toolbox/test/features/calculators/project/boundaries_test.dart: Zero planned duration keeps difference but declares ratios undefined
+00:00 +21: /home/user/management_toolbox/test/features/calculators/project/boundaries_test.dart: Duration ratios avoid nonfinite and spurious zero
+00:00 +22: loading /home/user/management_toolbox/test/features/calculators/project/catalog_test.dart
+00:00 +22: /home/user/management_toolbox/test/features/calculators/project/catalog_test.dart: eight independent project tools and 73 catalog entries
+00:00 +23: /home/user/management_toolbox/test/features/calculators/project/catalog_test.dart: pert_duration: full definition formula and educational numeric example
+00:00 +24: /home/user/management_toolbox/test/features/calculators/project/catalog_test.dart: pert_duration: Arabic Persian Latin digits and malformed form data
+00:00 +25: /home/user/management_toolbox/test/features/calculators/project/catalog_test.dart: cpm: full definition formula and educational numeric example
+00:00 +26: /home/user/management_toolbox/test/features/calculators/project/catalog_test.dart: cpm: Arabic Persian Latin digits and malformed form data
+00:00 +27: /home/user/management_toolbox/test/features/calculators/project/catalog_test.dart: project_float: full definition formula and educational numeric example
+00:00 +28: /home/user/management_toolbox/test/features/calculators/project/catalog_test.dart: project_float: Arabic Persian Latin digits and malformed form data
+00:00 +29: /home/user/management_toolbox/test/features/calculators/project/catalog_test.dart: evm_performance: full definition formula and educational numeric example
+00:00 +30: /home/user/management_toolbox/test/features/calculators/project/catalog_test.dart: evm_performance: Arabic Persian Latin digits and malformed form data
+00:00 +31: /home/user/management_toolbox/test/features/calculators/project/catalog_test.dart: three_point: full definition formula and educational numeric example
+00:00 +32: /home/user/management_toolbox/test/features/calculators/project/catalog_test.dart: three_point: Arabic Persian Latin digits and malformed form data
+00:00 +33: /home/user/management_toolbox/test/features/calculators/project/catalog_test.dart: eac_etc: full definition formula and educational numeric example
+00:01 +34: /home/user/management_toolbox/test/features/calculators/project/catalog_test.dart: eac_etc: Arabic Persian Latin digits and malformed form data
+00:01 +35: /home/user/management_toolbox/test/features/calculators/project/catalog_test.dart: sv_cv: full definition formula and educational numeric example
+00:01 +36: /home/user/management_toolbox/test/features/calculators/project/catalog_test.dart: sv_cv: Arabic Persian Latin digits and malformed form data
+00:01 +37: /home/user/management_toolbox/test/features/calculators/project/catalog_test.dart: duration_comparison: full definition formula and educational numeric example
+00:01 +38: /home/user/management_toolbox/test/features/calculators/project/catalog_test.dart: duration_comparison: Arabic Persian Latin digits and malformed form data
+00:01 +39: All tests passed!

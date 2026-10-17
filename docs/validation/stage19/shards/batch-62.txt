@@ -1,0 +1,12 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/prototypes/prototype_pages_test.dart
+00:00 +0: OEE renders 83.79 percent and hides stale result on invalid ratio
+00:01 +1: NPV cash flows begin at period 1; rate -100 is rejected in UI
+00:02 +2: Cp sigma and limits are validated with assumptions visible
+00:02 +3: all three tools are reachable from home and retain existing tools
+00:04 +4: oee fits RTL Size(320.0, 568.0) with enlarged text
+00:04 +5: oee fits RTL Size(1280.0, 800.0) with enlarged text
+00:04 +6: npv fits RTL Size(320.0, 568.0) with enlarged text
+00:04 +7: npv fits RTL Size(1280.0, 800.0) with enlarged text
+00:04 +8: cp fits RTL Size(320.0, 568.0) with enlarged text
+00:04 +9: cp fits RTL Size(1280.0, 800.0) with enlarged text
+00:04 +10: All tests passed!

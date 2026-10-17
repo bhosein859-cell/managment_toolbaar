@@ -1,0 +1,37 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/project/engines_test.dart
+00:00 +0: pert_duration: independent typed default and assumptions
+00:00 +1: pert_duration.optimistic: rejects negative and all nonfinite values directly
+00:00 +2: pert_duration.most_likely: rejects negative and all nonfinite values directly
+00:00 +3: pert_duration.pessimistic: rejects negative and all nonfinite values directly
+00:00 +4: cpm: independent typed default and assumptions
+00:00 +5: project_float: independent typed default and assumptions
+00:00 +6: evm_performance: independent typed default and assumptions
+00:00 +7: evm_performance.pv: rejects negative and all nonfinite values directly
+00:00 +8: evm_performance.ev: rejects negative and all nonfinite values directly
+00:00 +9: evm_performance.ac: rejects negative and all nonfinite values directly
+00:00 +10: three_point: independent typed default and assumptions
+00:00 +11: three_point.optimistic: rejects negative and all nonfinite values directly
+00:00 +12: three_point.most_likely: rejects negative and all nonfinite values directly
+00:00 +13: three_point.pessimistic: rejects negative and all nonfinite values directly
+00:00 +14: eac_etc: independent typed default and assumptions
+00:00 +15: eac_etc.bac: rejects negative and all nonfinite values directly
+00:00 +16: eac_etc.pv: rejects negative and all nonfinite values directly
+00:00 +17: eac_etc.ev: rejects negative and all nonfinite values directly
+00:00 +18: eac_etc.ac: rejects negative and all nonfinite values directly
+00:00 +19: eac_etc.new_etc: rejects negative and all nonfinite values directly
+00:00 +20: sv_cv: independent typed default and assumptions
+00:00 +21: sv_cv.pv: rejects negative and all nonfinite values directly
+00:00 +22: sv_cv.ev: rejects negative and all nonfinite values directly
+00:00 +23: sv_cv.ac: rejects negative and all nonfinite values directly
+00:00 +24: duration_comparison: independent typed default and assumptions
+00:00 +25: duration_comparison.planned_duration: rejects negative and all nonfinite values directly
+00:00 +26: duration_comparison.actual_duration: rejects negative and all nonfinite values directly
+00:00 +27: pert_duration: independent Decimal or exhaustive-path oracle
+00:00 +28: cpm: independent Decimal or exhaustive-path oracle
+00:00 +29: project_float: independent Decimal or exhaustive-path oracle
+00:00 +30: evm_performance: independent Decimal or exhaustive-path oracle
+00:00 +31: three_point: independent Decimal or exhaustive-path oracle
+00:00 +32: eac_etc: independent Decimal or exhaustive-path oracle
+00:00 +33: sv_cv: independent Decimal or exhaustive-path oracle
+00:00 +34: duration_comparison: independent Decimal or exhaustive-path oracle
+00:00 +35: All tests passed!

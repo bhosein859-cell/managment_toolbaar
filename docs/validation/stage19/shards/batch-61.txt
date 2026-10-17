@@ -1,0 +1,30 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart
+00:00 +0: required reference gives fraction 0.8379 and percentage output metadata
+00:00 +1: catalog percentages normalize once and examples match expected value
+00:00 +2: availability at 0 percent is handled
+00:00 +3: availability at 100 percent is handled
+00:00 +4: invalid availability "-1" is rejected with field issue
+00:00 +5: invalid availability "100.01" is rejected with field issue
+00:00 +6: invalid availability "NaN" is rejected with field issue
+00:00 +7: invalid availability "" is rejected with field issue
+00:00 +8: invalid availability "Infinity" is rejected with field issue
+00:00 +9: performance at 0 percent is handled
+00:00 +10: performance at 100 percent is handled
+00:00 +11: invalid performance "-1" is rejected with field issue
+00:00 +12: invalid performance "100.01" is rejected with field issue
+00:00 +13: invalid performance "NaN" is rejected with field issue
+00:00 +14: invalid performance "" is rejected with field issue
+00:00 +15: invalid performance "Infinity" is rejected with field issue
+00:00 +16: quality at 0 percent is handled
+00:00 +17: quality at 100 percent is handled
+00:00 +18: invalid quality "-1" is rejected with field issue
+00:00 +19: invalid quality "100.01" is rejected with field issue
+00:00 +20: invalid quality "NaN" is rejected with field issue
+00:00 +21: invalid quality "" is rejected with field issue
+00:00 +22: invalid quality "Infinity" is rejected with field issue
+00:00 +23: typed engine validates all ratios even outside normalizer
+00:00 +24: underflow is not silently reported as zero for all-positive inputs
+00:00 +25: accepts digit set ۹۰
+00:00 +26: accepts digit set ٩٠
+00:00 +27: accepts digit set 90
+00:00 +28: All tests passed!

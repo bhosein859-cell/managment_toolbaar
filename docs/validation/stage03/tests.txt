@@ -1,0 +1,12 @@
+00:00 +0: loading /home/user/management_toolbox/test/app/architecture_test.dart
+00:00 +0: /home/user/management_toolbox/test/app/architecture_test.dart: failure retains a Persian message and machine-readable code
+00:00 +1: /home/user/management_toolbox/test/app/architecture_test.dart: base themes use Material 3 in both brightness modes
+00:00 +2: /home/user/management_toolbox/test/app/architecture_test.dart: domain stays independent from Flutter, data and presentation
+00:00 +3: /home/user/management_toolbox/test/app/architecture_test.dart: welcome is RTL, credits creator and navigates to home
+00:01 +4: /home/user/management_toolbox/test/app/architecture_test.dart: unknown route provides a safe return home
+00:01 +5: /home/user/management_toolbox/test/app/architecture_test.dart: error fallback renders without app dependencies
+00:01 +6: loading /home/user/management_toolbox/test/app/app_test.dart
+00:01 +6: /home/user/management_toolbox/test/app/app_test.dart: shows the foundation page without the sample counter
+00:02 +7: /home/user/management_toolbox/test/app/app_test.dart: foundation fits viewport Size(360.0, 640.0)
+00:02 +8: /home/user/management_toolbox/test/app/app_test.dart: foundation fits viewport Size(1280.0, 720.0)
+00:02 +9: All tests passed!

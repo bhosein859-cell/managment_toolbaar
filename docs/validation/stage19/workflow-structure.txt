@@ -1,0 +1,1 @@
+PASS: YAML parse; manual trigger; 3 jobs; read-only repository permission. NOT a CI run.

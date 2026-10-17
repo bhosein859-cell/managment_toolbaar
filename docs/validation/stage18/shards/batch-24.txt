@@ -1,0 +1,13 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/production/production_visual_test.dart
+00:00 +0: /home/user/management_toolbox/test/features/calculators/production/production_visual_test.dart: capture actual production category and generic production pages
+00:00 +0 ~1: loading /home/user/management_toolbox/test/features/calculators/production/smed_test.dart
+00:00 +0 ~1: /home/user/management_toolbox/test/features/calculators/production/smed_test.dart: smed: independent numeric reference
+00:00 +1 ~1: /home/user/management_toolbox/test/features/calculators/production/smed_test.dart: smed: typed bind validates independently of form
+00:00 +2 ~1: /home/user/management_toolbox/test/features/calculators/production/smed_test.dart: smed: rejects negative/nonfinite before_time in direct calculation
+00:00 +3 ~1: /home/user/management_toolbox/test/features/calculators/production/smed_test.dart: smed: zero before_time is rejected
+00:00 +4 ~1: /home/user/management_toolbox/test/features/calculators/production/smed_test.dart: smed: rejects negative/nonfinite after_time in direct calculation
+00:00 +5 ~1: /home/user/management_toolbox/test/features/calculators/production/smed_test.dart: smed: zero after_time is a real valid boundary
+00:00 +6 ~1: /home/user/management_toolbox/test/features/calculators/production/smed_test.dart: smed: overflow returns Persian numeric-range failure, not Infinity
+00:00 +7 ~1: /home/user/management_toolbox/test/features/calculators/production/smed_test.dart: smed: 20 independent Decimal fixtures
+00:00 +8 ~1: /home/user/management_toolbox/test/features/calculators/production/smed_test.dart: smed: semantic and scale boundaries
+00:00 +9 ~1: All tests passed!

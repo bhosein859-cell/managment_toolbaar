@@ -1,0 +1,20 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart
+00:00 +0: /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart: renders typed defaults, units, ranges, explanations and LaTeX offline
+00:01 +1: /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart: recalculates live and never shows stale result after invalid edit
+00:02 +2: /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart: selecting a unit updates output and preserves numeric input
+00:02 +3: /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart: loading an example fills controls; reset restores original defaults
+00:03 +4: /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart: numeric list uses newline entries and never splits thousands commas
+00:03 +5: /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart: domain failures and exceptions hide numeric output and expose safe Persian errors
+00:03 +6: /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart: same runner survives theme rebuild; replacement runner resets safely
+00:03 +7: /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart: restores prior raw inputs and surfaces invalid initial values
+00:04 +8: /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart: invalid LaTeX falls back to safe text rather than breaking page
+00:04 +9: /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart: textual and numeric-series results and warnings are rendered
+00:04 +10: /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart: RTL layout Size(320.0, 568.0) dark=false at text scale 1.5 has no overflow
+00:04 +11: /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart: RTL layout Size(320.0, 568.0) dark=true at text scale 1.5 has no overflow
+00:04 +12: /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart: RTL layout Size(1280.0, 800.0) dark=false at text scale 1.5 has no overflow
+00:04 +13: /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart: RTL layout Size(1280.0, 800.0) dark=true at text scale 1.5 has no overflow
+00:05 +14: /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart: demo is reachable from the existing app home
+00:06 +15: loading /home/user/management_toolbox/test/features/calculators/presentation/calculator_visual_test.dart
+00:06 +15: /home/user/management_toolbox/test/features/calculators/presentation/calculator_visual_test.dart: capture calculator light-desktop
+00:06 +15 ~1: /home/user/management_toolbox/test/features/calculators/presentation/calculator_visual_test.dart: capture calculator dark-mobile
+00:07 +15 ~2: All tests passed!

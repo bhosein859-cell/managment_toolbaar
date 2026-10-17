@@ -1,0 +1,14 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/production/production_capacity_test.dart
+00:00 +0: production_capacity: independent numeric reference
+00:00 +1: production_capacity: typed bind validates independently of form
+00:00 +2: production_capacity: rejects negative/nonfinite available_time in direct calculation
+00:00 +3: production_capacity: zero available_time is a real valid boundary
+00:00 +4: production_capacity: rejects negative/nonfinite ideal_cycle in direct calculation
+00:00 +5: production_capacity: zero ideal_cycle is rejected
+00:00 +6: production_capacity: rejects negative/nonfinite parallel_resources in direct calculation
+00:00 +7: production_capacity: zero parallel_resources is rejected
+00:00 +8: production_capacity: overflow returns Persian numeric-range failure, not Infinity
+00:00 +9: production_capacity: underflow is not disguised as zero
+00:00 +10: production_capacity: 20 independent Decimal fixtures
+00:00 +11: production_capacity: semantic and scale boundaries
+00:00 +12: All tests passed!

@@ -1,0 +1,3 @@
+00:00 +0: loading /home/user/management_toolbox/test/accessibility/visual_capture_test.dart
+00:00 +0: capture six RTL pages in both themes and phone/desktop DPI with bundled fonts
+00:04 +1: All tests passed!

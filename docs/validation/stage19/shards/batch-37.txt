@@ -1,0 +1,17 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart
+00:00 +0: renders typed defaults, units, ranges, explanations and LaTeX offline
+00:01 +1: recalculates live and never shows stale result after invalid edit
+00:01 +2: selecting a unit updates output and preserves numeric input
+00:02 +3: loading an example fills controls; reset restores original defaults
+00:02 +4: numeric list uses newline entries and never splits thousands commas
+00:02 +5: domain failures and exceptions hide numeric output and expose safe Persian errors
+00:02 +6: same runner survives theme rebuild; replacement runner resets safely
+00:03 +7: restores prior raw inputs and surfaces invalid initial values
+00:03 +8: invalid LaTeX falls back to safe text rather than breaking page
+00:03 +9: textual and numeric-series results and warnings are rendered
+00:03 +10: RTL layout Size(320.0, 568.0) dark=false at text scale 1.5 has no overflow
+00:03 +11: RTL layout Size(320.0, 568.0) dark=true at text scale 1.5 has no overflow
+00:03 +12: RTL layout Size(1280.0, 800.0) dark=false at text scale 1.5 has no overflow
+00:04 +13: RTL layout Size(1280.0, 800.0) dark=true at text scale 1.5 has no overflow
+00:04 +14: demo is reachable from the existing app home
+00:04 +15: All tests passed!

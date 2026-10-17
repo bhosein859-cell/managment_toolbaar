@@ -1,0 +1,10 @@
+{
+  "android_unsigned_bundle": {
+    "filename": "management_toolbox_stage_19_android_arm64_UNSIGNED.zip",
+    "bytes": 32505712,
+    "sha256": "0d19a412e215dcec889a8c56e9adefd42523df4a08170b90a752549a807f9cfd",
+    "architecture": "arm64-v8a only",
+    "signing": "UNSIGNED - not installable/publish-ready as supplied"
+  },
+  "windows_release": "NOT BUILT: Linux host; manual Windows CI workflow supplied but not run"
+}

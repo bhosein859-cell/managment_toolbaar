@@ -1,0 +1,8 @@
+[1/1] Android SDK
+  ├─ [1/6] android-arm-profile/linux-x64                           331ms
+  ├─ [2/6] android-arm-release/linux-x64                           189ms
+  ├─ [3/6] android-arm64-profile/linux-x64                         236ms
+  ├─ [4/6] android-arm64-release/linux-x64                         101ms
+  ├─ [5/6] android-x64-profile/linux-x64                           236ms
+  └─ [6/6] android-x64-release/linux-x64                           209ms
+[!] No Android SDK found. Try setting the ANDROID_HOME environment variable.

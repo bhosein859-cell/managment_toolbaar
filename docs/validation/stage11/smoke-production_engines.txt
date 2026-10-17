@@ -1,0 +1,11 @@
+oee: 0.8379
+takt_time: 2.0
+production_capacity: 480.0
+labor_productivity: 8.0
+cycle_time: 2.0
+smed: 0.6666666666666666
+unit_production_cost: 3000.0
+wip: 60.0
+throughput: 30.0
+capacity_utilization: 0.75
+Pure Dart production smoke: all 10 engines and 36-tool catalog passed.

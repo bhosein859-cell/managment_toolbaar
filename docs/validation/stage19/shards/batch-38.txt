@@ -1,0 +1,4 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/presentation/calculator_visual_test.dart
+00:00 +0: capture calculator light-desktop
+00:00 +0 ~1: capture calculator dark-mobile
+00:00 +0 ~2: All tests skipped.

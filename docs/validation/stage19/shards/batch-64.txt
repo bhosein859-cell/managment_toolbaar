@@ -1,0 +1,33 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart
+00:00 +0: cpk: inverted/equal specs and zero sigma
+00:00 +1: cpk: avoids overflowing width/denominator; refuses underflow
+00:00 +2: pp: inverted/equal specs and zero sigma
+00:00 +3: pp: avoids overflowing width/denominator; refuses underflow
+00:00 +4: ppk: inverted/equal specs and zero sigma
+00:00 +5: ppk: avoids overflowing width/denominator; refuses underflow
+00:00 +6: cpk: negative outside specs, zero on spec, not clipped
+00:00 +7: ppk: negative outside specs, zero on spec, not clipped
+00:00 +8: DPMO: endpoints and binary opportunities and exact integer cap
+00:00 +9: Sigma: no fabricated endpoints, rare tail, selectable convention, negative Z
+00:00 +10: Sigma bind rejects unknown shift without inventing enum
+00:00 +11: Normal quantile: independent tabulated tails and center, errors < 5e-8
+00:00 +12: Normal quantile: monotonicity and symmetric central probabilities
+00:00 +13: Xbar: exact subgroup means/ranges, d2 method, allowed negative LCL
+00:00 +14: Xbar: one-point signal indices are chronological, no stability verdict
+00:00 +15: Xbar: incomplete/single/empty/oversized groups and constant range
+00:00 +16: Xbar: nonfinite, overflowing ranges and lost scaled observations reject
+00:00 +17: Xbar: copied immutable observations and supported constants
+00:00 +18: COQ: PAF/COPQ identity, zero total gives undefined share not division
+00:00 +19: EOQ: continuous optimum and annual ordering/holding balance
+00:00 +20: ROP: zero and inventory-position buffer, overflow and underflow guarded
+00:00 +21: SS: deterministic lead time, service 50 percent, no variation and independent terms
+00:00 +22: SS: nonnegative zero mean cannot have positive SD, correct field errors
+00:00 +23: ABC: crossing-item policy, exact boundary and zero-value C
+00:00 +24: ABC: stable ties follow original SKU row; shares sum to one
+00:00 +25: ABC: list lengths, empty, negatives, nonfinite, zero total, unordered thresholds
+00:00 +26: ABC: multiplication/sum range and immutable paired lists
+00:00 +27: Turnover/DIO: period reciprocity, zero COGS/stock conventions
+00:00 +28: Holding cost: linear horizon, explicit year and permitted zeros
+00:00 +29: Reorder interval: explicitly chosen year, inverse demand and continuous Q
+00:00 +30: Numeric helpers: compensation, safe hypot and division fallback
+00:00 +31: All tests passed!

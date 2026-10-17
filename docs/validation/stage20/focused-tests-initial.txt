@@ -1,0 +1,58 @@
+00:00 +0: loading /home/user/management_toolbox/test/release/final_delivery_test.dart
+00:00 +0: /home/user/management_toolbox/test/release/final_delivery_test.dart: README table contains exactly the real 73 calculator IDs
+00:00 +1: /home/user/management_toolbox/test/release/final_delivery_test.dart: table update preserves surrounding docs and rejects malformed markers
+00:00 +2: /home/user/management_toolbox/test/release/final_delivery_test.dart: branded RTL startup then welcome on TargetPlatform.windows
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+The value of a foundation debug variable was changed by the test.
+
+When the exception was thrown, this was the stack:
+#0      debugAssertAllFoundationVarsUnset.<anonymous closure> (package:flutter/src/foundation/debug.dart:45:7)
+#1      debugAssertAllFoundationVarsUnset (package:flutter/src/foundation/debug.dart:48:4)
+#2      TestWidgetsFlutterBinding._verifyInvariants (package:flutter_test/src/binding.dart:1996:7)
+#3      AutomatedTestWidgetsFlutterBinding._verifyInvariants (package:flutter_test/src/binding.dart:2525:11)
+#4      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1974:7)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+The test description was:
+  branded RTL startup then welcome on TargetPlatform.windows
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:00 +2 -1: /home/user/management_toolbox/test/release/final_delivery_test.dart: branded RTL startup then welcome on TargetPlatform.windows [E]
+  Test failed. See exception logs above.
+  The test description was: branded RTL startup then welcome on TargetPlatform.windows
+
+00:00 +2 -1: /home/user/management_toolbox/test/release/final_delivery_test.dart: branded RTL startup then welcome on TargetPlatform.android
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+The value of a foundation debug variable was changed by the test.
+
+When the exception was thrown, this was the stack:
+#0      debugAssertAllFoundationVarsUnset.<anonymous closure> (package:flutter/src/foundation/debug.dart:45:7)
+#1      debugAssertAllFoundationVarsUnset (package:flutter/src/foundation/debug.dart:48:4)
+#2      TestWidgetsFlutterBinding._verifyInvariants (package:flutter_test/src/binding.dart:1996:7)
+#3      AutomatedTestWidgetsFlutterBinding._verifyInvariants (package:flutter_test/src/binding.dart:2525:11)
+#4      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1974:7)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+The test description was:
+  branded RTL startup then welcome on TargetPlatform.android
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:00 +2 -2: /home/user/management_toolbox/test/release/final_delivery_test.dart: branded RTL startup then welcome on TargetPlatform.android [E]
+  Test failed. See exception logs above.
+  The test description was: branded RTL startup then welcome on TargetPlatform.android
+
+00:00 +2 -2: /home/user/management_toolbox/test/release/final_delivery_test.dart: startup fits 360px viewport with large Persian text
+00:00 +3 -2: /home/user/management_toolbox/test/release/final_delivery_test.dart: storage failure exits splash and keeps retry available
+00:01 +4 -2: loading /home/user/management_toolbox/test/release/offline_smoke_test.dart
+00:02 +4 -2: /home/user/management_toolbox/test/release/offline_smoke_test.dart: all 73 real examples, glossary, 11th-record retention and favorites reopen without Dart HTTP
+00:02 +5 -2: /home/user/management_toolbox/test/release/offline_smoke_test.dart: offline app shell, glossary and Persian/Latin form input work with HTTP denied
+00:05 +6 -2: /home/user/management_toolbox/test/release/offline_smoke_test.dart: source main manifest (not merged output) and local assets have no direct network dependency
+00:05 +7 -2: Some tests failed.
+
+Failing tests:
+  /home/user/management_toolbox/test/release/final_delivery_test.dart: branded RTL startup then welcome on TargetPlatform.android
+  /home/user/management_toolbox/test/release/final_delivery_test.dart: branded RTL startup then welcome on TargetPlatform.windows

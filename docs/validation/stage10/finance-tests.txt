@@ -1,0 +1,160 @@
+Resolving dependencies...
+Downloading packages...
+  material_color_utilities 0.13.0 (0.13.1 available)
+  meta 1.18.3 (1.19.0 available)
+  petitparser 7.0.2 (7.1.0 available)
+  test_api 0.7.12 (0.7.15 available)
+  vector_math 2.4.0 (2.4.3 available)
+  xml 7.0.1 (7.1.0 available)
+Got dependencies!
+6 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/finance/wacc_test.dart
+00:00 +0: /home/user/management_toolbox/test/features/calculators/finance/wacc_test.dart: wacc: reference formula
+00:00 +1: /home/user/management_toolbox/test/features/calculators/finance/wacc_test.dart: wacc: typed bind and domain validation
+00:00 +2: /home/user/management_toolbox/test/features/calculators/finance/wacc_test.dart: wacc: nonfinite equity
+00:00 +3: /home/user/management_toolbox/test/features/calculators/finance/wacc_test.dart: wacc: lower bound equity
+00:00 +4: /home/user/management_toolbox/test/features/calculators/finance/wacc_test.dart: wacc: nonfinite debt
+00:00 +5: /home/user/management_toolbox/test/features/calculators/finance/wacc_test.dart: wacc: lower bound debt
+00:00 +6: /home/user/management_toolbox/test/features/calculators/finance/wacc_test.dart: wacc: nonfinite equity_cost
+00:00 +7: /home/user/management_toolbox/test/features/calculators/finance/wacc_test.dart: wacc: lower bound equity_cost
+00:00 +8: /home/user/management_toolbox/test/features/calculators/finance/wacc_test.dart: wacc: nonfinite debt_cost
+00:00 +9: /home/user/management_toolbox/test/features/calculators/finance/wacc_test.dart: wacc: lower bound debt_cost
+00:00 +10: /home/user/management_toolbox/test/features/calculators/finance/wacc_test.dart: wacc: nonfinite tax_rate
+00:00 +11: /home/user/management_toolbox/test/features/calculators/finance/wacc_test.dart: wacc: lower bound tax_rate
+00:00 +12: /home/user/management_toolbox/test/features/calculators/finance/wacc_test.dart: wacc: upper bound tax_rate
+00:00 +13: /home/user/management_toolbox/test/features/calculators/finance/wacc_test.dart: wacc: 20 independent Decimal formula fixtures
+00:00 +14: /home/user/management_toolbox/test/features/calculators/finance/wacc_test.dart: wacc: zero cross-field and numerical edge cases
+00:00 +15: loading /home/user/management_toolbox/test/features/calculators/finance/quick_ratio_test.dart
+00:00 +15: /home/user/management_toolbox/test/features/calculators/finance/quick_ratio_test.dart: quick_ratio: reference formula
+00:00 +16: /home/user/management_toolbox/test/features/calculators/finance/quick_ratio_test.dart: quick_ratio: typed bind and domain validation
+00:00 +17: /home/user/management_toolbox/test/features/calculators/finance/quick_ratio_test.dart: quick_ratio: nonfinite current_assets
+00:00 +18: /home/user/management_toolbox/test/features/calculators/finance/quick_ratio_test.dart: quick_ratio: lower bound current_assets
+00:00 +19: /home/user/management_toolbox/test/features/calculators/finance/quick_ratio_test.dart: quick_ratio: nonfinite inventory
+00:00 +20: /home/user/management_toolbox/test/features/calculators/finance/quick_ratio_test.dart: quick_ratio: lower bound inventory
+00:00 +21: /home/user/management_toolbox/test/features/calculators/finance/quick_ratio_test.dart: quick_ratio: nonfinite prepayments
+00:00 +22: /home/user/management_toolbox/test/features/calculators/finance/quick_ratio_test.dart: quick_ratio: lower bound prepayments
+00:00 +23: /home/user/management_toolbox/test/features/calculators/finance/quick_ratio_test.dart: quick_ratio: nonfinite current_liabilities
+00:00 +24: /home/user/management_toolbox/test/features/calculators/finance/quick_ratio_test.dart: quick_ratio: lower bound current_liabilities
+00:00 +25: /home/user/management_toolbox/test/features/calculators/finance/quick_ratio_test.dart: quick_ratio: 20 independent Decimal formula fixtures
+00:00 +26: /home/user/management_toolbox/test/features/calculators/finance/quick_ratio_test.dart: quick_ratio: zero cross-field and numerical edge cases
+00:00 +27: loading /home/user/management_toolbox/test/features/calculators/finance/compound_interest_test.dart
+00:01 +27: /home/user/management_toolbox/test/features/calculators/finance/compound_interest_test.dart: compound_interest: reference formula
+00:01 +28: /home/user/management_toolbox/test/features/calculators/finance/compound_interest_test.dart: compound_interest: typed bind and domain validation
+00:01 +29: /home/user/management_toolbox/test/features/calculators/finance/compound_interest_test.dart: compound_interest: nonfinite principal
+00:01 +30: /home/user/management_toolbox/test/features/calculators/finance/compound_interest_test.dart: compound_interest: lower bound principal
+00:01 +31: /home/user/management_toolbox/test/features/calculators/finance/compound_interest_test.dart: compound_interest: nonfinite period_rate
+00:01 +32: /home/user/management_toolbox/test/features/calculators/finance/compound_interest_test.dart: compound_interest: lower bound period_rate
+00:01 +33: /home/user/management_toolbox/test/features/calculators/finance/compound_interest_test.dart: compound_interest: nonfinite periods
+00:01 +34: /home/user/management_toolbox/test/features/calculators/finance/compound_interest_test.dart: compound_interest: lower bound periods
+00:01 +35: /home/user/management_toolbox/test/features/calculators/finance/compound_interest_test.dart: compound_interest: upper bound periods
+00:01 +36: /home/user/management_toolbox/test/features/calculators/finance/compound_interest_test.dart: compound_interest: fractional periods are rejected
+00:01 +37: /home/user/management_toolbox/test/features/calculators/finance/compound_interest_test.dart: compound_interest: 20 independent Decimal formula fixtures
+00:01 +38: /home/user/management_toolbox/test/features/calculators/finance/compound_interest_test.dart: compound_interest: zero cross-field and numerical edge cases
+00:01 +39: loading /home/user/management_toolbox/test/features/calculators/finance/payback_test.dart
+00:01 +39: /home/user/management_toolbox/test/features/calculators/finance/payback_test.dart: payback reference is 2.6 periods with uniform intraperiod receipts
+00:01 +40: /home/user/management_toolbox/test/features/calculators/finance/payback_test.dart: payback zero investment exact endpoint and zero-flow periods
+00:01 +41: /home/user/management_toolbox/test/features/calculators/finance/payback_test.dart: payback not recovered never returns a made-up period
+00:01 +42: /home/user/management_toolbox/test/features/calculators/finance/payback_test.dart: payback invalid initial cost direct validation
+00:01 +43: /home/user/management_toolbox/test/features/calculators/finance/payback_test.dart: payback negative future flow is explicitly unsupported, not ignored
+00:01 +44: /home/user/management_toolbox/test/features/calculators/finance/payback_test.dart: payback immutable inputs typed bind and underflow safeguards
+00:01 +45: /home/user/management_toolbox/test/features/calculators/finance/payback_test.dart: payback 20 independent Decimal fixtures
+00:01 +46: loading /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart
+00:02 +46: /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart: irr: generic form rendered formula error and example
+00:04 +47: /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart: payback: generic form rendered formula error and example
+00:04 +48: /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart: roi: generic form rendered formula error and example
+00:04 +49: /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart: current_ratio: generic form rendered formula error and example
+00:05 +50: /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart: quick_ratio: generic form rendered formula error and example
+00:05 +51: /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart: wacc: generic form rendered formula error and example
+00:05 +52: /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart: compound_interest: generic form rendered formula error and example
+00:06 +53: /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart: loan_payment: generic form rendered formula error and example
+00:06 +54: /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart: break_even: generic form rendered formula error and example
+00:06 +55: /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart: ten finance tools open through real category routes
+00:08 +56: /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart: IRR missing root ambiguous roots and convergence failure show no stale result
+00:09 +57: /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart: new loan favorite save and reopen keep period-rate input
+00:10 +58: /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart: nine finance pages fit Size(320.0, 568.0) dark=false enlarged RTL
+00:10 +59: /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart: nine finance pages fit Size(320.0, 568.0) dark=true enlarged RTL
+00:11 +60: /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart: nine finance pages fit Size(1280.0, 800.0) dark=false enlarged RTL
+00:11 +61: /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart: nine finance pages fit Size(1280.0, 800.0) dark=true enlarged RTL
+00:12 +62: loading /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart
+00:12 +62: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: ten finance runners, preserved NPV and 21 actual tools
+00:12 +63: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: NPV first cash flow is CF1 and discount rate belongs to each period
+00:12 +64: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: npv: full definition formula and educational numeric example
+00:13 +65: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: npv: Arabic Persian Latin digits and malformed form data
+00:13 +66: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: irr: full definition formula and educational numeric example
+00:13 +67: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: irr: Arabic Persian Latin digits and malformed form data
+00:13 +68: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: payback: full definition formula and educational numeric example
+00:13 +69: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: payback: Arabic Persian Latin digits and malformed form data
+00:13 +70: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: roi: full definition formula and educational numeric example
+00:13 +71: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: roi: Arabic Persian Latin digits and malformed form data
+00:13 +72: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: current_ratio: full definition formula and educational numeric example
+00:13 +73: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: current_ratio: Arabic Persian Latin digits and malformed form data
+00:13 +74: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: quick_ratio: full definition formula and educational numeric example
+00:13 +75: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: quick_ratio: Arabic Persian Latin digits and malformed form data
+00:13 +76: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: wacc: full definition formula and educational numeric example
+00:13 +77: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: wacc: Arabic Persian Latin digits and malformed form data
+00:13 +78: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: compound_interest: full definition formula and educational numeric example
+00:13 +79: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: compound_interest: Arabic Persian Latin digits and malformed form data
+00:13 +80: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: loan_payment: full definition formula and educational numeric example
+00:13 +81: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: loan_payment: Arabic Persian Latin digits and malformed form data
+00:13 +82: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: break_even: full definition formula and educational numeric example
+00:13 +83: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: break_even: Arabic Persian Latin digits and malformed form data
+00:13 +84: loading /home/user/management_toolbox/test/features/calculators/finance/roi_test.dart
+00:13 +84: /home/user/management_toolbox/test/features/calculators/finance/roi_test.dart: roi: reference formula
+00:13 +85: /home/user/management_toolbox/test/features/calculators/finance/roi_test.dart: roi: typed bind and domain validation
+00:13 +86: /home/user/management_toolbox/test/features/calculators/finance/roi_test.dart: roi: nonfinite net_profit
+00:13 +87: /home/user/management_toolbox/test/features/calculators/finance/roi_test.dart: roi: nonfinite investment
+00:13 +88: /home/user/management_toolbox/test/features/calculators/finance/roi_test.dart: roi: lower bound investment
+00:13 +89: /home/user/management_toolbox/test/features/calculators/finance/roi_test.dart: roi: 20 independent Decimal formula fixtures
+00:13 +90: /home/user/management_toolbox/test/features/calculators/finance/roi_test.dart: roi: zero cross-field and numerical edge cases
+00:13 +91: loading /home/user/management_toolbox/test/features/calculators/finance/irr_test.dart
+00:14 +91: /home/user/management_toolbox/test/features/calculators/finance/irr_test.dart: IRR known unique multi-period root
+00:14 +92: /home/user/management_toolbox/test/features/calculators/finance/irr_test.dart: IRR positive negative zero and reversed financing flow signs
+00:14 +93: /home/user/management_toolbox/test/features/calculators/finance/irr_test.dart: IRR exactly balanced cash flows have zero rate
+00:14 +94: /home/user/management_toolbox/test/features/calculators/finance/irr_test.dart: IRR scale invariance at tiny and huge values
+00:14 +95: /home/user/management_toolbox/test/features/calculators/finance/irr_test.dart: IRR no sign change is genuinely no root
+00:14 +96: /home/user/management_toolbox/test/features/calculators/finance/irr_test.dart: IRR zero flows and leading zero are not fabricated answers
+00:14 +97: /home/user/management_toolbox/test/features/calculators/finance/irr_test.dart: IRR ambiguous cash flows do not silently select one root
+00:14 +98: /home/user/management_toolbox/test/features/calculators/finance/irr_test.dart: IRR iteration budget exhaustion yields failure, not last iterate
+00:14 +99: /home/user/management_toolbox/test/features/calculators/finance/irr_test.dart: IRR numerical bounds are not mislabeled as no mathematical root
+00:14 +100: /home/user/management_toolbox/test/features/calculators/finance/irr_test.dart: IRR invalid length and NaN Infinity are rejected directly
+00:14 +101: /home/user/management_toolbox/test/features/calculators/finance/irr_test.dart: IRR immutable parameters and typed binding
+00:14 +102: /home/user/management_toolbox/test/features/calculators/finance/irr_test.dart: IRR near-minus-one precision failures are explicit when necessary
+00:14 +103: /home/user/management_toolbox/test/features/calculators/finance/irr_test.dart: IRR 1000-flow horizon retains timing and tiny rates
+00:14 +104: /home/user/management_toolbox/test/features/calculators/finance/irr_test.dart: IRR independent Decimal-derived multi-period roots
+00:14 +105: loading /home/user/management_toolbox/test/features/calculators/finance/finance_visual_test.dart
+00:14 +105: /home/user/management_toolbox/test/features/calculators/finance/finance_visual_test.dart: capture finance registry IRR valid and rejected roots and loan
+00:14 +105 ~1: loading /home/user/management_toolbox/test/features/calculators/finance/loan_payment_test.dart
+00:15 +105 ~1: /home/user/management_toolbox/test/features/calculators/finance/loan_payment_test.dart: loan_payment: reference formula
+00:15 +106 ~1: /home/user/management_toolbox/test/features/calculators/finance/loan_payment_test.dart: loan_payment: typed bind and domain validation
+00:15 +107 ~1: /home/user/management_toolbox/test/features/calculators/finance/loan_payment_test.dart: loan_payment: nonfinite principal
+00:15 +108 ~1: /home/user/management_toolbox/test/features/calculators/finance/loan_payment_test.dart: loan_payment: lower bound principal
+00:15 +109 ~1: /home/user/management_toolbox/test/features/calculators/finance/loan_payment_test.dart: loan_payment: nonfinite period_rate
+00:15 +110 ~1: /home/user/management_toolbox/test/features/calculators/finance/loan_payment_test.dart: loan_payment: lower bound period_rate
+00:15 +111 ~1: /home/user/management_toolbox/test/features/calculators/finance/loan_payment_test.dart: loan_payment: nonfinite periods
+00:15 +112 ~1: /home/user/management_toolbox/test/features/calculators/finance/loan_payment_test.dart: loan_payment: lower bound periods
+00:15 +113 ~1: /home/user/management_toolbox/test/features/calculators/finance/loan_payment_test.dart: loan_payment: upper bound periods
+00:15 +114 ~1: /home/user/management_toolbox/test/features/calculators/finance/loan_payment_test.dart: loan_payment: fractional periods are rejected
+00:15 +115 ~1: /home/user/management_toolbox/test/features/calculators/finance/loan_payment_test.dart: loan_payment: 20 independent Decimal formula fixtures
+00:15 +116 ~1: /home/user/management_toolbox/test/features/calculators/finance/loan_payment_test.dart: loan_payment: zero cross-field and numerical edge cases
+00:15 +117 ~1: loading /home/user/management_toolbox/test/features/calculators/finance/break_even_test.dart
+00:15 +117 ~1: /home/user/management_toolbox/test/features/calculators/finance/break_even_test.dart: break_even: reference formula
+00:15 +118 ~1: /home/user/management_toolbox/test/features/calculators/finance/break_even_test.dart: break_even: typed bind and domain validation
+00:15 +119 ~1: /home/user/management_toolbox/test/features/calculators/finance/break_even_test.dart: break_even: nonfinite fixed_cost
+00:15 +120 ~1: /home/user/management_toolbox/test/features/calculators/finance/break_even_test.dart: break_even: lower bound fixed_cost
+00:15 +121 ~1: /home/user/management_toolbox/test/features/calculators/finance/break_even_test.dart: break_even: nonfinite unit_price
+00:15 +122 ~1: /home/user/management_toolbox/test/features/calculators/finance/break_even_test.dart: break_even: lower bound unit_price
+00:15 +123 ~1: /home/user/management_toolbox/test/features/calculators/finance/break_even_test.dart: break_even: nonfinite variable_cost
+00:16 +124 ~1: /home/user/management_toolbox/test/features/calculators/finance/break_even_test.dart: break_even: lower bound variable_cost
+00:16 +125 ~1: /home/user/management_toolbox/test/features/calculators/finance/break_even_test.dart: break_even: 20 independent Decimal formula fixtures
+00:16 +126 ~1: /home/user/management_toolbox/test/features/calculators/finance/break_even_test.dart: break_even: zero cross-field and numerical edge cases
+00:16 +127 ~1: loading /home/user/management_toolbox/test/features/calculators/finance/current_ratio_test.dart
+00:16 +127 ~1: /home/user/management_toolbox/test/features/calculators/finance/current_ratio_test.dart: current_ratio: reference formula
+00:16 +128 ~1: /home/user/management_toolbox/test/features/calculators/finance/current_ratio_test.dart: current_ratio: typed bind and domain validation
+00:16 +129 ~1: /home/user/management_toolbox/test/features/calculators/finance/current_ratio_test.dart: current_ratio: nonfinite current_assets
+00:16 +130 ~1: /home/user/management_toolbox/test/features/calculators/finance/current_ratio_test.dart: current_ratio: lower bound current_assets
+00:16 +131 ~1: /home/user/management_toolbox/test/features/calculators/finance/current_ratio_test.dart: current_ratio: nonfinite current_liabilities
+00:16 +132 ~1: /home/user/management_toolbox/test/features/calculators/finance/current_ratio_test.dart: current_ratio: lower bound current_liabilities
+00:16 +133 ~1: /home/user/management_toolbox/test/features/calculators/finance/current_ratio_test.dart: current_ratio: 20 independent Decimal formula fixtures
+00:16 +134 ~1: /home/user/management_toolbox/test/features/calculators/finance/current_ratio_test.dart: current_ratio: zero cross-field and numerical edge cases
+00:16 +135 ~1: All tests passed!

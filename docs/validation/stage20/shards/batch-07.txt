@@ -1,0 +1,18 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/decision/ahp_tree_test.dart
+00:00 +0: AHP known consistent hierarchy, global priorities and near ties
+00:00 +1: AHP classic reciprocal three-criterion hand-checkable geometric eigenvector
+00:00 +2: AHP inconsistent circulant has known lambda and CR, warning not fabricated refusal
+00:00 +3: AHP rejects reciprocal, diagonal, ranges and incomplete matrices
+00:00 +4: AHP convergence cap never returns guessed weights
+00:00 +5: AHP supports largest documented dimensions, RI and immutable matrices
+00:00 +6: Decision tree golden example and all negative/tied choices
+00:00 +7: Nested decisions and chance perform backward induction, not only root branching
+00:00 +8: Tree may contain only a terminal and explicit omitted optional edges stay absent
+00:00 +9: Probability zero still validates data, tiny nonzero sums are normalized only within tolerance
+00:00 +10: Tree rejects bad probabilities, incomplete sums and fake decision probabilities
+00:00 +11: Tree rejects IDs, unknown root/refs, duplicate/self edges and DAG sharing
+00:00 +12: Disconnected zero cycles reject without recursion or infinite traversal
+00:00 +13: Tree node kind/payoff and degree contracts are checked
+00:00 +14: Tree handles 100-deep valid chain and immutable snapshots
+00:00 +15: Tree raw shapes, fractional IDs/types and missing edge probability reject explicitly
+00:00 +16: All tests passed!

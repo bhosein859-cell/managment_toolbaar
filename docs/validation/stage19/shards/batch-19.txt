@@ -1,0 +1,19 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/engineering_economics/pages_test.dart
+00:00 +0: time_value_money: generic form rendered formula error and example
+00:01 +1: future_present_factor: generic form rendered formula error and example
+00:01 +2: present_future_factor: generic form rendered formula error and example
+00:02 +3: future_annuity_factor: generic form rendered formula error and example
+00:02 +4: annuity_future_factor: generic form rendered formula error and example
+00:02 +5: present_annuity_factor: generic form rendered formula error and example
+00:03 +6: annuity_present_factor: generic form rendered formula error and example
+00:03 +7: straight_line_depreciation: generic form rendered formula error and example
+00:03 +8: declining_balance_depreciation: generic form rendered formula error and example
+00:03 +9: inflation_adjustment: generic form rendered formula error and example
+00:04 +10: ten economics tools open through real category routes
+00:06 +11: Economics incomplete external snapshots do not silently borrow example defaults
+00:07 +12: Zero-rate factor inputs save/reopen and undefined zero-period inverse disables save
+00:08 +13: ten economics pages fit Size(320.0, 568.0) dark=false enlarged RTL
+00:09 +14: ten economics pages fit Size(320.0, 568.0) dark=true enlarged RTL
+00:10 +15: ten economics pages fit Size(1280.0, 800.0) dark=false enlarged RTL
+00:11 +16: ten economics pages fit Size(1280.0, 800.0) dark=true enlarged RTL
+00:11 +17: All tests passed!

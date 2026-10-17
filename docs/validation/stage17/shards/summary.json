@@ -1,0 +1,280 @@
+{
+  "files_discovered": 82,
+  "files_run": 82,
+  "passed": 1679,
+  "skipped": 13,
+  "all_batches_succeeded": true,
+  "batches": [
+    {
+      "files": [
+        "test/app/app_test.dart",
+        "test/app/architecture_test.dart",
+        "test/core/persian_numbers_test.dart",
+        "test/features/calculators/decision/ahp_tree_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 44,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage17/shards/batch-01.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/decision/catalog_test.dart",
+        "test/features/calculators/decision/engines_test.dart",
+        "test/features/calculators/decision/matrix_test.dart",
+        "test/features/calculators/decision/pages_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 128,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage17/shards/batch-02.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/decision/scalar_test.dart",
+        "test/features/calculators/domain/engine_test.dart",
+        "test/features/calculators/domain/input_normalizer_test.dart",
+        "test/features/calculators/domain/models_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 50,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage17/shards/batch-03.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/engineering_economics/boundaries_test.dart",
+        "test/features/calculators/engineering_economics/catalog_test.dart",
+        "test/features/calculators/engineering_economics/engines_test.dart",
+        "test/features/calculators/engineering_economics/pages_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 159,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage17/shards/batch-04.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/finance/break_even_test.dart",
+        "test/features/calculators/finance/compound_interest_test.dart",
+        "test/features/calculators/finance/current_ratio_test.dart",
+        "test/features/calculators/finance/finance_catalog_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 52,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage17/shards/batch-05.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/finance/finance_pages_test.dart",
+        "test/features/calculators/finance/finance_visual_test.dart",
+        "test/features/calculators/finance/irr_test.dart",
+        "test/features/calculators/finance/loan_payment_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 42,
+      "skipped": 1,
+      "failed": 0,
+      "log": "docs/validation/stage17/shards/batch-06.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/finance/payback_test.dart",
+        "test/features/calculators/finance/quick_ratio_test.dart",
+        "test/features/calculators/finance/roi_test.dart",
+        "test/features/calculators/finance/wacc_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 41,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage17/shards/batch-07.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/hr/boundaries_test.dart",
+        "test/features/calculators/hr/catalog_test.dart",
+        "test/features/calculators/hr/engines_test.dart",
+        "test/features/calculators/hr/pages_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 97,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage17/shards/batch-08.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/hr/visual_test.dart",
+        "test/features/calculators/presentation/calculator_page_test.dart",
+        "test/features/calculators/presentation/calculator_visual_test.dart",
+        "test/features/calculators/presentation/form_controller_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 26,
+      "skipped": 3,
+      "failed": 0,
+      "log": "docs/validation/stage17/shards/batch-09.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/presentation/formatting_test.dart",
+        "test/features/calculators/production/capacity_utilization_test.dart",
+        "test/features/calculators/production/cycle_time_test.dart",
+        "test/features/calculators/production/labor_productivity_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 34,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage17/shards/batch-10.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/production/production_capacity_test.dart",
+        "test/features/calculators/production/production_catalog_test.dart",
+        "test/features/calculators/production/production_pages_test.dart",
+        "test/features/calculators/production/production_visual_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 49,
+      "skipped": 1,
+      "failed": 0,
+      "log": "docs/validation/stage17/shards/batch-11.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/production/smed_test.dart",
+        "test/features/calculators/production/takt_time_test.dart",
+        "test/features/calculators/production/throughput_test.dart",
+        "test/features/calculators/production/unit_production_cost_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 39,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage17/shards/batch-12.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/production/wip_test.dart",
+        "test/features/calculators/project/boundaries_test.dart",
+        "test/features/calculators/project/catalog_test.dart",
+        "test/features/calculators/project/engines_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 84,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage17/shards/batch-13.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/project/network_test.dart",
+        "test/features/calculators/project/pages_test.dart",
+        "test/features/calculators/project/visual_test.dart",
+        "test/features/calculators/prototypes/cp_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 52,
+      "skipped": 1,
+      "failed": 0,
+      "log": "docs/validation/stage17/shards/batch-14.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/prototypes/npv_test.dart",
+        "test/features/calculators/prototypes/oee_test.dart",
+        "test/features/calculators/prototypes/prototype_pages_test.dart",
+        "test/features/calculators/prototypes/prototype_visual_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 57,
+      "skipped": 3,
+      "failed": 0,
+      "log": "docs/validation/stage17/shards/batch-15.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/quality_inventory/boundaries_test.dart",
+        "test/features/calculators/quality_inventory/catalog_test.dart",
+        "test/features/calculators/quality_inventory/engines_test.dart",
+        "test/features/calculators/quality_inventory/pages_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 209,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage17/shards/batch-16.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/quality_inventory/visual_test.dart",
+        "test/features/glossary/glossary_test.dart",
+        "test/features/history/codec_test.dart",
+        "test/features/history/controller_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 94,
+      "skipped": 1,
+      "failed": 0,
+      "log": "docs/validation/stage17/shards/batch-17.txt"
+    },
+    {
+      "files": [
+        "test/features/history/migration_test.dart",
+        "test/features/history/open_database_test.dart",
+        "test/features/history/persistence_pages_test.dart",
+        "test/features/history/repository_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 34,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage17/shards/batch-18.txt"
+    },
+    {
+      "files": [
+        "test/features/home/home_pages_test.dart",
+        "test/features/home/home_visual_test.dart",
+        "test/features/home/search_test.dart",
+        "test/features/home/session_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 39,
+      "skipped": 1,
+      "failed": 0,
+      "log": "docs/validation/stage17/shards/batch-19.txt"
+    },
+    {
+      "files": [
+        "test/features/utilities/engines_test.dart",
+        "test/features/utilities/pages_export_test.dart",
+        "test/features/utilities/result_text_export_test.dart",
+        "test/features/utilities/storage_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 343,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage17/shards/batch-20.txt"
+    },
+    {
+      "files": [
+        "test/localization/persian_ui_test.dart",
+        "test/localization/visual_capture_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 6,
+      "skipped": 2,
+      "failed": 0,
+      "log": "docs/validation/stage17/shards/batch-21.txt"
+    }
+  ]
+}

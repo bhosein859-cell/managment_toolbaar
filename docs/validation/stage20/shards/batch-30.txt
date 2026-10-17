@@ -1,0 +1,9 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/finance/roi_test.dart
+00:00 +0: roi: reference formula
+00:00 +1: roi: typed bind and domain validation
+00:00 +2: roi: nonfinite net_profit
+00:00 +3: roi: nonfinite investment
+00:00 +4: roi: lower bound investment
+00:00 +5: roi: 20 independent Decimal formula fixtures
+00:00 +6: roi: zero cross-field and numerical edge cases
+00:00 +7: All tests passed!

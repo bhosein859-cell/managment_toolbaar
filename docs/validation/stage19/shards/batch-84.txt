@@ -1,0 +1,8 @@
+00:00 +0: loading /home/user/management_toolbox/test/localization/persian_ui_test.dart
+00:00 +0: bundled regular, bold and OFL assets are available offline
+00:00 +1: themes follow system brightness and use local font
+00:02 +2: settings switch theme without resetting route; all three modes work
+00:05 +3: lab accepts Persian Arabic and Latin, rejects invalid values
+00:06 +4: RTL lab fits Size(320.0, 568.0) with enlarged text
+00:07 +5: RTL lab fits Size(1280.0, 720.0) with enlarged text
+00:07 +6: All tests passed!

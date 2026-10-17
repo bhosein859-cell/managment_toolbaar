@@ -1,0 +1,45 @@
+Resolving dependencies...
+Downloading packages...
+  material_color_utilities 0.13.0 (0.13.1 available)
+  meta 1.18.3 (1.19.0 available)
+  petitparser 7.0.2 (7.1.0 available)
+  test_api 0.7.12 (0.7.15 available)
+  vector_math 2.4.0 (2.4.3 available)
+  xml 7.0.1 (7.1.0 available)
+Got dependencies!
+6 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/presentation/form_controller_test.dart
+00:00 +0: /home/user/management_toolbox/test/features/calculators/presentation/form_controller_test.dart: defaults are shown and computed through the engine
+00:00 +1: /home/user/management_toolbox/test/features/calculators/presentation/form_controller_test.dart: updates live from ۲۰۰ with percentages converted once
+00:00 +2: /home/user/management_toolbox/test/features/calculators/presentation/form_controller_test.dart: updates live from ٢٠٠ with percentages converted once
+00:00 +3: /home/user/management_toolbox/test/features/calculators/presentation/form_controller_test.dart: updates live from 200 with percentages converted once
+00:00 +4: /home/user/management_toolbox/test/features/calculators/presentation/form_controller_test.dart: invalid and partial inputs remove stale result immediately
+00:00 +5: /home/user/management_toolbox/test/features/calculators/presentation/form_controller_test.dart: examples replace inputs rather than carrying stale values; reset restores defaults
+00:00 +6: /home/user/management_toolbox/test/features/calculators/presentation/form_controller_test.dart: initial inputs are restored and invalid unknown data is surfaced globally
+00:00 +7: /home/user/management_toolbox/test/features/calculators/presentation/form_controller_test.dart: choice validation and blank defaults follow domain rules
+00:00 +8: /home/user/management_toolbox/test/features/calculators/presentation/form_controller_test.dart: structured lists preserve each item and reject malformed elements
+00:00 +9: /home/user/management_toolbox/test/features/calculators/presentation/form_controller_test.dart: domain and unexpected failures do not retain result or interpretation
+00:00 +10: /home/user/management_toolbox/test/features/calculators/presentation/form_controller_test.dart: demo formula examples and endpoint reductions are correct
+00:00 +11: loading /home/user/management_toolbox/test/features/calculators/presentation/formatting_test.dart
+00:00 +11: /home/user/management_toolbox/test/features/calculators/presentation/formatting_test.dart: editable default values roundtrip without rounding to zero
+00:00 +12: /home/user/management_toolbox/test/features/calculators/presentation/formatting_test.dart: numbers percentages text and lists are Persian and units retained
+00:00 +13: /home/user/management_toolbox/test/features/calculators/presentation/formatting_test.dart: scientific formatting never shows false zero or overflow
+00:00 +14: /home/user/management_toolbox/test/features/calculators/presentation/formatting_test.dart: guidance includes bounds units percentage conventions and optional integer flags
+00:00 +15: loading /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart
+00:01 +15: /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart: renders typed defaults, units, ranges, explanations and LaTeX offline
+00:03 +16: /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart: recalculates live and never shows stale result after invalid edit
+00:04 +17: /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart: selecting a unit updates output and preserves numeric input
+00:04 +18: /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart: loading an example fills controls; reset restores original defaults
+00:05 +19: /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart: numeric list uses newline entries and never splits thousands commas
+00:05 +20: /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart: domain failures and exceptions hide numeric output and expose safe Persian errors
+00:05 +21: /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart: same runner survives theme rebuild; replacement runner resets safely
+00:06 +22: /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart: restores prior raw inputs and surfaces invalid initial values
+00:06 +23: /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart: invalid LaTeX falls back to safe text rather than breaking page
+00:06 +24: /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart: textual and numeric-series results and warnings are rendered
+00:06 +25: /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart: RTL layout Size(320.0, 568.0) dark=false at text scale 1.5 has no overflow
+00:06 +26: /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart: RTL layout Size(320.0, 568.0) dark=true at text scale 1.5 has no overflow
+00:06 +27: /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart: RTL layout Size(1280.0, 800.0) dark=false at text scale 1.5 has no overflow
+00:07 +28: /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart: RTL layout Size(1280.0, 800.0) dark=true at text scale 1.5 has no overflow
+00:07 +29: /home/user/management_toolbox/test/features/calculators/presentation/calculator_page_test.dart: demo is reachable from the existing app home
+00:07 +30: All tests passed!

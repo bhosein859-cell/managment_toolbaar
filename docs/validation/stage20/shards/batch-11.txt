@@ -1,0 +1,17 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/decision/pages_test.dart
+00:00 +0: ahp: generic form rendered formula error and example
+00:01 +1: topsis: generic form rendered formula error and example
+00:02 +2: decision_matrix: generic form rendered formula error and example
+00:02 +3: expected_value_tree: generic form rendered formula error and example
+00:03 +4: weight_sensitivity: generic form rendered formula error and example
+00:03 +5: weighted_scoring: generic form rendered formula error and example
+00:04 +6: cost_benefit_comparison: generic form rendered formula error and example
+00:04 +7: two_option_break_even: generic form rendered formula error and example
+00:05 +8: eight decision tools open through real category routes
+00:08 +9: Decision incomplete external snapshots do not silently borrow example defaults
+00:11 +10: Decision matrix list save/reopen retains weights and invalid shape disables save
+00:14 +11: eight decision pages fit Size(320.0, 568.0) dark=false enlarged RTL
+00:16 +12: eight decision pages fit Size(320.0, 568.0) dark=true enlarged RTL
+00:18 +13: eight decision pages fit Size(1280.0, 800.0) dark=false enlarged RTL
+00:21 +14: eight decision pages fit Size(1280.0, 800.0) dark=true enlarged RTL
+00:23 +15: All tests passed!

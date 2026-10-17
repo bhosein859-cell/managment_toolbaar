@@ -1,0 +1,869 @@
+{
+  "files_discovered": 86,
+  "files_run": 86,
+  "passed": 1716,
+  "skipped": 14,
+  "all_batches_succeeded": true,
+  "batches": [
+    {
+      "files": [
+        "test/accessibility/interaction_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 8,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-01.txt"
+    },
+    {
+      "files": [
+        "test/accessibility/layout_contrast_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 26,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-02.txt"
+    },
+    {
+      "files": [
+        "test/accessibility/visual_capture_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 0,
+      "skipped": 1,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-03.txt"
+    },
+    {
+      "files": [
+        "test/app/app_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 3,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-04.txt"
+    },
+    {
+      "files": [
+        "test/app/architecture_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 6,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-05.txt"
+    },
+    {
+      "files": [
+        "test/core/persian_numbers_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 19,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-06.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/decision/ahp_tree_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 16,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-07.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/decision/catalog_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 25,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-08.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/decision/engines_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 60,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-09.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/decision/matrix_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 28,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-10.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/decision/pages_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 15,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-11.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/decision/scalar_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 5,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-12.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/domain/engine_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 12,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-13.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/domain/input_normalizer_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 21,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-14.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/domain/models_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 12,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-15.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/engineering_economics/boundaries_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 33,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-16.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/engineering_economics/catalog_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 31,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-17.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/engineering_economics/engines_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 78,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-18.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/engineering_economics/pages_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 17,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-19.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/finance/break_even_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 10,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-20.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/finance/compound_interest_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 12,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-21.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/finance/current_ratio_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 8,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-22.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/finance/finance_catalog_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 22,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-23.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/finance/finance_pages_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 16,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-24.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/finance/finance_visual_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 0,
+      "skipped": 1,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-25.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/finance/irr_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 14,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-26.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/finance/loan_payment_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 12,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-27.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/finance/payback_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 7,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-28.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/finance/quick_ratio_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 12,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-29.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/finance/roi_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 7,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-30.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/finance/wacc_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 15,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-31.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/hr/boundaries_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 11,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-32.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/hr/catalog_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 25,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-33.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/hr/engines_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 46,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-34.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/hr/pages_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 15,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-35.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/hr/visual_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 0,
+      "skipped": 1,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-36.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/presentation/calculator_page_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 15,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-37.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/presentation/calculator_visual_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 0,
+      "skipped": 2,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-38.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/presentation/form_controller_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 11,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-39.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/presentation/formatting_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 4,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-40.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/production/capacity_utilization_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 10,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-41.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/production/cycle_time_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 10,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-42.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/production/labor_productivity_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 10,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-43.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/production/production_capacity_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 12,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-44.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/production/production_catalog_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 21,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-45.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/production/production_pages_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 16,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-46.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/production/production_visual_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 0,
+      "skipped": 1,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-47.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/production/smed_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 9,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-48.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/production/takt_time_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 10,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-49.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/production/throughput_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 10,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-50.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/production/unit_production_cost_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 10,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-51.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/production/wip_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 10,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-52.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/project/boundaries_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 22,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-53.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/project/catalog_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 17,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-54.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/project/engines_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 35,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-55.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/project/network_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 22,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-56.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/project/pages_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 16,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-57.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/project/visual_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 0,
+      "skipped": 1,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-58.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/prototypes/cp_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 14,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-59.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/prototypes/npv_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 19,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-60.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/prototypes/oee_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 28,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-61.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/prototypes/prototype_pages_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 10,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-62.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/prototypes/prototype_visual_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 0,
+      "skipped": 3,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-63.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/quality_inventory/boundaries_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 31,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-64.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/quality_inventory/catalog_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 33,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-65.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/quality_inventory/engines_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 121,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-66.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/quality_inventory/pages_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 24,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-67.txt"
+    },
+    {
+      "files": [
+        "test/features/calculators/quality_inventory/visual_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 0,
+      "skipped": 1,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-68.txt"
+    },
+    {
+      "files": [
+        "test/features/glossary/glossary_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 4,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-69.txt"
+    },
+    {
+      "files": [
+        "test/features/history/codec_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 83,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-70.txt"
+    },
+    {
+      "files": [
+        "test/features/history/controller_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 7,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-71.txt"
+    },
+    {
+      "files": [
+        "test/features/history/migration_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 11,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-72.txt"
+    },
+    {
+      "files": [
+        "test/features/history/open_database_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 2,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-73.txt"
+    },
+    {
+      "files": [
+        "test/features/history/persistence_pages_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 4,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-74.txt"
+    },
+    {
+      "files": [
+        "test/features/history/repository_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 17,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-75.txt"
+    },
+    {
+      "files": [
+        "test/features/home/home_pages_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 11,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-76.txt"
+    },
+    {
+      "files": [
+        "test/features/home/home_visual_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 0,
+      "skipped": 1,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-77.txt"
+    },
+    {
+      "files": [
+        "test/features/home/search_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 26,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-78.txt"
+    },
+    {
+      "files": [
+        "test/features/home/session_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 2,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-79.txt"
+    },
+    {
+      "files": [
+        "test/features/utilities/engines_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 248,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-80.txt"
+    },
+    {
+      "files": [
+        "test/features/utilities/pages_export_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 18,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-81.txt"
+    },
+    {
+      "files": [
+        "test/features/utilities/result_text_export_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 76,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-82.txt"
+    },
+    {
+      "files": [
+        "test/features/utilities/storage_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 1,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-83.txt"
+    },
+    {
+      "files": [
+        "test/localization/persian_ui_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 6,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-84.txt"
+    },
+    {
+      "files": [
+        "test/localization/visual_capture_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 0,
+      "skipped": 2,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-85.txt"
+    },
+    {
+      "files": [
+        "test/release/offline_smoke_test.dart"
+      ],
+      "exit_code": 0,
+      "passed": 3,
+      "skipped": 0,
+      "failed": 0,
+      "log": "docs/validation/stage19/shards/batch-86.txt"
+    }
+  ]
+}

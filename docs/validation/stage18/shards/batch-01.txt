@@ -1,0 +1,37 @@
+00:00 +0: loading /home/user/management_toolbox/test/accessibility/interaction_test.dart
+00:00 +0: /home/user/management_toolbox/test/accessibility/interaction_test.dart: Ctrl+F, Tab and Shift+Tab give search and predictable traversal
+00:02 +1: /home/user/management_toolbox/test/accessibility/interaction_test.dart: Alt+I focuses input; Tab advances; Ctrl+Enter saves only live valid result
+00:03 +2: /home/user/management_toolbox/test/accessibility/interaction_test.dart: category mouse hover and keyboard Enter use the same real action
+00:03 +3: /home/user/management_toolbox/test/accessibility/interaction_test.dart: glossary query and category survive wide/narrow resize and keyboard insets
+00:03 +4: /home/user/management_toolbox/test/accessibility/interaction_test.dart: motion honors OS preference and explicit opt-out
+00:04 +5: /home/user/management_toolbox/test/accessibility/interaction_test.dart: dedicated history navigation, keyboard back and raw-input reopen
+00:07 +6: /home/user/management_toolbox/test/accessibility/interaction_test.dart: home touch targets and labels; category name/action and favorite state are explicit
+00:07 +7: /home/user/management_toolbox/test/accessibility/interaction_test.dart: mouse wheel scrolls history without touch drag
+00:08 +8: loading /home/user/management_toolbox/test/accessibility/layout_contrast_test.dart
+00:08 +8: /home/user/management_toolbox/test/accessibility/layout_contrast_test.dart: all nine categories retain distinct readable foregrounds in both themes
+00:09 +9: /home/user/management_toolbox/test/accessibility/layout_contrast_test.dart: core text/error/result pairs meet AA normal text and focus indicator exceeds 3:1
+00:09 +10: /home/user/management_toolbox/test/accessibility/layout_contrast_test.dart: home RTL logical=Size(320.0, 568.0) DPR=1.0 text=2.0 dark=false
+00:11 +11: /home/user/management_toolbox/test/accessibility/layout_contrast_test.dart: home RTL logical=Size(390.0, 844.0) DPR=3.0 text=1.0 dark=true
+00:12 +12: /home/user/management_toolbox/test/accessibility/layout_contrast_test.dart: home RTL logical=Size(800.0, 600.0) DPR=1.5 text=1.5 dark=true
+00:13 +13: /home/user/management_toolbox/test/accessibility/layout_contrast_test.dart: home RTL logical=Size(1280.0, 800.0) DPR=2.0 text=2.0 dark=false
+00:14 +14: /home/user/management_toolbox/test/accessibility/layout_contrast_test.dart: category RTL logical=Size(320.0, 568.0) DPR=1.0 text=2.0 dark=false
+00:14 +15: /home/user/management_toolbox/test/accessibility/layout_contrast_test.dart: category RTL logical=Size(390.0, 844.0) DPR=3.0 text=1.0 dark=true
+00:14 +16: /home/user/management_toolbox/test/accessibility/layout_contrast_test.dart: category RTL logical=Size(800.0, 600.0) DPR=1.5 text=1.5 dark=true
+00:14 +17: /home/user/management_toolbox/test/accessibility/layout_contrast_test.dart: category RTL logical=Size(1280.0, 800.0) DPR=2.0 text=2.0 dark=false
+00:14 +18: /home/user/management_toolbox/test/accessibility/layout_contrast_test.dart: calculator RTL logical=Size(320.0, 568.0) DPR=1.0 text=2.0 dark=false
+00:15 +19: /home/user/management_toolbox/test/accessibility/layout_contrast_test.dart: calculator RTL logical=Size(390.0, 844.0) DPR=3.0 text=1.0 dark=true
+00:15 +20: /home/user/management_toolbox/test/accessibility/layout_contrast_test.dart: calculator RTL logical=Size(800.0, 600.0) DPR=1.5 text=1.5 dark=true
+00:15 +21: /home/user/management_toolbox/test/accessibility/layout_contrast_test.dart: calculator RTL logical=Size(1280.0, 800.0) DPR=2.0 text=2.0 dark=false
+00:15 +22: /home/user/management_toolbox/test/accessibility/layout_contrast_test.dart: history RTL logical=Size(320.0, 568.0) DPR=1.0 text=2.0 dark=false
+00:15 +23: /home/user/management_toolbox/test/accessibility/layout_contrast_test.dart: history RTL logical=Size(390.0, 844.0) DPR=3.0 text=1.0 dark=true
+00:15 +24: /home/user/management_toolbox/test/accessibility/layout_contrast_test.dart: history RTL logical=Size(800.0, 600.0) DPR=1.5 text=1.5 dark=true
+00:15 +25: /home/user/management_toolbox/test/accessibility/layout_contrast_test.dart: history RTL logical=Size(1280.0, 800.0) DPR=2.0 text=2.0 dark=false
+00:16 +26: /home/user/management_toolbox/test/accessibility/layout_contrast_test.dart: glossary RTL logical=Size(320.0, 568.0) DPR=1.0 text=2.0 dark=false
+00:16 +27: /home/user/management_toolbox/test/accessibility/layout_contrast_test.dart: glossary RTL logical=Size(390.0, 844.0) DPR=3.0 text=1.0 dark=true
+00:16 +28: /home/user/management_toolbox/test/accessibility/layout_contrast_test.dart: glossary RTL logical=Size(800.0, 600.0) DPR=1.5 text=1.5 dark=true
+00:16 +29: /home/user/management_toolbox/test/accessibility/layout_contrast_test.dart: glossary RTL logical=Size(1280.0, 800.0) DPR=2.0 text=2.0 dark=false
+00:16 +30: /home/user/management_toolbox/test/accessibility/layout_contrast_test.dart: settings RTL logical=Size(320.0, 568.0) DPR=1.0 text=2.0 dark=false
+00:16 +31: /home/user/management_toolbox/test/accessibility/layout_contrast_test.dart: settings RTL logical=Size(390.0, 844.0) DPR=3.0 text=1.0 dark=true
+00:16 +32: /home/user/management_toolbox/test/accessibility/layout_contrast_test.dart: settings RTL logical=Size(800.0, 600.0) DPR=1.5 text=1.5 dark=true
+00:16 +33: /home/user/management_toolbox/test/accessibility/layout_contrast_test.dart: settings RTL logical=Size(1280.0, 800.0) DPR=2.0 text=2.0 dark=false
+00:16 +34: All tests passed!

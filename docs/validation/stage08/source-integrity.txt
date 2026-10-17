@@ -1,0 +1,5 @@
+Baseline: management_toolbox_stage_07_source.zip
+Preserved byte-for-byte: 59 dependency, native host, assets, and calculator-domain files.
+No executable source file removed. Only two empty .gitkeep placeholders removed.
+No new dependency; pubspec.yaml and pubspec.lock are identical.
+Full changed-file list: changed-files.txt

@@ -1,0 +1,40 @@
+[1/10] Material Fonts                                              313ms
+[2/10] Gradle Wrapper                                               34ms
+[3/10] Flutter SDK
+  ├─ [1/5] sky_engine                                              147ms
+  ├─ [2/5] flutter_gpu                                              31ms
+  ├─ [3/5] flutter_patched_sdk                                     271ms
+  ├─ [4/5] flutter_patched_sdk_product                             215ms
+  └─ [5/5] linux-x64                                             1,027ms
+[10/10] linux-x64/font-subset                                      117ms
+Resolving dependencies...
+Downloading packages...
++ archive 4.5.2
++ barcode 2.2.9
++ bidi 2.0.13
++ cross_file 0.3.5+5 (0.4.0 available)
++ ffi_leak_tracker 0.1.2
++ fixnum 1.1.1
++ flutter_web_plugins 0.0.0 from sdk flutter
++ image 4.12.0
+  material_color_utilities 0.13.0 (0.13.1 available)
++ mime 2.1.0
+  path_provider_android 2.2.22 (2.3.1 available)
++ pdf 3.13.1
+  petitparser 7.0.2 (7.1.0 available)
++ posix 6.5.2
++ qr 3.0.2 (4.0.0 available)
++ share_plus 13.3.1
++ share_plus_platform_interface 7.2.0
+  test_api 0.7.12 (0.7.15 available)
++ url_launcher_linux 3.2.3
++ url_launcher_platform_interface 2.3.2
++ url_launcher_web 2.4.3
++ url_launcher_windows 3.1.6
++ uuid 4.6.0
+  vector_math 2.4.0 (2.4.3 available)
++ win32 6.4.0
+  xml 7.0.1 (7.1.0 available)
+Changed 20 dependencies!
+8 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.

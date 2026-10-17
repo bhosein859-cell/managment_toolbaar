@@ -1,0 +1,41 @@
+{
+  "purpose": "Linux sandbox AOT measurements, not Android/Windows device guarantees",
+  "runtime": "3.13.5 (stable) (Tue Sep 29 01:00:52 2026 -0700) on \"linux_x64\"",
+  "os": "linux",
+  "queries": [
+    "oee",
+    "NPV",
+    "ارزش خالص فعلی",
+    "اثربخشي كلي تجهيزات",
+    "بهرهوری تجهیزات",
+    "nvp",
+    "اثربخشب",
+    "capabilty",
+    "کیفیت",
+    "zzzzzzzzzz"
+  ],
+  "cases": [
+    {
+      "label": "actual_app_catalog",
+      "tools": 3,
+      "iterations": 3000,
+      "index_build_ms": 0.693,
+      "median_query_us": 19.092,
+      "p95_query_us": 36.338,
+      "max_query_us": 768.459,
+      "total_ms": 65.858,
+      "checksum": 3000
+    },
+    {
+      "label": "synthetic_stress_only",
+      "tools": 1000,
+      "iterations": 300,
+      "index_build_ms": 152.324,
+      "median_query_us": 6206.935,
+      "p95_query_us": 11052.518,
+      "max_query_us": 17728.17,
+      "total_ms": 2127.408,
+      "checksum": 4200
+    }
+  ]
+}

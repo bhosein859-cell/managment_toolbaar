@@ -1,0 +1,8 @@
+00:00 +0: loading /home/user/management_toolbox/test/app/architecture_test.dart
+00:00 +0: failure retains a Persian message and machine-readable code
+00:00 +1: base themes use Material 3 in both brightness modes
+00:00 +2: domain stays independent from Flutter, data and presentation
+00:00 +3: welcome is RTL, credits creator and navigates to home
+00:01 +4: unknown route provides a safe return home
+00:02 +5: error fallback renders without app dependencies
+00:02 +6: All tests passed!

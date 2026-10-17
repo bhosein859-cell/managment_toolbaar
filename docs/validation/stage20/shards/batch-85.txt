@@ -1,0 +1,4 @@
+00:00 +0: loading /home/user/management_toolbox/test/localization/visual_capture_test.dart
+00:00 +0: capture real-font lab light
+00:00 +0 ~1: capture real-font lab dark
+00:00 +0 ~2: All tests skipped.

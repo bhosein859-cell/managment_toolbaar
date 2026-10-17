@@ -1,0 +1,1638 @@
+[
+  {
+    "id": "cost_per_hire",
+    "inputs": {
+      "internal_cost": "966165",
+      "external_cost": "248098",
+      "hires": "28",
+      "period_days": "30"
+    },
+    "expected": "43366.535714285714285714285714285714285714285714285714285714285714285714285714286",
+    "details": {
+      "total_recruitment_cost": "1214263"
+    }
+  },
+  {
+    "id": "employee_turnover",
+    "inputs": {
+      "separations": "0",
+      "opening_headcount": "818",
+      "closing_headcount": "699",
+      "period_days": "30"
+    },
+    "expected": "0E+1",
+    "details": {
+      "average_headcount": "758.5"
+    }
+  },
+  {
+    "id": "employee_productivity",
+    "inputs": {
+      "output": "873.8",
+      "worked_hours": "30.7",
+      "period_days": "30"
+    },
+    "expected": "28.462540716612377850162866449511400651465798045602605863192182410423452768729642",
+    "details": {}
+  },
+  {
+    "id": "training_roi",
+    "inputs": {
+      "gross_benefits": "8094689",
+      "attribution_rate": "0",
+      "training_cost": "365630",
+      "period_days": "30"
+    },
+    "expected": "-1",
+    "details": {
+      "attributed_benefit": "0",
+      "net_benefit": "-365630"
+    }
+  },
+  {
+    "id": "replacement_time",
+    "inputs": {
+      "elapsed_days": [
+        "293.5",
+        "523"
+      ],
+      "period_days": "30"
+    },
+    "expected": "408.25",
+    "details": {
+      "total_elapsed_days": "816.5",
+      "completed_replacements": "2"
+    }
+  },
+  {
+    "id": "absence_cost",
+    "inputs": {
+      "paid_absent_hours": "0",
+      "loaded_hourly_cost": "57289",
+      "incremental_cover_cost": "0",
+      "period_days": "30"
+    },
+    "expected": "0",
+    "details": {
+      "paid_absence_cost": "0"
+    }
+  },
+  {
+    "id": "cost_per_hire",
+    "inputs": {
+      "internal_cost": "428713",
+      "external_cost": "965737",
+      "hires": "30",
+      "period_days": "90"
+    },
+    "expected": "46481.666666666666666666666666666666666666666666666666666666666666666666666666667",
+    "details": {
+      "total_recruitment_cost": "1394450"
+    }
+  },
+  {
+    "id": "employee_turnover",
+    "inputs": {
+      "separations": "0",
+      "opening_headcount": "3",
+      "closing_headcount": "921",
+      "period_days": "90"
+    },
+    "expected": "0",
+    "details": {
+      "average_headcount": "462"
+    }
+  },
+  {
+    "id": "employee_productivity",
+    "inputs": {
+      "output": "775.7",
+      "worked_hours": "181.6",
+      "period_days": "90"
+    },
+    "expected": "4.2714757709251101321585903083700440528634361233480176211453744493392070484581498",
+    "details": {}
+  },
+  {
+    "id": "training_roi",
+    "inputs": {
+      "gross_benefits": "5785126",
+      "attribution_rate": "0.25",
+      "training_cost": "765023",
+      "period_days": "90"
+    },
+    "expected": "0.89050721350861346652322871338508776860303546429323039960890064743151513091763254",
+    "details": {
+      "attributed_benefit": "1446281.50",
+      "net_benefit": "681258.50"
+    }
+  },
+  {
+    "id": "replacement_time",
+    "inputs": {
+      "elapsed_days": [
+        "135.5",
+        "293.5",
+        "691.5",
+        "422.5",
+        "517.5"
+      ],
+      "period_days": "90"
+    },
+    "expected": "412.1",
+    "details": {
+      "total_elapsed_days": "2060.5",
+      "completed_replacements": "5"
+    }
+  },
+  {
+    "id": "absence_cost",
+    "inputs": {
+      "paid_absent_hours": "831",
+      "loaded_hourly_cost": "22804",
+      "incremental_cover_cost": "361851",
+      "period_days": "90"
+    },
+    "expected": "19311975",
+    "details": {
+      "paid_absence_cost": "18950124"
+    }
+  },
+  {
+    "id": "cost_per_hire",
+    "inputs": {
+      "internal_cost": "200808",
+      "external_cost": "640026",
+      "hires": "21",
+      "period_days": "365"
+    },
+    "expected": "40039.714285714285714285714285714285714285714285714285714285714285714285714285714",
+    "details": {
+      "total_recruitment_cost": "840834"
+    }
+  },
+  {
+    "id": "employee_turnover",
+    "inputs": {
+      "separations": "587",
+      "opening_headcount": "967",
+      "closing_headcount": "372",
+      "period_days": "365"
+    },
+    "expected": "0.87677371172516803584764749813293502613890963405526512322628827483196415235250187",
+    "details": {
+      "average_headcount": "669.5"
+    }
+  },
+  {
+    "id": "employee_productivity",
+    "inputs": {
+      "output": "277.6",
+      "worked_hours": "131.4",
+      "period_days": "365"
+    },
+    "expected": "2.1126331811263318112633181126331811263318112633181126331811263318112633181126332",
+    "details": {}
+  },
+  {
+    "id": "training_roi",
+    "inputs": {
+      "gross_benefits": "5518379",
+      "attribution_rate": "0.5",
+      "training_cost": "172382",
+      "period_days": "365"
+    },
+    "expected": "15.006250652620343191284472856794792959821791138285899919945237901869104662899839",
+    "details": {
+      "attributed_benefit": "2759189.5",
+      "net_benefit": "2586807.5"
+    }
+  },
+  {
+    "id": "replacement_time",
+    "inputs": {
+      "elapsed_days": [
+        "396.5",
+        "663",
+        "694",
+        "647.5",
+        "224.5",
+        "651",
+        "290",
+        "188",
+        "685",
+        "414.5"
+      ],
+      "period_days": "365"
+    },
+    "expected": "485.4",
+    "details": {
+      "total_elapsed_days": "4854.0",
+      "completed_replacements": "10"
+    }
+  },
+  {
+    "id": "absence_cost",
+    "inputs": {
+      "paid_absent_hours": "991",
+      "loaded_hourly_cost": "16409",
+      "incremental_cover_cost": "384220",
+      "period_days": "365"
+    },
+    "expected": "16645539",
+    "details": {
+      "paid_absence_cost": "16261319"
+    }
+  },
+  {
+    "id": "cost_per_hire",
+    "inputs": {
+      "internal_cost": "439784",
+      "external_cost": "464784",
+      "hires": "18",
+      "period_days": "30"
+    },
+    "expected": "50253.777777777777777777777777777777777777777777777777777777777777777777777777778",
+    "details": {
+      "total_recruitment_cost": "904568"
+    }
+  },
+  {
+    "id": "employee_turnover",
+    "inputs": {
+      "separations": "1459",
+      "opening_headcount": "822",
+      "closing_headcount": "624",
+      "period_days": "30"
+    },
+    "expected": "2.0179806362378976486860304287690179806362378976486860304287690179806362378976487",
+    "details": {
+      "average_headcount": "723"
+    }
+  },
+  {
+    "id": "employee_productivity",
+    "inputs": {
+      "output": "87.2",
+      "worked_hours": "186.7",
+      "period_days": "30"
+    },
+    "expected": "0.46705945366898768077129084092126405998928762720942688805570433851098018211033744",
+    "details": {}
+  },
+  {
+    "id": "training_roi",
+    "inputs": {
+      "gross_benefits": "1754686",
+      "attribution_rate": "0.75",
+      "training_cost": "542610",
+      "period_days": "30"
+    },
+    "expected": "1.4253414054293138718416542267927240559517885774313042516724719411732183336097750",
+    "details": {
+      "attributed_benefit": "1316014.50",
+      "net_benefit": "773404.50"
+    }
+  },
+  {
+    "id": "replacement_time",
+    "inputs": {
+      "elapsed_days": [
+        "23",
+        "538",
+        "67"
+      ],
+      "period_days": "30"
+    },
+    "expected": "209.33333333333333333333333333333333333333333333333333333333333333333333333333333",
+    "details": {
+      "total_elapsed_days": "628",
+      "completed_replacements": "3"
+    }
+  },
+  {
+    "id": "absence_cost",
+    "inputs": {
+      "paid_absent_hours": "662",
+      "loaded_hourly_cost": "2837",
+      "incremental_cover_cost": "740136",
+      "period_days": "30"
+    },
+    "expected": "2618230",
+    "details": {
+      "paid_absence_cost": "1878094"
+    }
+  },
+  {
+    "id": "cost_per_hire",
+    "inputs": {
+      "internal_cost": "306596",
+      "external_cost": "756917",
+      "hires": "2",
+      "period_days": "90"
+    },
+    "expected": "531756.5",
+    "details": {
+      "total_recruitment_cost": "1063513"
+    }
+  },
+  {
+    "id": "employee_turnover",
+    "inputs": {
+      "separations": "1406",
+      "opening_headcount": "968",
+      "closing_headcount": "962",
+      "period_days": "90"
+    },
+    "expected": "1.4569948186528497409326424870466321243523316062176165803108808290155440414507772",
+    "details": {
+      "average_headcount": "965"
+    }
+  },
+  {
+    "id": "employee_productivity",
+    "inputs": {
+      "output": "759.6",
+      "worked_hours": "94.5",
+      "period_days": "90"
+    },
+    "expected": "8.0380952380952380952380952380952380952380952380952380952380952380952380952380952",
+    "details": {}
+  },
+  {
+    "id": "training_roi",
+    "inputs": {
+      "gross_benefits": "2323669",
+      "attribution_rate": "1",
+      "training_cost": "267566",
+      "period_days": "90"
+    },
+    "expected": "7.6844703736648154100296749213278219205728680026610256908575828020002541429030594",
+    "details": {
+      "attributed_benefit": "2323669",
+      "net_benefit": "2056103"
+    }
+  },
+  {
+    "id": "replacement_time",
+    "inputs": {
+      "elapsed_days": [
+        "240",
+        "7.5",
+        "632",
+        "182",
+        "72",
+        "222.5",
+        "453.5",
+        "673.5",
+        "482",
+        "528"
+      ],
+      "period_days": "90"
+    },
+    "expected": "349.3",
+    "details": {
+      "total_elapsed_days": "3493.0",
+      "completed_replacements": "10"
+    }
+  },
+  {
+    "id": "absence_cost",
+    "inputs": {
+      "paid_absent_hours": "449",
+      "loaded_hourly_cost": "92904",
+      "incremental_cover_cost": "165195",
+      "period_days": "90"
+    },
+    "expected": "41879091",
+    "details": {
+      "paid_absence_cost": "41713896"
+    }
+  },
+  {
+    "id": "cost_per_hire",
+    "inputs": {
+      "internal_cost": "313753",
+      "external_cost": "422612",
+      "hires": "9",
+      "period_days": "365"
+    },
+    "expected": "81818.333333333333333333333333333333333333333333333333333333333333333333333333333",
+    "details": {
+      "total_recruitment_cost": "736365"
+    }
+  },
+  {
+    "id": "employee_turnover",
+    "inputs": {
+      "separations": "1829",
+      "opening_headcount": "859",
+      "closing_headcount": "532",
+      "period_days": "365"
+    },
+    "expected": "2.6297627606038820992092020129403306973400431344356578001437814521926671459381740",
+    "details": {
+      "average_headcount": "695.5"
+    }
+  },
+  {
+    "id": "employee_productivity",
+    "inputs": {
+      "output": "999.1",
+      "worked_hours": "149.5",
+      "period_days": "365"
+    },
+    "expected": "6.6829431438127090301003344481605351170568561872909698996655518394648829431438127",
+    "details": {}
+  },
+  {
+    "id": "training_roi",
+    "inputs": {
+      "gross_benefits": "8734608",
+      "attribution_rate": "0",
+      "training_cost": "601435",
+      "period_days": "365"
+    },
+    "expected": "-1",
+    "details": {
+      "attributed_benefit": "0",
+      "net_benefit": "-601435"
+    }
+  },
+  {
+    "id": "replacement_time",
+    "inputs": {
+      "elapsed_days": [
+        "210.5"
+      ],
+      "period_days": "365"
+    },
+    "expected": "210.5",
+    "details": {
+      "total_elapsed_days": "210.5",
+      "completed_replacements": "1"
+    }
+  },
+  {
+    "id": "absence_cost",
+    "inputs": {
+      "paid_absent_hours": "21",
+      "loaded_hourly_cost": "6828",
+      "incremental_cover_cost": "361542",
+      "period_days": "365"
+    },
+    "expected": "504930",
+    "details": {
+      "paid_absence_cost": "143388"
+    }
+  },
+  {
+    "id": "cost_per_hire",
+    "inputs": {
+      "internal_cost": "704093",
+      "external_cost": "196585",
+      "hires": "22",
+      "period_days": "30"
+    },
+    "expected": "40939.909090909090909090909090909090909090909090909090909090909090909090909090909",
+    "details": {
+      "total_recruitment_cost": "900678"
+    }
+  },
+  {
+    "id": "employee_turnover",
+    "inputs": {
+      "separations": "1645",
+      "opening_headcount": "587",
+      "closing_headcount": "430",
+      "period_days": "30"
+    },
+    "expected": "3.2350049164208456243854473942969518190757128810226155358898721730580137659783677",
+    "details": {
+      "average_headcount": "508.5"
+    }
+  },
+  {
+    "id": "employee_productivity",
+    "inputs": {
+      "output": "181.7",
+      "worked_hours": "125",
+      "period_days": "30"
+    },
+    "expected": "1.4536",
+    "details": {}
+  },
+  {
+    "id": "training_roi",
+    "inputs": {
+      "gross_benefits": "4767818",
+      "attribution_rate": "0.25",
+      "training_cost": "258159",
+      "period_days": "30"
+    },
+    "expected": "3.6171332395926541395031744002727001576547786441689036601474285227321147045038135",
+    "details": {
+      "attributed_benefit": "1191954.50",
+      "net_benefit": "933795.50"
+    }
+  },
+  {
+    "id": "replacement_time",
+    "inputs": {
+      "elapsed_days": [
+        "31.5",
+        "375.5",
+        "253",
+        "680.5",
+        "162.5",
+        "396.5",
+        "118.5"
+      ],
+      "period_days": "30"
+    },
+    "expected": "288.28571428571428571428571428571428571428571428571428571428571428571428571428571",
+    "details": {
+      "total_elapsed_days": "2018.0",
+      "completed_replacements": "7"
+    }
+  },
+  {
+    "id": "absence_cost",
+    "inputs": {
+      "paid_absent_hours": "385",
+      "loaded_hourly_cost": "15385",
+      "incremental_cover_cost": "516362",
+      "period_days": "30"
+    },
+    "expected": "6439587",
+    "details": {
+      "paid_absence_cost": "5923225"
+    }
+  },
+  {
+    "id": "cost_per_hire",
+    "inputs": {
+      "internal_cost": "390972",
+      "external_cost": "291584",
+      "hires": "18",
+      "period_days": "90"
+    },
+    "expected": "37919.777777777777777777777777777777777777777777777777777777777777777777777777778",
+    "details": {
+      "total_recruitment_cost": "682556"
+    }
+  },
+  {
+    "id": "employee_turnover",
+    "inputs": {
+      "separations": "1324",
+      "opening_headcount": "487",
+      "closing_headcount": "735",
+      "period_days": "90"
+    },
+    "expected": "2.1669394435351882160392798690671031096563011456628477905073649754500818330605565",
+    "details": {
+      "average_headcount": "611"
+    }
+  },
+  {
+    "id": "employee_productivity",
+    "inputs": {
+      "output": "268.2",
+      "worked_hours": "177.5",
+      "period_days": "90"
+    },
+    "expected": "1.5109859154929577464788732394366197183098591549295774647887323943661971830985915",
+    "details": {}
+  },
+  {
+    "id": "training_roi",
+    "inputs": {
+      "gross_benefits": "9941983",
+      "attribution_rate": "0.5",
+      "training_cost": "505426",
+      "period_days": "90"
+    },
+    "expected": "8.8352508576923229117615635127595335420021922101356083778832113899957659479330308",
+    "details": {
+      "attributed_benefit": "4970991.5",
+      "net_benefit": "4465565.5"
+    }
+  },
+  {
+    "id": "replacement_time",
+    "inputs": {
+      "elapsed_days": [
+        "667.5",
+        "429.5",
+        "577",
+        "306.5",
+        "423.5",
+        "55",
+        "164.5"
+      ],
+      "period_days": "90"
+    },
+    "expected": "374.78571428571428571428571428571428571428571428571428571428571428571428571428571",
+    "details": {
+      "total_elapsed_days": "2623.5",
+      "completed_replacements": "7"
+    }
+  },
+  {
+    "id": "absence_cost",
+    "inputs": {
+      "paid_absent_hours": "301",
+      "loaded_hourly_cost": "73861",
+      "incremental_cover_cost": "905088",
+      "period_days": "90"
+    },
+    "expected": "23137249",
+    "details": {
+      "paid_absence_cost": "22232161"
+    }
+  },
+  {
+    "id": "cost_per_hire",
+    "inputs": {
+      "internal_cost": "212029",
+      "external_cost": "125180",
+      "hires": "8",
+      "period_days": "365"
+    },
+    "expected": "42151.125",
+    "details": {
+      "total_recruitment_cost": "337209"
+    }
+  },
+  {
+    "id": "employee_turnover",
+    "inputs": {
+      "separations": "461",
+      "opening_headcount": "829",
+      "closing_headcount": "633",
+      "period_days": "365"
+    },
+    "expected": "0.63064295485636114911080711354309165526675786593707250341997264021887824897400821",
+    "details": {
+      "average_headcount": "731"
+    }
+  },
+  {
+    "id": "employee_productivity",
+    "inputs": {
+      "output": "501.2",
+      "worked_hours": "170.5",
+      "period_days": "365"
+    },
+    "expected": "2.9395894428152492668621700879765395894428152492668621700879765395894428152492669",
+    "details": {}
+  },
+  {
+    "id": "training_roi",
+    "inputs": {
+      "gross_benefits": "9320114",
+      "attribution_rate": "0.75",
+      "training_cost": "919369",
+      "period_days": "365"
+    },
+    "expected": "6.6031337797989708158530470355211019732011847256107177857856856169829524380308668",
+    "details": {
+      "attributed_benefit": "6990085.50",
+      "net_benefit": "6070716.50"
+    }
+  },
+  {
+    "id": "replacement_time",
+    "inputs": {
+      "elapsed_days": [
+        "486",
+        "243.5",
+        "392.5",
+        "182",
+        "609.5",
+        "81",
+        "336",
+        "389.5",
+        "167.5",
+        "226"
+      ],
+      "period_days": "365"
+    },
+    "expected": "311.35",
+    "details": {
+      "total_elapsed_days": "3113.5",
+      "completed_replacements": "10"
+    }
+  },
+  {
+    "id": "absence_cost",
+    "inputs": {
+      "paid_absent_hours": "472",
+      "loaded_hourly_cost": "56214",
+      "incremental_cover_cost": "264341",
+      "period_days": "365"
+    },
+    "expected": "26797349",
+    "details": {
+      "paid_absence_cost": "26533008"
+    }
+  },
+  {
+    "id": "cost_per_hire",
+    "inputs": {
+      "internal_cost": "187145",
+      "external_cost": "894336",
+      "hires": "9",
+      "period_days": "30"
+    },
+    "expected": "120164.55555555555555555555555555555555555555555555555555555555555555555555555556",
+    "details": {
+      "total_recruitment_cost": "1081481"
+    }
+  },
+  {
+    "id": "employee_turnover",
+    "inputs": {
+      "separations": "203",
+      "opening_headcount": "830",
+      "closing_headcount": "928",
+      "period_days": "30"
+    },
+    "expected": "0.23094425483503981797497155858930602957906712172923777019340159271899886234357224",
+    "details": {
+      "average_headcount": "879"
+    }
+  },
+  {
+    "id": "employee_productivity",
+    "inputs": {
+      "output": "421.2",
+      "worked_hours": "160",
+      "period_days": "30"
+    },
+    "expected": "2.6325",
+    "details": {}
+  },
+  {
+    "id": "training_roi",
+    "inputs": {
+      "gross_benefits": "6816082",
+      "attribution_rate": "1",
+      "training_cost": "973864",
+      "period_days": "30"
+    },
+    "expected": "5.9990080750494935637830333598941946719459801368568917220474316742378812647351170",
+    "details": {
+      "attributed_benefit": "6816082",
+      "net_benefit": "5842218"
+    }
+  },
+  {
+    "id": "replacement_time",
+    "inputs": {
+      "elapsed_days": [
+        "232",
+        "594.5",
+        "89",
+        "70",
+        "333",
+        "375.5",
+        "84",
+        "589.5",
+        "536.5",
+        "352"
+      ],
+      "period_days": "30"
+    },
+    "expected": "325.6",
+    "details": {
+      "total_elapsed_days": "3256.0",
+      "completed_replacements": "10"
+    }
+  },
+  {
+    "id": "absence_cost",
+    "inputs": {
+      "paid_absent_hours": "152",
+      "loaded_hourly_cost": "3546",
+      "incremental_cover_cost": "630507",
+      "period_days": "30"
+    },
+    "expected": "1169499",
+    "details": {
+      "paid_absence_cost": "538992"
+    }
+  },
+  {
+    "id": "cost_per_hire",
+    "inputs": {
+      "internal_cost": "930399",
+      "external_cost": "260873",
+      "hires": "10",
+      "period_days": "90"
+    },
+    "expected": "119127.2",
+    "details": {
+      "total_recruitment_cost": "1191272"
+    }
+  },
+  {
+    "id": "employee_turnover",
+    "inputs": {
+      "separations": "1036",
+      "opening_headcount": "529",
+      "closing_headcount": "249",
+      "period_days": "90"
+    },
+    "expected": "2.6632390745501285347043701799485861182519280205655526992287917737789203084832905",
+    "details": {
+      "average_headcount": "389"
+    }
+  },
+  {
+    "id": "employee_productivity",
+    "inputs": {
+      "output": "349.4",
+      "worked_hours": "160.3",
+      "period_days": "90"
+    },
+    "expected": "2.1796631316281971303805364940736119775421085464753587024329382407985028072364317",
+    "details": {}
+  },
+  {
+    "id": "training_roi",
+    "inputs": {
+      "gross_benefits": "7162549",
+      "attribution_rate": "0",
+      "training_cost": "560731",
+      "period_days": "90"
+    },
+    "expected": "-1",
+    "details": {
+      "attributed_benefit": "0",
+      "net_benefit": "-560731"
+    }
+  },
+  {
+    "id": "replacement_time",
+    "inputs": {
+      "elapsed_days": [
+        "476.5",
+        "551",
+        "513",
+        "154.5",
+        "547",
+        "593"
+      ],
+      "period_days": "90"
+    },
+    "expected": "472.5",
+    "details": {
+      "total_elapsed_days": "2835.0",
+      "completed_replacements": "6"
+    }
+  },
+  {
+    "id": "absence_cost",
+    "inputs": {
+      "paid_absent_hours": "211",
+      "loaded_hourly_cost": "27969",
+      "incremental_cover_cost": "552662",
+      "period_days": "90"
+    },
+    "expected": "6454121",
+    "details": {
+      "paid_absence_cost": "5901459"
+    }
+  },
+  {
+    "id": "cost_per_hire",
+    "inputs": {
+      "internal_cost": "29401",
+      "external_cost": "867824",
+      "hires": "4",
+      "period_days": "365"
+    },
+    "expected": "224306.25",
+    "details": {
+      "total_recruitment_cost": "897225"
+    }
+  },
+  {
+    "id": "employee_turnover",
+    "inputs": {
+      "separations": "1203",
+      "opening_headcount": "990",
+      "closing_headcount": "164",
+      "period_days": "365"
+    },
+    "expected": "2.0849220103986135181975736568457538994800693240901213171577123050259965337954939",
+    "details": {
+      "average_headcount": "577"
+    }
+  },
+  {
+    "id": "employee_productivity",
+    "inputs": {
+      "output": "663.5",
+      "worked_hours": "25.3",
+      "period_days": "365"
+    },
+    "expected": "26.225296442687747035573122529644268774703557312252964426877470355731225296442688",
+    "details": {}
+  },
+  {
+    "id": "training_roi",
+    "inputs": {
+      "gross_benefits": "1997690",
+      "attribution_rate": "0.25",
+      "training_cost": "147254",
+      "period_days": "365"
+    },
+    "expected": "2.3915717060317546552215899058769201515748298857755986255042307849022776970404879",
+    "details": {
+      "attributed_benefit": "499422.50",
+      "net_benefit": "352168.50"
+    }
+  },
+  {
+    "id": "replacement_time",
+    "inputs": {
+      "elapsed_days": [
+        "668.5",
+        "660",
+        "159",
+        "89.5",
+        "177.5",
+        "657",
+        "294.5",
+        "88.5",
+        "321.5"
+      ],
+      "period_days": "365"
+    },
+    "expected": "346.22222222222222222222222222222222222222222222222222222222222222222222222222222",
+    "details": {
+      "total_elapsed_days": "3116.0",
+      "completed_replacements": "9"
+    }
+  },
+  {
+    "id": "absence_cost",
+    "inputs": {
+      "paid_absent_hours": "622",
+      "loaded_hourly_cost": "43362",
+      "incremental_cover_cost": "198968",
+      "period_days": "365"
+    },
+    "expected": "27170132",
+    "details": {
+      "paid_absence_cost": "26971164"
+    }
+  },
+  {
+    "id": "cost_per_hire",
+    "inputs": {
+      "internal_cost": "961625",
+      "external_cost": "512967",
+      "hires": "28",
+      "period_days": "30"
+    },
+    "expected": "52664",
+    "details": {
+      "total_recruitment_cost": "1474592"
+    }
+  },
+  {
+    "id": "employee_turnover",
+    "inputs": {
+      "separations": "921",
+      "opening_headcount": "158",
+      "closing_headcount": "579",
+      "period_days": "30"
+    },
+    "expected": "2.4993215739484396200814111261872455902306648575305291723202170963364993215739484",
+    "details": {
+      "average_headcount": "368.5"
+    }
+  },
+  {
+    "id": "employee_productivity",
+    "inputs": {
+      "output": "923.2",
+      "worked_hours": "106",
+      "period_days": "30"
+    },
+    "expected": "8.7094339622641509433962264150943396226415094339622641509433962264150943396226415",
+    "details": {}
+  },
+  {
+    "id": "training_roi",
+    "inputs": {
+      "gross_benefits": "7490725",
+      "attribution_rate": "0.5",
+      "training_cost": "599300",
+      "period_days": "30"
+    },
+    "expected": "5.2495619889871516769564491907225095945269481061238111129651259803103620891039546",
+    "details": {
+      "attributed_benefit": "3745362.5",
+      "net_benefit": "3146062.5"
+    }
+  },
+  {
+    "id": "replacement_time",
+    "inputs": {
+      "elapsed_days": [
+        "493.5",
+        "393",
+        "29",
+        "395",
+        "177.5",
+        "636"
+      ],
+      "period_days": "30"
+    },
+    "expected": "354.0",
+    "details": {
+      "total_elapsed_days": "2124.0",
+      "completed_replacements": "6"
+    }
+  },
+  {
+    "id": "absence_cost",
+    "inputs": {
+      "paid_absent_hours": "596",
+      "loaded_hourly_cost": "53313",
+      "incremental_cover_cost": "8239",
+      "period_days": "30"
+    },
+    "expected": "31782787",
+    "details": {
+      "paid_absence_cost": "31774548"
+    }
+  },
+  {
+    "id": "cost_per_hire",
+    "inputs": {
+      "internal_cost": "909846",
+      "external_cost": "587118",
+      "hires": "19",
+      "period_days": "90"
+    },
+    "expected": "78787.578947368421052631578947368421052631578947368421052631578947368421052631579",
+    "details": {
+      "total_recruitment_cost": "1496964"
+    }
+  },
+  {
+    "id": "employee_turnover",
+    "inputs": {
+      "separations": "1411",
+      "opening_headcount": "796",
+      "closing_headcount": "992",
+      "period_days": "90"
+    },
+    "expected": "1.5782997762863534675615212527964205816554809843400447427293064876957494407158837",
+    "details": {
+      "average_headcount": "894"
+    }
+  },
+  {
+    "id": "employee_productivity",
+    "inputs": {
+      "output": "687.3",
+      "worked_hours": "21",
+      "period_days": "90"
+    },
+    "expected": "32.728571428571428571428571428571428571428571428571428571428571428571428571428571",
+    "details": {}
+  },
+  {
+    "id": "training_roi",
+    "inputs": {
+      "gross_benefits": "2381353",
+      "attribution_rate": "0.75",
+      "training_cost": "29156",
+      "period_days": "90"
+    },
+    "expected": "60.257194059541775277815886952942790506242282892029084922485937714364110303196598",
+    "details": {
+      "attributed_benefit": "1786014.75",
+      "net_benefit": "1756858.75"
+    }
+  },
+  {
+    "id": "replacement_time",
+    "inputs": {
+      "elapsed_days": [
+        "305.5",
+        "17",
+        "414.5",
+        "412",
+        "31.5"
+      ],
+      "period_days": "90"
+    },
+    "expected": "236.1",
+    "details": {
+      "total_elapsed_days": "1180.5",
+      "completed_replacements": "5"
+    }
+  },
+  {
+    "id": "absence_cost",
+    "inputs": {
+      "paid_absent_hours": "900",
+      "loaded_hourly_cost": "21359",
+      "incremental_cover_cost": "166743",
+      "period_days": "90"
+    },
+    "expected": "19389843",
+    "details": {
+      "paid_absence_cost": "19223100"
+    }
+  },
+  {
+    "id": "cost_per_hire",
+    "inputs": {
+      "internal_cost": "262966",
+      "external_cost": "901201",
+      "hires": "7",
+      "period_days": "365"
+    },
+    "expected": "166309.57142857142857142857142857142857142857142857142857142857142857142857142857",
+    "details": {
+      "total_recruitment_cost": "1164167"
+    }
+  },
+  {
+    "id": "employee_turnover",
+    "inputs": {
+      "separations": "1870",
+      "opening_headcount": "783",
+      "closing_headcount": "869",
+      "period_days": "365"
+    },
+    "expected": "2.2639225181598062953995157384987893462469733656174334140435835351089588377723971",
+    "details": {
+      "average_headcount": "826"
+    }
+  },
+  {
+    "id": "employee_productivity",
+    "inputs": {
+      "output": "578.6",
+      "worked_hours": "169.1",
+      "period_days": "365"
+    },
+    "expected": "3.4216439976345357776463630987581312832643406268480189237137788290952099349497339",
+    "details": {}
+  },
+  {
+    "id": "training_roi",
+    "inputs": {
+      "gross_benefits": "4175672",
+      "attribution_rate": "1",
+      "training_cost": "817079",
+      "period_days": "365"
+    },
+    "expected": "4.1104874804027517535024153111265862909216856631978058425195115772159118028978838",
+    "details": {
+      "attributed_benefit": "4175672",
+      "net_benefit": "3358593"
+    }
+  },
+  {
+    "id": "replacement_time",
+    "inputs": {
+      "elapsed_days": [
+        "47.5",
+        "361",
+        "487.5"
+      ],
+      "period_days": "365"
+    },
+    "expected": "298.66666666666666666666666666666666666666666666666666666666666666666666666666667",
+    "details": {
+      "total_elapsed_days": "896.0",
+      "completed_replacements": "3"
+    }
+  },
+  {
+    "id": "absence_cost",
+    "inputs": {
+      "paid_absent_hours": "14",
+      "loaded_hourly_cost": "89518",
+      "incremental_cover_cost": "225697",
+      "period_days": "365"
+    },
+    "expected": "1478949",
+    "details": {
+      "paid_absence_cost": "1253252"
+    }
+  },
+  {
+    "id": "cost_per_hire",
+    "inputs": {
+      "internal_cost": "468309",
+      "external_cost": "946462",
+      "hires": "12",
+      "period_days": "30"
+    },
+    "expected": "117897.58333333333333333333333333333333333333333333333333333333333333333333333333",
+    "details": {
+      "total_recruitment_cost": "1414771"
+    }
+  },
+  {
+    "id": "employee_turnover",
+    "inputs": {
+      "separations": "835",
+      "opening_headcount": "761",
+      "closing_headcount": "619",
+      "period_days": "30"
+    },
+    "expected": "1.2101449275362318840579710144927536231884057971014492753623188405797101449275362",
+    "details": {
+      "average_headcount": "690"
+    }
+  },
+  {
+    "id": "employee_productivity",
+    "inputs": {
+      "output": "817.2",
+      "worked_hours": "132",
+      "period_days": "30"
+    },
+    "expected": "6.1909090909090909090909090909090909090909090909090909090909090909090909090909091",
+    "details": {}
+  },
+  {
+    "id": "training_roi",
+    "inputs": {
+      "gross_benefits": "1079286",
+      "attribution_rate": "0",
+      "training_cost": "933194",
+      "period_days": "30"
+    },
+    "expected": "-1",
+    "details": {
+      "attributed_benefit": "0",
+      "net_benefit": "-933194"
+    }
+  },
+  {
+    "id": "replacement_time",
+    "inputs": {
+      "elapsed_days": [
+        "596",
+        "369",
+        "133",
+        "260",
+        "106",
+        "201"
+      ],
+      "period_days": "30"
+    },
+    "expected": "277.5",
+    "details": {
+      "total_elapsed_days": "1665",
+      "completed_replacements": "6"
+    }
+  },
+  {
+    "id": "absence_cost",
+    "inputs": {
+      "paid_absent_hours": "105",
+      "loaded_hourly_cost": "6309",
+      "incremental_cover_cost": "722760",
+      "period_days": "30"
+    },
+    "expected": "1385205",
+    "details": {
+      "paid_absence_cost": "662445"
+    }
+  },
+  {
+    "id": "cost_per_hire",
+    "inputs": {
+      "internal_cost": "872548",
+      "external_cost": "909290",
+      "hires": "27",
+      "period_days": "90"
+    },
+    "expected": "65994",
+    "details": {
+      "total_recruitment_cost": "1781838"
+    }
+  },
+  {
+    "id": "employee_turnover",
+    "inputs": {
+      "separations": "158",
+      "opening_headcount": "624",
+      "closing_headcount": "757",
+      "period_days": "90"
+    },
+    "expected": "0.22881969587255611875452570601013758146270818247646632874728457639391745112237509",
+    "details": {
+      "average_headcount": "690.5"
+    }
+  },
+  {
+    "id": "employee_productivity",
+    "inputs": {
+      "output": "456.9",
+      "worked_hours": "123.8",
+      "period_days": "90"
+    },
+    "expected": "3.6906300484652665589660743134087237479806138933764135702746365105008077544426494",
+    "details": {}
+  },
+  {
+    "id": "training_roi",
+    "inputs": {
+      "gross_benefits": "6660475",
+      "attribution_rate": "0.25",
+      "training_cost": "870716",
+      "period_days": "90"
+    },
+    "expected": "0.91235575089925991942263608340721888652557205793852415713045355776165822150965412",
+    "details": {
+      "attributed_benefit": "1665118.75",
+      "net_benefit": "794402.75"
+    }
+  },
+  {
+    "id": "replacement_time",
+    "inputs": {
+      "elapsed_days": [
+        "445",
+        "182",
+        "577.5"
+      ],
+      "period_days": "90"
+    },
+    "expected": "401.5",
+    "details": {
+      "total_elapsed_days": "1204.5",
+      "completed_replacements": "3"
+    }
+  },
+  {
+    "id": "absence_cost",
+    "inputs": {
+      "paid_absent_hours": "606",
+      "loaded_hourly_cost": "13200",
+      "incremental_cover_cost": "185494",
+      "period_days": "90"
+    },
+    "expected": "8184694",
+    "details": {
+      "paid_absence_cost": "7999200"
+    }
+  },
+  {
+    "id": "cost_per_hire",
+    "inputs": {
+      "internal_cost": "307330",
+      "external_cost": "991918",
+      "hires": "5",
+      "period_days": "365"
+    },
+    "expected": "259849.6",
+    "details": {
+      "total_recruitment_cost": "1299248"
+    }
+  },
+  {
+    "id": "employee_turnover",
+    "inputs": {
+      "separations": "1697",
+      "opening_headcount": "550",
+      "closing_headcount": "538",
+      "period_days": "365"
+    },
+    "expected": "3.1194852941176470588235294117647058823529411764705882352941176470588235294117647",
+    "details": {
+      "average_headcount": "544"
+    }
+  },
+  {
+    "id": "employee_productivity",
+    "inputs": {
+      "output": "55.3",
+      "worked_hours": "129.9",
+      "period_days": "365"
+    },
+    "expected": "0.42571208622016936104695919938414164742109314857582755966127790608160123171670516",
+    "details": {}
+  },
+  {
+    "id": "training_roi",
+    "inputs": {
+      "gross_benefits": "1316625",
+      "attribution_rate": "0.5",
+      "training_cost": "167821",
+      "period_days": "365"
+    },
+    "expected": "2.9227063359174358393764785098408423260497792290595336698029448042855184988767794",
+    "details": {
+      "attributed_benefit": "658312.5",
+      "net_benefit": "490491.5"
+    }
+  },
+  {
+    "id": "replacement_time",
+    "inputs": {
+      "elapsed_days": [
+        "262"
+      ],
+      "period_days": "365"
+    },
+    "expected": "262",
+    "details": {
+      "total_elapsed_days": "262",
+      "completed_replacements": "1"
+    }
+  },
+  {
+    "id": "absence_cost",
+    "inputs": {
+      "paid_absent_hours": "444",
+      "loaded_hourly_cost": "42914",
+      "incremental_cover_cost": "855071",
+      "period_days": "365"
+    },
+    "expected": "19908887",
+    "details": {
+      "paid_absence_cost": "19053816"
+    }
+  },
+  {
+    "id": "cost_per_hire",
+    "inputs": {
+      "internal_cost": "433898",
+      "external_cost": "796433",
+      "hires": "23",
+      "period_days": "30"
+    },
+    "expected": "53492.652173913043478260869565217391304347826086956521739130434782608695652173913",
+    "details": {
+      "total_recruitment_cost": "1230331"
+    }
+  },
+  {
+    "id": "employee_turnover",
+    "inputs": {
+      "separations": "76",
+      "opening_headcount": "329",
+      "closing_headcount": "167",
+      "period_days": "30"
+    },
+    "expected": "0.30645161290322580645161290322580645161290322580645161290322580645161290322580645",
+    "details": {
+      "average_headcount": "248"
+    }
+  },
+  {
+    "id": "employee_productivity",
+    "inputs": {
+      "output": "242.1",
+      "worked_hours": "76.8",
+      "period_days": "30"
+    },
+    "expected": "3.15234375",
+    "details": {}
+  },
+  {
+    "id": "training_roi",
+    "inputs": {
+      "gross_benefits": "1477012",
+      "attribution_rate": "0.75",
+      "training_cost": "444614",
+      "period_days": "30"
+    },
+    "expected": "1.4915072399879445991354298335185126874097531791621496399123734295366317749778460",
+    "details": {
+      "attributed_benefit": "1107759.00",
+      "net_benefit": "663145.00"
+    }
+  },
+  {
+    "id": "replacement_time",
+    "inputs": {
+      "elapsed_days": [
+        "253.5",
+        "471",
+        "629",
+        "371.5",
+        "183",
+        "529.5",
+        "135.5"
+      ],
+      "period_days": "30"
+    },
+    "expected": "367.57142857142857142857142857142857142857142857142857142857142857142857142857143",
+    "details": {
+      "total_elapsed_days": "2573.0",
+      "completed_replacements": "7"
+    }
+  },
+  {
+    "id": "absence_cost",
+    "inputs": {
+      "paid_absent_hours": "780",
+      "loaded_hourly_cost": "73803",
+      "incremental_cover_cost": "288328",
+      "period_days": "30"
+    },
+    "expected": "57854668",
+    "details": {
+      "paid_absence_cost": "57566340"
+    }
+  },
+  {
+    "id": "cost_per_hire",
+    "inputs": {
+      "internal_cost": "589675",
+      "external_cost": "529208",
+      "hires": "29",
+      "period_days": "90"
+    },
+    "expected": "38582.172413793103448275862068965517241379310344827586206896551724137931034482759",
+    "details": {
+      "total_recruitment_cost": "1118883"
+    }
+  },
+  {
+    "id": "employee_turnover",
+    "inputs": {
+      "separations": "1597",
+      "opening_headcount": "930",
+      "closing_headcount": "263",
+      "period_days": "90"
+    },
+    "expected": "2.6772841575859178541492036881810561609388097233864207879295892707460184409052808",
+    "details": {
+      "average_headcount": "596.5"
+    }
+  },
+  {
+    "id": "employee_productivity",
+    "inputs": {
+      "output": "161.8",
+      "worked_hours": "53.7",
+      "period_days": "90"
+    },
+    "expected": "3.0130353817504655493482309124767225325884543761638733705772811918063314711359404",
+    "details": {}
+  },
+  {
+    "id": "training_roi",
+    "inputs": {
+      "gross_benefits": "874146",
+      "attribution_rate": "1",
+      "training_cost": "456545",
+      "period_days": "90"
+    },
+    "expected": "0.91469844155559692910885016811048198972719009079061209738360950180157487213746728",
+    "details": {
+      "attributed_benefit": "874146",
+      "net_benefit": "417601"
+    }
+  },
+  {
+    "id": "replacement_time",
+    "inputs": {
+      "elapsed_days": [
+        "320.5",
+        "201.5",
+        "310.5",
+        "612.5",
+        "445.5"
+      ],
+      "period_days": "90"
+    },
+    "expected": "378.1",
+    "details": {
+      "total_elapsed_days": "1890.5",
+      "completed_replacements": "5"
+    }
+  },
+  {
+    "id": "absence_cost",
+    "inputs": {
+      "paid_absent_hours": "753",
+      "loaded_hourly_cost": "16684",
+      "incremental_cover_cost": "21197",
+      "period_days": "90"
+    },
+    "expected": "12584249",
+    "details": {
+      "paid_absence_cost": "12563052"
+    }
+  }
+]

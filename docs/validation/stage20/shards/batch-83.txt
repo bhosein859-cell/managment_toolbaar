@@ -1,0 +1,3 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/utilities/storage_test.dart
+00:00 +0: all five utilities persist exact raw inputs, results and favorites across file reopen without schema change
+00:00 +1: All tests passed!

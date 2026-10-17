@@ -1,0 +1,3 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/finance/finance_visual_test.dart
+00:00 +0: capture finance registry IRR valid and rejected roots and loan
+00:00 +0 ~1: All tests skipped.

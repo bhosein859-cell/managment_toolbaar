@@ -1,0 +1,6 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/history/persistence_pages_test.dart
+00:00 +0: actual SQLite file retains favorite and exact saved inputs through app shutdown/reopen
+00:04 +1: startup read failure blocks false empty state and retry opens the same stored data
+00:04 +2: failed save reports error, not success; retry commits once
+00:05 +3: tap-time snapshot never pairs stale result with newly edited or invalid input
+00:06 +4: All tests passed!

@@ -1,0 +1,41 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart
+00:00 +0: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: ten finance runners, preserved NPV and 73 actual tools
+00:00 +1: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: NPV first cash flow is CF1 and discount rate belongs to each period
+00:00 +2: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: npv: full definition formula and educational numeric example
+00:00 +3: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: npv: Arabic Persian Latin digits and malformed form data
+00:00 +4: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: irr: full definition formula and educational numeric example
+00:00 +5: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: irr: Arabic Persian Latin digits and malformed form data
+00:00 +6: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: payback: full definition formula and educational numeric example
+00:00 +7: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: payback: Arabic Persian Latin digits and malformed form data
+00:00 +8: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: roi: full definition formula and educational numeric example
+00:00 +9: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: roi: Arabic Persian Latin digits and malformed form data
+00:00 +10: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: current_ratio: full definition formula and educational numeric example
+00:00 +11: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: current_ratio: Arabic Persian Latin digits and malformed form data
+00:00 +12: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: quick_ratio: full definition formula and educational numeric example
+00:00 +13: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: quick_ratio: Arabic Persian Latin digits and malformed form data
+00:00 +14: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: wacc: full definition formula and educational numeric example
+00:00 +15: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: wacc: Arabic Persian Latin digits and malformed form data
+00:00 +16: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: compound_interest: full definition formula and educational numeric example
+00:00 +17: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: compound_interest: Arabic Persian Latin digits and malformed form data
+00:00 +18: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: loan_payment: full definition formula and educational numeric example
+00:00 +19: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: loan_payment: Arabic Persian Latin digits and malformed form data
+00:00 +20: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: break_even: full definition formula and educational numeric example
+00:00 +21: /home/user/management_toolbox/test/features/calculators/finance/finance_catalog_test.dart: break_even: Arabic Persian Latin digits and malformed form data
+00:00 +22: loading /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart
+00:01 +22: /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart: irr: generic form rendered formula error and example
+00:02 +23: /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart: payback: generic form rendered formula error and example
+00:03 +24: /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart: roi: generic form rendered formula error and example
+00:03 +25: /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart: current_ratio: generic form rendered formula error and example
+00:03 +26: /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart: quick_ratio: generic form rendered formula error and example
+00:04 +27: /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart: wacc: generic form rendered formula error and example
+00:04 +28: /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart: compound_interest: generic form rendered formula error and example
+00:04 +29: /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart: loan_payment: generic form rendered formula error and example
+00:05 +30: /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart: break_even: generic form rendered formula error and example
+00:05 +31: /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart: ten finance tools open through real category routes
+00:08 +32: /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart: IRR missing root ambiguous roots and convergence failure show no stale result
+00:08 +33: /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart: new loan favorite save and reopen keep period-rate input
+00:10 +34: /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart: nine finance pages fit Size(320.0, 568.0) dark=false enlarged RTL
+00:11 +35: /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart: nine finance pages fit Size(320.0, 568.0) dark=true enlarged RTL
+00:12 +36: /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart: nine finance pages fit Size(1280.0, 800.0) dark=false enlarged RTL
+00:13 +37: /home/user/management_toolbox/test/features/calculators/finance/finance_pages_test.dart: nine finance pages fit Size(1280.0, 800.0) dark=true enlarged RTL
+00:14 +38: All tests passed!

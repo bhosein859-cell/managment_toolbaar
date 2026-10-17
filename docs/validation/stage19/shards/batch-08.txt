@@ -1,0 +1,27 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/decision/catalog_test.dart
+00:00 +0: eight decision tools and 73 catalog entries
+00:00 +1: ahp: full definition formula and educational numeric example
+00:00 +2: ahp: Arabic Persian Latin digits and malformed form data
+00:00 +3: topsis: full definition formula and educational numeric example
+00:00 +4: topsis: Arabic Persian Latin digits and malformed form data
+00:00 +5: decision_matrix: full definition formula and educational numeric example
+00:00 +6: decision_matrix: Arabic Persian Latin digits and malformed form data
+00:00 +7: expected_value_tree: full definition formula and educational numeric example
+00:00 +8: expected_value_tree: Arabic Persian Latin digits and malformed form data
+00:00 +9: weight_sensitivity: full definition formula and educational numeric example
+00:00 +10: weight_sensitivity: Arabic Persian Latin digits and malformed form data
+00:00 +11: weighted_scoring: full definition formula and educational numeric example
+00:00 +12: weighted_scoring: Arabic Persian Latin digits and malformed form data
+00:00 +13: cost_benefit_comparison: full definition formula and educational numeric example
+00:00 +14: cost_benefit_comparison: Arabic Persian Latin digits and malformed form data
+00:00 +15: two_option_break_even: full definition formula and educational numeric example
+00:00 +16: two_option_break_even: Arabic Persian Latin digits and malformed form data
+00:00 +17: ahp: omitted/blank required fields never become examples
+00:00 +18: topsis: omitted/blank required fields never become examples
+00:00 +19: decision_matrix: omitted/blank required fields never become examples
+00:00 +20: expected_value_tree: omitted/blank required fields never become examples
+00:00 +21: weight_sensitivity: omitted/blank required fields never become examples
+00:00 +22: weighted_scoring: omitted/blank required fields never become examples
+00:00 +23: cost_benefit_comparison: omitted/blank required fields never become examples
+00:00 +24: two_option_break_even: omitted/blank required fields never become examples
+00:00 +25: All tests passed!

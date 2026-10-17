@@ -1,0 +1,19 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/project/catalog_test.dart
+00:00 +0: eight independent project tools and 73 catalog entries
+00:00 +1: pert_duration: full definition formula and educational numeric example
+00:00 +2: pert_duration: Arabic Persian Latin digits and malformed form data
+00:00 +3: cpm: full definition formula and educational numeric example
+00:00 +4: cpm: Arabic Persian Latin digits and malformed form data
+00:00 +5: project_float: full definition formula and educational numeric example
+00:00 +6: project_float: Arabic Persian Latin digits and malformed form data
+00:00 +7: evm_performance: full definition formula and educational numeric example
+00:00 +8: evm_performance: Arabic Persian Latin digits and malformed form data
+00:00 +9: three_point: full definition formula and educational numeric example
+00:00 +10: three_point: Arabic Persian Latin digits and malformed form data
+00:00 +11: eac_etc: full definition formula and educational numeric example
+00:00 +12: eac_etc: Arabic Persian Latin digits and malformed form data
+00:00 +13: sv_cv: full definition formula and educational numeric example
+00:00 +14: sv_cv: Arabic Persian Latin digits and malformed form data
+00:00 +15: duration_comparison: full definition formula and educational numeric example
+00:00 +16: duration_comparison: Arabic Persian Latin digits and malformed form data
+00:00 +17: All tests passed!

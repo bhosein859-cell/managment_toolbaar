@@ -1,0 +1,30 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart
+00:00 +0: decision_matrix: dimensions and matrix/weight length mismatches reject
+00:00 +1: decision_matrix: negative, NaN, infinite or all-zero weights reject
+00:00 +2: decision_matrix: nonfinite matrix cells reject, relative weights need not sum to one
+00:00 +3: topsis: dimensions and matrix/weight length mismatches reject
+00:00 +4: topsis: negative, NaN, infinite or all-zero weights reject
+00:00 +5: topsis: nonfinite matrix cells reject, relative weights need not sum to one
+00:00 +6: weighted_scoring: dimensions and matrix/weight length mismatches reject
+00:00 +7: weighted_scoring: negative, NaN, infinite or all-zero weights reject
+00:00 +8: weighted_scoring: nonfinite matrix cells reject, relative weights need not sum to one
+00:00 +9: weight_sensitivity: dimensions and matrix/weight length mismatches reject
+00:00 +10: weight_sensitivity: negative, NaN, infinite or all-zero weights reject
+00:00 +11: weight_sensitivity: nonfinite matrix cells reject, relative weights need not sum to one
+00:00 +12: decision_matrix: criterion types and counts are validated
+00:00 +13: topsis: criterion types and counts are validated
+00:00 +14: weight_sensitivity: criterion types and counts are validated
+00:00 +15: Known min-max hand data and cost reversal
+00:00 +16: Min-max handles signed data and constant columns without weight redistribution
+00:00 +17: TOPSIS known dominance, benefit/cost, endpoints zero/one
+00:00 +18: TOPSIS symmetric golden tradeoff, positive column scaling invariant
+00:00 +19: TOPSIS no arbitrary closeness for identical effective alternatives
+00:00 +20: TOPSIS zero columns/rows and overflowing raw norm remain handled
+00:00 +21: Weighted scoring does not silently normalize incomparable raw scales
+00:00 +22: Zero weights disable finite values without contaminating active-scale arithmetic
+00:00 +23: Two through twenty options and one through twenty criteria are dynamic
+00:00 +24: Rank groups use anchored relative tolerance, stable ordering, no absolute floor
+00:00 +25: Sensitivity sampled endpoints/ties and baseline are independently hand-checkable
+00:00 +26: Sensitivity rejects missing redistribution base, bad selection and samples
+00:00 +27: Matrix and sweep input snapshots immutable
+00:00 +28: All tests passed!

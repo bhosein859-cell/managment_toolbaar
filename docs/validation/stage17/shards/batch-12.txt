@@ -1,0 +1,44 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/production/smed_test.dart
+00:00 +0: /home/user/management_toolbox/test/features/calculators/production/smed_test.dart: smed: independent numeric reference
+00:00 +1: /home/user/management_toolbox/test/features/calculators/production/smed_test.dart: smed: typed bind validates independently of form
+00:00 +2: /home/user/management_toolbox/test/features/calculators/production/smed_test.dart: smed: rejects negative/nonfinite before_time in direct calculation
+00:00 +3: /home/user/management_toolbox/test/features/calculators/production/smed_test.dart: smed: zero before_time is rejected
+00:00 +4: /home/user/management_toolbox/test/features/calculators/production/smed_test.dart: smed: rejects negative/nonfinite after_time in direct calculation
+00:00 +5: /home/user/management_toolbox/test/features/calculators/production/smed_test.dart: smed: zero after_time is a real valid boundary
+00:00 +6: /home/user/management_toolbox/test/features/calculators/production/smed_test.dart: smed: overflow returns Persian numeric-range failure, not Infinity
+00:00 +7: /home/user/management_toolbox/test/features/calculators/production/smed_test.dart: smed: 20 independent Decimal fixtures
+00:00 +8: /home/user/management_toolbox/test/features/calculators/production/smed_test.dart: smed: semantic and scale boundaries
+00:00 +9: loading /home/user/management_toolbox/test/features/calculators/production/takt_time_test.dart
+00:00 +9: /home/user/management_toolbox/test/features/calculators/production/takt_time_test.dart: takt_time: independent numeric reference
+00:00 +10: /home/user/management_toolbox/test/features/calculators/production/takt_time_test.dart: takt_time: typed bind validates independently of form
+00:00 +11: /home/user/management_toolbox/test/features/calculators/production/takt_time_test.dart: takt_time: rejects negative/nonfinite available_time in direct calculation
+00:00 +12: /home/user/management_toolbox/test/features/calculators/production/takt_time_test.dart: takt_time: zero available_time is rejected
+00:00 +13: /home/user/management_toolbox/test/features/calculators/production/takt_time_test.dart: takt_time: rejects negative/nonfinite demand in direct calculation
+00:01 +14: /home/user/management_toolbox/test/features/calculators/production/takt_time_test.dart: takt_time: zero demand is rejected
+00:01 +15: /home/user/management_toolbox/test/features/calculators/production/takt_time_test.dart: takt_time: overflow returns Persian numeric-range failure, not Infinity
+00:01 +16: /home/user/management_toolbox/test/features/calculators/production/takt_time_test.dart: takt_time: underflow is not disguised as zero
+00:01 +17: /home/user/management_toolbox/test/features/calculators/production/takt_time_test.dart: takt_time: 20 independent Decimal fixtures
+00:01 +18: /home/user/management_toolbox/test/features/calculators/production/takt_time_test.dart: takt_time: semantic and scale boundaries
+00:01 +19: loading /home/user/management_toolbox/test/features/calculators/production/throughput_test.dart
+00:01 +19: /home/user/management_toolbox/test/features/calculators/production/throughput_test.dart: throughput: independent numeric reference
+00:02 +20: /home/user/management_toolbox/test/features/calculators/production/throughput_test.dart: throughput: typed bind validates independently of form
+00:02 +21: /home/user/management_toolbox/test/features/calculators/production/throughput_test.dart: throughput: rejects negative/nonfinite good_output in direct calculation
+00:02 +22: /home/user/management_toolbox/test/features/calculators/production/throughput_test.dart: throughput: zero good_output is a real valid boundary
+00:02 +23: /home/user/management_toolbox/test/features/calculators/production/throughput_test.dart: throughput: rejects negative/nonfinite elapsed_time in direct calculation
+00:02 +24: /home/user/management_toolbox/test/features/calculators/production/throughput_test.dart: throughput: zero elapsed_time is rejected
+00:02 +25: /home/user/management_toolbox/test/features/calculators/production/throughput_test.dart: throughput: overflow returns Persian numeric-range failure, not Infinity
+00:02 +26: /home/user/management_toolbox/test/features/calculators/production/throughput_test.dart: throughput: underflow is not disguised as zero
+00:02 +27: /home/user/management_toolbox/test/features/calculators/production/throughput_test.dart: throughput: 20 independent Decimal fixtures
+00:02 +28: /home/user/management_toolbox/test/features/calculators/production/throughput_test.dart: throughput: semantic and scale boundaries
+00:02 +29: loading /home/user/management_toolbox/test/features/calculators/production/unit_production_cost_test.dart
+00:03 +29: /home/user/management_toolbox/test/features/calculators/production/unit_production_cost_test.dart: unit_production_cost: independent numeric reference
+00:03 +30: /home/user/management_toolbox/test/features/calculators/production/unit_production_cost_test.dart: unit_production_cost: typed bind validates independently of form
+00:03 +31: /home/user/management_toolbox/test/features/calculators/production/unit_production_cost_test.dart: unit_production_cost: rejects negative/nonfinite allocated_cost in direct calculation
+00:03 +32: /home/user/management_toolbox/test/features/calculators/production/unit_production_cost_test.dart: unit_production_cost: zero allocated_cost is a real valid boundary
+00:03 +33: /home/user/management_toolbox/test/features/calculators/production/unit_production_cost_test.dart: unit_production_cost: rejects negative/nonfinite good_output in direct calculation
+00:03 +34: /home/user/management_toolbox/test/features/calculators/production/unit_production_cost_test.dart: unit_production_cost: zero good_output is rejected
+00:03 +35: /home/user/management_toolbox/test/features/calculators/production/unit_production_cost_test.dart: unit_production_cost: overflow returns Persian numeric-range failure, not Infinity
+00:03 +36: /home/user/management_toolbox/test/features/calculators/production/unit_production_cost_test.dart: unit_production_cost: underflow is not disguised as zero
+00:03 +37: /home/user/management_toolbox/test/features/calculators/production/unit_production_cost_test.dart: unit_production_cost: 20 independent Decimal fixtures
+00:03 +38: /home/user/management_toolbox/test/features/calculators/production/unit_production_cost_test.dart: unit_production_cost: semantic and scale boundaries
+00:03 +39: All tests passed!

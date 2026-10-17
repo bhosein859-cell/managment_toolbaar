@@ -1,0 +1,9 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/finance/payback_test.dart
+00:00 +0: payback reference is 2.6 periods with uniform intraperiod receipts
+00:00 +1: payback zero investment exact endpoint and zero-flow periods
+00:00 +2: payback not recovered never returns a made-up period
+00:00 +3: payback invalid initial cost direct validation
+00:00 +4: payback negative future flow is explicitly unsupported, not ignored
+00:00 +5: payback immutable inputs typed bind and underflow safeguards
+00:00 +6: payback 20 independent Decimal fixtures
+00:00 +7: All tests passed!

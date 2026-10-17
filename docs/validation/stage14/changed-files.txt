@@ -1,0 +1,63 @@
+Stage 14 vs delivered Stage 13 byte baseline
+Baseline SHA256: 1fd5166ebff88f12a703877578052f35db97b4875e5e1bcf31691104f155bd6f
+Baseline files: 472; current source files: 509
+Added: 37; modified: 17; removed: 0
+Previous engine source bytes unchanged; pubspec.yaml and pubspec.lock unchanged.
+
+MODIFIED
+README.md
+lib/app/catalog/app_catalog.dart
+lib/app/routing/app_router.dart
+lib/features/calculators/domain/services/input_normalizer.dart
+test/features/calculators/finance/finance_catalog_test.dart
+test/features/calculators/hr/catalog_test.dart
+test/features/calculators/production/production_catalog_test.dart
+test/features/calculators/project/catalog_test.dart
+test/features/calculators/quality_inventory/catalog_test.dart
+test/features/home/home_pages_test.dart
+test/features/home/home_visual_test.dart
+test/features/home/search_test.dart
+tool/verify_finance_engines.dart
+tool/verify_hr_engines.dart
+tool/verify_production_engines.dart
+tool/verify_project_engines.dart
+tool/verify_quality_inventory_engines.dart
+
+ADDED
+docs/calculators/stage14.md
+docs/validation/stage14/analyze.txt
+docs/validation/stage14/aot.txt
+docs/validation/stage14/changed-files.txt
+docs/validation/stage14/coverage.md
+docs/validation/stage14/decision-lcov.info
+docs/validation/stage14/decision-tests.txt
+docs/validation/stage14/format.txt
+docs/validation/stage14/full-tests.txt
+docs/validation/stage14/pub-get.txt
+docs/validation/stage14/reference-reproducibility.txt
+docs/validation/stage14/sdk-version.txt
+docs/validation/stage14/smoke-tests.txt
+docs/validation/stage14/source-check.txt
+lib/app/catalog/decision_calculators.dart
+lib/features/calculators/domain/decision/ahp_solver.dart
+lib/features/calculators/domain/decision/decision_math.dart
+lib/features/calculators/domain/decision/decision_table.dart
+lib/features/calculators/domain/decision/decision_tree.dart
+lib/features/calculators/domain/engines/decision/ahp_engine.dart
+lib/features/calculators/domain/engines/decision/cost_benefit_comparison_engine.dart
+lib/features/calculators/domain/engines/decision/decision_matrix_engine.dart
+lib/features/calculators/domain/engines/decision/expected_value_tree_engine.dart
+lib/features/calculators/domain/engines/decision/topsis_engine.dart
+lib/features/calculators/domain/engines/decision/two_option_break_even_engine.dart
+lib/features/calculators/domain/engines/decision/weight_sensitivity_engine.dart
+lib/features/calculators/domain/engines/decision/weighted_scoring_engine.dart
+test/features/calculators/decision/ahp_tree_test.dart
+test/features/calculators/decision/catalog_test.dart
+test/features/calculators/decision/engines_test.dart
+test/features/calculators/decision/fixtures.dart
+test/features/calculators/decision/matrix_test.dart
+test/features/calculators/decision/pages_test.dart
+test/features/calculators/decision/scalar_test.dart
+test/fixtures/decision_reference.json
+tool/generate_decision_reference.py
+tool/verify_decision_engines.dart

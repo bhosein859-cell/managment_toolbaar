@@ -1,0 +1,12 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/production/capacity_utilization_test.dart
+00:00 +0: capacity_utilization: independent numeric reference
+00:00 +1: capacity_utilization: typed bind validates independently of form
+00:00 +2: capacity_utilization: rejects negative/nonfinite actual_output in direct calculation
+00:00 +3: capacity_utilization: zero actual_output is a real valid boundary
+00:00 +4: capacity_utilization: rejects negative/nonfinite design_capacity in direct calculation
+00:00 +5: capacity_utilization: zero design_capacity is rejected
+00:00 +6: capacity_utilization: overflow returns Persian numeric-range failure, not Infinity
+00:00 +7: capacity_utilization: underflow is not disguised as zero
+00:00 +8: capacity_utilization: 20 independent Decimal fixtures
+00:00 +9: capacity_utilization: semantic and scale boundaries
+00:00 +10: All tests passed!

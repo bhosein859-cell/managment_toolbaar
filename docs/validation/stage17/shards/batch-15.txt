@@ -1,0 +1,65 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/prototypes/npv_test.dart
+00:00 +0: /home/user/management_toolbox/test/features/calculators/prototypes/npv_test.dart: known NPV discounts CF1 and CF2, does not count CF0 twice
+00:00 +1: /home/user/management_toolbox/test/features/calculators/prototypes/npv_test.dart: zero discount rate is signed cash-flow sum minus initial investment
+00:00 +2: /home/user/management_toolbox/test/features/calculators/prototypes/npv_test.dart: negative discount greater than -1 is valid and warned
+00:00 +3: /home/user/management_toolbox/test/features/calculators/prototypes/npv_test.dart: 50 independent 80-digit Decimal fixtures agree within tolerance
+00:00 +4: /home/user/management_toolbox/test/features/calculators/prototypes/npv_test.dart: compensated sum retains small mixed-sign cash flows
+00:00 +5: /home/user/management_toolbox/test/features/calculators/prototypes/npv_test.dart: fallback handles overflowing denominator with representable PV
+00:00 +6: /home/user/management_toolbox/test/features/calculators/prototypes/npv_test.dart: subnormal discount factor uses stable fallback rather than rounded denominator
+00:00 +7: /home/user/management_toolbox/test/features/calculators/prototypes/npv_test.dart: zero flows stay exactly zero at extreme valid negative rates
+00:00 +8: /home/user/management_toolbox/test/features/calculators/prototypes/npv_test.dart: invalid direct discount -1.0 rejected
+00:00 +9: /home/user/management_toolbox/test/features/calculators/prototypes/npv_test.dart: invalid direct discount -1.01 rejected
+00:00 +10: /home/user/management_toolbox/test/features/calculators/prototypes/npv_test.dart: invalid direct discount NaN rejected
+00:00 +11: /home/user/management_toolbox/test/features/calculators/prototypes/npv_test.dart: invalid direct discount Infinity rejected
+00:00 +12: /home/user/management_toolbox/test/features/calculators/prototypes/npv_test.dart: negative/nonfinite initial investment is rejected
+00:00 +13: /home/user/management_toolbox/test/features/calculators/prototypes/npv_test.dart: empty too-long and nonfinite series rejected
+00:00 +14: /home/user/management_toolbox/test/features/calculators/prototypes/npv_test.dart: numeric overflow and underflow produce explicit failure, not made-up result
+00:00 +15: /home/user/management_toolbox/test/features/calculators/prototypes/npv_test.dart: parameters snapshot cash-flow list
+00:00 +16: /home/user/management_toolbox/test/features/calculators/prototypes/npv_test.dart: catalog rejects exactly -100 percent and invalid initial text
+00:00 +17: /home/user/management_toolbox/test/features/calculators/prototypes/npv_test.dart: unit changes only label, example matches known reference
+00:00 +18: /home/user/management_toolbox/test/features/calculators/prototypes/npv_test.dart: direct bind rejects invalid rate and currency
+00:00 +19: loading /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart
+00:00 +19: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: required reference gives fraction 0.8379 and percentage output metadata
+00:00 +20: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: catalog percentages normalize once and examples match expected value
+00:00 +21: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: availability at 0 percent is handled
+00:00 +22: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: availability at 100 percent is handled
+00:00 +23: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: invalid availability "-1" is rejected with field issue
+00:00 +24: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: invalid availability "100.01" is rejected with field issue
+00:00 +25: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: invalid availability "NaN" is rejected with field issue
+00:00 +26: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: invalid availability "" is rejected with field issue
+00:00 +27: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: invalid availability "Infinity" is rejected with field issue
+00:00 +28: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: performance at 0 percent is handled
+00:00 +29: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: performance at 100 percent is handled
+00:00 +30: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: invalid performance "-1" is rejected with field issue
+00:00 +31: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: invalid performance "100.01" is rejected with field issue
+00:00 +32: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: invalid performance "NaN" is rejected with field issue
+00:00 +33: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: invalid performance "" is rejected with field issue
+00:00 +34: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: invalid performance "Infinity" is rejected with field issue
+00:00 +35: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: quality at 0 percent is handled
+00:00 +36: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: quality at 100 percent is handled
+00:00 +37: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: invalid quality "-1" is rejected with field issue
+00:00 +38: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: invalid quality "100.01" is rejected with field issue
+00:00 +39: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: invalid quality "NaN" is rejected with field issue
+00:00 +40: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: invalid quality "" is rejected with field issue
+00:00 +41: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: invalid quality "Infinity" is rejected with field issue
+00:00 +42: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: typed engine validates all ratios even outside normalizer
+00:00 +43: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: underflow is not silently reported as zero for all-positive inputs
+00:00 +44: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: accepts digit set ۹۰
+00:00 +45: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: accepts digit set ٩٠
+00:00 +46: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: accepts digit set 90
+00:01 +47: loading /home/user/management_toolbox/test/features/calculators/prototypes/prototype_pages_test.dart
+00:01 +47: /home/user/management_toolbox/test/features/calculators/prototypes/prototype_pages_test.dart: OEE renders 83.79 percent and hides stale result on invalid ratio
+00:03 +48: /home/user/management_toolbox/test/features/calculators/prototypes/prototype_pages_test.dart: NPV cash flows begin at period 1; rate -100 is rejected in UI
+00:04 +49: /home/user/management_toolbox/test/features/calculators/prototypes/prototype_pages_test.dart: Cp sigma and limits are validated with assumptions visible
+00:05 +50: /home/user/management_toolbox/test/features/calculators/prototypes/prototype_pages_test.dart: all three tools are reachable from home and retain existing tools
+00:07 +51: /home/user/management_toolbox/test/features/calculators/prototypes/prototype_pages_test.dart: oee fits RTL Size(320.0, 568.0) with enlarged text
+00:07 +52: /home/user/management_toolbox/test/features/calculators/prototypes/prototype_pages_test.dart: oee fits RTL Size(1280.0, 800.0) with enlarged text
+00:07 +53: /home/user/management_toolbox/test/features/calculators/prototypes/prototype_pages_test.dart: npv fits RTL Size(320.0, 568.0) with enlarged text
+00:07 +54: /home/user/management_toolbox/test/features/calculators/prototypes/prototype_pages_test.dart: npv fits RTL Size(1280.0, 800.0) with enlarged text
+00:07 +55: /home/user/management_toolbox/test/features/calculators/prototypes/prototype_pages_test.dart: cp fits RTL Size(320.0, 568.0) with enlarged text
+00:07 +56: /home/user/management_toolbox/test/features/calculators/prototypes/prototype_pages_test.dart: cp fits RTL Size(1280.0, 800.0) with enlarged text
+00:08 +57: loading /home/user/management_toolbox/test/features/calculators/prototypes/prototype_visual_test.dart
+00:08 +57: /home/user/management_toolbox/test/features/calculators/prototypes/prototype_visual_test.dart: capture oee form and explanations
+00:08 +57 ~1: /home/user/management_toolbox/test/features/calculators/prototypes/prototype_visual_test.dart: capture npv form and explanations
+00:08 +57 ~2: /home/user/management_toolbox/test/features/calculators/prototypes/prototype_visual_test.dart: capture cp form and explanations
+00:08 +57 ~3: All tests passed!

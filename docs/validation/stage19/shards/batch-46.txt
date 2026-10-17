@@ -1,0 +1,18 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/production/production_pages_test.dart
+00:00 +0: takt_time: uses generated generic page, validates and restores example
+00:01 +1: production_capacity: uses generated generic page, validates and restores example
+00:01 +2: labor_productivity: uses generated generic page, validates and restores example
+00:01 +3: cycle_time: uses generated generic page, validates and restores example
+00:02 +4: smed: uses generated generic page, validates and restores example
+00:02 +5: unit_production_cost: uses generated generic page, validates and restores example
+00:02 +6: wip: uses generated generic page, validates and restores example
+00:02 +7: throughput: uses generated generic page, validates and restores example
+00:03 +8: capacity_utilization: uses generated generic page, validates and restores example
+00:03 +9: all ten tools open from production category through public routing
+00:05 +10: new tool search favorite and history reopen keep edited inputs
+00:06 +11: SMED increase and utilization above 100 remain visible with warnings
+00:06 +12: nine new generic pages fit Size(320.0, 568.0) dark=false text scale 1.5
+00:07 +13: nine new generic pages fit Size(320.0, 568.0) dark=true text scale 1.5
+00:08 +14: nine new generic pages fit Size(1280.0, 800.0) dark=false text scale 1.5
+00:08 +15: nine new generic pages fit Size(1280.0, 800.0) dark=true text scale 1.5
+00:09 +16: All tests passed!

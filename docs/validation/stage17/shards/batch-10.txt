@@ -1,0 +1,39 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/presentation/formatting_test.dart
+00:00 +0: /home/user/management_toolbox/test/features/calculators/presentation/formatting_test.dart: editable default values roundtrip without rounding to zero
+00:00 +1: /home/user/management_toolbox/test/features/calculators/presentation/formatting_test.dart: numbers percentages text and lists are Persian and units retained
+00:00 +2: /home/user/management_toolbox/test/features/calculators/presentation/formatting_test.dart: scientific formatting never shows false zero or overflow
+00:00 +3: /home/user/management_toolbox/test/features/calculators/presentation/formatting_test.dart: guidance includes bounds units percentage conventions and optional integer flags
+00:00 +4: loading /home/user/management_toolbox/test/features/calculators/production/capacity_utilization_test.dart
+00:01 +4: /home/user/management_toolbox/test/features/calculators/production/capacity_utilization_test.dart: capacity_utilization: independent numeric reference
+00:01 +5: /home/user/management_toolbox/test/features/calculators/production/capacity_utilization_test.dart: capacity_utilization: typed bind validates independently of form
+00:01 +6: /home/user/management_toolbox/test/features/calculators/production/capacity_utilization_test.dart: capacity_utilization: rejects negative/nonfinite actual_output in direct calculation
+00:01 +7: /home/user/management_toolbox/test/features/calculators/production/capacity_utilization_test.dart: capacity_utilization: zero actual_output is a real valid boundary
+00:01 +8: /home/user/management_toolbox/test/features/calculators/production/capacity_utilization_test.dart: capacity_utilization: rejects negative/nonfinite design_capacity in direct calculation
+00:01 +9: /home/user/management_toolbox/test/features/calculators/production/capacity_utilization_test.dart: capacity_utilization: zero design_capacity is rejected
+00:01 +10: /home/user/management_toolbox/test/features/calculators/production/capacity_utilization_test.dart: capacity_utilization: overflow returns Persian numeric-range failure, not Infinity
+00:01 +11: /home/user/management_toolbox/test/features/calculators/production/capacity_utilization_test.dart: capacity_utilization: underflow is not disguised as zero
+00:01 +12: /home/user/management_toolbox/test/features/calculators/production/capacity_utilization_test.dart: capacity_utilization: 20 independent Decimal fixtures
+00:01 +13: /home/user/management_toolbox/test/features/calculators/production/capacity_utilization_test.dart: capacity_utilization: semantic and scale boundaries
+00:01 +14: loading /home/user/management_toolbox/test/features/calculators/production/cycle_time_test.dart
+00:01 +14: /home/user/management_toolbox/test/features/calculators/production/cycle_time_test.dart: cycle_time: independent numeric reference
+00:01 +15: /home/user/management_toolbox/test/features/calculators/production/cycle_time_test.dart: cycle_time: typed bind validates independently of form
+00:01 +16: /home/user/management_toolbox/test/features/calculators/production/cycle_time_test.dart: cycle_time: rejects negative/nonfinite run_time in direct calculation
+00:01 +17: /home/user/management_toolbox/test/features/calculators/production/cycle_time_test.dart: cycle_time: zero run_time is rejected
+00:01 +18: /home/user/management_toolbox/test/features/calculators/production/cycle_time_test.dart: cycle_time: rejects negative/nonfinite total_output in direct calculation
+00:01 +19: /home/user/management_toolbox/test/features/calculators/production/cycle_time_test.dart: cycle_time: zero total_output is rejected
+00:01 +20: /home/user/management_toolbox/test/features/calculators/production/cycle_time_test.dart: cycle_time: overflow returns Persian numeric-range failure, not Infinity
+00:01 +21: /home/user/management_toolbox/test/features/calculators/production/cycle_time_test.dart: cycle_time: underflow is not disguised as zero
+00:01 +22: /home/user/management_toolbox/test/features/calculators/production/cycle_time_test.dart: cycle_time: 20 independent Decimal fixtures
+00:01 +23: /home/user/management_toolbox/test/features/calculators/production/cycle_time_test.dart: cycle_time: semantic and scale boundaries
+00:01 +24: loading /home/user/management_toolbox/test/features/calculators/production/labor_productivity_test.dart
+00:02 +24: /home/user/management_toolbox/test/features/calculators/production/labor_productivity_test.dart: labor_productivity: independent numeric reference
+00:02 +25: /home/user/management_toolbox/test/features/calculators/production/labor_productivity_test.dart: labor_productivity: typed bind validates independently of form
+00:02 +26: /home/user/management_toolbox/test/features/calculators/production/labor_productivity_test.dart: labor_productivity: rejects negative/nonfinite good_output in direct calculation
+00:02 +27: /home/user/management_toolbox/test/features/calculators/production/labor_productivity_test.dart: labor_productivity: zero good_output is a real valid boundary
+00:02 +28: /home/user/management_toolbox/test/features/calculators/production/labor_productivity_test.dart: labor_productivity: rejects negative/nonfinite labor_hours in direct calculation
+00:02 +29: /home/user/management_toolbox/test/features/calculators/production/labor_productivity_test.dart: labor_productivity: zero labor_hours is rejected
+00:02 +30: /home/user/management_toolbox/test/features/calculators/production/labor_productivity_test.dart: labor_productivity: overflow returns Persian numeric-range failure, not Infinity
+00:02 +31: /home/user/management_toolbox/test/features/calculators/production/labor_productivity_test.dart: labor_productivity: underflow is not disguised as zero
+00:02 +32: /home/user/management_toolbox/test/features/calculators/production/labor_productivity_test.dart: labor_productivity: 20 independent Decimal fixtures
+00:02 +33: /home/user/management_toolbox/test/features/calculators/production/labor_productivity_test.dart: labor_productivity: semantic and scale boundaries
+00:02 +34: All tests passed!

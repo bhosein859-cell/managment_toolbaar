@@ -1,0 +1,77 @@
+Stage 16 vs delivered Stage 15 byte baseline
+Baseline SHA256: 5b8b4d6b3a613708a988ec29454bb2c29f4c61791608edade6c1db675a2d2bb8
+Baseline files: 544; current source files: 576
+Added: 32; modified: 33; removed: 0
+All calculator domain/engine source bytes and assets unchanged (68 tools preserved).
+Dependency manifests intentionally updated for Drift/SQLite/path provider/path.
+Platform source changes: none
+No local database, user payload, generated native asset or credential included.
+
+MODIFIED
+.gitignore
+README.md
+lib/app/app.dart
+lib/app/routing/app_router.dart
+lib/features/calculators/presentation/pages/calculator_page.dart
+lib/features/history/domain/recent_calculation.dart
+lib/features/home/presentation/controllers/tool_session_controller.dart
+lib/features/home/presentation/pages/category_page.dart
+lib/features/home/presentation/pages/home_page.dart
+lib/features/home/presentation/widgets/tool_tile.dart
+pubspec.lock
+pubspec.yaml
+test/app/app_test.dart
+test/app/architecture_test.dart
+test/features/calculators/decision/pages_test.dart
+test/features/calculators/engineering_economics/pages_test.dart
+test/features/calculators/finance/finance_pages_test.dart
+test/features/calculators/finance/finance_visual_test.dart
+test/features/calculators/hr/pages_test.dart
+test/features/calculators/hr/visual_test.dart
+test/features/calculators/presentation/calculator_page_test.dart
+test/features/calculators/production/production_pages_test.dart
+test/features/calculators/production/production_visual_test.dart
+test/features/calculators/project/pages_test.dart
+test/features/calculators/project/visual_test.dart
+test/features/calculators/prototypes/prototype_pages_test.dart
+test/features/calculators/quality_inventory/pages_test.dart
+test/features/calculators/quality_inventory/visual_test.dart
+test/features/home/home_pages_test.dart
+test/features/home/home_visual_test.dart
+test/features/home/session_test.dart
+test/localization/persian_ui_test.dart
+test/localization/visual_capture_test.dart
+
+ADDED
+docs/storage/stage16.md
+docs/validation/stage16/analyze.txt
+docs/validation/stage16/changed-files.txt
+docs/validation/stage16/coverage.md
+docs/validation/stage16/cross-process.txt
+docs/validation/stage16/dependencies.txt
+docs/validation/stage16/engine-smokes.txt
+docs/validation/stage16/format.txt
+docs/validation/stage16/full-tests.txt
+docs/validation/stage16/locked-pub-get.txt
+docs/validation/stage16/pub-get.txt
+docs/validation/stage16/sdk-version.txt
+docs/validation/stage16/source-check.txt
+docs/validation/stage16/storage-aot.txt
+docs/validation/stage16/storage-lcov.info
+docs/validation/stage16/storage-tests.txt
+lib/core/storage/open_local_database.dart
+lib/core/storage/toolbox_database.dart
+lib/features/history/data/calculation_snapshot_codec.dart
+lib/features/history/data/drift_tool_repository.dart
+lib/features/history/domain/tool_repository.dart
+test/features/history/codec_test.dart
+test/features/history/controlled_repository.dart
+test/features/history/controller_test.dart
+test/features/history/fixtures.dart
+test/features/history/migration_test.dart
+test/features/history/open_database_test.dart
+test/features/history/persistence_pages_test.dart
+test/features/history/repository_test.dart
+test/fixtures/storage/schema_v1.sql
+test/fixtures/storage/schema_v2.sql
+tool/verify_local_storage.dart

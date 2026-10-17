@@ -1,0 +1,85 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/history/codec_test.dart
+00:00 +0: oee: raw input and complete result/warnings round trip losslessly
+00:00 +1: takt_time: raw input and complete result/warnings round trip losslessly
+00:00 +2: production_capacity: raw input and complete result/warnings round trip losslessly
+00:00 +3: labor_productivity: raw input and complete result/warnings round trip losslessly
+00:00 +4: cycle_time: raw input and complete result/warnings round trip losslessly
+00:00 +5: smed: raw input and complete result/warnings round trip losslessly
+00:00 +6: unit_production_cost: raw input and complete result/warnings round trip losslessly
+00:00 +7: wip: raw input and complete result/warnings round trip losslessly
+00:00 +8: throughput: raw input and complete result/warnings round trip losslessly
+00:00 +9: capacity_utilization: raw input and complete result/warnings round trip losslessly
+00:00 +10: npv: raw input and complete result/warnings round trip losslessly
+00:00 +11: irr: raw input and complete result/warnings round trip losslessly
+00:00 +12: payback: raw input and complete result/warnings round trip losslessly
+00:00 +13: roi: raw input and complete result/warnings round trip losslessly
+00:00 +14: current_ratio: raw input and complete result/warnings round trip losslessly
+00:00 +15: quick_ratio: raw input and complete result/warnings round trip losslessly
+00:00 +16: wacc: raw input and complete result/warnings round trip losslessly
+00:00 +17: compound_interest: raw input and complete result/warnings round trip losslessly
+00:00 +18: loan_payment: raw input and complete result/warnings round trip losslessly
+00:00 +19: break_even: raw input and complete result/warnings round trip losslessly
+00:00 +20: cp: raw input and complete result/warnings round trip losslessly
+00:00 +21: cpk: raw input and complete result/warnings round trip losslessly
+00:00 +22: pp: raw input and complete result/warnings round trip losslessly
+00:00 +23: ppk: raw input and complete result/warnings round trip losslessly
+00:00 +24: dpmo: raw input and complete result/warnings round trip losslessly
+00:00 +25: sigma_level: raw input and complete result/warnings round trip losslessly
+00:00 +26: xbar_control: raw input and complete result/warnings round trip losslessly
+00:00 +27: coq: raw input and complete result/warnings round trip losslessly
+00:00 +28: eoq: raw input and complete result/warnings round trip losslessly
+00:00 +29: rop: raw input and complete result/warnings round trip losslessly
+00:00 +30: safety_stock: raw input and complete result/warnings round trip losslessly
+00:00 +31: abc: raw input and complete result/warnings round trip losslessly
+00:00 +32: inventory_turnover: raw input and complete result/warnings round trip losslessly
+00:00 +33: days_inventory: raw input and complete result/warnings round trip losslessly
+00:00 +34: inventory_holding_cost: raw input and complete result/warnings round trip losslessly
+00:00 +35: reorder_interval: raw input and complete result/warnings round trip losslessly
+00:00 +36: pert_duration: raw input and complete result/warnings round trip losslessly
+00:00 +37: cpm: raw input and complete result/warnings round trip losslessly
+00:00 +38: project_float: raw input and complete result/warnings round trip losslessly
+00:00 +39: evm_performance: raw input and complete result/warnings round trip losslessly
+00:00 +40: three_point: raw input and complete result/warnings round trip losslessly
+00:00 +41: eac_etc: raw input and complete result/warnings round trip losslessly
+00:00 +42: sv_cv: raw input and complete result/warnings round trip losslessly
+00:00 +43: duration_comparison: raw input and complete result/warnings round trip losslessly
+00:00 +44: cost_per_hire: raw input and complete result/warnings round trip losslessly
+00:00 +45: employee_turnover: raw input and complete result/warnings round trip losslessly
+00:00 +46: employee_productivity: raw input and complete result/warnings round trip losslessly
+00:00 +47: training_roi: raw input and complete result/warnings round trip losslessly
+00:00 +48: replacement_time: raw input and complete result/warnings round trip losslessly
+00:00 +49: absence_cost: raw input and complete result/warnings round trip losslessly
+00:00 +50: ahp: raw input and complete result/warnings round trip losslessly
+00:00 +51: topsis: raw input and complete result/warnings round trip losslessly
+00:00 +52: decision_matrix: raw input and complete result/warnings round trip losslessly
+00:00 +53: expected_value_tree: raw input and complete result/warnings round trip losslessly
+00:00 +54: weight_sensitivity: raw input and complete result/warnings round trip losslessly
+00:00 +55: weighted_scoring: raw input and complete result/warnings round trip losslessly
+00:00 +56: cost_benefit_comparison: raw input and complete result/warnings round trip losslessly
+00:00 +57: two_option_break_even: raw input and complete result/warnings round trip losslessly
+00:00 +58: time_value_money: raw input and complete result/warnings round trip losslessly
+00:00 +59: future_present_factor: raw input and complete result/warnings round trip losslessly
+00:00 +60: present_future_factor: raw input and complete result/warnings round trip losslessly
+00:00 +61: future_annuity_factor: raw input and complete result/warnings round trip losslessly
+00:00 +62: annuity_future_factor: raw input and complete result/warnings round trip losslessly
+00:00 +63: present_annuity_factor: raw input and complete result/warnings round trip losslessly
+00:00 +64: annuity_present_factor: raw input and complete result/warnings round trip losslessly
+00:00 +65: straight_line_depreciation: raw input and complete result/warnings round trip losslessly
+00:00 +66: declining_balance_depreciation: raw input and complete result/warnings round trip losslessly
+00:00 +67: inflation_adjustment: raw input and complete result/warnings round trip losslessly
+00:00 +68: percentage_of: raw input and complete result/warnings round trip losslessly
+00:00 +69: percentage_change: raw input and complete result/warnings round trip losslessly
+00:00 +70: percentage_base: raw input and complete result/warnings round trip losslessly
+00:00 +71: discount: raw input and complete result/warnings round trip losslessly
+00:00 +72: unit_conversion: raw input and complete result/warnings round trip losslessly
+00:00 +73: codec preserves Persian/Arabic digits, whitespace, choices, missing and empty fields
+00:00 +74: all result variants, units, displays and warning severity survive
+00:00 +75: invalid input payload rejects: null
+00:00 +76: invalid input payload rejects: []
+00:00 +77: invalid input payload rejects: true
+00:00 +78: invalid input payload rejects: {broken
+00:00 +79: invalid input payload rejects: {"a":{"type":"future"}}
+00:00 +80: invalid input payload rejects: {"a":{"type":"text","text":2}}
+00:00 +81: invalid input payload rejects: {"a":{"type":"list","items":["1",null]}}
+00:00 +82: unknown display/severity, nonfinite values and wrong unit types never get defaults
+00:00 +83: All tests passed!

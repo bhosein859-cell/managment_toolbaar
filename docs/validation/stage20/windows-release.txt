@@ -1,0 +1,2 @@
+"build windows" only supported on Windows hosts.
+windows_build_exit=1

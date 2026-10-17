@@ -1,0 +1,16 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/prototypes/cp_test.dart
+00:00 +0: known examples and dimensionless result
+00:00 +1: negative specification limits are valid, common unit scaling invariant
+00:00 +2: equal or reversed limits (10.0, 10.0) rejected
+00:00 +3: equal or reversed limits (9.0, 10.0) rejected
+00:00 +4: invalid sigma 0.0 rejected
+00:00 +5: invalid sigma -1.0 rejected
+00:00 +6: invalid sigma NaN rejected
+00:00 +7: invalid sigma Infinity rejected
+00:00 +8: nonfinite specification limits rejected independently
+00:00 +9: very large common scale avoids intermediate width/denominator overflow
+00:00 +10: subnormal common scale does not create a false zero
+00:00 +11: unrepresentable huge/tiny Cp produces range failure
+00:00 +12: catalog sigma zero and relationship errors are field-specific
+00:00 +13: direct bind checks limits and all declared measurement units work
+00:00 +14: All tests passed!

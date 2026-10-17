@@ -1,0 +1,30 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/engineering_economics/pages_test.dart
+00:00 +0: /home/user/management_toolbox/test/features/calculators/engineering_economics/pages_test.dart: time_value_money: generic form rendered formula error and example
+00:01 +1: /home/user/management_toolbox/test/features/calculators/engineering_economics/pages_test.dart: future_present_factor: generic form rendered formula error and example
+00:02 +2: /home/user/management_toolbox/test/features/calculators/engineering_economics/pages_test.dart: present_future_factor: generic form rendered formula error and example
+00:02 +3: /home/user/management_toolbox/test/features/calculators/engineering_economics/pages_test.dart: future_annuity_factor: generic form rendered formula error and example
+00:02 +4: /home/user/management_toolbox/test/features/calculators/engineering_economics/pages_test.dart: annuity_future_factor: generic form rendered formula error and example
+00:03 +5: /home/user/management_toolbox/test/features/calculators/engineering_economics/pages_test.dart: present_annuity_factor: generic form rendered formula error and example
+00:03 +6: /home/user/management_toolbox/test/features/calculators/engineering_economics/pages_test.dart: annuity_present_factor: generic form rendered formula error and example
+00:03 +7: /home/user/management_toolbox/test/features/calculators/engineering_economics/pages_test.dart: straight_line_depreciation: generic form rendered formula error and example
+00:04 +8: /home/user/management_toolbox/test/features/calculators/engineering_economics/pages_test.dart: declining_balance_depreciation: generic form rendered formula error and example
+00:04 +9: /home/user/management_toolbox/test/features/calculators/engineering_economics/pages_test.dart: inflation_adjustment: generic form rendered formula error and example
+00:04 +10: /home/user/management_toolbox/test/features/calculators/engineering_economics/pages_test.dart: ten economics tools open through real category routes
+00:07 +11: /home/user/management_toolbox/test/features/calculators/engineering_economics/pages_test.dart: Economics incomplete external snapshots do not silently borrow example defaults
+00:09 +12: /home/user/management_toolbox/test/features/calculators/engineering_economics/pages_test.dart: Zero-rate factor inputs save/reopen and undefined zero-period inverse disables save
+00:10 +13: /home/user/management_toolbox/test/features/calculators/engineering_economics/pages_test.dart: ten economics pages fit Size(320.0, 568.0) dark=false enlarged RTL
+00:11 +14: /home/user/management_toolbox/test/features/calculators/engineering_economics/pages_test.dart: ten economics pages fit Size(320.0, 568.0) dark=true enlarged RTL
+00:12 +15: /home/user/management_toolbox/test/features/calculators/engineering_economics/pages_test.dart: ten economics pages fit Size(1280.0, 800.0) dark=false enlarged RTL
+00:13 +16: /home/user/management_toolbox/test/features/calculators/engineering_economics/pages_test.dart: ten economics pages fit Size(1280.0, 800.0) dark=true enlarged RTL
+00:14 +17: loading /home/user/management_toolbox/test/features/calculators/finance/break_even_test.dart
+00:15 +17: /home/user/management_toolbox/test/features/calculators/finance/break_even_test.dart: break_even: reference formula
+00:15 +18: /home/user/management_toolbox/test/features/calculators/finance/break_even_test.dart: break_even: typed bind and domain validation
+00:15 +19: /home/user/management_toolbox/test/features/calculators/finance/break_even_test.dart: break_even: nonfinite fixed_cost
+00:15 +20: /home/user/management_toolbox/test/features/calculators/finance/break_even_test.dart: break_even: lower bound fixed_cost
+00:15 +21: /home/user/management_toolbox/test/features/calculators/finance/break_even_test.dart: break_even: nonfinite unit_price
+00:15 +22: /home/user/management_toolbox/test/features/calculators/finance/break_even_test.dart: break_even: lower bound unit_price
+00:15 +23: /home/user/management_toolbox/test/features/calculators/finance/break_even_test.dart: break_even: nonfinite variable_cost
+00:15 +24: /home/user/management_toolbox/test/features/calculators/finance/break_even_test.dart: break_even: lower bound variable_cost
+00:15 +25: /home/user/management_toolbox/test/features/calculators/finance/break_even_test.dart: break_even: 20 independent Decimal formula fixtures
+00:15 +26: /home/user/management_toolbox/test/features/calculators/finance/break_even_test.dart: break_even: zero cross-field and numerical edge cases
+00:15 +27: All tests passed!

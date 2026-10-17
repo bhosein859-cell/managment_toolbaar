@@ -1,0 +1,9 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/history/controller_test.dart
+00:00 +0: read failure is visible, not an empty-success store; retry recovers
+00:00 +1: write failures never optimistically mutate favorites or history
+00:00 +2: busy state lasts until durable commit and exposes only committed snapshot
+00:00 +3: rapid queued writes have deterministic tap order and survive failures
+00:00 +4: closed and uninitialized controllers reject actions
+00:00 +5: retired catalog IDs are hidden without deleting stored data
+00:00 +6: disposing during an active write safely closes after completion and never notifies disposed listeners
+00:00 +7: All tests passed!

@@ -1,0 +1,62 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart
+00:00 +0: ahp: hand-checkable typed example and conditional interpretation
+00:00 +1: ahp.alternatives: nonfinite input rejects directly
+00:00 +2: ahp.alternatives: lower bound and fractional count reject
+00:00 +3: ahp.criteria: nonfinite input rejects directly
+00:00 +4: ahp.criteria: lower bound and fractional count reject
+00:00 +5: topsis: hand-checkable typed example and conditional interpretation
+00:00 +6: topsis.alternatives: nonfinite input rejects directly
+00:00 +7: topsis.alternatives: lower bound and fractional count reject
+00:00 +8: topsis.criteria: nonfinite input rejects directly
+00:00 +9: topsis.criteria: lower bound and fractional count reject
+00:00 +10: decision_matrix: hand-checkable typed example and conditional interpretation
+00:00 +11: decision_matrix.alternatives: nonfinite input rejects directly
+00:00 +12: decision_matrix.alternatives: lower bound and fractional count reject
+00:00 +13: decision_matrix.criteria: nonfinite input rejects directly
+00:00 +14: decision_matrix.criteria: lower bound and fractional count reject
+00:00 +15: expected_value_tree: hand-checkable typed example and conditional interpretation
+00:00 +16: expected_value_tree.root_id: nonfinite input rejects directly
+00:00 +17: expected_value_tree.root_id: lower bound and fractional count reject
+00:00 +18: weight_sensitivity: hand-checkable typed example and conditional interpretation
+00:00 +19: weight_sensitivity.alternatives: nonfinite input rejects directly
+00:00 +20: weight_sensitivity.alternatives: lower bound and fractional count reject
+00:00 +21: weight_sensitivity.criteria: nonfinite input rejects directly
+00:00 +22: weight_sensitivity.criteria: lower bound and fractional count reject
+00:00 +23: weight_sensitivity.selected_criterion: nonfinite input rejects directly
+00:00 +24: weight_sensitivity.selected_criterion: lower bound and fractional count reject
+00:00 +25: weighted_scoring: hand-checkable typed example and conditional interpretation
+00:00 +26: weighted_scoring.alternatives: nonfinite input rejects directly
+00:00 +27: weighted_scoring.alternatives: lower bound and fractional count reject
+00:00 +28: weighted_scoring.criteria: nonfinite input rejects directly
+00:00 +29: weighted_scoring.criteria: lower bound and fractional count reject
+00:00 +30: cost_benefit_comparison: hand-checkable typed example and conditional interpretation
+00:00 +31: cost_benefit_comparison.cost_a: nonfinite input rejects directly
+00:00 +32: cost_benefit_comparison.cost_a: lower bound and fractional count reject
+00:00 +33: cost_benefit_comparison.benefit_a: nonfinite input rejects directly
+00:00 +34: cost_benefit_comparison.benefit_a: lower bound and fractional count reject
+00:00 +35: cost_benefit_comparison.cost_b: nonfinite input rejects directly
+00:00 +36: cost_benefit_comparison.cost_b: lower bound and fractional count reject
+00:00 +37: cost_benefit_comparison.benefit_b: nonfinite input rejects directly
+00:00 +38: cost_benefit_comparison.benefit_b: lower bound and fractional count reject
+00:00 +39: cost_benefit_comparison.period_days: nonfinite input rejects directly
+00:00 +40: cost_benefit_comparison.period_days: lower bound and fractional count reject
+00:00 +41: two_option_break_even: hand-checkable typed example and conditional interpretation
+00:00 +42: two_option_break_even.fixed_a: nonfinite input rejects directly
+00:00 +43: two_option_break_even.fixed_a: lower bound and fractional count reject
+00:00 +44: two_option_break_even.variable_a: nonfinite input rejects directly
+00:00 +45: two_option_break_even.variable_a: lower bound and fractional count reject
+00:00 +46: two_option_break_even.fixed_b: nonfinite input rejects directly
+00:00 +47: two_option_break_even.fixed_b: lower bound and fractional count reject
+00:00 +48: two_option_break_even.variable_b: nonfinite input rejects directly
+00:00 +49: two_option_break_even.variable_b: lower bound and fractional count reject
+00:00 +50: two_option_break_even.period_days: nonfinite input rejects directly
+00:00 +51: two_option_break_even.period_days: lower bound and fractional count reject
+00:00 +52: ahp: independent Decimal, AHP closed-form or enumerated-policy oracle
+00:00 +53: topsis: independent Decimal, AHP closed-form or enumerated-policy oracle
+00:00 +54: decision_matrix: independent Decimal, AHP closed-form or enumerated-policy oracle
+00:00 +55: expected_value_tree: independent Decimal, AHP closed-form or enumerated-policy oracle
+00:00 +56: weight_sensitivity: independent Decimal, AHP closed-form or enumerated-policy oracle
+00:00 +57: weighted_scoring: independent Decimal, AHP closed-form or enumerated-policy oracle
+00:00 +58: cost_benefit_comparison: independent Decimal, AHP closed-form or enumerated-policy oracle
+00:00 +59: two_option_break_even: independent Decimal, AHP closed-form or enumerated-policy oracle
+00:00 +60: All tests passed!

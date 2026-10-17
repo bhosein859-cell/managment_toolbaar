@@ -1,0 +1,28 @@
+00:00 +0: loading /home/user/management_toolbox/test/app/architecture_test.dart
+00:00 +0: /home/user/management_toolbox/test/app/architecture_test.dart: failure retains a Persian message and machine-readable code
+00:00 +1: /home/user/management_toolbox/test/app/architecture_test.dart: base themes use Material 3 in both brightness modes
+00:00 +2: /home/user/management_toolbox/test/app/architecture_test.dart: domain stays independent from Flutter, data and presentation
+00:00 +3: /home/user/management_toolbox/test/app/architecture_test.dart: welcome is RTL, credits creator and navigates to home
+00:02 +4: /home/user/management_toolbox/test/app/architecture_test.dart: unknown route provides a safe return home
+00:02 +5: /home/user/management_toolbox/test/app/architecture_test.dart: error fallback renders without app dependencies
+00:02 +6: loading /home/user/management_toolbox/test/core/persian_numbers_test.dart
+00:03 +6: /home/user/management_toolbox/test/core/persian_numbers_test.dart: all digit sets normalize and roundtrip
+00:03 +7: /home/user/management_toolbox/test/core/persian_numbers_test.dart: accepts ۱۲۳٫۴۵
+00:03 +8: /home/user/management_toolbox/test/core/persian_numbers_test.dart: accepts ١٢٣٫٤٥
+00:03 +9: /home/user/management_toolbox/test/core/persian_numbers_test.dart: accepts 123.45
+00:03 +10: /home/user/management_toolbox/test/core/persian_numbers_test.dart: accepts  ۱۲٣.45 
+00:03 +11: /home/user/management_toolbox/test/core/persian_numbers_test.dart: signs, fractions, thousands and zero
+00:03 +12: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input ""
+00:03 +13: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input " "
+00:03 +14: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "NaN"
+00:03 +15: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "Infinity"
+00:03 +16: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "1e3"
+00:03 +17: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "1,5"
+00:03 +18: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "۱۲٬۳۴"
+00:03 +19: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "1..2"
+00:03 +20: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "12 34"
+00:03 +21: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "--1"
+00:03 +22: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "۱۰۰٪"
+00:03 +23: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects malformed input "۱۲٫۳٫۴"
+00:03 +24: /home/user/management_toolbox/test/core/persian_numbers_test.dart: rejects overflow and formats finite values in Persian
+00:03 +25: All tests passed!

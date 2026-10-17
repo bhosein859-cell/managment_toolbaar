@@ -1,0 +1,22 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/finance/quick_ratio_test.dart
+00:00 +0: /home/user/management_toolbox/test/features/calculators/finance/quick_ratio_test.dart: quick_ratio: reference formula
+00:00 +1: /home/user/management_toolbox/test/features/calculators/finance/quick_ratio_test.dart: quick_ratio: typed bind and domain validation
+00:00 +2: /home/user/management_toolbox/test/features/calculators/finance/quick_ratio_test.dart: quick_ratio: nonfinite current_assets
+00:00 +3: /home/user/management_toolbox/test/features/calculators/finance/quick_ratio_test.dart: quick_ratio: lower bound current_assets
+00:00 +4: /home/user/management_toolbox/test/features/calculators/finance/quick_ratio_test.dart: quick_ratio: nonfinite inventory
+00:00 +5: /home/user/management_toolbox/test/features/calculators/finance/quick_ratio_test.dart: quick_ratio: lower bound inventory
+00:00 +6: /home/user/management_toolbox/test/features/calculators/finance/quick_ratio_test.dart: quick_ratio: nonfinite prepayments
+00:00 +7: /home/user/management_toolbox/test/features/calculators/finance/quick_ratio_test.dart: quick_ratio: lower bound prepayments
+00:00 +8: /home/user/management_toolbox/test/features/calculators/finance/quick_ratio_test.dart: quick_ratio: nonfinite current_liabilities
+00:00 +9: /home/user/management_toolbox/test/features/calculators/finance/quick_ratio_test.dart: quick_ratio: lower bound current_liabilities
+00:00 +10: /home/user/management_toolbox/test/features/calculators/finance/quick_ratio_test.dart: quick_ratio: 20 independent Decimal formula fixtures
+00:00 +11: /home/user/management_toolbox/test/features/calculators/finance/quick_ratio_test.dart: quick_ratio: zero cross-field and numerical edge cases
+00:00 +12: loading /home/user/management_toolbox/test/features/calculators/finance/roi_test.dart
+00:00 +12: /home/user/management_toolbox/test/features/calculators/finance/roi_test.dart: roi: reference formula
+00:00 +13: /home/user/management_toolbox/test/features/calculators/finance/roi_test.dart: roi: typed bind and domain validation
+00:00 +14: /home/user/management_toolbox/test/features/calculators/finance/roi_test.dart: roi: nonfinite net_profit
+00:00 +15: /home/user/management_toolbox/test/features/calculators/finance/roi_test.dart: roi: nonfinite investment
+00:00 +16: /home/user/management_toolbox/test/features/calculators/finance/roi_test.dart: roi: lower bound investment
+00:00 +17: /home/user/management_toolbox/test/features/calculators/finance/roi_test.dart: roi: 20 independent Decimal formula fixtures
+00:00 +18: /home/user/management_toolbox/test/features/calculators/finance/roi_test.dart: roi: zero cross-field and numerical edge cases
+00:00 +19: All tests passed!

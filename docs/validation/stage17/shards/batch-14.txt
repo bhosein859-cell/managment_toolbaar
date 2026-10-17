@@ -1,0 +1,58 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/project/network_test.dart
+00:00 +0: /home/user/management_toolbox/test/features/calculators/project/network_test.dart: CPM: golden forward/backward passes and connected path
+00:00 +1: /home/user/management_toolbox/test/features/calculators/project/network_test.dart: Float: TF differs from FF with delayed downstream noncritical work
+00:00 +2: /home/user/management_toolbox/test/features/calculators/project/network_test.dart: Multiple critical paths: union is not a path, deterministic connected representative
+00:00 +3: /home/user/management_toolbox/test/features/calculators/project/network_test.dart: Disconnected components share virtual finish: shorter terminal gets FF
+00:00 +4: /home/user/management_toolbox/test/features/calculators/project/network_test.dart: Zero milestones, all-zero networks, isolated nodes and many sources/sinks
+00:00 +5: /home/user/management_toolbox/test/features/calculators/project/network_test.dart: Kahn rejects full, partial and zero-duration cycles
+00:00 +6: /home/user/management_toolbox/test/features/calculators/project/network_test.dart: Unknown refs, duplicates, self edges and invalid IDs are not silently dropped
+00:00 +7: /home/user/management_toolbox/test/features/calculators/project/network_test.dart: Direct model rejects nonfinite or negative duration
+00:00 +8: /home/user/management_toolbox/test/features/calculators/project/network_test.dart: Network limits: empty and oversized nodes/edges reject
+00:00 +9: /home/user/management_toolbox/test/features/calculators/project/network_test.dart: 200 activities schedule without recursion, also fractional durations
+00:00 +10: /home/user/management_toolbox/test/features/calculators/project/network_test.dart: Count exponential paths with BigInt without enumerating paths
+00:00 +11: /home/user/management_toolbox/test/features/calculators/project/network_test.dart: Tiny scale retains nonzero times, huge scale refuses lost durations/overflow
+00:00 +12: /home/user/management_toolbox/test/features/calculators/project/network_test.dart: Tolerance has no one-day floor, only slack is normalized
+00:00 +13: /home/user/management_toolbox/test/features/calculators/project/network_test.dart: Near-equal slack classification discloses scaled epsilon
+00:00 +14: /home/user/management_toolbox/test/features/calculators/project/network_test.dart: Near-critical alternatives do not multiply or shorten the actual longest paths
+00:00 +15: /home/user/management_toolbox/test/features/calculators/project/network_test.dart: Immutable inputs and schedule snapshots
+00:00 +16: /home/user/management_toolbox/test/features/calculators/project/network_test.dart: cpm: structural form rejects fractional, missing, mismatched and duplicate refs
+00:00 +17: /home/user/management_toolbox/test/features/calculators/project/network_test.dart: cpm: empty dependency lists mean no edges, not default graph
+00:00 +18: /home/user/management_toolbox/test/features/calculators/project/network_test.dart: project_float: structural form rejects fractional, missing, mismatched and duplicate refs
+00:00 +19: /home/user/management_toolbox/test/features/calculators/project/network_test.dart: project_float: empty dependency lists mean no edges, not default graph
+00:00 +20: /home/user/management_toolbox/test/features/calculators/project/network_test.dart: Binding validates normalized shape, IDs and row capacities too
+00:00 +21: /home/user/management_toolbox/test/features/calculators/project/network_test.dart: Optional empty series is supported only with minItems zero and nonrequired
+00:00 +22: loading /home/user/management_toolbox/test/features/calculators/project/pages_test.dart
+00:00 +22: /home/user/management_toolbox/test/features/calculators/project/pages_test.dart: pert_duration: generic form rendered formula error and example
+00:02 +23: /home/user/management_toolbox/test/features/calculators/project/pages_test.dart: cpm: generic form rendered formula error and example
+00:03 +24: /home/user/management_toolbox/test/features/calculators/project/pages_test.dart: project_float: generic form rendered formula error and example
+00:03 +25: /home/user/management_toolbox/test/features/calculators/project/pages_test.dart: evm_performance: generic form rendered formula error and example
+00:04 +26: /home/user/management_toolbox/test/features/calculators/project/pages_test.dart: three_point: generic form rendered formula error and example
+00:04 +27: /home/user/management_toolbox/test/features/calculators/project/pages_test.dart: eac_etc: generic form rendered formula error and example
+00:05 +28: /home/user/management_toolbox/test/features/calculators/project/pages_test.dart: sv_cv: generic form rendered formula error and example
+00:05 +29: /home/user/management_toolbox/test/features/calculators/project/pages_test.dart: duration_comparison: generic form rendered formula error and example
+00:06 +30: /home/user/management_toolbox/test/features/calculators/project/pages_test.dart: eight project tools open through real category routes
+00:08 +31: /home/user/management_toolbox/test/features/calculators/project/pages_test.dart: structured CPM rejects refs and cycles without stale results
+00:09 +32: /home/user/management_toolbox/test/features/calculators/project/pages_test.dart: EAC method choice handles undefined indices explicitly
+00:10 +33: /home/user/management_toolbox/test/features/calculators/project/pages_test.dart: structured CPM graph save/reopen and invalid form disabled
+00:12 +34: /home/user/management_toolbox/test/features/calculators/project/pages_test.dart: eight project pages fit Size(320.0, 568.0) dark=false enlarged RTL
+00:13 +35: /home/user/management_toolbox/test/features/calculators/project/pages_test.dart: eight project pages fit Size(320.0, 568.0) dark=true enlarged RTL
+00:14 +36: /home/user/management_toolbox/test/features/calculators/project/pages_test.dart: eight project pages fit Size(1280.0, 800.0) dark=false enlarged RTL
+00:14 +37: /home/user/management_toolbox/test/features/calculators/project/pages_test.dart: eight project pages fit Size(1280.0, 800.0) dark=true enlarged RTL
+00:15 +38: loading /home/user/management_toolbox/test/features/calculators/project/visual_test.dart
+00:16 +38: /home/user/management_toolbox/test/features/calculators/project/visual_test.dart: capture project category structured CPM results cycle error and EVM
+00:16 +38 ~1: loading /home/user/management_toolbox/test/features/calculators/prototypes/cp_test.dart
+00:16 +38 ~1: /home/user/management_toolbox/test/features/calculators/prototypes/cp_test.dart: known examples and dimensionless result
+00:16 +39 ~1: /home/user/management_toolbox/test/features/calculators/prototypes/cp_test.dart: negative specification limits are valid, common unit scaling invariant
+00:16 +40 ~1: /home/user/management_toolbox/test/features/calculators/prototypes/cp_test.dart: equal or reversed limits (10.0, 10.0) rejected
+00:16 +41 ~1: /home/user/management_toolbox/test/features/calculators/prototypes/cp_test.dart: equal or reversed limits (9.0, 10.0) rejected
+00:16 +42 ~1: /home/user/management_toolbox/test/features/calculators/prototypes/cp_test.dart: invalid sigma 0.0 rejected
+00:16 +43 ~1: /home/user/management_toolbox/test/features/calculators/prototypes/cp_test.dart: invalid sigma -1.0 rejected
+00:16 +44 ~1: /home/user/management_toolbox/test/features/calculators/prototypes/cp_test.dart: invalid sigma NaN rejected
+00:16 +45 ~1: /home/user/management_toolbox/test/features/calculators/prototypes/cp_test.dart: invalid sigma Infinity rejected
+00:16 +46 ~1: /home/user/management_toolbox/test/features/calculators/prototypes/cp_test.dart: nonfinite specification limits rejected independently
+00:16 +47 ~1: /home/user/management_toolbox/test/features/calculators/prototypes/cp_test.dart: very large common scale avoids intermediate width/denominator overflow
+00:16 +48 ~1: /home/user/management_toolbox/test/features/calculators/prototypes/cp_test.dart: subnormal common scale does not create a false zero
+00:16 +49 ~1: /home/user/management_toolbox/test/features/calculators/prototypes/cp_test.dart: unrepresentable huge/tiny Cp produces range failure
+00:16 +50 ~1: /home/user/management_toolbox/test/features/calculators/prototypes/cp_test.dart: catalog sigma zero and relationship errors are field-specific
+00:16 +51 ~1: /home/user/management_toolbox/test/features/calculators/prototypes/cp_test.dart: direct bind checks limits and all declared measurement units work
+00:17 +52 ~1: All tests passed!

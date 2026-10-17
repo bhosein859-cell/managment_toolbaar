@@ -1,0 +1,91 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart
+00:00 +0: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: ahp: hand-checkable typed example and conditional interpretation
+00:00 +1: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: ahp.alternatives: nonfinite input rejects directly
+00:00 +2: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: ahp.alternatives: lower bound and fractional count reject
+00:00 +3: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: ahp.criteria: nonfinite input rejects directly
+00:00 +4: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: ahp.criteria: lower bound and fractional count reject
+00:00 +5: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: topsis: hand-checkable typed example and conditional interpretation
+00:00 +6: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: topsis.alternatives: nonfinite input rejects directly
+00:00 +7: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: topsis.alternatives: lower bound and fractional count reject
+00:00 +8: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: topsis.criteria: nonfinite input rejects directly
+00:00 +9: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: topsis.criteria: lower bound and fractional count reject
+00:00 +10: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: decision_matrix: hand-checkable typed example and conditional interpretation
+00:00 +11: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: decision_matrix.alternatives: nonfinite input rejects directly
+00:00 +12: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: decision_matrix.alternatives: lower bound and fractional count reject
+00:00 +13: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: decision_matrix.criteria: nonfinite input rejects directly
+00:00 +14: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: decision_matrix.criteria: lower bound and fractional count reject
+00:00 +15: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: expected_value_tree: hand-checkable typed example and conditional interpretation
+00:00 +16: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: expected_value_tree.root_id: nonfinite input rejects directly
+00:00 +17: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: expected_value_tree.root_id: lower bound and fractional count reject
+00:00 +18: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: weight_sensitivity: hand-checkable typed example and conditional interpretation
+00:00 +19: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: weight_sensitivity.alternatives: nonfinite input rejects directly
+00:00 +20: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: weight_sensitivity.alternatives: lower bound and fractional count reject
+00:00 +21: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: weight_sensitivity.criteria: nonfinite input rejects directly
+00:00 +22: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: weight_sensitivity.criteria: lower bound and fractional count reject
+00:00 +23: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: weight_sensitivity.selected_criterion: nonfinite input rejects directly
+00:00 +24: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: weight_sensitivity.selected_criterion: lower bound and fractional count reject
+00:00 +25: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: weighted_scoring: hand-checkable typed example and conditional interpretation
+00:00 +26: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: weighted_scoring.alternatives: nonfinite input rejects directly
+00:00 +27: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: weighted_scoring.alternatives: lower bound and fractional count reject
+00:00 +28: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: weighted_scoring.criteria: nonfinite input rejects directly
+00:00 +29: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: weighted_scoring.criteria: lower bound and fractional count reject
+00:00 +30: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: cost_benefit_comparison: hand-checkable typed example and conditional interpretation
+00:00 +31: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: cost_benefit_comparison.cost_a: nonfinite input rejects directly
+00:00 +32: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: cost_benefit_comparison.cost_a: lower bound and fractional count reject
+00:00 +33: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: cost_benefit_comparison.benefit_a: nonfinite input rejects directly
+00:00 +34: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: cost_benefit_comparison.benefit_a: lower bound and fractional count reject
+00:00 +35: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: cost_benefit_comparison.cost_b: nonfinite input rejects directly
+00:00 +36: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: cost_benefit_comparison.cost_b: lower bound and fractional count reject
+00:00 +37: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: cost_benefit_comparison.benefit_b: nonfinite input rejects directly
+00:00 +38: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: cost_benefit_comparison.benefit_b: lower bound and fractional count reject
+00:00 +39: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: cost_benefit_comparison.period_days: nonfinite input rejects directly
+00:00 +40: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: cost_benefit_comparison.period_days: lower bound and fractional count reject
+00:00 +41: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: two_option_break_even: hand-checkable typed example and conditional interpretation
+00:00 +42: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: two_option_break_even.fixed_a: nonfinite input rejects directly
+00:00 +43: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: two_option_break_even.fixed_a: lower bound and fractional count reject
+00:00 +44: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: two_option_break_even.variable_a: nonfinite input rejects directly
+00:00 +45: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: two_option_break_even.variable_a: lower bound and fractional count reject
+00:00 +46: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: two_option_break_even.fixed_b: nonfinite input rejects directly
+00:00 +47: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: two_option_break_even.fixed_b: lower bound and fractional count reject
+00:00 +48: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: two_option_break_even.variable_b: nonfinite input rejects directly
+00:00 +49: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: two_option_break_even.variable_b: lower bound and fractional count reject
+00:00 +50: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: two_option_break_even.period_days: nonfinite input rejects directly
+00:00 +51: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: two_option_break_even.period_days: lower bound and fractional count reject
+00:00 +52: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: ahp: independent Decimal, AHP closed-form or enumerated-policy oracle
+00:00 +53: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: topsis: independent Decimal, AHP closed-form or enumerated-policy oracle
+00:00 +54: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: decision_matrix: independent Decimal, AHP closed-form or enumerated-policy oracle
+00:00 +55: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: expected_value_tree: independent Decimal, AHP closed-form or enumerated-policy oracle
+00:00 +56: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: weight_sensitivity: independent Decimal, AHP closed-form or enumerated-policy oracle
+00:00 +57: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: weighted_scoring: independent Decimal, AHP closed-form or enumerated-policy oracle
+00:00 +58: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: cost_benefit_comparison: independent Decimal, AHP closed-form or enumerated-policy oracle
+00:00 +59: /home/user/management_toolbox/test/features/calculators/decision/engines_test.dart: two_option_break_even: independent Decimal, AHP closed-form or enumerated-policy oracle
+00:00 +60: loading /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart
+00:00 +60: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: decision_matrix: dimensions and matrix/weight length mismatches reject
+00:00 +61: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: decision_matrix: negative, NaN, infinite or all-zero weights reject
+00:00 +62: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: decision_matrix: nonfinite matrix cells reject, relative weights need not sum to one
+00:00 +63: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: topsis: dimensions and matrix/weight length mismatches reject
+00:00 +64: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: topsis: negative, NaN, infinite or all-zero weights reject
+00:00 +65: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: topsis: nonfinite matrix cells reject, relative weights need not sum to one
+00:00 +66: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: weighted_scoring: dimensions and matrix/weight length mismatches reject
+00:00 +67: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: weighted_scoring: negative, NaN, infinite or all-zero weights reject
+00:00 +68: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: weighted_scoring: nonfinite matrix cells reject, relative weights need not sum to one
+00:00 +69: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: weight_sensitivity: dimensions and matrix/weight length mismatches reject
+00:00 +70: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: weight_sensitivity: negative, NaN, infinite or all-zero weights reject
+00:00 +71: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: weight_sensitivity: nonfinite matrix cells reject, relative weights need not sum to one
+00:00 +72: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: decision_matrix: criterion types and counts are validated
+00:00 +73: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: topsis: criterion types and counts are validated
+00:00 +74: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: weight_sensitivity: criterion types and counts are validated
+00:01 +75: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: Known min-max hand data and cost reversal
+00:01 +76: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: Min-max handles signed data and constant columns without weight redistribution
+00:01 +77: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: TOPSIS known dominance, benefit/cost, endpoints zero/one
+00:01 +78: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: TOPSIS symmetric golden tradeoff, positive column scaling invariant
+00:01 +79: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: TOPSIS no arbitrary closeness for identical effective alternatives
+00:01 +80: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: TOPSIS zero columns/rows and overflowing raw norm remain handled
+00:01 +81: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: Weighted scoring does not silently normalize incomparable raw scales
+00:01 +82: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: Zero weights disable finite values without contaminating active-scale arithmetic
+00:01 +83: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: Two through twenty options and one through twenty criteria are dynamic
+00:01 +84: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: Rank groups use anchored relative tolerance, stable ordering, no absolute floor
+00:01 +85: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: Sensitivity sampled endpoints/ties and baseline are independently hand-checkable
+00:01 +86: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: Sensitivity rejects missing redistribution base, bad selection and samples
+00:01 +87: /home/user/management_toolbox/test/features/calculators/decision/matrix_test.dart: Matrix and sweep input snapshots immutable
+00:01 +88: All tests passed!

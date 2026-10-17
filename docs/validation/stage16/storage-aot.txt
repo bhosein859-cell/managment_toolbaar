@@ -1,0 +1,6 @@
+Running build hooks...Running build hooks...Running link hooks...Running link hooks...Copying 1 build assets:
+package:sqlite3/src/ffi/libsqlite3.g.dart
+Generated: /home/user/.cache/stage16-final-cli/bundle/bin/verify_local_storage
+write: PASS; SQLite 3.54.0; committed, file-backed, background isolate
+read-remove: PASS; SQLite 3.54.0; committed, file-backed, background isolate
+verify-removed: PASS; SQLite 3.54.0; committed, file-backed, background isolate

@@ -1,0 +1,27 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/hr/catalog_test.dart
+00:00 +0: six HR tools and 73 catalog entries
+00:00 +1: cost_per_hire: full definition formula and educational numeric example
+00:00 +2: cost_per_hire: Arabic Persian Latin digits and malformed form data
+00:00 +3: employee_turnover: full definition formula and educational numeric example
+00:00 +4: employee_turnover: Arabic Persian Latin digits and malformed form data
+00:00 +5: employee_productivity: full definition formula and educational numeric example
+00:00 +6: employee_productivity: Arabic Persian Latin digits and malformed form data
+00:00 +7: training_roi: full definition formula and educational numeric example
+00:00 +8: training_roi: Arabic Persian Latin digits and malformed form data
+00:00 +9: replacement_time: full definition formula and educational numeric example
+00:00 +10: replacement_time: Arabic Persian Latin digits and malformed form data
+00:00 +11: absence_cost: full definition formula and educational numeric example
+00:00 +12: absence_cost: Arabic Persian Latin digits and malformed form data
+00:00 +13: cost_per_hire: omitted or blank observations never become defaults
+00:00 +14: cost_per_hire: changing period context does not silently annualize
+00:00 +15: employee_turnover: omitted or blank observations never become defaults
+00:00 +16: employee_turnover: changing period context does not silently annualize
+00:00 +17: employee_productivity: omitted or blank observations never become defaults
+00:00 +18: employee_productivity: changing period context does not silently annualize
+00:00 +19: training_roi: omitted or blank observations never become defaults
+00:00 +20: training_roi: changing period context does not silently annualize
+00:00 +21: replacement_time: omitted or blank observations never become defaults
+00:00 +22: replacement_time: changing period context does not silently annualize
+00:00 +23: absence_cost: omitted or blank observations never become defaults
+00:00 +24: absence_cost: changing period context does not silently annualize
+00:00 +25: All tests passed!

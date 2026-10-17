@@ -1,0 +1,2 @@
+PASS: git diff --no-index --check on source-only snapshots emitted no whitespace diagnostics (exit 1).
+Git index/history is absent from this workspace snapshot; no repository initialization, commit or push was performed.

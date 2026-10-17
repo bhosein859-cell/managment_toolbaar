@@ -1,0 +1,9 @@
+Baseline: management_toolbox_stage_09_source.zip
+No existing file removed.
+Exactly seven existing files modified: README, app catalog, router, two home tests, production catalog count test and production smoke count.
+Preserved byte-for-byte: 76 existing native host, asset and calculator feature files.
+All old engines including NPV/OEE/Cp and all production engines preserved.
+Original NPV and production definitions preserved.
+Generic CalculatorPage, shared domain models and input normalizer preserved.
+pubspec.yaml and pubspec.lock identical; no new dependency.
+Only new finance tools plus catalog/routing integration and test count expectations added.

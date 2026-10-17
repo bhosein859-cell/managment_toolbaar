@@ -1,0 +1,14 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/finance/loan_payment_test.dart
+00:00 +0: loan_payment: reference formula
+00:00 +1: loan_payment: typed bind and domain validation
+00:00 +2: loan_payment: nonfinite principal
+00:00 +3: loan_payment: lower bound principal
+00:00 +4: loan_payment: nonfinite period_rate
+00:00 +5: loan_payment: lower bound period_rate
+00:00 +6: loan_payment: nonfinite periods
+00:00 +7: loan_payment: lower bound periods
+00:00 +8: loan_payment: upper bound periods
+00:00 +9: loan_payment: fractional periods are rejected
+00:00 +10: loan_payment: 20 independent Decimal formula fixtures
+00:00 +11: loan_payment: zero cross-field and numerical edge cases
+00:00 +12: All tests passed!

@@ -1,0 +1,3 @@
+[  621.825970] G1 Service invoked oom-killer: gfp_mask=0x140cca(GFP_HIGHUSER_MOVABLE|__GFP_COMP), order=0, oom_score_adj=100
+[  621.826112] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=user,mems_allowed=0,global_oom,task_memcg=/user,task=java,pid=2534,uid=1000
+[  621.826173] Out of memory: Killed process 2534 (java) total-vm:2917868kB, anon-rss:1173012kB, file-rss:0kB, shmem-rss:32kB, UID:1000 pgtables:2740kB oom_score_adj:100

@@ -1,0 +1,41 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart
+00:00 +0: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: required reference gives fraction 0.8379 and percentage output metadata
+00:00 +1: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: catalog percentages normalize once and examples match expected value
+00:00 +2: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: availability at 0 percent is handled
+00:00 +3: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: availability at 100 percent is handled
+00:00 +4: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: invalid availability "-1" is rejected with field issue
+00:00 +5: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: invalid availability "100.01" is rejected with field issue
+00:00 +6: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: invalid availability "NaN" is rejected with field issue
+00:00 +7: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: invalid availability "" is rejected with field issue
+00:00 +8: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: invalid availability "Infinity" is rejected with field issue
+00:00 +9: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: performance at 0 percent is handled
+00:00 +10: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: performance at 100 percent is handled
+00:00 +11: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: invalid performance "-1" is rejected with field issue
+00:00 +12: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: invalid performance "100.01" is rejected with field issue
+00:00 +13: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: invalid performance "NaN" is rejected with field issue
+00:00 +14: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: invalid performance "" is rejected with field issue
+00:00 +15: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: invalid performance "Infinity" is rejected with field issue
+00:00 +16: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: quality at 0 percent is handled
+00:00 +17: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: quality at 100 percent is handled
+00:00 +18: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: invalid quality "-1" is rejected with field issue
+00:00 +19: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: invalid quality "100.01" is rejected with field issue
+00:00 +20: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: invalid quality "NaN" is rejected with field issue
+00:00 +21: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: invalid quality "" is rejected with field issue
+00:00 +22: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: invalid quality "Infinity" is rejected with field issue
+00:00 +23: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: typed engine validates all ratios even outside normalizer
+00:00 +24: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: underflow is not silently reported as zero for all-positive inputs
+00:00 +25: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: accepts digit set ۹۰
+00:00 +26: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: accepts digit set ٩٠
+00:00 +27: /home/user/management_toolbox/test/features/calculators/prototypes/oee_test.dart: accepts digit set 90
+00:00 +28: loading /home/user/management_toolbox/test/features/calculators/prototypes/prototype_pages_test.dart
+00:01 +28: /home/user/management_toolbox/test/features/calculators/prototypes/prototype_pages_test.dart: OEE renders 83.79 percent and hides stale result on invalid ratio
+00:02 +29: /home/user/management_toolbox/test/features/calculators/prototypes/prototype_pages_test.dart: NPV cash flows begin at period 1; rate -100 is rejected in UI
+00:03 +30: /home/user/management_toolbox/test/features/calculators/prototypes/prototype_pages_test.dart: Cp sigma and limits are validated with assumptions visible
+00:04 +31: /home/user/management_toolbox/test/features/calculators/prototypes/prototype_pages_test.dart: all three tools are reachable from home and retain existing tools
+00:05 +32: /home/user/management_toolbox/test/features/calculators/prototypes/prototype_pages_test.dart: oee fits RTL Size(320.0, 568.0) with enlarged text
+00:05 +33: /home/user/management_toolbox/test/features/calculators/prototypes/prototype_pages_test.dart: oee fits RTL Size(1280.0, 800.0) with enlarged text
+00:06 +34: /home/user/management_toolbox/test/features/calculators/prototypes/prototype_pages_test.dart: npv fits RTL Size(320.0, 568.0) with enlarged text
+00:06 +35: /home/user/management_toolbox/test/features/calculators/prototypes/prototype_pages_test.dart: npv fits RTL Size(1280.0, 800.0) with enlarged text
+00:06 +36: /home/user/management_toolbox/test/features/calculators/prototypes/prototype_pages_test.dart: cp fits RTL Size(320.0, 568.0) with enlarged text
+00:06 +37: /home/user/management_toolbox/test/features/calculators/prototypes/prototype_pages_test.dart: cp fits RTL Size(1280.0, 800.0) with enlarged text
+00:06 +38: All tests passed!

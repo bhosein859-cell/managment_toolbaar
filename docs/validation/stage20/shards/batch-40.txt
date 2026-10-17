@@ -1,0 +1,6 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/presentation/formatting_test.dart
+00:00 +0: editable default values roundtrip without rounding to zero
+00:00 +1: numbers percentages text and lists are Persian and units retained
+00:00 +2: scientific formatting never shows false zero or overflow
+00:00 +3: guidance includes bounds units percentage conventions and optional integer flags
+00:00 +4: All tests passed!

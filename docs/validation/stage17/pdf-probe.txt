@@ -1,0 +1,1 @@
+Running build hooks...Running build hooks...Generated branded Persian/mixed text/multipage PDF, pdf 3.13.1. Rendering acceptance is separate.

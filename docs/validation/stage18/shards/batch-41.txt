@@ -1,0 +1,97 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/utilities/pages_export_test.dart
+00:00 +0: /home/user/management_toolbox/test/features/utilities/pages_export_test.dart: real clipboard adapter sends the complete Unicode result to platform
+00:00 +1: /home/user/management_toolbox/test/features/utilities/pages_export_test.dart: real share adapter preserves text and maps native statuses
+00:00 +2: /home/user/management_toolbox/test/features/utilities/pages_export_test.dart: percentage_of: reactive result, copy/share and disabled PDF
+00:01 +3: /home/user/management_toolbox/test/features/utilities/pages_export_test.dart: percentage_change: reactive result, copy/share and disabled PDF
+00:01 +4: /home/user/management_toolbox/test/features/utilities/pages_export_test.dart: percentage_base: reactive result, copy/share and disabled PDF
+00:02 +5: /home/user/management_toolbox/test/features/utilities/pages_export_test.dart: discount: reactive result, copy/share and disabled PDF
+00:02 +6: /home/user/management_toolbox/test/features/utilities/pages_export_test.dart: unit_conversion: reactive result, copy/share and disabled PDF
+00:02 +7: /home/user/management_toolbox/test/features/utilities/pages_export_test.dart: latest live input and result are paired even before next frame; invalid input cannot copy
+00:03 +8: /home/user/management_toolbox/test/features/utilities/pages_export_test.dart: busy export blocks duplicates and clears after completion
+00:03 +9: /home/user/management_toolbox/test/features/utilities/pages_export_test.dart: share status ResultShareStatus.shared is reported honestly
+00:03 +10: /home/user/management_toolbox/test/features/utilities/pages_export_test.dart: share status ResultShareStatus.dismissed is reported honestly
+00:03 +11: /home/user/management_toolbox/test/features/utilities/pages_export_test.dart: share status ResultShareStatus.unavailable is reported honestly
+00:04 +12: /home/user/management_toolbox/test/features/utilities/pages_export_test.dart: clipboard/share exceptions are surfaced and do not crash
+00:04 +13: /home/user/management_toolbox/test/features/utilities/pages_export_test.dart: glossary/utilities RTL layout Size(320.0, 568.0) dark=false
+00:04 +14: /home/user/management_toolbox/test/features/utilities/pages_export_test.dart: glossary/utilities RTL layout Size(320.0, 568.0) dark=true
+00:04 +15: /home/user/management_toolbox/test/features/utilities/pages_export_test.dart: glossary/utilities RTL layout Size(1280.0, 800.0) dark=false
+00:04 +16: /home/user/management_toolbox/test/features/utilities/pages_export_test.dart: glossary/utilities RTL layout Size(1280.0, 800.0) dark=true
+00:04 +17: /home/user/management_toolbox/test/features/utilities/pages_export_test.dart: home -> offline glossary -> real percentage calculator -> favorite/history
+00:07 +18: loading /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart
+00:07 +18: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: oee: complete text export with actual example/result/units/warnings
+00:07 +19: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: takt_time: complete text export with actual example/result/units/warnings
+00:07 +20: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: production_capacity: complete text export with actual example/result/units/warnings
+00:07 +21: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: labor_productivity: complete text export with actual example/result/units/warnings
+00:07 +22: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: cycle_time: complete text export with actual example/result/units/warnings
+00:07 +23: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: smed: complete text export with actual example/result/units/warnings
+00:07 +24: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: unit_production_cost: complete text export with actual example/result/units/warnings
+00:07 +25: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: wip: complete text export with actual example/result/units/warnings
+00:07 +26: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: throughput: complete text export with actual example/result/units/warnings
+00:07 +27: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: capacity_utilization: complete text export with actual example/result/units/warnings
+00:07 +28: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: npv: complete text export with actual example/result/units/warnings
+00:07 +29: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: irr: complete text export with actual example/result/units/warnings
+00:07 +30: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: payback: complete text export with actual example/result/units/warnings
+00:07 +31: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: roi: complete text export with actual example/result/units/warnings
+00:07 +32: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: current_ratio: complete text export with actual example/result/units/warnings
+00:07 +33: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: quick_ratio: complete text export with actual example/result/units/warnings
+00:07 +34: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: wacc: complete text export with actual example/result/units/warnings
+00:07 +35: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: compound_interest: complete text export with actual example/result/units/warnings
+00:07 +36: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: loan_payment: complete text export with actual example/result/units/warnings
+00:07 +37: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: break_even: complete text export with actual example/result/units/warnings
+00:07 +38: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: cp: complete text export with actual example/result/units/warnings
+00:07 +39: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: cpk: complete text export with actual example/result/units/warnings
+00:07 +40: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: pp: complete text export with actual example/result/units/warnings
+00:07 +41: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: ppk: complete text export with actual example/result/units/warnings
+00:07 +42: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: dpmo: complete text export with actual example/result/units/warnings
+00:07 +43: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: sigma_level: complete text export with actual example/result/units/warnings
+00:07 +44: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: xbar_control: complete text export with actual example/result/units/warnings
+00:07 +45: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: coq: complete text export with actual example/result/units/warnings
+00:07 +46: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: eoq: complete text export with actual example/result/units/warnings
+00:07 +47: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: rop: complete text export with actual example/result/units/warnings
+00:07 +48: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: safety_stock: complete text export with actual example/result/units/warnings
+00:07 +49: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: abc: complete text export with actual example/result/units/warnings
+00:07 +50: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: inventory_turnover: complete text export with actual example/result/units/warnings
+00:07 +51: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: days_inventory: complete text export with actual example/result/units/warnings
+00:07 +52: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: inventory_holding_cost: complete text export with actual example/result/units/warnings
+00:07 +53: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: reorder_interval: complete text export with actual example/result/units/warnings
+00:07 +54: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: pert_duration: complete text export with actual example/result/units/warnings
+00:07 +55: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: cpm: complete text export with actual example/result/units/warnings
+00:08 +56: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: project_float: complete text export with actual example/result/units/warnings
+00:08 +57: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: evm_performance: complete text export with actual example/result/units/warnings
+00:08 +58: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: three_point: complete text export with actual example/result/units/warnings
+00:08 +59: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: eac_etc: complete text export with actual example/result/units/warnings
+00:08 +60: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: sv_cv: complete text export with actual example/result/units/warnings
+00:08 +61: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: duration_comparison: complete text export with actual example/result/units/warnings
+00:08 +62: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: cost_per_hire: complete text export with actual example/result/units/warnings
+00:08 +63: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: employee_turnover: complete text export with actual example/result/units/warnings
+00:08 +64: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: employee_productivity: complete text export with actual example/result/units/warnings
+00:08 +65: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: training_roi: complete text export with actual example/result/units/warnings
+00:08 +66: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: replacement_time: complete text export with actual example/result/units/warnings
+00:08 +67: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: absence_cost: complete text export with actual example/result/units/warnings
+00:08 +68: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: ahp: complete text export with actual example/result/units/warnings
+00:08 +69: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: topsis: complete text export with actual example/result/units/warnings
+00:08 +70: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: decision_matrix: complete text export with actual example/result/units/warnings
+00:08 +71: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: expected_value_tree: complete text export with actual example/result/units/warnings
+00:08 +72: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: weight_sensitivity: complete text export with actual example/result/units/warnings
+00:08 +73: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: weighted_scoring: complete text export with actual example/result/units/warnings
+00:08 +74: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: cost_benefit_comparison: complete text export with actual example/result/units/warnings
+00:08 +75: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: two_option_break_even: complete text export with actual example/result/units/warnings
+00:08 +76: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: time_value_money: complete text export with actual example/result/units/warnings
+00:08 +77: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: future_present_factor: complete text export with actual example/result/units/warnings
+00:08 +78: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: present_future_factor: complete text export with actual example/result/units/warnings
+00:08 +79: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: future_annuity_factor: complete text export with actual example/result/units/warnings
+00:08 +80: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: annuity_future_factor: complete text export with actual example/result/units/warnings
+00:08 +81: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: present_annuity_factor: complete text export with actual example/result/units/warnings
+00:08 +82: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: annuity_present_factor: complete text export with actual example/result/units/warnings
+00:08 +83: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: straight_line_depreciation: complete text export with actual example/result/units/warnings
+00:08 +84: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: declining_balance_depreciation: complete text export with actual example/result/units/warnings
+00:08 +85: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: inflation_adjustment: complete text export with actual example/result/units/warnings
+00:08 +86: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: percentage_of: complete text export with actual example/result/units/warnings
+00:08 +87: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: percentage_change: complete text export with actual example/result/units/warnings
+00:08 +88: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: percentage_base: complete text export with actual example/result/units/warnings
+00:08 +89: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: discount: complete text export with actual example/result/units/warnings
+00:08 +90: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: unit_conversion: complete text export with actual example/result/units/warnings
+00:08 +91: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: original digits/whitespace and percentage display unit are not normalized away
+00:08 +92: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: valid whitespace around a choice resolves to its displayed unit name
+00:08 +93: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: incomplete export input is rejected rather than invented
+00:08 +94: All tests passed!

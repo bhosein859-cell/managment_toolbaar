@@ -1,0 +1,10 @@
+32/32 lib/features/utilities/domain/discount.dart
+30/30 lib/features/utilities/domain/percentage_base.dart
+33/33 lib/features/utilities/domain/percentage_change.dart
+30/30 lib/features/utilities/domain/percentage_of.dart
+70/71 lib/features/utilities/domain/unit_conversion.dart
+48/48 lib/features/glossary/domain/glossary_catalog.dart
+69/69 lib/features/glossary/presentation/glossary_page.dart
+33/33 lib/features/calculators/presentation/formatting/result_text_export.dart
+10/10 lib/features/calculators/presentation/services/result_actions.dart
+TOTAL 355/356

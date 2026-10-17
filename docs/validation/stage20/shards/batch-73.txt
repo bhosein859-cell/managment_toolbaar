@@ -1,0 +1,42 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/history/open_database_test.dart
+00:00 +0: production opener creates stable support file in background isolate and reopens it
+00:00 +1: retry reconstructs a failed lazy opener; never masks failure with memory storage
+WARNING (drift): It looks like you've created the database class ToolboxDatabase multiple times. When these two databases use the same QueryExecutor, race conditions will occur and might corrupt the database.
+Try to follow the advice at https://drift.simonbinder.eu/faq/#using-the-database or, if you know what you're doing, set driftRuntimeOptions.dontWarnAboutMultipleDatabases = true
+Here is the stacktrace from when the database was opened a second time:
+#0      GeneratedDatabase._handleInstantiated (package:drift/src/runtime/api/db_base.dart:96:30)
+#1      GeneratedDatabase._whenConstructed (package:drift/src/runtime/api/db_base.dart:73:12)
+#2      new GeneratedDatabase (package:drift/src/runtime/api/db_base.dart:64:5)
+#3      new ToolboxDatabase (package:management_toolbox/core/storage/toolbox_database.dart)
+#4      openApplicationDatabase (package:management_toolbox/core/storage/open_local_database.dart:14:7)
+#5      main.<anonymous closure>.create (file:///home/user/management_toolbox/test/features/history/open_database_test.dart:36:33)
+#6      DriftToolRepository.load (package:management_toolbox/features/history/data/drift_tool_repository.dart:36:26)
+<asynchronous suspension>
+#7      main.<anonymous closure> (file:///home/user/management_toolbox/test/features/history/open_database_test.dart:50:13)
+<asynchronous suspension>
+#8      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)
+<asynchronous suspension>
+#9      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#10     Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+This warning will only appear on debug builds.
+WARNING (drift): It looks like you've created the database class ToolboxDatabase multiple times. When these two databases use the same QueryExecutor, race conditions will occur and might corrupt the database.
+Try to follow the advice at https://drift.simonbinder.eu/faq/#using-the-database or, if you know what you're doing, set driftRuntimeOptions.dontWarnAboutMultipleDatabases = true
+Here is the stacktrace from when the database was opened a second time:
+#0      GeneratedDatabase._handleInstantiated (package:drift/src/runtime/api/db_base.dart:96:30)
+#1      GeneratedDatabase._whenConstructed (package:drift/src/runtime/api/db_base.dart:73:12)
+#2      new GeneratedDatabase (package:drift/src/runtime/api/db_base.dart:64:5)
+#3      new ToolboxDatabase (package:management_toolbox/core/storage/toolbox_database.dart)
+#4      openApplicationDatabase (package:management_toolbox/core/storage/open_local_database.dart:14:7)
+#5      main.<anonymous closure>.create (file:///home/user/management_toolbox/test/features/history/open_database_test.dart:36:33)
+#6      main.<anonymous closure> (file:///home/user/management_toolbox/test/features/history/open_database_test.dart:54:42)
+<asynchronous suspension>
+#7      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)
+<asynchronous suspension>
+#8      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#9      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+This warning will only appear on debug builds.
+00:00 +2: All tests passed!

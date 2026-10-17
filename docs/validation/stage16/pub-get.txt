@@ -1,0 +1,16 @@
+Resolving dependencies...
+Downloading packages...
+  material_color_utilities 0.13.0 (0.13.1 available)
+< path_provider_android 2.2.22 (was 2.3.1) (from transitive dependency to direct dependency) (2.3.1 available)
+  petitparser 7.0.2 (7.1.0 available)
+  test_api 0.7.12 (0.7.15 available)
+  vector_math 2.4.0 (2.4.3 available)
+  xml 7.0.1 (7.1.0 available)
+These packages are no longer being depended on:
+- jni 1.1.0
+- jni_flutter 1.0.4+1
+- jni_util 1.0.0
+- package_config 3.0.0
+Changed 5 dependencies!
+6 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.

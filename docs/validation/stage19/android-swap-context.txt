@@ -1,0 +1,4 @@
+Host: 2 GB RAM + newly enabled 2 GB temporary swap; arm64 only; unsigned; sequential.
+               total        used        free      shared  buff/cache   available
+Mem:            1982         524        1047         162         757        1458
+Swap:           2047         235        1812

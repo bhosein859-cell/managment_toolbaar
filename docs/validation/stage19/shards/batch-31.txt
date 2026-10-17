@@ -1,0 +1,17 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/finance/wacc_test.dart
+00:00 +0: wacc: reference formula
+00:00 +1: wacc: typed bind and domain validation
+00:00 +2: wacc: nonfinite equity
+00:00 +3: wacc: lower bound equity
+00:00 +4: wacc: nonfinite debt
+00:00 +5: wacc: lower bound debt
+00:00 +6: wacc: nonfinite equity_cost
+00:00 +7: wacc: lower bound equity_cost
+00:00 +8: wacc: nonfinite debt_cost
+00:00 +9: wacc: lower bound debt_cost
+00:00 +10: wacc: nonfinite tax_rate
+00:00 +11: wacc: lower bound tax_rate
+00:00 +12: wacc: upper bound tax_rate
+00:00 +13: wacc: 20 independent Decimal formula fixtures
+00:00 +14: wacc: zero cross-field and numerical edge cases
+00:00 +15: All tests passed!

@@ -1,0 +1,3 @@
+package: com.managementtoolbox.management_toolbox
+permission: com.managementtoolbox.management_toolbox.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+uses-permission: name='com.managementtoolbox.management_toolbox.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION'

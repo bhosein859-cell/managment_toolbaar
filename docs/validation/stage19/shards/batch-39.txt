@@ -1,0 +1,13 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/presentation/form_controller_test.dart
+00:00 +0: defaults are shown and computed through the engine
+00:00 +1: updates live from ۲۰۰ with percentages converted once
+00:00 +2: updates live from ٢٠٠ with percentages converted once
+00:00 +3: updates live from 200 with percentages converted once
+00:00 +4: invalid and partial inputs remove stale result immediately
+00:00 +5: examples replace inputs rather than carrying stale values; reset restores defaults
+00:00 +6: initial inputs are restored and invalid unknown data is surfaced globally
+00:00 +7: choice validation and blank defaults follow domain rules
+00:00 +8: structured lists preserve each item and reject malformed elements
+00:00 +9: domain and unexpected failures do not retain result or interpretation
+00:00 +10: demo formula examples and endpoint reductions are correct
+00:00 +11: All tests passed!

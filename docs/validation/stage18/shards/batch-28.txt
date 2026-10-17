@@ -1,0 +1,60 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/project/engines_test.dart
+00:00 +0: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: pert_duration: independent typed default and assumptions
+00:00 +1: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: pert_duration.optimistic: rejects negative and all nonfinite values directly
+00:00 +2: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: pert_duration.most_likely: rejects negative and all nonfinite values directly
+00:00 +3: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: pert_duration.pessimistic: rejects negative and all nonfinite values directly
+00:00 +4: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: cpm: independent typed default and assumptions
+00:00 +5: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: project_float: independent typed default and assumptions
+00:00 +6: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: evm_performance: independent typed default and assumptions
+00:00 +7: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: evm_performance.pv: rejects negative and all nonfinite values directly
+00:00 +8: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: evm_performance.ev: rejects negative and all nonfinite values directly
+00:00 +9: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: evm_performance.ac: rejects negative and all nonfinite values directly
+00:00 +10: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: three_point: independent typed default and assumptions
+00:00 +11: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: three_point.optimistic: rejects negative and all nonfinite values directly
+00:00 +12: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: three_point.most_likely: rejects negative and all nonfinite values directly
+00:00 +13: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: three_point.pessimistic: rejects negative and all nonfinite values directly
+00:00 +14: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: eac_etc: independent typed default and assumptions
+00:00 +15: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: eac_etc.bac: rejects negative and all nonfinite values directly
+00:00 +16: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: eac_etc.pv: rejects negative and all nonfinite values directly
+00:00 +17: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: eac_etc.ev: rejects negative and all nonfinite values directly
+00:00 +18: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: eac_etc.ac: rejects negative and all nonfinite values directly
+00:00 +19: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: eac_etc.new_etc: rejects negative and all nonfinite values directly
+00:00 +20: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: sv_cv: independent typed default and assumptions
+00:00 +21: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: sv_cv.pv: rejects negative and all nonfinite values directly
+00:00 +22: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: sv_cv.ev: rejects negative and all nonfinite values directly
+00:00 +23: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: sv_cv.ac: rejects negative and all nonfinite values directly
+00:00 +24: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: duration_comparison: independent typed default and assumptions
+00:00 +25: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: duration_comparison.planned_duration: rejects negative and all nonfinite values directly
+00:00 +26: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: duration_comparison.actual_duration: rejects negative and all nonfinite values directly
+00:00 +27: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: pert_duration: independent Decimal or exhaustive-path oracle
+00:00 +28: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: cpm: independent Decimal or exhaustive-path oracle
+00:00 +29: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: project_float: independent Decimal or exhaustive-path oracle
+00:00 +30: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: evm_performance: independent Decimal or exhaustive-path oracle
+00:00 +31: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: three_point: independent Decimal or exhaustive-path oracle
+00:00 +32: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: eac_etc: independent Decimal or exhaustive-path oracle
+00:00 +33: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: sv_cv: independent Decimal or exhaustive-path oracle
+00:00 +34: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: duration_comparison: independent Decimal or exhaustive-path oracle
+00:00 +35: loading /home/user/management_toolbox/test/features/calculators/project/network_test.dart
+00:00 +35: /home/user/management_toolbox/test/features/calculators/project/network_test.dart: CPM: golden forward/backward passes and connected path
+00:00 +36: /home/user/management_toolbox/test/features/calculators/project/network_test.dart: Float: TF differs from FF with delayed downstream noncritical work
+00:00 +37: /home/user/management_toolbox/test/features/calculators/project/network_test.dart: Multiple critical paths: union is not a path, deterministic connected representative
+00:01 +38: /home/user/management_toolbox/test/features/calculators/project/network_test.dart: Disconnected components share virtual finish: shorter terminal gets FF
+00:01 +39: /home/user/management_toolbox/test/features/calculators/project/network_test.dart: Zero milestones, all-zero networks, isolated nodes and many sources/sinks
+00:01 +40: /home/user/management_toolbox/test/features/calculators/project/network_test.dart: Kahn rejects full, partial and zero-duration cycles
+00:01 +41: /home/user/management_toolbox/test/features/calculators/project/network_test.dart: Unknown refs, duplicates, self edges and invalid IDs are not silently dropped
+00:01 +42: /home/user/management_toolbox/test/features/calculators/project/network_test.dart: Direct model rejects nonfinite or negative duration
+00:01 +43: /home/user/management_toolbox/test/features/calculators/project/network_test.dart: Network limits: empty and oversized nodes/edges reject
+00:01 +44: /home/user/management_toolbox/test/features/calculators/project/network_test.dart: 200 activities schedule without recursion, also fractional durations
+00:01 +45: /home/user/management_toolbox/test/features/calculators/project/network_test.dart: Count exponential paths with BigInt without enumerating paths
+00:01 +46: /home/user/management_toolbox/test/features/calculators/project/network_test.dart: Tiny scale retains nonzero times, huge scale refuses lost durations/overflow
+00:01 +47: /home/user/management_toolbox/test/features/calculators/project/network_test.dart: Tolerance has no one-day floor, only slack is normalized
+00:01 +48: /home/user/management_toolbox/test/features/calculators/project/network_test.dart: Near-equal slack classification discloses scaled epsilon
+00:01 +49: /home/user/management_toolbox/test/features/calculators/project/network_test.dart: Near-critical alternatives do not multiply or shorten the actual longest paths
+00:01 +50: /home/user/management_toolbox/test/features/calculators/project/network_test.dart: Immutable inputs and schedule snapshots
+00:01 +51: /home/user/management_toolbox/test/features/calculators/project/network_test.dart: cpm: structural form rejects fractional, missing, mismatched and duplicate refs
+00:01 +52: /home/user/management_toolbox/test/features/calculators/project/network_test.dart: cpm: empty dependency lists mean no edges, not default graph
+00:01 +53: /home/user/management_toolbox/test/features/calculators/project/network_test.dart: project_float: structural form rejects fractional, missing, mismatched and duplicate refs
+00:01 +54: /home/user/management_toolbox/test/features/calculators/project/network_test.dart: project_float: empty dependency lists mean no edges, not default graph
+00:01 +55: /home/user/management_toolbox/test/features/calculators/project/network_test.dart: Binding validates normalized shape, IDs and row capacities too
+00:01 +56: /home/user/management_toolbox/test/features/calculators/project/network_test.dart: Optional empty series is supported only with minItems zero and nonrequired
+00:01 +57: All tests passed!

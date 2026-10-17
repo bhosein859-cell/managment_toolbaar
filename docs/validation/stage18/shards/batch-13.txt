@@ -1,0 +1,18 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/finance/finance_visual_test.dart
+00:00 +0: /home/user/management_toolbox/test/features/calculators/finance/finance_visual_test.dart: capture finance registry IRR valid and rejected roots and loan
+00:00 +0 ~1: loading /home/user/management_toolbox/test/features/calculators/finance/irr_test.dart
+00:00 +0 ~1: /home/user/management_toolbox/test/features/calculators/finance/irr_test.dart: IRR known unique multi-period root
+00:00 +1 ~1: /home/user/management_toolbox/test/features/calculators/finance/irr_test.dart: IRR positive negative zero and reversed financing flow signs
+00:00 +2 ~1: /home/user/management_toolbox/test/features/calculators/finance/irr_test.dart: IRR exactly balanced cash flows have zero rate
+00:00 +3 ~1: /home/user/management_toolbox/test/features/calculators/finance/irr_test.dart: IRR scale invariance at tiny and huge values
+00:00 +4 ~1: /home/user/management_toolbox/test/features/calculators/finance/irr_test.dart: IRR no sign change is genuinely no root
+00:00 +5 ~1: /home/user/management_toolbox/test/features/calculators/finance/irr_test.dart: IRR zero flows and leading zero are not fabricated answers
+00:00 +6 ~1: /home/user/management_toolbox/test/features/calculators/finance/irr_test.dart: IRR ambiguous cash flows do not silently select one root
+00:00 +7 ~1: /home/user/management_toolbox/test/features/calculators/finance/irr_test.dart: IRR iteration budget exhaustion yields failure, not last iterate
+00:00 +8 ~1: /home/user/management_toolbox/test/features/calculators/finance/irr_test.dart: IRR numerical bounds are not mislabeled as no mathematical root
+00:00 +9 ~1: /home/user/management_toolbox/test/features/calculators/finance/irr_test.dart: IRR invalid length and NaN Infinity are rejected directly
+00:00 +10 ~1: /home/user/management_toolbox/test/features/calculators/finance/irr_test.dart: IRR immutable parameters and typed binding
+00:00 +11 ~1: /home/user/management_toolbox/test/features/calculators/finance/irr_test.dart: IRR near-minus-one precision failures are explicit when necessary
+00:00 +12 ~1: /home/user/management_toolbox/test/features/calculators/finance/irr_test.dart: IRR 1000-flow horizon retains timing and tiny rates
+00:00 +13 ~1: /home/user/management_toolbox/test/features/calculators/finance/irr_test.dart: IRR independent Decimal-derived multi-period roots
+00:00 +14 ~1: All tests passed!

@@ -1,0 +1,115 @@
+Resolving dependencies...
+Downloading packages...
+  material_color_utilities 0.13.0 (0.13.1 available)
+  meta 1.18.3 (1.19.0 available)
+  petitparser 7.0.2 (7.1.0 available)
+  test_api 0.7.12 (0.7.15 available)
+  vector_math 2.4.0 (2.4.3 available)
+  xml 7.0.1 (7.1.0 available)
+Got dependencies!
+6 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/hr/engines_test.dart
+00:00 +0: /home/user/management_toolbox/test/features/calculators/hr/engines_test.dart: cost_per_hire: typed golden example, context and no definitive performance label
+00:00 +1: /home/user/management_toolbox/test/features/calculators/hr/engines_test.dart: cost_per_hire.internal_cost: negative and nonfinite direct inputs give Persian field errors
+00:00 +2: /home/user/management_toolbox/test/features/calculators/hr/engines_test.dart: cost_per_hire.external_cost: negative and nonfinite direct inputs give Persian field errors
+00:00 +3: /home/user/management_toolbox/test/features/calculators/hr/engines_test.dart: cost_per_hire.hires: negative and nonfinite direct inputs give Persian field errors
+00:00 +4: /home/user/management_toolbox/test/features/calculators/hr/engines_test.dart: cost_per_hire.hires: zero explicitly rejected
+00:00 +5: /home/user/management_toolbox/test/features/calculators/hr/engines_test.dart: cost_per_hire.hires: fractional and excessive counts reject
+00:00 +6: /home/user/management_toolbox/test/features/calculators/hr/engines_test.dart: cost_per_hire.period_days: negative and nonfinite direct inputs give Persian field errors
+00:00 +7: /home/user/management_toolbox/test/features/calculators/hr/engines_test.dart: cost_per_hire.period_days: zero explicitly rejected
+00:00 +8: /home/user/management_toolbox/test/features/calculators/hr/engines_test.dart: employee_turnover: typed golden example, context and no definitive performance label
+00:00 +9: /home/user/management_toolbox/test/features/calculators/hr/engines_test.dart: employee_turnover.separations: negative and nonfinite direct inputs give Persian field errors
+00:00 +10: /home/user/management_toolbox/test/features/calculators/hr/engines_test.dart: employee_turnover.separations: fractional and excessive counts reject
+00:00 +11: /home/user/management_toolbox/test/features/calculators/hr/engines_test.dart: employee_turnover.opening_headcount: negative and nonfinite direct inputs give Persian field errors
+00:00 +12: /home/user/management_toolbox/test/features/calculators/hr/engines_test.dart: employee_turnover.opening_headcount: fractional and excessive counts reject
+00:00 +13: /home/user/management_toolbox/test/features/calculators/hr/engines_test.dart: employee_turnover.closing_headcount: negative and nonfinite direct inputs give Persian field errors
+00:00 +14: /home/user/management_toolbox/test/features/calculators/hr/engines_test.dart: employee_turnover.closing_headcount: fractional and excessive counts reject
+00:00 +15: /home/user/management_toolbox/test/features/calculators/hr/engines_test.dart: employee_turnover.period_days: negative and nonfinite direct inputs give Persian field errors
+00:00 +16: /home/user/management_toolbox/test/features/calculators/hr/engines_test.dart: employee_turnover.period_days: zero explicitly rejected
+00:00 +17: /home/user/management_toolbox/test/features/calculators/hr/engines_test.dart: employee_productivity: typed golden example, context and no definitive performance label
+00:00 +18: /home/user/management_toolbox/test/features/calculators/hr/engines_test.dart: employee_productivity.output: negative and nonfinite direct inputs give Persian field errors
+00:00 +19: /home/user/management_toolbox/test/features/calculators/hr/engines_test.dart: employee_productivity.worked_hours: negative and nonfinite direct inputs give Persian field errors
+00:00 +20: /home/user/management_toolbox/test/features/calculators/hr/engines_test.dart: employee_productivity.worked_hours: zero explicitly rejected
+00:00 +21: /home/user/management_toolbox/test/features/calculators/hr/engines_test.dart: employee_productivity.period_days: negative and nonfinite direct inputs give Persian field errors
+00:00 +22: /home/user/management_toolbox/test/features/calculators/hr/engines_test.dart: employee_productivity.period_days: zero explicitly rejected
+00:00 +23: /home/user/management_toolbox/test/features/calculators/hr/engines_test.dart: training_roi: typed golden example, context and no definitive performance label
+00:00 +24: /home/user/management_toolbox/test/features/calculators/hr/engines_test.dart: training_roi.gross_benefits: negative and nonfinite direct inputs give Persian field errors
+00:00 +25: /home/user/management_toolbox/test/features/calculators/hr/engines_test.dart: training_roi.attribution_rate: negative and nonfinite direct inputs give Persian field errors
+00:00 +26: /home/user/management_toolbox/test/features/calculators/hr/engines_test.dart: training_roi.training_cost: negative and nonfinite direct inputs give Persian field errors
+00:00 +27: /home/user/management_toolbox/test/features/calculators/hr/engines_test.dart: training_roi.training_cost: zero explicitly rejected
+00:00 +28: /home/user/management_toolbox/test/features/calculators/hr/engines_test.dart: training_roi.period_days: negative and nonfinite direct inputs give Persian field errors
+00:00 +29: /home/user/management_toolbox/test/features/calculators/hr/engines_test.dart: training_roi.period_days: zero explicitly rejected
+00:00 +30: /home/user/management_toolbox/test/features/calculators/hr/engines_test.dart: replacement_time: typed golden example, context and no definitive performance label
+00:00 +31: /home/user/management_toolbox/test/features/calculators/hr/engines_test.dart: replacement_time.period_days: negative and nonfinite direct inputs give Persian field errors
+00:00 +32: /home/user/management_toolbox/test/features/calculators/hr/engines_test.dart: replacement_time.period_days: zero explicitly rejected
+00:00 +33: /home/user/management_toolbox/test/features/calculators/hr/engines_test.dart: absence_cost: typed golden example, context and no definitive performance label
+00:00 +34: /home/user/management_toolbox/test/features/calculators/hr/engines_test.dart: absence_cost.paid_absent_hours: negative and nonfinite direct inputs give Persian field errors
+00:00 +35: /home/user/management_toolbox/test/features/calculators/hr/engines_test.dart: absence_cost.loaded_hourly_cost: negative and nonfinite direct inputs give Persian field errors
+00:00 +36: /home/user/management_toolbox/test/features/calculators/hr/engines_test.dart: absence_cost.loaded_hourly_cost: zero explicitly rejected
+00:00 +37: /home/user/management_toolbox/test/features/calculators/hr/engines_test.dart: absence_cost.incremental_cover_cost: negative and nonfinite direct inputs give Persian field errors
+00:00 +38: /home/user/management_toolbox/test/features/calculators/hr/engines_test.dart: absence_cost.period_days: negative and nonfinite direct inputs give Persian field errors
+00:00 +39: /home/user/management_toolbox/test/features/calculators/hr/engines_test.dart: absence_cost.period_days: zero explicitly rejected
+00:00 +40: /home/user/management_toolbox/test/features/calculators/hr/engines_test.dart: cost_per_hire: 20 independent Decimal references and all supplied details
+00:00 +41: /home/user/management_toolbox/test/features/calculators/hr/engines_test.dart: employee_turnover: 20 independent Decimal references and all supplied details
+00:00 +42: /home/user/management_toolbox/test/features/calculators/hr/engines_test.dart: employee_productivity: 20 independent Decimal references and all supplied details
+00:00 +43: /home/user/management_toolbox/test/features/calculators/hr/engines_test.dart: training_roi: 20 independent Decimal references and all supplied details
+00:00 +44: /home/user/management_toolbox/test/features/calculators/hr/engines_test.dart: replacement_time: 20 independent Decimal references and all supplied details
+00:00 +45: /home/user/management_toolbox/test/features/calculators/hr/engines_test.dart: absence_cost: 20 independent Decimal references and all supplied details
+00:00 +46: loading /home/user/management_toolbox/test/features/calculators/hr/pages_test.dart
+00:00 +46: /home/user/management_toolbox/test/features/calculators/hr/pages_test.dart: cost_per_hire: generic form rendered formula error and example
+00:02 +47: /home/user/management_toolbox/test/features/calculators/hr/pages_test.dart: employee_turnover: generic form rendered formula error and example
+00:03 +48: /home/user/management_toolbox/test/features/calculators/hr/pages_test.dart: employee_productivity: generic form rendered formula error and example
+00:04 +49: /home/user/management_toolbox/test/features/calculators/hr/pages_test.dart: training_roi: generic form rendered formula error and example
+00:04 +50: /home/user/management_toolbox/test/features/calculators/hr/pages_test.dart: replacement_time: generic form rendered formula error and example
+00:05 +51: /home/user/management_toolbox/test/features/calculators/hr/pages_test.dart: absence_cost: generic form rendered formula error and example
+00:05 +52: /home/user/management_toolbox/test/features/calculators/hr/pages_test.dart: six HR tools open through real category routes
+00:08 +53: /home/user/management_toolbox/test/features/calculators/hr/pages_test.dart: zero average turnover and blank observations have Persian errors
+00:08 +54: /home/user/management_toolbox/test/features/calculators/hr/pages_test.dart: negative training ROI remains descriptive, not clamped
+00:09 +55: /home/user/management_toolbox/test/features/calculators/hr/pages_test.dart: HR context and time list save/reopen, invalid fields disable save
+00:11 +56: /home/user/management_toolbox/test/features/calculators/hr/pages_test.dart: HR incomplete external snapshots do not silently borrow example defaults
+00:12 +57: /home/user/management_toolbox/test/features/calculators/hr/pages_test.dart: six HR pages fit Size(320.0, 568.0) dark=false enlarged RTL
+00:13 +58: /home/user/management_toolbox/test/features/calculators/hr/pages_test.dart: six HR pages fit Size(320.0, 568.0) dark=true enlarged RTL
+00:13 +59: /home/user/management_toolbox/test/features/calculators/hr/pages_test.dart: six HR pages fit Size(1280.0, 800.0) dark=false enlarged RTL
+00:14 +60: /home/user/management_toolbox/test/features/calculators/hr/pages_test.dart: six HR pages fit Size(1280.0, 800.0) dark=true enlarged RTL
+00:15 +61: loading /home/user/management_toolbox/test/features/calculators/hr/boundaries_test.dart
+00:15 +61: /home/user/management_toolbox/test/features/calculators/hr/boundaries_test.dart: CPH zero observed costs is legitimate, zero hires is undefined
+00:15 +62: /home/user/management_toolbox/test/features/calculators/hr/boundaries_test.dart: Turnover endpoints approximation, zero exits and >100 percent not clipped
+00:15 +63: /home/user/management_toolbox/test/features/calculators/hr/boundaries_test.dart: Productivity: fractional standardized output, zero output and positive denominator
+00:15 +64: /home/user/management_toolbox/test/features/calculators/hr/boundaries_test.dart: Training ROI: attribution, break-even, loss and no clamping
+00:15 +65: /home/user/management_toolbox/test/features/calculators/hr/boundaries_test.dart: Training ROI: numerical extremes, percentage display remains fractional
+00:15 +66: /home/user/management_toolbox/test/features/calculators/hr/boundaries_test.dart: Replacement: exact list denominator, same-day zero, subday and old vacancies
+00:15 +67: /home/user/management_toolbox/test/features/calculators/hr/boundaries_test.dart: Replacement: empty, oversized, negative/nonfinite items reject with row
+00:15 +68: /home/user/management_toolbox/test/features/calculators/hr/boundaries_test.dart: Replacement list snapshots immutable
+00:15 +69: /home/user/management_toolbox/test/features/calculators/hr/boundaries_test.dart: Absence direct model identity, zero absence and incompatible cover
+00:15 +70: /home/user/management_toolbox/test/features/calculators/hr/boundaries_test.dart: Observed zero warning is not a definitive good/bad label
+00:15 +71: /home/user/management_toolbox/test/features/calculators/hr/boundaries_test.dart: Strict missing-field policy is opt-in; existing default contract preserved
+00:15 +72: loading /home/user/management_toolbox/test/features/calculators/hr/catalog_test.dart
+00:16 +72: /home/user/management_toolbox/test/features/calculators/hr/catalog_test.dart: six HR tools and 50 catalog entries
+00:16 +73: /home/user/management_toolbox/test/features/calculators/hr/catalog_test.dart: cost_per_hire: full definition formula and educational numeric example
+00:16 +74: /home/user/management_toolbox/test/features/calculators/hr/catalog_test.dart: cost_per_hire: Arabic Persian Latin digits and malformed form data
+00:16 +75: /home/user/management_toolbox/test/features/calculators/hr/catalog_test.dart: employee_turnover: full definition formula and educational numeric example
+00:16 +76: /home/user/management_toolbox/test/features/calculators/hr/catalog_test.dart: employee_turnover: Arabic Persian Latin digits and malformed form data
+00:16 +77: /home/user/management_toolbox/test/features/calculators/hr/catalog_test.dart: employee_productivity: full definition formula and educational numeric example
+00:16 +78: /home/user/management_toolbox/test/features/calculators/hr/catalog_test.dart: employee_productivity: Arabic Persian Latin digits and malformed form data
+00:16 +79: /home/user/management_toolbox/test/features/calculators/hr/catalog_test.dart: training_roi: full definition formula and educational numeric example
+00:16 +80: /home/user/management_toolbox/test/features/calculators/hr/catalog_test.dart: training_roi: Arabic Persian Latin digits and malformed form data
+00:16 +81: /home/user/management_toolbox/test/features/calculators/hr/catalog_test.dart: replacement_time: full definition formula and educational numeric example
+00:16 +82: /home/user/management_toolbox/test/features/calculators/hr/catalog_test.dart: replacement_time: Arabic Persian Latin digits and malformed form data
+00:16 +83: /home/user/management_toolbox/test/features/calculators/hr/catalog_test.dart: absence_cost: full definition formula and educational numeric example
+00:16 +84: /home/user/management_toolbox/test/features/calculators/hr/catalog_test.dart: absence_cost: Arabic Persian Latin digits and malformed form data
+00:16 +85: /home/user/management_toolbox/test/features/calculators/hr/catalog_test.dart: cost_per_hire: omitted or blank observations never become defaults
+00:16 +86: /home/user/management_toolbox/test/features/calculators/hr/catalog_test.dart: cost_per_hire: changing period context does not silently annualize
+00:16 +87: /home/user/management_toolbox/test/features/calculators/hr/catalog_test.dart: employee_turnover: omitted or blank observations never become defaults
+00:16 +88: /home/user/management_toolbox/test/features/calculators/hr/catalog_test.dart: employee_turnover: changing period context does not silently annualize
+00:16 +89: /home/user/management_toolbox/test/features/calculators/hr/catalog_test.dart: employee_productivity: omitted or blank observations never become defaults
+00:16 +90: /home/user/management_toolbox/test/features/calculators/hr/catalog_test.dart: employee_productivity: changing period context does not silently annualize
+00:16 +91: /home/user/management_toolbox/test/features/calculators/hr/catalog_test.dart: training_roi: omitted or blank observations never become defaults
+00:16 +92: /home/user/management_toolbox/test/features/calculators/hr/catalog_test.dart: training_roi: changing period context does not silently annualize
+00:16 +93: /home/user/management_toolbox/test/features/calculators/hr/catalog_test.dart: replacement_time: omitted or blank observations never become defaults
+00:16 +94: /home/user/management_toolbox/test/features/calculators/hr/catalog_test.dart: replacement_time: changing period context does not silently annualize
+00:16 +95: /home/user/management_toolbox/test/features/calculators/hr/catalog_test.dart: absence_cost: omitted or blank observations never become defaults
+00:16 +96: /home/user/management_toolbox/test/features/calculators/hr/catalog_test.dart: absence_cost: changing period context does not silently annualize
+00:16 +97: loading /home/user/management_toolbox/test/features/calculators/hr/visual_test.dart
+00:17 +97: /home/user/management_toolbox/test/features/calculators/hr/visual_test.dart: capture HR category turnover zero denominator and training ROI
+00:17 +97 ~1: All tests passed!

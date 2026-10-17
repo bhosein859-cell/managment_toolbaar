@@ -1,0 +1,348 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/utilities/engines_test.dart
+00:00 +0: /home/user/management_toolbox/test/features/utilities/engines_test.dart: 42 explicitly supported units, 10 dimensions and 73 real tools
+00:00 +1: /home/user/management_toolbox/test/features/utilities/engines_test.dart: mm: independent forward and reverse reference
+00:00 +2: /home/user/management_toolbox/test/features/utilities/engines_test.dart: cm: independent forward and reverse reference
+00:00 +3: /home/user/management_toolbox/test/features/utilities/engines_test.dart: m: independent forward and reverse reference
+00:00 +4: /home/user/management_toolbox/test/features/utilities/engines_test.dart: km: independent forward and reverse reference
+00:00 +5: /home/user/management_toolbox/test/features/utilities/engines_test.dart: inch: independent forward and reverse reference
+00:00 +6: /home/user/management_toolbox/test/features/utilities/engines_test.dart: foot: independent forward and reverse reference
+00:00 +7: /home/user/management_toolbox/test/features/utilities/engines_test.dart: yard: independent forward and reverse reference
+00:00 +8: /home/user/management_toolbox/test/features/utilities/engines_test.dart: cm2: independent forward and reverse reference
+00:00 +9: /home/user/management_toolbox/test/features/utilities/engines_test.dart: m2: independent forward and reverse reference
+00:00 +10: /home/user/management_toolbox/test/features/utilities/engines_test.dart: hectare: independent forward and reverse reference
+00:00 +11: /home/user/management_toolbox/test/features/utilities/engines_test.dart: km2: independent forward and reverse reference
+00:00 +12: /home/user/management_toolbox/test/features/utilities/engines_test.dart: ml: independent forward and reverse reference
+00:00 +13: /home/user/management_toolbox/test/features/utilities/engines_test.dart: litre: independent forward and reverse reference
+00:00 +14: /home/user/management_toolbox/test/features/utilities/engines_test.dart: m3: independent forward and reverse reference
+00:00 +15: /home/user/management_toolbox/test/features/utilities/engines_test.dart: mg: independent forward and reverse reference
+00:00 +16: /home/user/management_toolbox/test/features/utilities/engines_test.dart: g: independent forward and reverse reference
+00:00 +17: /home/user/management_toolbox/test/features/utilities/engines_test.dart: kg: independent forward and reverse reference
+00:00 +18: /home/user/management_toolbox/test/features/utilities/engines_test.dart: tonne: independent forward and reverse reference
+00:00 +19: /home/user/management_toolbox/test/features/utilities/engines_test.dart: pound: independent forward and reverse reference
+00:00 +20: /home/user/management_toolbox/test/features/utilities/engines_test.dart: second: independent forward and reverse reference
+00:00 +21: /home/user/management_toolbox/test/features/utilities/engines_test.dart: minute: independent forward and reverse reference
+00:00 +22: /home/user/management_toolbox/test/features/utilities/engines_test.dart: hour: independent forward and reverse reference
+00:00 +23: /home/user/management_toolbox/test/features/utilities/engines_test.dart: day: independent forward and reverse reference
+00:00 +24: /home/user/management_toolbox/test/features/utilities/engines_test.dart: metres_second: independent forward and reverse reference
+00:00 +25: /home/user/management_toolbox/test/features/utilities/engines_test.dart: km_hour: independent forward and reverse reference
+00:00 +26: /home/user/management_toolbox/test/features/utilities/engines_test.dart: feet_second: independent forward and reverse reference
+00:00 +27: /home/user/management_toolbox/test/features/utilities/engines_test.dart: pa: independent forward and reverse reference
+00:00 +28: /home/user/management_toolbox/test/features/utilities/engines_test.dart: kpa: independent forward and reverse reference
+00:00 +29: /home/user/management_toolbox/test/features/utilities/engines_test.dart: mpa: independent forward and reverse reference
+00:00 +30: /home/user/management_toolbox/test/features/utilities/engines_test.dart: bar: independent forward and reverse reference
+00:00 +31: /home/user/management_toolbox/test/features/utilities/engines_test.dart: psi: independent forward and reverse reference
+00:00 +32: /home/user/management_toolbox/test/features/utilities/engines_test.dart: joule: independent forward and reverse reference
+00:00 +33: /home/user/management_toolbox/test/features/utilities/engines_test.dart: kilojoule: independent forward and reverse reference
+00:00 +34: /home/user/management_toolbox/test/features/utilities/engines_test.dart: megajoule: independent forward and reverse reference
+00:00 +35: /home/user/management_toolbox/test/features/utilities/engines_test.dart: watt_hour: independent forward and reverse reference
+00:00 +36: /home/user/management_toolbox/test/features/utilities/engines_test.dart: kilowatt_hour: independent forward and reverse reference
+00:00 +37: /home/user/management_toolbox/test/features/utilities/engines_test.dart: watt: independent forward and reverse reference
+00:00 +38: /home/user/management_toolbox/test/features/utilities/engines_test.dart: kilowatt: independent forward and reverse reference
+00:00 +39: /home/user/management_toolbox/test/features/utilities/engines_test.dart: megawatt: independent forward and reverse reference
+00:00 +40: /home/user/management_toolbox/test/features/utilities/engines_test.dart: celsius: independent forward and reverse reference
+00:00 +41: /home/user/management_toolbox/test/features/utilities/engines_test.dart: fahrenheit: independent forward and reverse reference
+00:00 +42: /home/user/management_toolbox/test/features/utilities/engines_test.dart: kelvin: independent forward and reverse reference
+00:00 +43: /home/user/management_toolbox/test/features/utilities/engines_test.dart: mm -> mm: same-dimension round trip
+00:00 +44: /home/user/management_toolbox/test/features/utilities/engines_test.dart: mm -> cm: same-dimension round trip
+00:00 +45: /home/user/management_toolbox/test/features/utilities/engines_test.dart: mm -> m: same-dimension round trip
+00:00 +46: /home/user/management_toolbox/test/features/utilities/engines_test.dart: mm -> km: same-dimension round trip
+00:00 +47: /home/user/management_toolbox/test/features/utilities/engines_test.dart: mm -> inch: same-dimension round trip
+00:00 +48: /home/user/management_toolbox/test/features/utilities/engines_test.dart: mm -> foot: same-dimension round trip
+00:00 +49: /home/user/management_toolbox/test/features/utilities/engines_test.dart: mm -> yard: same-dimension round trip
+00:00 +50: /home/user/management_toolbox/test/features/utilities/engines_test.dart: cm -> mm: same-dimension round trip
+00:00 +51: /home/user/management_toolbox/test/features/utilities/engines_test.dart: cm -> cm: same-dimension round trip
+00:00 +52: /home/user/management_toolbox/test/features/utilities/engines_test.dart: cm -> m: same-dimension round trip
+00:00 +53: /home/user/management_toolbox/test/features/utilities/engines_test.dart: cm -> km: same-dimension round trip
+00:00 +54: /home/user/management_toolbox/test/features/utilities/engines_test.dart: cm -> inch: same-dimension round trip
+00:00 +55: /home/user/management_toolbox/test/features/utilities/engines_test.dart: cm -> foot: same-dimension round trip
+00:00 +56: /home/user/management_toolbox/test/features/utilities/engines_test.dart: cm -> yard: same-dimension round trip
+00:00 +57: /home/user/management_toolbox/test/features/utilities/engines_test.dart: m -> mm: same-dimension round trip
+00:00 +58: /home/user/management_toolbox/test/features/utilities/engines_test.dart: m -> cm: same-dimension round trip
+00:00 +59: /home/user/management_toolbox/test/features/utilities/engines_test.dart: m -> m: same-dimension round trip
+00:00 +60: /home/user/management_toolbox/test/features/utilities/engines_test.dart: m -> km: same-dimension round trip
+00:00 +61: /home/user/management_toolbox/test/features/utilities/engines_test.dart: m -> inch: same-dimension round trip
+00:00 +62: /home/user/management_toolbox/test/features/utilities/engines_test.dart: m -> foot: same-dimension round trip
+00:00 +63: /home/user/management_toolbox/test/features/utilities/engines_test.dart: m -> yard: same-dimension round trip
+00:00 +64: /home/user/management_toolbox/test/features/utilities/engines_test.dart: km -> mm: same-dimension round trip
+00:00 +65: /home/user/management_toolbox/test/features/utilities/engines_test.dart: km -> cm: same-dimension round trip
+00:00 +66: /home/user/management_toolbox/test/features/utilities/engines_test.dart: km -> m: same-dimension round trip
+00:00 +67: /home/user/management_toolbox/test/features/utilities/engines_test.dart: km -> km: same-dimension round trip
+00:00 +68: /home/user/management_toolbox/test/features/utilities/engines_test.dart: km -> inch: same-dimension round trip
+00:00 +69: /home/user/management_toolbox/test/features/utilities/engines_test.dart: km -> foot: same-dimension round trip
+00:00 +70: /home/user/management_toolbox/test/features/utilities/engines_test.dart: km -> yard: same-dimension round trip
+00:00 +71: /home/user/management_toolbox/test/features/utilities/engines_test.dart: inch -> mm: same-dimension round trip
+00:00 +72: /home/user/management_toolbox/test/features/utilities/engines_test.dart: inch -> cm: same-dimension round trip
+00:00 +73: /home/user/management_toolbox/test/features/utilities/engines_test.dart: inch -> m: same-dimension round trip
+00:00 +74: /home/user/management_toolbox/test/features/utilities/engines_test.dart: inch -> km: same-dimension round trip
+00:00 +75: /home/user/management_toolbox/test/features/utilities/engines_test.dart: inch -> inch: same-dimension round trip
+00:00 +76: /home/user/management_toolbox/test/features/utilities/engines_test.dart: inch -> foot: same-dimension round trip
+00:00 +77: /home/user/management_toolbox/test/features/utilities/engines_test.dart: inch -> yard: same-dimension round trip
+00:00 +78: /home/user/management_toolbox/test/features/utilities/engines_test.dart: foot -> mm: same-dimension round trip
+00:00 +79: /home/user/management_toolbox/test/features/utilities/engines_test.dart: foot -> cm: same-dimension round trip
+00:00 +80: /home/user/management_toolbox/test/features/utilities/engines_test.dart: foot -> m: same-dimension round trip
+00:00 +81: /home/user/management_toolbox/test/features/utilities/engines_test.dart: foot -> km: same-dimension round trip
+00:00 +82: /home/user/management_toolbox/test/features/utilities/engines_test.dart: foot -> inch: same-dimension round trip
+00:00 +83: /home/user/management_toolbox/test/features/utilities/engines_test.dart: foot -> foot: same-dimension round trip
+00:00 +84: /home/user/management_toolbox/test/features/utilities/engines_test.dart: foot -> yard: same-dimension round trip
+00:00 +85: /home/user/management_toolbox/test/features/utilities/engines_test.dart: yard -> mm: same-dimension round trip
+00:00 +86: /home/user/management_toolbox/test/features/utilities/engines_test.dart: yard -> cm: same-dimension round trip
+00:00 +87: /home/user/management_toolbox/test/features/utilities/engines_test.dart: yard -> m: same-dimension round trip
+00:00 +88: /home/user/management_toolbox/test/features/utilities/engines_test.dart: yard -> km: same-dimension round trip
+00:00 +89: /home/user/management_toolbox/test/features/utilities/engines_test.dart: yard -> inch: same-dimension round trip
+00:00 +90: /home/user/management_toolbox/test/features/utilities/engines_test.dart: yard -> foot: same-dimension round trip
+00:00 +91: /home/user/management_toolbox/test/features/utilities/engines_test.dart: yard -> yard: same-dimension round trip
+00:00 +92: /home/user/management_toolbox/test/features/utilities/engines_test.dart: cm2 -> cm2: same-dimension round trip
+00:00 +93: /home/user/management_toolbox/test/features/utilities/engines_test.dart: cm2 -> m2: same-dimension round trip
+00:00 +94: /home/user/management_toolbox/test/features/utilities/engines_test.dart: cm2 -> hectare: same-dimension round trip
+00:00 +95: /home/user/management_toolbox/test/features/utilities/engines_test.dart: cm2 -> km2: same-dimension round trip
+00:00 +96: /home/user/management_toolbox/test/features/utilities/engines_test.dart: m2 -> cm2: same-dimension round trip
+00:00 +97: /home/user/management_toolbox/test/features/utilities/engines_test.dart: m2 -> m2: same-dimension round trip
+00:00 +98: /home/user/management_toolbox/test/features/utilities/engines_test.dart: m2 -> hectare: same-dimension round trip
+00:00 +99: /home/user/management_toolbox/test/features/utilities/engines_test.dart: m2 -> km2: same-dimension round trip
+00:00 +100: /home/user/management_toolbox/test/features/utilities/engines_test.dart: hectare -> cm2: same-dimension round trip
+00:00 +101: /home/user/management_toolbox/test/features/utilities/engines_test.dart: hectare -> m2: same-dimension round trip
+00:00 +102: /home/user/management_toolbox/test/features/utilities/engines_test.dart: hectare -> hectare: same-dimension round trip
+00:00 +103: /home/user/management_toolbox/test/features/utilities/engines_test.dart: hectare -> km2: same-dimension round trip
+00:00 +104: /home/user/management_toolbox/test/features/utilities/engines_test.dart: km2 -> cm2: same-dimension round trip
+00:00 +105: /home/user/management_toolbox/test/features/utilities/engines_test.dart: km2 -> m2: same-dimension round trip
+00:00 +106: /home/user/management_toolbox/test/features/utilities/engines_test.dart: km2 -> hectare: same-dimension round trip
+00:00 +107: /home/user/management_toolbox/test/features/utilities/engines_test.dart: km2 -> km2: same-dimension round trip
+00:00 +108: /home/user/management_toolbox/test/features/utilities/engines_test.dart: ml -> ml: same-dimension round trip
+00:00 +109: /home/user/management_toolbox/test/features/utilities/engines_test.dart: ml -> litre: same-dimension round trip
+00:00 +110: /home/user/management_toolbox/test/features/utilities/engines_test.dart: ml -> m3: same-dimension round trip
+00:00 +111: /home/user/management_toolbox/test/features/utilities/engines_test.dart: litre -> ml: same-dimension round trip
+00:00 +112: /home/user/management_toolbox/test/features/utilities/engines_test.dart: litre -> litre: same-dimension round trip
+00:00 +113: /home/user/management_toolbox/test/features/utilities/engines_test.dart: litre -> m3: same-dimension round trip
+00:00 +114: /home/user/management_toolbox/test/features/utilities/engines_test.dart: m3 -> ml: same-dimension round trip
+00:00 +115: /home/user/management_toolbox/test/features/utilities/engines_test.dart: m3 -> litre: same-dimension round trip
+00:00 +116: /home/user/management_toolbox/test/features/utilities/engines_test.dart: m3 -> m3: same-dimension round trip
+00:00 +117: /home/user/management_toolbox/test/features/utilities/engines_test.dart: mg -> mg: same-dimension round trip
+00:00 +118: /home/user/management_toolbox/test/features/utilities/engines_test.dart: mg -> g: same-dimension round trip
+00:00 +119: /home/user/management_toolbox/test/features/utilities/engines_test.dart: mg -> kg: same-dimension round trip
+00:00 +120: /home/user/management_toolbox/test/features/utilities/engines_test.dart: mg -> tonne: same-dimension round trip
+00:00 +121: /home/user/management_toolbox/test/features/utilities/engines_test.dart: mg -> pound: same-dimension round trip
+00:00 +122: /home/user/management_toolbox/test/features/utilities/engines_test.dart: g -> mg: same-dimension round trip
+00:00 +123: /home/user/management_toolbox/test/features/utilities/engines_test.dart: g -> g: same-dimension round trip
+00:00 +124: /home/user/management_toolbox/test/features/utilities/engines_test.dart: g -> kg: same-dimension round trip
+00:00 +125: /home/user/management_toolbox/test/features/utilities/engines_test.dart: g -> tonne: same-dimension round trip
+00:00 +126: /home/user/management_toolbox/test/features/utilities/engines_test.dart: g -> pound: same-dimension round trip
+00:00 +127: /home/user/management_toolbox/test/features/utilities/engines_test.dart: kg -> mg: same-dimension round trip
+00:00 +128: /home/user/management_toolbox/test/features/utilities/engines_test.dart: kg -> g: same-dimension round trip
+00:00 +129: /home/user/management_toolbox/test/features/utilities/engines_test.dart: kg -> kg: same-dimension round trip
+00:00 +130: /home/user/management_toolbox/test/features/utilities/engines_test.dart: kg -> tonne: same-dimension round trip
+00:00 +131: /home/user/management_toolbox/test/features/utilities/engines_test.dart: kg -> pound: same-dimension round trip
+00:00 +132: /home/user/management_toolbox/test/features/utilities/engines_test.dart: tonne -> mg: same-dimension round trip
+00:00 +133: /home/user/management_toolbox/test/features/utilities/engines_test.dart: tonne -> g: same-dimension round trip
+00:00 +134: /home/user/management_toolbox/test/features/utilities/engines_test.dart: tonne -> kg: same-dimension round trip
+00:00 +135: /home/user/management_toolbox/test/features/utilities/engines_test.dart: tonne -> tonne: same-dimension round trip
+00:00 +136: /home/user/management_toolbox/test/features/utilities/engines_test.dart: tonne -> pound: same-dimension round trip
+00:00 +137: /home/user/management_toolbox/test/features/utilities/engines_test.dart: pound -> mg: same-dimension round trip
+00:00 +138: /home/user/management_toolbox/test/features/utilities/engines_test.dart: pound -> g: same-dimension round trip
+00:00 +139: /home/user/management_toolbox/test/features/utilities/engines_test.dart: pound -> kg: same-dimension round trip
+00:00 +140: /home/user/management_toolbox/test/features/utilities/engines_test.dart: pound -> tonne: same-dimension round trip
+00:00 +141: /home/user/management_toolbox/test/features/utilities/engines_test.dart: pound -> pound: same-dimension round trip
+00:00 +142: /home/user/management_toolbox/test/features/utilities/engines_test.dart: second -> second: same-dimension round trip
+00:00 +143: /home/user/management_toolbox/test/features/utilities/engines_test.dart: second -> minute: same-dimension round trip
+00:00 +144: /home/user/management_toolbox/test/features/utilities/engines_test.dart: second -> hour: same-dimension round trip
+00:00 +145: /home/user/management_toolbox/test/features/utilities/engines_test.dart: second -> day: same-dimension round trip
+00:00 +146: /home/user/management_toolbox/test/features/utilities/engines_test.dart: minute -> second: same-dimension round trip
+00:00 +147: /home/user/management_toolbox/test/features/utilities/engines_test.dart: minute -> minute: same-dimension round trip
+00:00 +148: /home/user/management_toolbox/test/features/utilities/engines_test.dart: minute -> hour: same-dimension round trip
+00:00 +149: /home/user/management_toolbox/test/features/utilities/engines_test.dart: minute -> day: same-dimension round trip
+00:00 +150: /home/user/management_toolbox/test/features/utilities/engines_test.dart: hour -> second: same-dimension round trip
+00:00 +151: /home/user/management_toolbox/test/features/utilities/engines_test.dart: hour -> minute: same-dimension round trip
+00:00 +152: /home/user/management_toolbox/test/features/utilities/engines_test.dart: hour -> hour: same-dimension round trip
+00:00 +153: /home/user/management_toolbox/test/features/utilities/engines_test.dart: hour -> day: same-dimension round trip
+00:00 +154: /home/user/management_toolbox/test/features/utilities/engines_test.dart: day -> second: same-dimension round trip
+00:00 +155: /home/user/management_toolbox/test/features/utilities/engines_test.dart: day -> minute: same-dimension round trip
+00:00 +156: /home/user/management_toolbox/test/features/utilities/engines_test.dart: day -> hour: same-dimension round trip
+00:00 +157: /home/user/management_toolbox/test/features/utilities/engines_test.dart: day -> day: same-dimension round trip
+00:00 +158: /home/user/management_toolbox/test/features/utilities/engines_test.dart: metres_second -> metres_second: same-dimension round trip
+00:00 +159: /home/user/management_toolbox/test/features/utilities/engines_test.dart: metres_second -> km_hour: same-dimension round trip
+00:00 +160: /home/user/management_toolbox/test/features/utilities/engines_test.dart: metres_second -> feet_second: same-dimension round trip
+00:00 +161: /home/user/management_toolbox/test/features/utilities/engines_test.dart: km_hour -> metres_second: same-dimension round trip
+00:00 +162: /home/user/management_toolbox/test/features/utilities/engines_test.dart: km_hour -> km_hour: same-dimension round trip
+00:00 +163: /home/user/management_toolbox/test/features/utilities/engines_test.dart: km_hour -> feet_second: same-dimension round trip
+00:00 +164: /home/user/management_toolbox/test/features/utilities/engines_test.dart: feet_second -> metres_second: same-dimension round trip
+00:00 +165: /home/user/management_toolbox/test/features/utilities/engines_test.dart: feet_second -> km_hour: same-dimension round trip
+00:00 +166: /home/user/management_toolbox/test/features/utilities/engines_test.dart: feet_second -> feet_second: same-dimension round trip
+00:00 +167: /home/user/management_toolbox/test/features/utilities/engines_test.dart: pa -> pa: same-dimension round trip
+00:00 +168: /home/user/management_toolbox/test/features/utilities/engines_test.dart: pa -> kpa: same-dimension round trip
+00:00 +169: /home/user/management_toolbox/test/features/utilities/engines_test.dart: pa -> mpa: same-dimension round trip
+00:00 +170: /home/user/management_toolbox/test/features/utilities/engines_test.dart: pa -> bar: same-dimension round trip
+00:00 +171: /home/user/management_toolbox/test/features/utilities/engines_test.dart: pa -> psi: same-dimension round trip
+00:00 +172: /home/user/management_toolbox/test/features/utilities/engines_test.dart: kpa -> pa: same-dimension round trip
+00:00 +173: /home/user/management_toolbox/test/features/utilities/engines_test.dart: kpa -> kpa: same-dimension round trip
+00:00 +174: /home/user/management_toolbox/test/features/utilities/engines_test.dart: kpa -> mpa: same-dimension round trip
+00:00 +175: /home/user/management_toolbox/test/features/utilities/engines_test.dart: kpa -> bar: same-dimension round trip
+00:00 +176: /home/user/management_toolbox/test/features/utilities/engines_test.dart: kpa -> psi: same-dimension round trip
+00:00 +177: /home/user/management_toolbox/test/features/utilities/engines_test.dart: mpa -> pa: same-dimension round trip
+00:00 +178: /home/user/management_toolbox/test/features/utilities/engines_test.dart: mpa -> kpa: same-dimension round trip
+00:00 +179: /home/user/management_toolbox/test/features/utilities/engines_test.dart: mpa -> mpa: same-dimension round trip
+00:00 +180: /home/user/management_toolbox/test/features/utilities/engines_test.dart: mpa -> bar: same-dimension round trip
+00:00 +181: /home/user/management_toolbox/test/features/utilities/engines_test.dart: mpa -> psi: same-dimension round trip
+00:00 +182: /home/user/management_toolbox/test/features/utilities/engines_test.dart: bar -> pa: same-dimension round trip
+00:00 +183: /home/user/management_toolbox/test/features/utilities/engines_test.dart: bar -> kpa: same-dimension round trip
+00:00 +184: /home/user/management_toolbox/test/features/utilities/engines_test.dart: bar -> mpa: same-dimension round trip
+00:00 +185: /home/user/management_toolbox/test/features/utilities/engines_test.dart: bar -> bar: same-dimension round trip
+00:00 +186: /home/user/management_toolbox/test/features/utilities/engines_test.dart: bar -> psi: same-dimension round trip
+00:00 +187: /home/user/management_toolbox/test/features/utilities/engines_test.dart: psi -> pa: same-dimension round trip
+00:00 +188: /home/user/management_toolbox/test/features/utilities/engines_test.dart: psi -> kpa: same-dimension round trip
+00:00 +189: /home/user/management_toolbox/test/features/utilities/engines_test.dart: psi -> mpa: same-dimension round trip
+00:00 +190: /home/user/management_toolbox/test/features/utilities/engines_test.dart: psi -> bar: same-dimension round trip
+00:00 +191: /home/user/management_toolbox/test/features/utilities/engines_test.dart: psi -> psi: same-dimension round trip
+00:00 +192: /home/user/management_toolbox/test/features/utilities/engines_test.dart: joule -> joule: same-dimension round trip
+00:00 +193: /home/user/management_toolbox/test/features/utilities/engines_test.dart: joule -> kilojoule: same-dimension round trip
+00:00 +194: /home/user/management_toolbox/test/features/utilities/engines_test.dart: joule -> megajoule: same-dimension round trip
+00:00 +195: /home/user/management_toolbox/test/features/utilities/engines_test.dart: joule -> watt_hour: same-dimension round trip
+00:00 +196: /home/user/management_toolbox/test/features/utilities/engines_test.dart: joule -> kilowatt_hour: same-dimension round trip
+00:00 +197: /home/user/management_toolbox/test/features/utilities/engines_test.dart: kilojoule -> joule: same-dimension round trip
+00:00 +198: /home/user/management_toolbox/test/features/utilities/engines_test.dart: kilojoule -> kilojoule: same-dimension round trip
+00:00 +199: /home/user/management_toolbox/test/features/utilities/engines_test.dart: kilojoule -> megajoule: same-dimension round trip
+00:00 +200: /home/user/management_toolbox/test/features/utilities/engines_test.dart: kilojoule -> watt_hour: same-dimension round trip
+00:00 +201: /home/user/management_toolbox/test/features/utilities/engines_test.dart: kilojoule -> kilowatt_hour: same-dimension round trip
+00:00 +202: /home/user/management_toolbox/test/features/utilities/engines_test.dart: megajoule -> joule: same-dimension round trip
+00:00 +203: /home/user/management_toolbox/test/features/utilities/engines_test.dart: megajoule -> kilojoule: same-dimension round trip
+00:00 +204: /home/user/management_toolbox/test/features/utilities/engines_test.dart: megajoule -> megajoule: same-dimension round trip
+00:00 +205: /home/user/management_toolbox/test/features/utilities/engines_test.dart: megajoule -> watt_hour: same-dimension round trip
+00:00 +206: /home/user/management_toolbox/test/features/utilities/engines_test.dart: megajoule -> kilowatt_hour: same-dimension round trip
+00:00 +207: /home/user/management_toolbox/test/features/utilities/engines_test.dart: watt_hour -> joule: same-dimension round trip
+00:00 +208: /home/user/management_toolbox/test/features/utilities/engines_test.dart: watt_hour -> kilojoule: same-dimension round trip
+00:00 +209: /home/user/management_toolbox/test/features/utilities/engines_test.dart: watt_hour -> megajoule: same-dimension round trip
+00:00 +210: /home/user/management_toolbox/test/features/utilities/engines_test.dart: watt_hour -> watt_hour: same-dimension round trip
+00:00 +211: /home/user/management_toolbox/test/features/utilities/engines_test.dart: watt_hour -> kilowatt_hour: same-dimension round trip
+00:00 +212: /home/user/management_toolbox/test/features/utilities/engines_test.dart: kilowatt_hour -> joule: same-dimension round trip
+00:00 +213: /home/user/management_toolbox/test/features/utilities/engines_test.dart: kilowatt_hour -> kilojoule: same-dimension round trip
+00:00 +214: /home/user/management_toolbox/test/features/utilities/engines_test.dart: kilowatt_hour -> megajoule: same-dimension round trip
+00:00 +215: /home/user/management_toolbox/test/features/utilities/engines_test.dart: kilowatt_hour -> watt_hour: same-dimension round trip
+00:00 +216: /home/user/management_toolbox/test/features/utilities/engines_test.dart: kilowatt_hour -> kilowatt_hour: same-dimension round trip
+00:00 +217: /home/user/management_toolbox/test/features/utilities/engines_test.dart: watt -> watt: same-dimension round trip
+00:00 +218: /home/user/management_toolbox/test/features/utilities/engines_test.dart: watt -> kilowatt: same-dimension round trip
+00:00 +219: /home/user/management_toolbox/test/features/utilities/engines_test.dart: watt -> megawatt: same-dimension round trip
+00:00 +220: /home/user/management_toolbox/test/features/utilities/engines_test.dart: kilowatt -> watt: same-dimension round trip
+00:00 +221: /home/user/management_toolbox/test/features/utilities/engines_test.dart: kilowatt -> kilowatt: same-dimension round trip
+00:00 +222: /home/user/management_toolbox/test/features/utilities/engines_test.dart: kilowatt -> megawatt: same-dimension round trip
+00:00 +223: /home/user/management_toolbox/test/features/utilities/engines_test.dart: megawatt -> watt: same-dimension round trip
+00:00 +224: /home/user/management_toolbox/test/features/utilities/engines_test.dart: megawatt -> kilowatt: same-dimension round trip
+00:00 +225: /home/user/management_toolbox/test/features/utilities/engines_test.dart: megawatt -> megawatt: same-dimension round trip
+00:00 +226: /home/user/management_toolbox/test/features/utilities/engines_test.dart: celsius -> celsius: same-dimension round trip
+00:00 +227: /home/user/management_toolbox/test/features/utilities/engines_test.dart: celsius -> fahrenheit: same-dimension round trip
+00:00 +228: /home/user/management_toolbox/test/features/utilities/engines_test.dart: celsius -> kelvin: same-dimension round trip
+00:00 +229: /home/user/management_toolbox/test/features/utilities/engines_test.dart: fahrenheit -> celsius: same-dimension round trip
+00:00 +230: /home/user/management_toolbox/test/features/utilities/engines_test.dart: fahrenheit -> fahrenheit: same-dimension round trip
+00:00 +231: /home/user/management_toolbox/test/features/utilities/engines_test.dart: fahrenheit -> kelvin: same-dimension round trip
+00:00 +232: /home/user/management_toolbox/test/features/utilities/engines_test.dart: kelvin -> celsius: same-dimension round trip
+00:00 +233: /home/user/management_toolbox/test/features/utilities/engines_test.dart: kelvin -> fahrenheit: same-dimension round trip
+00:00 +234: /home/user/management_toolbox/test/features/utilities/engines_test.dart: kelvin -> kelvin: same-dimension round trip
+00:00 +235: /home/user/management_toolbox/test/features/utilities/engines_test.dart: freezing, boiling, negative coincidence and exact absolute zero
+00:00 +236: /home/user/management_toolbox/test/features/utilities/engines_test.dart: invalid dimensions, unknown units, negatives and nonfinite
+00:00 +237: /home/user/management_toolbox/test/features/utilities/engines_test.dart: conversion overflow/underflow rejected; same-unit maximal value valid
+00:00 +238: /home/user/management_toolbox/test/features/utilities/engines_test.dart: percent of, over 100%, zero, overflow and underflow
+00:00 +239: /home/user/management_toolbox/test/features/utilities/engines_test.dart: percent change rise, fall, unchanged and zero/negative baseline
+00:00 +240: /home/user/management_toolbox/test/features/utilities/engines_test.dart: base from percentage, zero part, above 100%, invalid denominators and range
+00:00 +241: /home/user/management_toolbox/test/features/utilities/engines_test.dart: discount has explicit rial unit, saving, 0/100% and zero price
+00:00 +242: /home/user/management_toolbox/test/features/utilities/engines_test.dart: percentage_of: metadata, example, strict binding
+00:00 +243: /home/user/management_toolbox/test/features/utilities/engines_test.dart: percentage_change: metadata, example, strict binding
+00:00 +244: /home/user/management_toolbox/test/features/utilities/engines_test.dart: percentage_base: metadata, example, strict binding
+00:00 +245: /home/user/management_toolbox/test/features/utilities/engines_test.dart: discount: metadata, example, strict binding
+00:00 +246: /home/user/management_toolbox/test/features/utilities/engines_test.dart: unit_conversion: metadata, example, strict binding
+00:00 +247: /home/user/management_toolbox/test/features/utilities/engines_test.dart: Persian/Arabic percentage normalization does not divide twice
+00:00 +248: loading /home/user/management_toolbox/test/features/utilities/pages_export_test.dart
+00:01 +248: /home/user/management_toolbox/test/features/utilities/pages_export_test.dart: real clipboard adapter sends the complete Unicode result to platform
+00:01 +249: /home/user/management_toolbox/test/features/utilities/pages_export_test.dart: real share adapter preserves text and maps native statuses
+00:01 +250: /home/user/management_toolbox/test/features/utilities/pages_export_test.dart: percentage_of: reactive result, copy/share and disabled PDF
+00:03 +251: /home/user/management_toolbox/test/features/utilities/pages_export_test.dart: percentage_change: reactive result, copy/share and disabled PDF
+00:03 +252: /home/user/management_toolbox/test/features/utilities/pages_export_test.dart: percentage_base: reactive result, copy/share and disabled PDF
+00:03 +253: /home/user/management_toolbox/test/features/utilities/pages_export_test.dart: discount: reactive result, copy/share and disabled PDF
+00:04 +254: /home/user/management_toolbox/test/features/utilities/pages_export_test.dart: unit_conversion: reactive result, copy/share and disabled PDF
+00:04 +255: /home/user/management_toolbox/test/features/utilities/pages_export_test.dart: latest live input and result are paired even before next frame; invalid input cannot copy
+00:05 +256: /home/user/management_toolbox/test/features/utilities/pages_export_test.dart: busy export blocks duplicates and clears after completion
+00:05 +257: /home/user/management_toolbox/test/features/utilities/pages_export_test.dart: share status ResultShareStatus.shared is reported honestly
+00:06 +258: /home/user/management_toolbox/test/features/utilities/pages_export_test.dart: share status ResultShareStatus.dismissed is reported honestly
+00:06 +259: /home/user/management_toolbox/test/features/utilities/pages_export_test.dart: share status ResultShareStatus.unavailable is reported honestly
+00:06 +260: /home/user/management_toolbox/test/features/utilities/pages_export_test.dart: clipboard/share exceptions are surfaced and do not crash
+00:06 +261: /home/user/management_toolbox/test/features/utilities/pages_export_test.dart: glossary/utilities RTL layout Size(320.0, 568.0) dark=false
+00:06 +262: /home/user/management_toolbox/test/features/utilities/pages_export_test.dart: glossary/utilities RTL layout Size(320.0, 568.0) dark=true
+00:07 +263: /home/user/management_toolbox/test/features/utilities/pages_export_test.dart: glossary/utilities RTL layout Size(1280.0, 800.0) dark=false
+00:07 +264: /home/user/management_toolbox/test/features/utilities/pages_export_test.dart: glossary/utilities RTL layout Size(1280.0, 800.0) dark=true
+00:07 +265: /home/user/management_toolbox/test/features/utilities/pages_export_test.dart: home -> offline glossary -> real percentage calculator -> favorite/history
+00:09 +266: loading /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart
+00:10 +266: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: oee: complete text export with actual example/result/units/warnings
+00:10 +267: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: takt_time: complete text export with actual example/result/units/warnings
+00:10 +268: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: production_capacity: complete text export with actual example/result/units/warnings
+00:10 +269: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: labor_productivity: complete text export with actual example/result/units/warnings
+00:10 +270: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: cycle_time: complete text export with actual example/result/units/warnings
+00:10 +271: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: smed: complete text export with actual example/result/units/warnings
+00:10 +272: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: unit_production_cost: complete text export with actual example/result/units/warnings
+00:10 +273: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: wip: complete text export with actual example/result/units/warnings
+00:10 +274: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: throughput: complete text export with actual example/result/units/warnings
+00:10 +275: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: capacity_utilization: complete text export with actual example/result/units/warnings
+00:10 +276: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: npv: complete text export with actual example/result/units/warnings
+00:10 +277: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: irr: complete text export with actual example/result/units/warnings
+00:10 +278: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: payback: complete text export with actual example/result/units/warnings
+00:10 +279: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: roi: complete text export with actual example/result/units/warnings
+00:10 +280: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: current_ratio: complete text export with actual example/result/units/warnings
+00:10 +281: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: quick_ratio: complete text export with actual example/result/units/warnings
+00:10 +282: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: wacc: complete text export with actual example/result/units/warnings
+00:10 +283: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: compound_interest: complete text export with actual example/result/units/warnings
+00:10 +284: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: loan_payment: complete text export with actual example/result/units/warnings
+00:10 +285: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: break_even: complete text export with actual example/result/units/warnings
+00:10 +286: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: cp: complete text export with actual example/result/units/warnings
+00:10 +287: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: cpk: complete text export with actual example/result/units/warnings
+00:10 +288: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: pp: complete text export with actual example/result/units/warnings
+00:10 +289: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: ppk: complete text export with actual example/result/units/warnings
+00:10 +290: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: dpmo: complete text export with actual example/result/units/warnings
+00:10 +291: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: sigma_level: complete text export with actual example/result/units/warnings
+00:10 +292: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: xbar_control: complete text export with actual example/result/units/warnings
+00:10 +293: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: coq: complete text export with actual example/result/units/warnings
+00:10 +294: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: eoq: complete text export with actual example/result/units/warnings
+00:10 +295: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: rop: complete text export with actual example/result/units/warnings
+00:10 +296: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: safety_stock: complete text export with actual example/result/units/warnings
+00:10 +297: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: abc: complete text export with actual example/result/units/warnings
+00:10 +298: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: inventory_turnover: complete text export with actual example/result/units/warnings
+00:10 +299: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: days_inventory: complete text export with actual example/result/units/warnings
+00:10 +300: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: inventory_holding_cost: complete text export with actual example/result/units/warnings
+00:10 +301: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: reorder_interval: complete text export with actual example/result/units/warnings
+00:10 +302: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: pert_duration: complete text export with actual example/result/units/warnings
+00:10 +303: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: cpm: complete text export with actual example/result/units/warnings
+00:10 +304: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: project_float: complete text export with actual example/result/units/warnings
+00:10 +305: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: evm_performance: complete text export with actual example/result/units/warnings
+00:10 +306: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: three_point: complete text export with actual example/result/units/warnings
+00:10 +307: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: eac_etc: complete text export with actual example/result/units/warnings
+00:10 +308: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: sv_cv: complete text export with actual example/result/units/warnings
+00:10 +309: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: duration_comparison: complete text export with actual example/result/units/warnings
+00:10 +310: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: cost_per_hire: complete text export with actual example/result/units/warnings
+00:10 +311: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: employee_turnover: complete text export with actual example/result/units/warnings
+00:10 +312: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: employee_productivity: complete text export with actual example/result/units/warnings
+00:10 +313: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: training_roi: complete text export with actual example/result/units/warnings
+00:10 +314: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: replacement_time: complete text export with actual example/result/units/warnings
+00:10 +315: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: absence_cost: complete text export with actual example/result/units/warnings
+00:10 +316: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: ahp: complete text export with actual example/result/units/warnings
+00:10 +317: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: topsis: complete text export with actual example/result/units/warnings
+00:10 +318: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: decision_matrix: complete text export with actual example/result/units/warnings
+00:10 +319: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: expected_value_tree: complete text export with actual example/result/units/warnings
+00:10 +320: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: weight_sensitivity: complete text export with actual example/result/units/warnings
+00:10 +321: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: weighted_scoring: complete text export with actual example/result/units/warnings
+00:10 +322: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: cost_benefit_comparison: complete text export with actual example/result/units/warnings
+00:10 +323: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: two_option_break_even: complete text export with actual example/result/units/warnings
+00:10 +324: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: time_value_money: complete text export with actual example/result/units/warnings
+00:10 +325: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: future_present_factor: complete text export with actual example/result/units/warnings
+00:10 +326: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: present_future_factor: complete text export with actual example/result/units/warnings
+00:10 +327: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: future_annuity_factor: complete text export with actual example/result/units/warnings
+00:10 +328: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: annuity_future_factor: complete text export with actual example/result/units/warnings
+00:10 +329: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: present_annuity_factor: complete text export with actual example/result/units/warnings
+00:10 +330: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: annuity_present_factor: complete text export with actual example/result/units/warnings
+00:10 +331: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: straight_line_depreciation: complete text export with actual example/result/units/warnings
+00:10 +332: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: declining_balance_depreciation: complete text export with actual example/result/units/warnings
+00:10 +333: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: inflation_adjustment: complete text export with actual example/result/units/warnings
+00:10 +334: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: percentage_of: complete text export with actual example/result/units/warnings
+00:10 +335: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: percentage_change: complete text export with actual example/result/units/warnings
+00:10 +336: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: percentage_base: complete text export with actual example/result/units/warnings
+00:10 +337: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: discount: complete text export with actual example/result/units/warnings
+00:10 +338: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: unit_conversion: complete text export with actual example/result/units/warnings
+00:10 +339: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: original digits/whitespace and percentage display unit are not normalized away
+00:10 +340: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: valid whitespace around a choice resolves to its displayed unit name
+00:10 +341: /home/user/management_toolbox/test/features/utilities/result_text_export_test.dart: incomplete export input is rejected rather than invented
+00:10 +342: loading /home/user/management_toolbox/test/features/utilities/storage_test.dart
+00:11 +342: /home/user/management_toolbox/test/features/utilities/storage_test.dart: all five utilities persist exact raw inputs, results and favorites across file reopen without schema change
+00:11 +343: All tests passed!

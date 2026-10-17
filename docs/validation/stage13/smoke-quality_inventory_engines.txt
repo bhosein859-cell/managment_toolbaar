@@ -1,0 +1,17 @@
+cp: 1.0
+cpk: 1.0
+pp: 0.5
+ppk: 0.3333333333333333
+dpmo: 1000.0
+sigma_level: 3.090232304709404
+xbar_control: 11.0
+coq: 1000.0
+eoq: 1000.0000000000007
+rop: 250.0
+safety_stock: 32.89707250267398
+abc: 10000.0
+inventory_turnover: 4.0
+days_inventory: 91.24999999999999
+inventory_holding_cost: 50000.00000000001
+reorder_interval: 30.000000000000014
+16 tools / 15 new independent engines, 50-tool catalog: PASS

@@ -1,0 +1,12 @@
+Generated: /home/user/.cache/economics-smoke
+time_value_money: 1331.0
+future_present_factor: 1.331
+present_future_factor: 0.7513148009015778
+future_annuity_factor: 3.31
+annuity_future_factor: 0.3021148036253776
+present_annuity_factor: 2.4868519909842224
+annuity_present_factor: 0.4021148036253776
+straight_line_depreciation: 180.0
+declining_balance_depreciation: 160.0
+inflation_adjustment: 751.3148009015778
+Ten engineering economics engines and 68-tool catalog verified.

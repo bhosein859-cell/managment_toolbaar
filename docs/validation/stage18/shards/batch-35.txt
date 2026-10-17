@@ -1,0 +1,90 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/glossary/glossary_test.dart
+00:00 +0: /home/user/management_toolbox/test/features/glossary/glossary_test.dart: offline entries are complete, immutable, uniquely category-scoped and all links resolve
+00:00 +1: /home/user/management_toolbox/test/features/glossary/glossary_test.dart: English case, Persian forms, ZWNJ, empty query and category intersection
+00:00 +2: /home/user/management_toolbox/test/features/glossary/glossary_test.dart: same term in one discipline merges links, same id across categories stays separate
+00:00 +3: /home/user/management_toolbox/test/features/glossary/glossary_test.dart: offline glossary filters, no-match state and actual calculator link callback
+00:01 +4: loading /home/user/management_toolbox/test/features/history/codec_test.dart
+00:02 +4: /home/user/management_toolbox/test/features/history/codec_test.dart: oee: raw input and complete result/warnings round trip losslessly
+00:02 +5: /home/user/management_toolbox/test/features/history/codec_test.dart: takt_time: raw input and complete result/warnings round trip losslessly
+00:02 +6: /home/user/management_toolbox/test/features/history/codec_test.dart: production_capacity: raw input and complete result/warnings round trip losslessly
+00:02 +7: /home/user/management_toolbox/test/features/history/codec_test.dart: labor_productivity: raw input and complete result/warnings round trip losslessly
+00:02 +8: /home/user/management_toolbox/test/features/history/codec_test.dart: cycle_time: raw input and complete result/warnings round trip losslessly
+00:02 +9: /home/user/management_toolbox/test/features/history/codec_test.dart: smed: raw input and complete result/warnings round trip losslessly
+00:02 +10: /home/user/management_toolbox/test/features/history/codec_test.dart: unit_production_cost: raw input and complete result/warnings round trip losslessly
+00:02 +11: /home/user/management_toolbox/test/features/history/codec_test.dart: wip: raw input and complete result/warnings round trip losslessly
+00:02 +12: /home/user/management_toolbox/test/features/history/codec_test.dart: throughput: raw input and complete result/warnings round trip losslessly
+00:02 +13: /home/user/management_toolbox/test/features/history/codec_test.dart: capacity_utilization: raw input and complete result/warnings round trip losslessly
+00:02 +14: /home/user/management_toolbox/test/features/history/codec_test.dart: npv: raw input and complete result/warnings round trip losslessly
+00:02 +15: /home/user/management_toolbox/test/features/history/codec_test.dart: irr: raw input and complete result/warnings round trip losslessly
+00:02 +16: /home/user/management_toolbox/test/features/history/codec_test.dart: payback: raw input and complete result/warnings round trip losslessly
+00:02 +17: /home/user/management_toolbox/test/features/history/codec_test.dart: roi: raw input and complete result/warnings round trip losslessly
+00:02 +18: /home/user/management_toolbox/test/features/history/codec_test.dart: current_ratio: raw input and complete result/warnings round trip losslessly
+00:02 +19: /home/user/management_toolbox/test/features/history/codec_test.dart: quick_ratio: raw input and complete result/warnings round trip losslessly
+00:02 +20: /home/user/management_toolbox/test/features/history/codec_test.dart: wacc: raw input and complete result/warnings round trip losslessly
+00:02 +21: /home/user/management_toolbox/test/features/history/codec_test.dart: compound_interest: raw input and complete result/warnings round trip losslessly
+00:02 +22: /home/user/management_toolbox/test/features/history/codec_test.dart: loan_payment: raw input and complete result/warnings round trip losslessly
+00:02 +23: /home/user/management_toolbox/test/features/history/codec_test.dart: break_even: raw input and complete result/warnings round trip losslessly
+00:02 +24: /home/user/management_toolbox/test/features/history/codec_test.dart: cp: raw input and complete result/warnings round trip losslessly
+00:02 +25: /home/user/management_toolbox/test/features/history/codec_test.dart: cpk: raw input and complete result/warnings round trip losslessly
+00:02 +26: /home/user/management_toolbox/test/features/history/codec_test.dart: pp: raw input and complete result/warnings round trip losslessly
+00:02 +27: /home/user/management_toolbox/test/features/history/codec_test.dart: ppk: raw input and complete result/warnings round trip losslessly
+00:02 +28: /home/user/management_toolbox/test/features/history/codec_test.dart: dpmo: raw input and complete result/warnings round trip losslessly
+00:02 +29: /home/user/management_toolbox/test/features/history/codec_test.dart: sigma_level: raw input and complete result/warnings round trip losslessly
+00:02 +30: /home/user/management_toolbox/test/features/history/codec_test.dart: xbar_control: raw input and complete result/warnings round trip losslessly
+00:02 +31: /home/user/management_toolbox/test/features/history/codec_test.dart: coq: raw input and complete result/warnings round trip losslessly
+00:02 +32: /home/user/management_toolbox/test/features/history/codec_test.dart: eoq: raw input and complete result/warnings round trip losslessly
+00:02 +33: /home/user/management_toolbox/test/features/history/codec_test.dart: rop: raw input and complete result/warnings round trip losslessly
+00:02 +34: /home/user/management_toolbox/test/features/history/codec_test.dart: safety_stock: raw input and complete result/warnings round trip losslessly
+00:02 +35: /home/user/management_toolbox/test/features/history/codec_test.dart: abc: raw input and complete result/warnings round trip losslessly
+00:02 +36: /home/user/management_toolbox/test/features/history/codec_test.dart: inventory_turnover: raw input and complete result/warnings round trip losslessly
+00:02 +37: /home/user/management_toolbox/test/features/history/codec_test.dart: days_inventory: raw input and complete result/warnings round trip losslessly
+00:02 +38: /home/user/management_toolbox/test/features/history/codec_test.dart: inventory_holding_cost: raw input and complete result/warnings round trip losslessly
+00:02 +39: /home/user/management_toolbox/test/features/history/codec_test.dart: reorder_interval: raw input and complete result/warnings round trip losslessly
+00:02 +40: /home/user/management_toolbox/test/features/history/codec_test.dart: pert_duration: raw input and complete result/warnings round trip losslessly
+00:02 +41: /home/user/management_toolbox/test/features/history/codec_test.dart: cpm: raw input and complete result/warnings round trip losslessly
+00:02 +42: /home/user/management_toolbox/test/features/history/codec_test.dart: project_float: raw input and complete result/warnings round trip losslessly
+00:02 +43: /home/user/management_toolbox/test/features/history/codec_test.dart: evm_performance: raw input and complete result/warnings round trip losslessly
+00:02 +44: /home/user/management_toolbox/test/features/history/codec_test.dart: three_point: raw input and complete result/warnings round trip losslessly
+00:02 +45: /home/user/management_toolbox/test/features/history/codec_test.dart: eac_etc: raw input and complete result/warnings round trip losslessly
+00:02 +46: /home/user/management_toolbox/test/features/history/codec_test.dart: sv_cv: raw input and complete result/warnings round trip losslessly
+00:02 +47: /home/user/management_toolbox/test/features/history/codec_test.dart: duration_comparison: raw input and complete result/warnings round trip losslessly
+00:02 +48: /home/user/management_toolbox/test/features/history/codec_test.dart: cost_per_hire: raw input and complete result/warnings round trip losslessly
+00:02 +49: /home/user/management_toolbox/test/features/history/codec_test.dart: employee_turnover: raw input and complete result/warnings round trip losslessly
+00:02 +50: /home/user/management_toolbox/test/features/history/codec_test.dart: employee_productivity: raw input and complete result/warnings round trip losslessly
+00:02 +51: /home/user/management_toolbox/test/features/history/codec_test.dart: training_roi: raw input and complete result/warnings round trip losslessly
+00:02 +52: /home/user/management_toolbox/test/features/history/codec_test.dart: replacement_time: raw input and complete result/warnings round trip losslessly
+00:02 +53: /home/user/management_toolbox/test/features/history/codec_test.dart: absence_cost: raw input and complete result/warnings round trip losslessly
+00:02 +54: /home/user/management_toolbox/test/features/history/codec_test.dart: ahp: raw input and complete result/warnings round trip losslessly
+00:02 +55: /home/user/management_toolbox/test/features/history/codec_test.dart: topsis: raw input and complete result/warnings round trip losslessly
+00:02 +56: /home/user/management_toolbox/test/features/history/codec_test.dart: decision_matrix: raw input and complete result/warnings round trip losslessly
+00:02 +57: /home/user/management_toolbox/test/features/history/codec_test.dart: expected_value_tree: raw input and complete result/warnings round trip losslessly
+00:02 +58: /home/user/management_toolbox/test/features/history/codec_test.dart: weight_sensitivity: raw input and complete result/warnings round trip losslessly
+00:02 +59: /home/user/management_toolbox/test/features/history/codec_test.dart: weighted_scoring: raw input and complete result/warnings round trip losslessly
+00:02 +60: /home/user/management_toolbox/test/features/history/codec_test.dart: cost_benefit_comparison: raw input and complete result/warnings round trip losslessly
+00:02 +61: /home/user/management_toolbox/test/features/history/codec_test.dart: two_option_break_even: raw input and complete result/warnings round trip losslessly
+00:02 +62: /home/user/management_toolbox/test/features/history/codec_test.dart: time_value_money: raw input and complete result/warnings round trip losslessly
+00:02 +63: /home/user/management_toolbox/test/features/history/codec_test.dart: future_present_factor: raw input and complete result/warnings round trip losslessly
+00:02 +64: /home/user/management_toolbox/test/features/history/codec_test.dart: present_future_factor: raw input and complete result/warnings round trip losslessly
+00:02 +65: /home/user/management_toolbox/test/features/history/codec_test.dart: future_annuity_factor: raw input and complete result/warnings round trip losslessly
+00:02 +66: /home/user/management_toolbox/test/features/history/codec_test.dart: annuity_future_factor: raw input and complete result/warnings round trip losslessly
+00:02 +67: /home/user/management_toolbox/test/features/history/codec_test.dart: present_annuity_factor: raw input and complete result/warnings round trip losslessly
+00:02 +68: /home/user/management_toolbox/test/features/history/codec_test.dart: annuity_present_factor: raw input and complete result/warnings round trip losslessly
+00:02 +69: /home/user/management_toolbox/test/features/history/codec_test.dart: straight_line_depreciation: raw input and complete result/warnings round trip losslessly
+00:02 +70: /home/user/management_toolbox/test/features/history/codec_test.dart: declining_balance_depreciation: raw input and complete result/warnings round trip losslessly
+00:02 +71: /home/user/management_toolbox/test/features/history/codec_test.dart: inflation_adjustment: raw input and complete result/warnings round trip losslessly
+00:02 +72: /home/user/management_toolbox/test/features/history/codec_test.dart: percentage_of: raw input and complete result/warnings round trip losslessly
+00:02 +73: /home/user/management_toolbox/test/features/history/codec_test.dart: percentage_change: raw input and complete result/warnings round trip losslessly
+00:02 +74: /home/user/management_toolbox/test/features/history/codec_test.dart: percentage_base: raw input and complete result/warnings round trip losslessly
+00:02 +75: /home/user/management_toolbox/test/features/history/codec_test.dart: discount: raw input and complete result/warnings round trip losslessly
+00:02 +76: /home/user/management_toolbox/test/features/history/codec_test.dart: unit_conversion: raw input and complete result/warnings round trip losslessly
+00:02 +77: /home/user/management_toolbox/test/features/history/codec_test.dart: codec preserves Persian/Arabic digits, whitespace, choices, missing and empty fields
+00:02 +78: /home/user/management_toolbox/test/features/history/codec_test.dart: all result variants, units, displays and warning severity survive
+00:02 +79: /home/user/management_toolbox/test/features/history/codec_test.dart: invalid input payload rejects: null
+00:02 +80: /home/user/management_toolbox/test/features/history/codec_test.dart: invalid input payload rejects: []
+00:02 +81: /home/user/management_toolbox/test/features/history/codec_test.dart: invalid input payload rejects: true
+00:02 +82: /home/user/management_toolbox/test/features/history/codec_test.dart: invalid input payload rejects: {broken
+00:02 +83: /home/user/management_toolbox/test/features/history/codec_test.dart: invalid input payload rejects: {"a":{"type":"future"}}
+00:02 +84: /home/user/management_toolbox/test/features/history/codec_test.dart: invalid input payload rejects: {"a":{"type":"text","text":2}}
+00:02 +85: /home/user/management_toolbox/test/features/history/codec_test.dart: invalid input payload rejects: {"a":{"type":"list","items":["1",null]}}
+00:02 +86: /home/user/management_toolbox/test/features/history/codec_test.dart: unknown display/severity, nonfinite values and wrong unit types never get defaults
+00:02 +87: All tests passed!

@@ -1,0 +1,13 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/history/migration_test.dart
+00:00 +0: fresh schema matches independent v2 fixture and required constraints
+00:00 +1: v1 to v2 preserves favorites/payloads/timestamps, prunes oldest five atomically
+00:00 +2: v1 migration with 0 rows retains min(count,10)
+00:00 +3: v1 migration with 1 rows retains min(count,10)
+00:00 +4: v1 migration with 10 rows retains min(count,10)
+00:00 +5: v1 migration with 11 rows retains min(count,10)
+00:00 +6: already-current reopen is idempotent and IDs continue after migration
+00:00 +7: retention invariant is enforced for direct SQLite writers too
+00:00 +8: failed migration rolls back ALTER, retention and version without deleting data
+00:00 +9: newer database is refused, never downgraded or recreated
+00:00 +10: corrupt file is not deleted or silently replaced with an empty database
+00:00 +11: All tests passed!

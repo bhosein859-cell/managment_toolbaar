@@ -1,0 +1,89 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/production/wip_test.dart
+00:00 +0: /home/user/management_toolbox/test/features/calculators/production/wip_test.dart: wip: independent numeric reference
+00:00 +1: /home/user/management_toolbox/test/features/calculators/production/wip_test.dart: wip: typed bind validates independently of form
+00:00 +2: /home/user/management_toolbox/test/features/calculators/production/wip_test.dart: wip: rejects negative/nonfinite throughput_rate in direct calculation
+00:00 +3: /home/user/management_toolbox/test/features/calculators/production/wip_test.dart: wip: zero throughput_rate is rejected
+00:00 +4: /home/user/management_toolbox/test/features/calculators/production/wip_test.dart: wip: rejects negative/nonfinite flow_time in direct calculation
+00:00 +5: /home/user/management_toolbox/test/features/calculators/production/wip_test.dart: wip: zero flow_time is a real valid boundary
+00:00 +6: /home/user/management_toolbox/test/features/calculators/production/wip_test.dart: wip: overflow returns Persian numeric-range failure, not Infinity
+00:00 +7: /home/user/management_toolbox/test/features/calculators/production/wip_test.dart: wip: underflow is not disguised as zero
+00:00 +8: /home/user/management_toolbox/test/features/calculators/production/wip_test.dart: wip: 20 independent Decimal fixtures
+00:00 +9: /home/user/management_toolbox/test/features/calculators/production/wip_test.dart: wip: semantic and scale boundaries
+00:00 +10: loading /home/user/management_toolbox/test/features/calculators/project/boundaries_test.dart
+00:00 +10: /home/user/management_toolbox/test/features/calculators/project/boundaries_test.dart: pert_duration: ordered inputs required, never sorted silently
+00:00 +11: /home/user/management_toolbox/test/features/calculators/project/boundaries_test.dart: pert_duration: all zero or all equal is deterministic, zero variance
+00:00 +12: /home/user/management_toolbox/test/features/calculators/project/boundaries_test.dart: pert_duration: variance overflow/underflow gives numeric failure
+00:00 +13: /home/user/management_toolbox/test/features/calculators/project/boundaries_test.dart: three_point: ordered inputs required, never sorted silently
+00:00 +14: /home/user/management_toolbox/test/features/calculators/project/boundaries_test.dart: three_point: all zero or all equal is deterministic, zero variance
+00:00 +15: /home/user/management_toolbox/test/features/calculators/project/boundaries_test.dart: three_point: variance overflow/underflow gives numeric failure
+00:00 +16: /home/user/management_toolbox/test/features/calculators/project/boundaries_test.dart: PERT golden mean, SD and variance; translation and scale properties
+00:00 +17: /home/user/management_toolbox/test/features/calculators/project/boundaries_test.dart: Three-point distinguishes triangular and PERT methods
+00:00 +18: /home/user/management_toolbox/test/features/calculators/project/boundaries_test.dart: Triangular endpoint mode and symmetric distributions
+00:00 +19: /home/user/management_toolbox/test/features/calculators/project/boundaries_test.dart: EVM accepts zero EV and ahead-of-plan, efficient values above one
+00:00 +20: /home/user/management_toolbox/test/features/calculators/project/boundaries_test.dart: EVM rejects zero denominators and numerical ratio overflow/underflow
+00:00 +21: /home/user/management_toolbox/test/features/calculators/project/boundaries_test.dart: SV/CV zeros, signs, identity, no EV <= PV or AC restriction
+00:00 +22: /home/user/management_toolbox/test/features/calculators/project/boundaries_test.dart: Four EAC/ETC methods have independently checked outcomes
+00:00 +23: /home/user/management_toolbox/test/features/calculators/project/boundaries_test.dart: EAC validates BAC and fixed-scope PV/EV bounds, actual costs can exceed BAC
+00:00 +24: /home/user/management_toolbox/test/features/calculators/project/boundaries_test.dart: EAC method-specific undefined ratios do not fabricate forecast
+00:00 +25: /home/user/management_toolbox/test/features/calculators/project/boundaries_test.dart: EAC budget and bottom-up allow start-of-project zeros
+00:00 +26: /home/user/management_toolbox/test/features/calculators/project/boundaries_test.dart: Completed EV=BAC needs no undefined indices except explicit bottom-up estimate
+00:00 +27: /home/user/management_toolbox/test/features/calculators/project/boundaries_test.dart: Unused new ETC cannot change other forecast methods
+00:00 +28: /home/user/management_toolbox/test/features/calculators/project/boundaries_test.dart: EAC rejects unrepresentable ETC or lost positive costs
+00:00 +29: /home/user/management_toolbox/test/features/calculators/project/boundaries_test.dart: Duration comparison early, equal, late and zero actual
+00:00 +30: /home/user/management_toolbox/test/features/calculators/project/boundaries_test.dart: Zero planned duration keeps difference but declares ratios undefined
+00:00 +31: /home/user/management_toolbox/test/features/calculators/project/boundaries_test.dart: Duration ratios avoid nonfinite and spurious zero
+00:01 +32: loading /home/user/management_toolbox/test/features/calculators/project/catalog_test.dart
+00:01 +32: /home/user/management_toolbox/test/features/calculators/project/catalog_test.dart: eight independent project tools and 73 catalog entries
+00:01 +33: /home/user/management_toolbox/test/features/calculators/project/catalog_test.dart: pert_duration: full definition formula and educational numeric example
+00:01 +34: /home/user/management_toolbox/test/features/calculators/project/catalog_test.dart: pert_duration: Arabic Persian Latin digits and malformed form data
+00:01 +35: /home/user/management_toolbox/test/features/calculators/project/catalog_test.dart: cpm: full definition formula and educational numeric example
+00:01 +36: /home/user/management_toolbox/test/features/calculators/project/catalog_test.dart: cpm: Arabic Persian Latin digits and malformed form data
+00:01 +37: /home/user/management_toolbox/test/features/calculators/project/catalog_test.dart: project_float: full definition formula and educational numeric example
+00:02 +38: /home/user/management_toolbox/test/features/calculators/project/catalog_test.dart: project_float: Arabic Persian Latin digits and malformed form data
+00:02 +39: /home/user/management_toolbox/test/features/calculators/project/catalog_test.dart: evm_performance: full definition formula and educational numeric example
+00:02 +40: /home/user/management_toolbox/test/features/calculators/project/catalog_test.dart: evm_performance: Arabic Persian Latin digits and malformed form data
+00:02 +41: /home/user/management_toolbox/test/features/calculators/project/catalog_test.dart: three_point: full definition formula and educational numeric example
+00:02 +42: /home/user/management_toolbox/test/features/calculators/project/catalog_test.dart: three_point: Arabic Persian Latin digits and malformed form data
+00:02 +43: /home/user/management_toolbox/test/features/calculators/project/catalog_test.dart: eac_etc: full definition formula and educational numeric example
+00:02 +44: /home/user/management_toolbox/test/features/calculators/project/catalog_test.dart: eac_etc: Arabic Persian Latin digits and malformed form data
+00:02 +45: /home/user/management_toolbox/test/features/calculators/project/catalog_test.dart: sv_cv: full definition formula and educational numeric example
+00:02 +46: /home/user/management_toolbox/test/features/calculators/project/catalog_test.dart: sv_cv: Arabic Persian Latin digits and malformed form data
+00:02 +47: /home/user/management_toolbox/test/features/calculators/project/catalog_test.dart: duration_comparison: full definition formula and educational numeric example
+00:02 +48: /home/user/management_toolbox/test/features/calculators/project/catalog_test.dart: duration_comparison: Arabic Persian Latin digits and malformed form data
+00:02 +49: loading /home/user/management_toolbox/test/features/calculators/project/engines_test.dart
+00:03 +49: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: pert_duration: independent typed default and assumptions
+00:03 +50: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: pert_duration.optimistic: rejects negative and all nonfinite values directly
+00:03 +51: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: pert_duration.most_likely: rejects negative and all nonfinite values directly
+00:03 +52: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: pert_duration.pessimistic: rejects negative and all nonfinite values directly
+00:03 +53: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: cpm: independent typed default and assumptions
+00:03 +54: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: project_float: independent typed default and assumptions
+00:03 +55: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: evm_performance: independent typed default and assumptions
+00:03 +56: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: evm_performance.pv: rejects negative and all nonfinite values directly
+00:03 +57: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: evm_performance.ev: rejects negative and all nonfinite values directly
+00:03 +58: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: evm_performance.ac: rejects negative and all nonfinite values directly
+00:03 +59: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: three_point: independent typed default and assumptions
+00:03 +60: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: three_point.optimistic: rejects negative and all nonfinite values directly
+00:03 +61: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: three_point.most_likely: rejects negative and all nonfinite values directly
+00:03 +62: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: three_point.pessimistic: rejects negative and all nonfinite values directly
+00:03 +63: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: eac_etc: independent typed default and assumptions
+00:03 +64: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: eac_etc.bac: rejects negative and all nonfinite values directly
+00:03 +65: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: eac_etc.pv: rejects negative and all nonfinite values directly
+00:03 +66: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: eac_etc.ev: rejects negative and all nonfinite values directly
+00:03 +67: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: eac_etc.ac: rejects negative and all nonfinite values directly
+00:03 +68: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: eac_etc.new_etc: rejects negative and all nonfinite values directly
+00:03 +69: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: sv_cv: independent typed default and assumptions
+00:03 +70: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: sv_cv.pv: rejects negative and all nonfinite values directly
+00:03 +71: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: sv_cv.ev: rejects negative and all nonfinite values directly
+00:03 +72: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: sv_cv.ac: rejects negative and all nonfinite values directly
+00:03 +73: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: duration_comparison: independent typed default and assumptions
+00:03 +74: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: duration_comparison.planned_duration: rejects negative and all nonfinite values directly
+00:03 +75: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: duration_comparison.actual_duration: rejects negative and all nonfinite values directly
+00:03 +76: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: pert_duration: independent Decimal or exhaustive-path oracle
+00:03 +77: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: cpm: independent Decimal or exhaustive-path oracle
+00:03 +78: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: project_float: independent Decimal or exhaustive-path oracle
+00:03 +79: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: evm_performance: independent Decimal or exhaustive-path oracle
+00:03 +80: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: three_point: independent Decimal or exhaustive-path oracle
+00:03 +81: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: eac_etc: independent Decimal or exhaustive-path oracle
+00:03 +82: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: sv_cv: independent Decimal or exhaustive-path oracle
+00:03 +83: /home/user/management_toolbox/test/features/calculators/project/engines_test.dart: duration_comparison: independent Decimal or exhaustive-path oracle
+00:03 +84: All tests passed!

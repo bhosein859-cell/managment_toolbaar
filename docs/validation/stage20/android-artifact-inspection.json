@@ -1,0 +1,42 @@
+{
+  "artifacts": [
+    {
+      "type": "APK",
+      "build_path": "build/app/outputs/flutter-apk/app-release.apk",
+      "delivered_filename": "management_toolbox-stage20-arm64-UNSIGNED.apk",
+      "bytes": 22685854,
+      "sha256": "75be6535d1daf6901c118ef2987f621ed643efbc304bebf878d72e866510b01a",
+      "archive_CRC": "PASS",
+      "native_libraries": [
+        "lib/arm64-v8a/libapp.so",
+        "lib/arm64-v8a/libflutter.so",
+        "lib/arm64-v8a/libsqlite3.so"
+      ],
+      "local_logo_fonts_OFL": "PASS",
+      "stage": 20,
+      "signing": "UNSIGNED",
+      "installed_or_run_on_device": false
+    },
+    {
+      "type": "AAB",
+      "build_path": "build/app/outputs/bundle/release/app-release.aab",
+      "delivered_filename": "management_toolbox-stage20-arm64-UNSIGNED.aab",
+      "bytes": 22219985,
+      "sha256": "3e9b329d495a96de085f0947d26b43aec79cabea0e87cd540a82fc1993c3151d",
+      "archive_CRC": "PASS",
+      "native_libraries": [
+        "base/lib/arm64-v8a/libapp.so",
+        "base/lib/arm64-v8a/libflutter.so",
+        "base/lib/arm64-v8a/libsqlite3.so"
+      ],
+      "local_logo_fonts_OFL": "PASS",
+      "stage": 20,
+      "signing": "UNSIGNED",
+      "installed_or_run_on_device": false
+    }
+  ],
+  "compiled_APK_minSdk": 26,
+  "compiled_APK_INTERNET_permission": false,
+  "compiled_branding_resources": "PASS: legacy splash, system splash artwork, adaptive foreground, launcher and LaunchTheme present; framework style attr IDs are numeric in aapt2 output",
+  "scope": "arm64 only; real stage20 builds; not signed/install-tested"
+}

@@ -1,0 +1,22 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/finance/loan_payment_test.dart
+00:00 +0: /home/user/management_toolbox/test/features/calculators/finance/loan_payment_test.dart: loan_payment: reference formula
+00:00 +1: /home/user/management_toolbox/test/features/calculators/finance/loan_payment_test.dart: loan_payment: typed bind and domain validation
+00:00 +2: /home/user/management_toolbox/test/features/calculators/finance/loan_payment_test.dart: loan_payment: nonfinite principal
+00:00 +3: /home/user/management_toolbox/test/features/calculators/finance/loan_payment_test.dart: loan_payment: lower bound principal
+00:00 +4: /home/user/management_toolbox/test/features/calculators/finance/loan_payment_test.dart: loan_payment: nonfinite period_rate
+00:00 +5: /home/user/management_toolbox/test/features/calculators/finance/loan_payment_test.dart: loan_payment: lower bound period_rate
+00:00 +6: /home/user/management_toolbox/test/features/calculators/finance/loan_payment_test.dart: loan_payment: nonfinite periods
+00:00 +7: /home/user/management_toolbox/test/features/calculators/finance/loan_payment_test.dart: loan_payment: lower bound periods
+00:00 +8: /home/user/management_toolbox/test/features/calculators/finance/loan_payment_test.dart: loan_payment: upper bound periods
+00:00 +9: /home/user/management_toolbox/test/features/calculators/finance/loan_payment_test.dart: loan_payment: fractional periods are rejected
+00:00 +10: /home/user/management_toolbox/test/features/calculators/finance/loan_payment_test.dart: loan_payment: 20 independent Decimal formula fixtures
+00:00 +11: /home/user/management_toolbox/test/features/calculators/finance/loan_payment_test.dart: loan_payment: zero cross-field and numerical edge cases
+00:00 +12: loading /home/user/management_toolbox/test/features/calculators/finance/payback_test.dart
+00:00 +12: /home/user/management_toolbox/test/features/calculators/finance/payback_test.dart: payback reference is 2.6 periods with uniform intraperiod receipts
+00:00 +13: /home/user/management_toolbox/test/features/calculators/finance/payback_test.dart: payback zero investment exact endpoint and zero-flow periods
+00:00 +14: /home/user/management_toolbox/test/features/calculators/finance/payback_test.dart: payback not recovered never returns a made-up period
+00:00 +15: /home/user/management_toolbox/test/features/calculators/finance/payback_test.dart: payback invalid initial cost direct validation
+00:00 +16: /home/user/management_toolbox/test/features/calculators/finance/payback_test.dart: payback negative future flow is explicitly unsupported, not ignored
+00:00 +17: /home/user/management_toolbox/test/features/calculators/finance/payback_test.dart: payback immutable inputs typed bind and underflow safeguards
+00:00 +18: /home/user/management_toolbox/test/features/calculators/finance/payback_test.dart: payback 20 independent Decimal fixtures
+00:00 +19: All tests passed!

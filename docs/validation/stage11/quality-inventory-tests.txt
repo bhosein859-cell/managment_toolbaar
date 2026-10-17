@@ -1,0 +1,227 @@
+Resolving dependencies...
+Downloading packages...
+  material_color_utilities 0.13.0 (0.13.1 available)
+  meta 1.18.3 (1.19.0 available)
+  petitparser 7.0.2 (7.1.0 available)
+  test_api 0.7.12 (0.7.15 available)
+  vector_math 2.4.0 (2.4.3 available)
+  xml 7.0.1 (7.1.0 available)
+Got dependencies!
+6 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart
+00:00 +0: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: cpk: independently typed example and assumptions
+00:00 +1: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: cpk.usl: rejects NaN and both infinities directly
+00:00 +2: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: cpk.lsl: rejects NaN and both infinities directly
+00:00 +3: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: cpk.mean: rejects NaN and both infinities directly
+00:00 +4: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: cpk.sigma: rejects NaN and both infinities directly
+00:00 +5: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: cpk.sigma: rejects lower-bound violation
+00:00 +6: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: pp: independently typed example and assumptions
+00:00 +7: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: pp.usl: rejects NaN and both infinities directly
+00:00 +8: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: pp.lsl: rejects NaN and both infinities directly
+00:00 +9: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: pp.sigma: rejects NaN and both infinities directly
+00:00 +10: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: pp.sigma: rejects lower-bound violation
+00:00 +11: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: ppk: independently typed example and assumptions
+00:00 +12: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: ppk.usl: rejects NaN and both infinities directly
+00:00 +13: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: ppk.lsl: rejects NaN and both infinities directly
+00:00 +14: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: ppk.mean: rejects NaN and both infinities directly
+00:00 +15: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: ppk.sigma: rejects NaN and both infinities directly
+00:00 +16: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: ppk.sigma: rejects lower-bound violation
+00:00 +17: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: dpmo: independently typed example and assumptions
+00:00 +18: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: dpmo.defects: rejects NaN and both infinities directly
+00:00 +19: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: dpmo.defects: rejects lower-bound violation
+00:00 +20: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: dpmo.defects: rejects fractional count
+00:00 +21: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: dpmo.units: rejects NaN and both infinities directly
+00:00 +22: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: dpmo.units: rejects lower-bound violation
+00:00 +23: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: dpmo.units: rejects fractional count
+00:00 +24: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: dpmo.opportunities: rejects NaN and both infinities directly
+00:00 +25: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: dpmo.opportunities: rejects lower-bound violation
+00:00 +26: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: dpmo.opportunities: rejects fractional count
+00:00 +27: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: sigma_level: independently typed example and assumptions
+00:00 +28: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: sigma_level.dpmo: rejects NaN and both infinities directly
+00:00 +29: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: sigma_level.dpmo: rejects lower-bound violation
+00:00 +30: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: sigma_level.dpmo: rejects upper-bound violation
+00:00 +31: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: xbar_control: independently typed example and assumptions
+00:00 +32: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: xbar_control.subgroup_size: rejects NaN and both infinities directly
+00:00 +33: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: xbar_control.subgroup_size: rejects lower-bound violation
+00:00 +34: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: xbar_control.subgroup_size: rejects upper-bound violation
+00:00 +35: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: xbar_control.subgroup_size: rejects fractional count
+00:00 +36: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: coq: independently typed example and assumptions
+00:00 +37: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: coq.prevention: rejects NaN and both infinities directly
+00:00 +38: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: coq.prevention: rejects lower-bound violation
+00:00 +39: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: coq.appraisal: rejects NaN and both infinities directly
+00:00 +40: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: coq.appraisal: rejects lower-bound violation
+00:00 +41: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: coq.internal_failure: rejects NaN and both infinities directly
+00:00 +42: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: coq.internal_failure: rejects lower-bound violation
+00:00 +43: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: coq.external_failure: rejects NaN and both infinities directly
+00:00 +44: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: coq.external_failure: rejects lower-bound violation
+00:00 +45: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: eoq: independently typed example and assumptions
+00:00 +46: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: eoq.annual_demand: rejects NaN and both infinities directly
+00:00 +47: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: eoq.annual_demand: rejects lower-bound violation
+00:00 +48: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: eoq.order_cost: rejects NaN and both infinities directly
+00:00 +49: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: eoq.order_cost: rejects lower-bound violation
+00:00 +50: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: eoq.holding_cost: rejects NaN and both infinities directly
+00:00 +51: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: eoq.holding_cost: rejects lower-bound violation
+00:00 +52: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: rop: independently typed example and assumptions
+00:00 +53: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: rop.daily_demand: rejects NaN and both infinities directly
+00:00 +54: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: rop.daily_demand: rejects lower-bound violation
+00:00 +55: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: rop.lead_time: rejects NaN and both infinities directly
+00:00 +56: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: rop.lead_time: rejects lower-bound violation
+00:00 +57: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: rop.safety_stock: rejects NaN and both infinities directly
+00:00 +58: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: rop.safety_stock: rejects lower-bound violation
+00:00 +59: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: safety_stock: independently typed example and assumptions
+00:00 +60: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: safety_stock.mean_demand: rejects NaN and both infinities directly
+00:00 +61: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: safety_stock.mean_demand: rejects lower-bound violation
+00:00 +62: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: safety_stock.demand_sd: rejects NaN and both infinities directly
+00:00 +63: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: safety_stock.demand_sd: rejects lower-bound violation
+00:00 +64: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: safety_stock.mean_lead: rejects NaN and both infinities directly
+00:00 +65: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: safety_stock.mean_lead: rejects lower-bound violation
+00:00 +66: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: safety_stock.lead_sd: rejects NaN and both infinities directly
+00:00 +67: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: safety_stock.lead_sd: rejects lower-bound violation
+00:00 +68: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: safety_stock.service_level: rejects NaN and both infinities directly
+00:00 +69: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: safety_stock.service_level: rejects lower-bound violation
+00:00 +70: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: safety_stock.service_level: rejects upper-bound violation
+00:00 +71: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: abc: independently typed example and assumptions
+00:00 +72: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: abc.a_threshold: rejects NaN and both infinities directly
+00:00 +73: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: abc.a_threshold: rejects lower-bound violation
+00:00 +74: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: abc.a_threshold: rejects upper-bound violation
+00:00 +75: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: abc.b_threshold: rejects NaN and both infinities directly
+00:00 +76: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: abc.b_threshold: rejects lower-bound violation
+00:00 +77: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: abc.b_threshold: rejects upper-bound violation
+00:00 +78: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: inventory_turnover: independently typed example and assumptions
+00:00 +79: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: inventory_turnover.cogs: rejects NaN and both infinities directly
+00:00 +80: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: inventory_turnover.cogs: rejects lower-bound violation
+00:00 +81: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: inventory_turnover.average_inventory: rejects NaN and both infinities directly
+00:00 +82: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: inventory_turnover.average_inventory: rejects lower-bound violation
+00:00 +83: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: days_inventory: independently typed example and assumptions
+00:00 +84: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: days_inventory.average_inventory: rejects NaN and both infinities directly
+00:00 +85: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: days_inventory.average_inventory: rejects lower-bound violation
+00:00 +86: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: days_inventory.cogs: rejects NaN and both infinities directly
+00:00 +87: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: days_inventory.cogs: rejects lower-bound violation
+00:00 +88: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: days_inventory.period_days: rejects NaN and both infinities directly
+00:00 +89: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: days_inventory.period_days: rejects lower-bound violation
+00:00 +90: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: inventory_holding_cost: independently typed example and assumptions
+00:00 +91: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: inventory_holding_cost.average_value: rejects NaN and both infinities directly
+00:00 +92: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: inventory_holding_cost.average_value: rejects lower-bound violation
+00:00 +93: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: inventory_holding_cost.annual_rate: rejects NaN and both infinities directly
+00:00 +94: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: inventory_holding_cost.annual_rate: rejects lower-bound violation
+00:00 +95: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: inventory_holding_cost.period_days: rejects NaN and both infinities directly
+00:00 +96: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: inventory_holding_cost.period_days: rejects lower-bound violation
+00:00 +97: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: inventory_holding_cost.year_days: rejects NaN and both infinities directly
+00:00 +98: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: inventory_holding_cost.year_days: rejects lower-bound violation
+00:00 +99: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: reorder_interval: independently typed example and assumptions
+00:00 +100: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: reorder_interval.order_quantity: rejects NaN and both infinities directly
+00:00 +101: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: reorder_interval.order_quantity: rejects lower-bound violation
+00:00 +102: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: reorder_interval.annual_demand: rejects NaN and both infinities directly
+00:00 +103: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: reorder_interval.annual_demand: rejects lower-bound violation
+00:00 +104: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: reorder_interval.year_days: rejects NaN and both infinities directly
+00:00 +105: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: reorder_interval.year_days: rejects lower-bound violation
+00:00 +106: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: cpk: 20 independent Python Decimal/statistics references
+00:00 +107: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: pp: 20 independent Python Decimal/statistics references
+00:00 +108: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: ppk: 20 independent Python Decimal/statistics references
+00:00 +109: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: dpmo: 20 independent Python Decimal/statistics references
+00:00 +110: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: sigma_level: 20 independent Python Decimal/statistics references
+00:00 +111: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: xbar_control: 20 independent Python Decimal/statistics references
+00:00 +112: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: coq: 20 independent Python Decimal/statistics references
+00:00 +113: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: eoq: 20 independent Python Decimal/statistics references
+00:00 +114: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: rop: 20 independent Python Decimal/statistics references
+00:00 +115: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: safety_stock: 20 independent Python Decimal/statistics references
+00:00 +116: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: abc: 20 independent Python Decimal/statistics references
+00:00 +117: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: inventory_turnover: 20 independent Python Decimal/statistics references
+00:00 +118: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: days_inventory: 20 independent Python Decimal/statistics references
+00:00 +119: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: inventory_holding_cost: 20 independent Python Decimal/statistics references
+00:00 +120: /home/user/management_toolbox/test/features/calculators/quality_inventory/engines_test.dart: reorder_interval: 20 independent Python Decimal/statistics references
+00:00 +121: loading /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart
+00:01 +121: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: cp: generic form rendered formula error and example
+00:03 +122: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: cpk: generic form rendered formula error and example
+00:03 +123: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: pp: generic form rendered formula error and example
+00:04 +124: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: ppk: generic form rendered formula error and example
+00:04 +125: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: dpmo: generic form rendered formula error and example
+00:05 +126: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: sigma_level: generic form rendered formula error and example
+00:05 +127: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: xbar_control: generic form rendered formula error and example
+00:06 +128: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: coq: generic form rendered formula error and example
+00:06 +129: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: eoq: generic form rendered formula error and example
+00:06 +130: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: rop: generic form rendered formula error and example
+00:07 +131: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: safety_stock: generic form rendered formula error and example
+00:07 +132: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: abc: generic form rendered formula error and example
+00:08 +133: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: inventory_turnover: generic form rendered formula error and example
+00:08 +134: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: days_inventory: generic form rendered formula error and example
+00:08 +135: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: inventory_holding_cost: generic form rendered formula error and example
+00:09 +136: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: reorder_interval: generic form rendered formula error and example
+00:09 +137: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: eight quality tools open through real routes
+00:11 +138: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: eight inventory tools open through real routes
+00:13 +139: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: Sigma convention is explicit and endpoints clear stale result
+00:13 +140: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: ABC paired inputs and thresholds save and reopen through history
+00:15 +141: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: sixteen quality/inventory pages fit Size(320.0, 568.0) dark=false enlarged RTL
+00:17 +142: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: sixteen quality/inventory pages fit Size(320.0, 568.0) dark=true enlarged RTL
+00:18 +143: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: sixteen quality/inventory pages fit Size(1280.0, 800.0) dark=false enlarged RTL
+00:19 +144: /home/user/management_toolbox/test/features/calculators/quality_inventory/pages_test.dart: sixteen quality/inventory pages fit Size(1280.0, 800.0) dark=true enlarged RTL
+00:20 +145: loading /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart
+00:21 +145: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: cpk: inverted/equal specs and zero sigma
+00:21 +146: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: cpk: avoids overflowing width/denominator; refuses underflow
+00:21 +147: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: pp: inverted/equal specs and zero sigma
+00:21 +148: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: pp: avoids overflowing width/denominator; refuses underflow
+00:21 +149: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: ppk: inverted/equal specs and zero sigma
+00:21 +150: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: ppk: avoids overflowing width/denominator; refuses underflow
+00:21 +151: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: cpk: negative outside specs, zero on spec, not clipped
+00:21 +152: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: ppk: negative outside specs, zero on spec, not clipped
+00:21 +153: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: DPMO: endpoints and binary opportunities and exact integer cap
+00:21 +154: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: Sigma: no fabricated endpoints, rare tail, selectable convention, negative Z
+00:21 +155: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: Sigma bind rejects unknown shift without inventing enum
+00:21 +156: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: Normal quantile: independent tabulated tails and center, errors < 5e-8
+00:21 +157: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: Normal quantile: monotonicity and symmetric central probabilities
+00:21 +158: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: Xbar: exact subgroup means/ranges, d2 method, allowed negative LCL
+00:21 +159: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: Xbar: one-point signal indices are chronological, no stability verdict
+00:21 +160: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: Xbar: incomplete/single/empty/oversized groups and constant range
+00:21 +161: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: Xbar: nonfinite, overflowing ranges and lost scaled observations reject
+00:21 +162: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: Xbar: copied immutable observations and supported constants
+00:21 +163: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: COQ: PAF/COPQ identity, zero total gives undefined share not division
+00:21 +164: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: EOQ: continuous optimum and annual ordering/holding balance
+00:21 +165: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: ROP: zero and inventory-position buffer, overflow and underflow guarded
+00:21 +166: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: SS: deterministic lead time, service 50 percent, no variation and independent terms
+00:21 +167: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: SS: nonnegative zero mean cannot have positive SD, correct field errors
+00:21 +168: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: ABC: crossing-item policy, exact boundary and zero-value C
+00:21 +169: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: ABC: stable ties follow original SKU row; shares sum to one
+00:21 +170: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: ABC: list lengths, empty, negatives, nonfinite, zero total, unordered thresholds
+00:21 +171: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: ABC: multiplication/sum range and immutable paired lists
+00:21 +172: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: Turnover/DIO: period reciprocity, zero COGS/stock conventions
+00:21 +173: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: Holding cost: linear horizon, explicit year and permitted zeros
+00:21 +174: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: Reorder interval: explicitly chosen year, inverse demand and continuous Q
+00:21 +175: /home/user/management_toolbox/test/features/calculators/quality_inventory/boundaries_test.dart: Numeric helpers: compensation, safe hypot and division fallback
+00:21 +176: loading /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart
+00:22 +176: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: 16 tools without duplicating Cp; 36 tools in eight categories
+00:22 +177: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: cp: full definition formula and educational numeric example
+00:22 +178: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: cp: Arabic Persian Latin digits and malformed form data
+00:22 +179: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: cpk: full definition formula and educational numeric example
+00:22 +180: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: cpk: Arabic Persian Latin digits and malformed form data
+00:22 +181: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: pp: full definition formula and educational numeric example
+00:22 +182: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: pp: Arabic Persian Latin digits and malformed form data
+00:22 +183: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: ppk: full definition formula and educational numeric example
+00:22 +184: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: ppk: Arabic Persian Latin digits and malformed form data
+00:22 +185: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: dpmo: full definition formula and educational numeric example
+00:22 +186: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: dpmo: Arabic Persian Latin digits and malformed form data
+00:22 +187: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: sigma_level: full definition formula and educational numeric example
+00:22 +188: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: sigma_level: Arabic Persian Latin digits and malformed form data
+00:22 +189: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: xbar_control: full definition formula and educational numeric example
+00:22 +190: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: xbar_control: Arabic Persian Latin digits and malformed form data
+00:22 +191: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: coq: full definition formula and educational numeric example
+00:22 +192: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: coq: Arabic Persian Latin digits and malformed form data
+00:22 +193: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: eoq: full definition formula and educational numeric example
+00:22 +194: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: eoq: Arabic Persian Latin digits and malformed form data
+00:22 +195: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: rop: full definition formula and educational numeric example
+00:22 +196: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: rop: Arabic Persian Latin digits and malformed form data
+00:22 +197: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: safety_stock: full definition formula and educational numeric example
+00:22 +198: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: safety_stock: Arabic Persian Latin digits and malformed form data
+00:22 +199: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: abc: full definition formula and educational numeric example
+00:22 +200: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: abc: Arabic Persian Latin digits and malformed form data
+00:22 +201: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: inventory_turnover: full definition formula and educational numeric example
+00:22 +202: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: inventory_turnover: Arabic Persian Latin digits and malformed form data
+00:22 +203: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: days_inventory: full definition formula and educational numeric example
+00:22 +204: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: days_inventory: Arabic Persian Latin digits and malformed form data
+00:22 +205: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: inventory_holding_cost: full definition formula and educational numeric example
+00:22 +206: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: inventory_holding_cost: Arabic Persian Latin digits and malformed form data
+00:22 +207: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: reorder_interval: full definition formula and educational numeric example
+00:22 +208: /home/user/management_toolbox/test/features/calculators/quality_inventory/catalog_test.dart: reorder_interval: Arabic Persian Latin digits and malformed form data
+00:23 +209: loading /home/user/management_toolbox/test/features/calculators/quality_inventory/visual_test.dart
+00:23 +209: /home/user/management_toolbox/test/features/calculators/quality_inventory/visual_test.dart: capture quality and inventory categories, Xbar, sigma endpoint and ABC
+00:23 +209 ~1: All tests passed!

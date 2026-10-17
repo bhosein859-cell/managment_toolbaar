@@ -1,0 +1,56 @@
+Resolving dependencies...
+Downloading packages...
+  material_color_utilities 0.13.0 (0.13.1 available)
+  meta 1.18.3 (1.19.0 available)
+  petitparser 7.0.2 (7.1.0 available)
+  test_api 0.7.12 (0.7.15 available)
+  vector_math 2.4.0 (2.4.3 available)
+  xml 7.0.1 (7.1.0 available)
+Got dependencies!
+6 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+00:00 +0: loading /home/user/management_toolbox/test/features/home/home_visual_test.dart
+00:00 +0: /home/user/management_toolbox/test/features/home/home_visual_test.dart: capture home search and engineering economics with actual session data
+00:00 +0 ~1: loading /home/user/management_toolbox/test/features/home/search_test.dart
+00:00 +0 ~1: /home/user/management_toolbox/test/features/home/search_test.dart: eight honest categories, sixty-eight implemented tools across eight categories
+00:00 +1 ~1: /home/user/management_toolbox/test/features/home/search_test.dart: catalog guards missing categories and duplicate IDs
+00:00 +2 ~1: /home/user/management_toolbox/test/features/home/search_test.dart: normalizes Arabic letters digits marks spaces and punctuation without changing source
+00:00 +3 ~1: /home/user/management_toolbox/test/features/home/search_test.dart: finds OEE by name/alias/normalization: OEE
+00:00 +4 ~1: /home/user/management_toolbox/test/features/home/search_test.dart: finds OEE by name/alias/normalization: اثربخشي كلي تجهيزات
+00:00 +5 ~1: /home/user/management_toolbox/test/features/home/search_test.dart: finds OEE by name/alias/normalization: بهره‌وری تجهیزات
+00:00 +6 ~1: /home/user/management_toolbox/test/features/home/search_test.dart: finds OEE by name/alias/normalization: بهره وری تجهیزات
+00:00 +7 ~1: /home/user/management_toolbox/test/features/home/search_test.dart: finds OEE by name/alias/normalization: بهرهوری تجهیزات
+00:00 +8 ~1: /home/user/management_toolbox/test/features/home/search_test.dart: finds NPV by English/alias/description: NPV
+00:00 +9 ~1: /home/user/management_toolbox/test/features/home/search_test.dart: finds NPV by English/alias/description: Net present VALUE
+00:00 +10 ~1: /home/user/management_toolbox/test/features/home/search_test.dart: finds NPV by English/alias/description: ارزش خالص فعلی
+00:00 +11 ~1: /home/user/management_toolbox/test/features/home/search_test.dart: finds NPV by English/alias/description: ارزش‌خالص‌فعلی
+00:00 +12 ~1: /home/user/management_toolbox/test/features/home/search_test.dart: finds NPV by English/alias/description: ارزشخالصفعلی
+00:00 +13 ~1: /home/user/management_toolbox/test/features/home/search_test.dart: finds NPV by English/alias/description: دوره‌های برابر
+00:00 +14 ~1: /home/user/management_toolbox/test/features/home/search_test.dart: finds Cp by metadata: Cp
+00:00 +15 ~1: /home/user/management_toolbox/test/features/home/search_test.dart: finds Cp by metadata: توانمندي فرايند
+00:00 +16 ~1: /home/user/management_toolbox/test/features/home/search_test.dart: finds Cp by metadata: Process Capability Index
+00:00 +17 ~1: /home/user/management_toolbox/test/features/home/search_test.dart: broad Quality search includes Cp among eight quality tools
+00:00 +18 ~1: /home/user/management_toolbox/test/features/home/search_test.dart: multi-token queries can match across indexed fields
+00:00 +19 ~1: /home/user/management_toolbox/test/features/home/search_test.dart: light fuzzy handles deletion/substitution/transposition: nvp
+00:00 +20 ~1: /home/user/management_toolbox/test/features/home/search_test.dart: light fuzzy handles deletion/substitution/transposition: اثربخشب
+00:00 +21 ~1: /home/user/management_toolbox/test/features/home/search_test.dart: light fuzzy handles deletion/substitution/transposition: capabilty
+00:00 +22 ~1: /home/user/management_toolbox/test/features/home/search_test.dart: short inputs do not get speculative fuzzy matches
+00:00 +23 ~1: /home/user/management_toolbox/test/features/home/search_test.dart: all three digit sets match the same synthetic metadata
+00:00 +24 ~1: /home/user/management_toolbox/test/features/home/search_test.dart: exact metadata outranks fuzzy hits, ties and limits are deterministic
+00:00 +25 ~1: /home/user/management_toolbox/test/features/home/search_test.dart: banded Damerau agrees with full reference on exhaustive short strings
+00:00 +26 ~1: loading /home/user/management_toolbox/test/features/home/home_pages_test.dart
+00:01 +26 ~1: /home/user/management_toolbox/test/features/home/home_pages_test.dart: home shows all eight honest category counts and session sections
+00:02 +27 ~1: /home/user/management_toolbox/test/features/home/home_pages_test.dart: overview and each category show implemented tools
+00:04 +28 ~1: /home/user/management_toolbox/test/features/home/home_pages_test.dart: live fuzzy search is marked, opens real engine and retains query on return
+00:05 +29 ~1: /home/user/management_toolbox/test/features/home/home_pages_test.dart: Arabic/halfspace aliases search without rewriting text; no match is safe
+00:06 +30 ~1: /home/user/management_toolbox/test/features/home/home_pages_test.dart: favorite updates across pages; valid saved snapshot reopens exact prior inputs
+00:07 +31 ~1: /home/user/management_toolbox/test/features/home/home_pages_test.dart: home star does not navigate and a new app session resets ephemeral data
+00:08 +32 ~1: /home/user/management_toolbox/test/features/home/home_pages_test.dart: invalid typed route arguments safely show not found
+00:09 +33 ~1: /home/user/management_toolbox/test/features/home/home_pages_test.dart: home and actual calculator fit Size(320.0, 568.0) dark=false with text scale 1.5
+00:09 +34 ~1: /home/user/management_toolbox/test/features/home/home_pages_test.dart: home and actual calculator fit Size(320.0, 568.0) dark=true with text scale 1.5
+00:10 +35 ~1: /home/user/management_toolbox/test/features/home/home_pages_test.dart: home and actual calculator fit Size(1280.0, 800.0) dark=false with text scale 1.5
+00:10 +36 ~1: /home/user/management_toolbox/test/features/home/home_pages_test.dart: home and actual calculator fit Size(1280.0, 800.0) dark=true with text scale 1.5
+00:10 +37 ~1: loading /home/user/management_toolbox/test/features/home/session_test.dart
+00:11 +37 ~1: /home/user/management_toolbox/test/features/home/session_test.dart: favorites toggle and immutable snapshots do not persist into a new session
+00:11 +38 ~1: /home/user/management_toolbox/test/features/home/session_test.dart: explicit snapshots preserve inputs and cap in-memory history at ten
+00:11 +39 ~1: All tests passed!

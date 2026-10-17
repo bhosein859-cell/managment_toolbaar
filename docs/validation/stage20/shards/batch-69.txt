@@ -1,0 +1,6 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/glossary/glossary_test.dart
+00:00 +0: offline entries are complete, immutable, uniquely category-scoped and all links resolve
+00:00 +1: English case, Persian forms, ZWNJ, empty query and category intersection
+00:00 +2: same term in one discipline merges links, same id across categories stays separate
+00:00 +3: offline glossary filters, no-match state and actual calculator link callback
+00:01 +4: All tests passed!

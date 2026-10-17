@@ -1,0 +1,19 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/hr/pages_test.dart
+00:00 +0: /home/user/management_toolbox/test/features/calculators/hr/pages_test.dart: cost_per_hire: generic form rendered formula error and example
+00:01 +1: /home/user/management_toolbox/test/features/calculators/hr/pages_test.dart: employee_turnover: generic form rendered formula error and example
+00:02 +2: /home/user/management_toolbox/test/features/calculators/hr/pages_test.dart: employee_productivity: generic form rendered formula error and example
+00:02 +3: /home/user/management_toolbox/test/features/calculators/hr/pages_test.dart: training_roi: generic form rendered formula error and example
+00:03 +4: /home/user/management_toolbox/test/features/calculators/hr/pages_test.dart: replacement_time: generic form rendered formula error and example
+00:03 +5: /home/user/management_toolbox/test/features/calculators/hr/pages_test.dart: absence_cost: generic form rendered formula error and example
+00:03 +6: /home/user/management_toolbox/test/features/calculators/hr/pages_test.dart: six HR tools open through real category routes
+00:05 +7: /home/user/management_toolbox/test/features/calculators/hr/pages_test.dart: zero average turnover and blank observations have Persian errors
+00:06 +8: /home/user/management_toolbox/test/features/calculators/hr/pages_test.dart: negative training ROI remains descriptive, not clamped
+00:06 +9: /home/user/management_toolbox/test/features/calculators/hr/pages_test.dart: HR context and time list save/reopen, invalid fields disable save
+00:08 +10: /home/user/management_toolbox/test/features/calculators/hr/pages_test.dart: HR incomplete external snapshots do not silently borrow example defaults
+00:09 +11: /home/user/management_toolbox/test/features/calculators/hr/pages_test.dart: six HR pages fit Size(320.0, 568.0) dark=false enlarged RTL
+00:10 +12: /home/user/management_toolbox/test/features/calculators/hr/pages_test.dart: six HR pages fit Size(320.0, 568.0) dark=true enlarged RTL
+00:11 +13: /home/user/management_toolbox/test/features/calculators/hr/pages_test.dart: six HR pages fit Size(1280.0, 800.0) dark=false enlarged RTL
+00:12 +14: /home/user/management_toolbox/test/features/calculators/hr/pages_test.dart: six HR pages fit Size(1280.0, 800.0) dark=true enlarged RTL
+00:12 +15: loading /home/user/management_toolbox/test/features/calculators/hr/visual_test.dart
+00:13 +15: /home/user/management_toolbox/test/features/calculators/hr/visual_test.dart: capture HR category turnover zero denominator and training ROI
+00:13 +15 ~1: All tests passed!

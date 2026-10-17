@@ -1,0 +1,2 @@
+Wrote 320 cases: 120 Decimal scalar and 200 exhaustive-path network references.
+PASS: reference regeneration byte-identical. SHA256: 30f9995855345feef540bdbe5527c70e161557426dcc5d744eb96c4690e80d0a

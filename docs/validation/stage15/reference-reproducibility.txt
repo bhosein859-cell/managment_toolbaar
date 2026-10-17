@@ -1,0 +1,4 @@
+Wrote 400 Decimal(120) references using explicit cash-flow sums and year-by-year ledgers.
+Before: f541722ecfeaaba0f263d64cbebc6f81fcce87fd4b285dcdaaaddf2ba9643a0a
+After:  f541722ecfeaaba0f263d64cbebc6f81fcce87fd4b285dcdaaaddf2ba9643a0a
+Identical: True

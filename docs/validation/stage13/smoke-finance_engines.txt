@@ -1,0 +1,11 @@
+npv: 41.32231404958662
+irr: 0.13066238629044102
+payback: 2.6
+roi: 0.2
+current_ratio: 2.0
+quick_ratio: 1.9
+wacc: 0.096
+compound_interest: 1210.0000000000002
+loan_payment: 88.84878867834162
+break_even: 250.0
+Pure Dart finance smoke: 10 engines, 50-tool catalog and IRR failure paths passed.

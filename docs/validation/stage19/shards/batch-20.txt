@@ -1,0 +1,12 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/finance/break_even_test.dart
+00:00 +0: break_even: reference formula
+00:00 +1: break_even: typed bind and domain validation
+00:00 +2: break_even: nonfinite fixed_cost
+00:00 +3: break_even: lower bound fixed_cost
+00:00 +4: break_even: nonfinite unit_price
+00:00 +5: break_even: lower bound unit_price
+00:00 +6: break_even: nonfinite variable_cost
+00:00 +7: break_even: lower bound variable_cost
+00:00 +8: break_even: 20 independent Decimal formula fixtures
+00:00 +9: break_even: zero cross-field and numerical edge cases
+00:00 +10: All tests passed!

@@ -1,0 +1,12 @@
+00:00 +0: loading /home/user/management_toolbox/test/features/calculators/production/cycle_time_test.dart
+00:00 +0: cycle_time: independent numeric reference
+00:00 +1: cycle_time: typed bind validates independently of form
+00:00 +2: cycle_time: rejects negative/nonfinite run_time in direct calculation
+00:00 +3: cycle_time: zero run_time is rejected
+00:00 +4: cycle_time: rejects negative/nonfinite total_output in direct calculation
+00:00 +5: cycle_time: zero total_output is rejected
+00:00 +6: cycle_time: overflow returns Persian numeric-range failure, not Infinity
+00:00 +7: cycle_time: underflow is not disguised as zero
+00:00 +8: cycle_time: 20 independent Decimal fixtures
+00:00 +9: cycle_time: semantic and scale boundaries
+00:00 +10: All tests passed!
