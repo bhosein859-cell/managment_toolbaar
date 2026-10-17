@@ -1,7 +1,7 @@
 name: management_toolbox
 description: "جعبه‌ابزار مدیریت؛ ابزارهای محاسباتی آفلاین برای اندروید و ویندوز"
 publish_to: 'none'
-version: 0.1.0+1
+version: 1.1.1+11101
 
 environment:
   sdk: ^3.13.5

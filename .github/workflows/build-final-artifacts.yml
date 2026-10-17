@@ -1,0 +1,139 @@
+name: Final release build (Android + Windows)
+
+# خروجی‌های توزیع را می‌سازد: APK جهانی + APK تفکیک‌شده بر پایهٔ ABI، AAB، و بستهٔ
+# کامل قابل‌حمل Windows x64. QA به‌صورت موازی اجرا می‌شود تا نتیجه در یک نگاه باشد.
+# امضا عمداً در این workflow انجام نمی‌شود: هیچ material امضا، keystore یا رمز نه در
+# repository و نه در لاگ CI قرار نمی‌گیرد. امضای APK بیرون از CI انجام می‌شود.
+on:
+  workflow_dispatch: {}
+  # موقتاً فقط روی شاخهٔ کاری همین نشست؛ تا دسترسی workflow_dispatch فعال است.
+  push:
+    branches: ['arena/11ac0834-managment-toolbaar']
+
+permissions:
+  contents: read
+
+concurrency:
+  group: final-release-${{ github.ref }}
+  cancel-in-progress: false
+
+env:
+  FLUTTER_VERSION: '3.47.7'
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  qa:
+    name: QA (analyze, tests, format, docs, branding)
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2 # v2
+        with:
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          channel: stable
+          cache: true
+      - run: flutter --version
+      - run: flutter pub get --enforce-lockfile
+      - run: flutter analyze
+      - run: flutter test --concurrency=1
+      - run: dart format --output=none --set-exit-if-changed lib test tool
+      - run: dart run tool/update_calculator_table.dart --check
+      - run: python -m unittest discover -s tool/tests -v
+      - run: python -m pip install -r tool/requirements-branding.txt
+      - run: python tool/generate_branding.py --check
+
+  android:
+    name: Android release (universal + per-ABI APK, AAB)
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-java@cf277c60eb25467037889841efdb72551f06f6c3 # v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2 # v2
+        with:
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          channel: stable
+          cache: true
+      - run: flutter --version
+      - run: flutter pub get --enforce-lockfile
+      - name: Build and stage artifacts (UNSIGNED by design)
+        run: |
+          set -euo pipefail
+          version=$(sed -n 's/^version: \([0-9.]*\)+.*/\1/p' pubspec.yaml | tr -d '\r')
+          test -n "$version"
+          mkdir -p dist/android
+          out="dist/android/management_toolbox-${version}-android"
+          flutter build apk --release --no-pub
+          cp build/app/outputs/flutter-apk/app-release.apk "${out}-universal-UNSIGNED.apk"
+          flutter build apk --release --no-pub --split-per-abi
+          for abi in arm64-v8a armeabi-v7a x86_64; do
+            src="build/app/outputs/flutter-apk/app-${abi}-release.apk"
+            test -f "$src"
+            cp "$src" "${out}-${abi}-UNSIGNED.apk"
+          done
+          flutter build appbundle --release --no-pub
+          cp build/app/outputs/bundle/release/app-release.aab "${out}-bundle-UNSIGNED.aab"
+          echo "app_version=${version}" > "${out}-BUILD-INFO.txt"
+          echo "commit=$(git rev-parse HEAD)" >> "${out}-BUILD-INFO.txt"
+          echo "flutter=$(flutter --version | head -1)" >> "${out}-BUILD-INFO.txt"
+          ls -l dist/android >> "${out}-BUILD-INFO.txt"
+      - name: Checksums
+        run: |
+          set -euo pipefail
+          cd dist/android
+          sha256sum *.apk *.aab > SHA256SUMS.txt
+          cat SHA256SUMS.txt
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: android-release-unsigned
+          path: dist/android/*
+          if-no-files-found: error
+          retention-days: 30
+
+  windows:
+    name: Windows x64 portable bundle (full Release tree)
+    runs-on: windows-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2 # v2
+        with:
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          channel: stable
+          cache: true
+      - run: flutter --version
+      - run: flutter pub get --enforce-lockfile
+      - run: flutter build windows --release --no-pub
+      - run: python tool/package_windows.py
+      - name: Stage bundle
+        run: |
+          set -euo pipefail
+          version=$(sed -n 's/^version: \([0-9.]*\)+.*/\1/p' pubspec.yaml | tr -d '\r')
+          test -n "$version"
+          mkdir -p dist/windows
+          name="management_toolbox-${version}-windows-x64-portable.zip"
+          cp releases/management_toolbox-windows-x64.zip "dist/windows/${name}"
+          (cd dist/windows && sha256sum "${name}" > "${name}.sha256")
+          files=$(python -c "import zipfile; print(len(zipfile.ZipFile('releases/management_toolbox-windows-x64.zip').namelist()))")
+          {
+            echo "app_version=${version}"
+            echo "commit=$(git rev-parse HEAD)"
+            echo "flutter=$(flutter --version | head -1)"
+            echo "files_in_archive=${files}"
+            echo "layout=management_toolbox/ holds the whole Release tree (exe, dll, data, assets, fonts) - never an EXE alone"
+            ls -l dist/windows
+          } > "dist/windows/management_toolbox-${version}-windows-x64-portable-BUILD-INFO.txt"
+          cat "dist/windows/management_toolbox-${version}-windows-x64-portable-BUILD-INFO.txt"
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: windows-x64-portable
+          path: dist/windows/*
+          if-no-files-found: error
+          retention-days: 30
