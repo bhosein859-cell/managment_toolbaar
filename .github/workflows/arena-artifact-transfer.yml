@@ -9,6 +9,8 @@ on:
   workflow_dispatch: {}
   push:
     branches: ['arena/**']
+    # تغییر CI/مستندات نباید دوباره inbox را بازنویسی کند؛ پوش بکام روی خود inbox کافی است.
+    paths-ignore: ['.github/**', 'docs/**', 'README.md', 'TECHNICAL_DOCS.md']
 
 permissions:
   contents: write
@@ -126,3 +128,38 @@ jobs:
           else
             echo 'GATE: skipped (inbox binaries are UNSIGNED by design at this stage)'
           fi
+
+  publish:
+    name: Publish GitHub Release with the signed binaries
+    if: github.ref_name == 'arena/artifacts-inbox' && github.event_name == 'push'
+    needs: verify
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      TAG: v1.1.1
+      BUILD_COMMIT: e063f5a9eab205421d7ad9854a7f5c16bb9bae62
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: arena/artifacts-inbox
+      - name: Gate on release markers
+        run: |
+          set -euo pipefail
+          test -f inbox/SIGNED || { echo 'no SIGNED marker; refusing to publish'; exit 1; }
+          test -f inbox/PUBLISH || { echo 'no PUBLISH marker; refusing to publish'; exit 1; }
+          ls -l inbox
+      - name: Create or update the release
+        run: |
+          set -euo pipefail
+          title='Management Toolbox 1.1.1 - خروجی نهایی Android و Windows'
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release edit "$TAG" --target "$BUILD_COMMIT" --title "$title" --notes-file inbox/RELEASE-NOTES.md
+          else
+            gh release create "$TAG" --target "$BUILD_COMMIT" --title "$title" --notes-file inbox/RELEASE-NOTES.md
+          fi
+          shopt -s nullglob
+          for f in inbox/*.apk inbox/*.aab inbox/*.zip inbox/*.zip.sha256 inbox/SHA256SUMS.txt; do
+            echo "uploading $f"
+            gh release upload "$TAG" "$f" --clobber
+          done
+          gh release view "$TAG" --json tagName,url,assets --jq '{tag:.tagName,url:.url,assets:[.assets[]|{name,size}]}'

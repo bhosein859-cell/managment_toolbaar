@@ -9,6 +9,7 @@ on:
   # موقتاً فقط روی شاخهٔ کاری همین نشست؛ تا دسترسی workflow_dispatch فعال است.
   push:
     branches: ['arena/11ac0834-managment-toolbaar']
+    paths-ignore: ['.github/**', 'docs/**', 'README.md', 'TECHNICAL_DOCS.md']
 
 permissions:
   contents: read
