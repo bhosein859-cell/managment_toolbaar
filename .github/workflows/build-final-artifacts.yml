@@ -5,11 +5,8 @@ name: Final release build (Android + Windows)
 # امضا عمداً در این workflow انجام نمی‌شود: هیچ material امضا، keystore یا رمز نه در
 # repository و نه در لاگ CI قرار نمی‌گیرد. امضای APK بیرون از CI انجام می‌شود.
 on:
+  # دستی: Actions → Final release build (Android + Windows) → Run workflow
   workflow_dispatch: {}
-  # موقتاً فقط روی شاخهٔ کاری همین نشست؛ تا دسترسی workflow_dispatch فعال است.
-  push:
-    branches: ['arena/11ac0834-managment-toolbaar']
-    paths-ignore: ['.github/**', 'docs/**', 'README.md', 'TECHNICAL_DOCS.md']
 
 permissions:
   contents: read

@@ -1,0 +1,15 @@
+run 39029028069 | Final release build (Android + Windows) | head=e063f5a9ea | completed/success | started=2026-10-17T11:31:29Z | nulls | jobs=1
+   job: Windows x64 portable bundle (full Release tree) -> success  steps: all success/skipped
+   job: Android release (universal + per-ABI APK, AAB) -> success  steps: all success/skipped
+   job: QA (analyze, tests, format, docs, branding) -> success  steps: all success/skipped
+run 39029588357 | Final release build (Android + Windows) | head=1a45bcad4c | completed/success | started=2026-10-17T11:40:18Z | nulls | jobs=1
+   job: Android release (universal + per-ABI APK, AAB) -> success  steps: all success/skipped
+   job: Windows x64 portable bundle (full Release tree) -> success  steps: all success/skipped
+   job: QA (analyze, tests, format, docs, branding) -> success  steps: all success/skipped
+run 39029588423 | Arena artifact transfer (temporary) | head=1a45bcad4c | completed/success | started=2026-10-17T11:40:18Z | nulls | jobs=1
+   job: Copy build artifacts to inbox branch -> success  steps: all success/skipped
+   job: Verify inbox binaries with official Android tools -> skipped  steps: all success/skipped
+run 39030108632 | Arena artifact transfer (temporary) | head=21127cf5a7 | completed/success | started=2026-10-17T11:48:40Z | nulls | jobs=1
+   job: Verify inbox binaries with official Android tools -> success  steps: all success/skipped
+   job: Copy build artifacts to inbox branch -> skipped  steps: all success/skipped
+   job: Publish GitHub Release with the signed binaries -> success  steps: all success/skipped

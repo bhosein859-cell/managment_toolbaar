@@ -4,6 +4,22 @@
 
 **سازنده حسین بختیاری** · ۷۳ ماشین‌حساب در ۹ دسته · تاریخچهٔ دستی با سقف ۱۰ رکورد · علاقه‌مندی ماندگار · واژه‌نامهٔ محلی · فونت Vazirmatn محلی با OFL.
 
+## خروجی نهایی ۱.۱.۱ — فایل‌های آمادهٔ نصب
+
+بیلد واقعی Android و Windows روی GitHub Actions ساخته و **[Release ‏v1.1.1](https://github.com/bhosein859-cell/managment_toolbaar/releases/tag/v1.1.1)** منتشر شد
+(`versionName=1.1.1`, `versionCode=11101`, کد برنامه برابر مرحلهٔ ۲۰):
+
+- **Android:** چهار APK **امضاشده** (universal و سه split بر پایهٔ ABI) با کلید self-signed تازه؛
+  برای نصب مستقیم روی Android 8.0+. AAB هم در Release است و برای Google Play باید با کلید upload
+  خود ناشر امضا شود. `apksigner verify` رسمی SDK هر چهار APK را تأیید کرد.
+- **Windows 10/11 x64:** `management_toolbox-1.1.1-windows-x64-portable.zip` — **کل درخت Release**
+  (۳۹ فایل: exe، `flutter_windows.dll`، پلاگین‌ها، `sqlite3.dll` و تمام `data/`) با SHA256.
+  استخراج کنید و `management_toolbox\management_toolbox.exe` را اجرا کنید؛ EXE تنها کافی نیست.
+- **بازتولید:** `Actions → Final release build (Android + Windows)` روی همین مخزن؛ سه job موازی
+  QA/Android/Windows و سپس `python tool/package_windows.py`. امضا در CI انجام **نمی‌شود**.
+- **مرز:** نصب روی گوشی فیزیکی و اجرای EXE روی ویندوز آزمون نشد؛ keystore، کلید خصوصی و
+  رمزها هیچ‌گاه داخل مخزن یا لاگ CI قرار نگرفتند. شواهد: [گزارش مرحله](docs/validation/stage21/README.md).
+
 ## وضعیت تحویل مرحلهٔ ۲۰
 
 همان کدبیس مرحلهٔ ۱۹ حفظ شده است. تعداد «۶۸» در درخواست با کاتالوگ واقعی تطابق ندارد: **۶۸ ابزار تخصصی + ۵ ابزار عمومی = ۷۳ ماشین‌حساب**؛ هیچ ابزار قبلی حذف نشده است. جدول انتهای README از `AppCatalog` تولید می‌شود.
@@ -12,7 +28,7 @@
 - Android دارای splash بومی API 26–30 و API 31+ روشن/تاریک است. Windows صفحهٔ شروع برنددار Flutter را **از نخستین frame هنگام خواندن دیتابیس** نشان می‌دهد؛ splash مستقلِ Win32 پیش از راه‌اندازی engine ادعا نمی‌شود. تأخیر مصنوعی اضافه نشده است.
 - تحلیل نهایی بدون مسئله؛ **۱۷۲۲ تست Flutter موفق، ۱۴ capture اختیاری skip، ۱۳ تست Python موفق**.
 - [گزارش واقعی این مرحله](docs/validation/stage20/README.md) و [معماری و توسعه](TECHNICAL_DOCS.md) همراه پروژه‌اند.
-- **APK و AAB تازهٔ مرحلهٔ ۲۰ برای arm64 با آیکون/splash جدید ساخته شدند؛ بدون امضا و بدون نصب/اجرای دستگاه.** Windows Release روی میزبان Linux قابل ساخت نبود؛ workflow runner Windows آماده است اما آنلاین اجرا نشده.
+- APK/AAB مرحلهٔ ۲۰ **بدون امضا** بودند و Windows Release روی آن میزبان Linux قابل ساخت نبود. وضعیت بیلد نهایی در بخش بالا با workflow جدید و Release ‏`v1.1.1` جای همان بند را می‌گیرد.
 - خروجی‌های Android مرحلهٔ ۱۹، **unsigned arm64 و مربوط به سورس مرحلهٔ ۱۹** هستند؛ لوگو/splash مرحلهٔ ۲۰ در آن‌ها نیست. آن‌ها را build جدید مرحلهٔ ۲۰ معرفی نکنید. نصب دستگاه و Windows بومی همچنان نیازمند آزمون هدف‌اند.
 - PDF طبق شکست پذیرش متن ترکیبی در مرحلهٔ ۱۷ غیرفعال مانده است. وعدهٔ خروجی PDF سالم داده نمی‌شود.
 

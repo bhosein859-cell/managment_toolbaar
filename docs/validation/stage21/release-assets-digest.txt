@@ -1,0 +1,15 @@
+# تطبیق digest هر asset روی Release با sha256 فایل امضاشدهٔ محلی
+release: https://github.com/bhosein859-cell/managment_toolbaar/releases/tag/v1.1.1  (tag v1.1.1, published 2026-10-17T11:48:11Z)
+note: RELEASE-NOTES.md بدنهٔ انتشار است، asset نیست؛ به همین دلیل ۸ asset در برابر ۹ فایل محلی.
+
+MATCH  management_toolbox-1.1.1-android-arm64-v8a.apk  22676302 bytes  c165a7bfadebf55870040354ce06d32589998986b32c9c5962add5eed76f40e5
+MATCH  management_toolbox-1.1.1-android-armeabi-v7a.apk  20329804 bytes  0d66f31dc88b33bc1706ab91b557136aa54874b4df3759c574d04484356479f5
+MATCH  management_toolbox-1.1.1-android-bundle-UNSIGNED.aab  62317553 bytes  617ab6187e208ab3df1c5e7a871b0e4ebb56b28550858d1739fb5b23e646698f
+MATCH  management_toolbox-1.1.1-android-universal.apk  64304339 bytes  71892eb3ac76dc3b038552a75c35c1c13a975760adc1466dae1f26bf054529ac
+MATCH  management_toolbox-1.1.1-android-x86_64.apk  24152279 bytes  447a93d2bb527eb3ff35e1bb4d6bdd1150071979b1fc64c7f70ec49ad52cf325
+MATCH  management_toolbox-1.1.1-windows-x64-portable.zip  14681033 bytes  6faa2600587943729600a8868ad979a07647fc25e729cc069d5b6ce43cde128e
+MATCH  management_toolbox-1.1.1-windows-x64-portable.zip.sha256  116 bytes  f9a3c1a095a73afc7ebffb8f3c530476cc01b4c9834f818e70aa4f7395b09edb
+MATCH  SHA256SUMS.txt  686 bytes  18dc048b28b1a4caac4285acd6799a5bdc6ea547ef45c90a1fddc4051e17f61d
+
+result: 8/8 asset با فایل محلی بایت‌به‌بایت یکسان
+method: gh api releases/latest assets[].digest (محاسبهٔ GitHub) در برابر hashlib روی فایل همان‌جا امضاشده

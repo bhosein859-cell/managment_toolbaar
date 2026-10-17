@@ -1,0 +1,68 @@
+# بررسی محلی APKهای امضاشده (میزبان Linux، بدون دستگاه Android)
+# signer: apk_sign_ts 1.0.1 (JS) | verifier: apksigtool 0.1.0 / apksigcopier 1.1.1 (مستقل)
+
+== management_toolbox-1.1.1-android-universal.apk (64304339 bytes)
+   sha256=71892eb3ac76dc3b038552a75c35c1c13a975760adc1466dae1f26bf054529ac
+   entries=69 stored=24 abis=['arm64-v8a', 'armeabi-v7a', 'x86_64']
+   apksigtool: v2=True v3=True VERIFIED=2 sig-algos=['0x103']
+   note: res/9w.png: uncompressed, offset 64025471 not 4-aligned (not required)
+   note: res/FS.png: uncompressed, offset 64027967 not 4-aligned (not required)
+   note: res/IL.png: uncompressed, offset 64033927 not 4-aligned (not required)
+   note: res/RJ.png: uncompressed, offset 64102583 not 4-aligned (not required)
+   note: res/Wn.png: uncompressed, offset 64113867 not 4-aligned (not required)
+   note: res/o-.png: uncompressed, offset 64146675 not 4-aligned (not required)
+   note: res/tM.png: uncompressed, offset 64163867 not 4-aligned (not required)
+   note: res/yn.png: uncompressed, offset 64230847 not 4-aligned (not required)
+   note: META-INF/MANIFEST.MF: uncompressed, offset 64243338 not 4-aligned (not required)
+   note: META-INF/CERT.SF: uncompressed, offset 64251367 not 4-aligned (not required)
+RESULT: PASS
+
+== management_toolbox-1.1.1-android-arm64-v8a.apk (22676302 bytes)
+   sha256=c165a7bfadebf55870040354ce06d32589998986b32c9c5962add5eed76f40e5
+   entries=63 stored=18 abis=['arm64-v8a']
+   apksigtool: v2=True v3=True VERIFIED=2 sig-algos=['0x103']
+   note: res/9w.png: uncompressed, offset 22415827 not 4-aligned (not required)
+   note: res/FS.png: uncompressed, offset 22418323 not 4-aligned (not required)
+   note: res/IL.png: uncompressed, offset 22424283 not 4-aligned (not required)
+   note: res/RJ.png: uncompressed, offset 22492939 not 4-aligned (not required)
+   note: res/Wn.png: uncompressed, offset 22504223 not 4-aligned (not required)
+   note: res/o-.png: uncompressed, offset 22537031 not 4-aligned (not required)
+   note: res/tM.png: uncompressed, offset 22554223 not 4-aligned (not required)
+   note: res/yn.png: uncompressed, offset 22621203 not 4-aligned (not required)
+   note: META-INF/MANIFEST.MF: uncompressed, offset 22633694 not 4-aligned (not required)
+   note: META-INF/CERT.RSA: uncompressed, offset 22648714 not 4-aligned (not required)
+RESULT: PASS
+
+== management_toolbox-1.1.1-android-armeabi-v7a.apk (20329804 bytes)
+   sha256=0d66f31dc88b33bc1706ab91b557136aa54874b4df3759c574d04484356479f5
+   entries=63 stored=18 abis=['armeabi-v7a']
+   apksigtool: v2=True v3=True VERIFIED=2 sig-algos=['0x103']
+   note: res/9w.png: uncompressed, offset 20070467 not 4-aligned (not required)
+   note: res/FS.png: uncompressed, offset 20072963 not 4-aligned (not required)
+   note: res/IL.png: uncompressed, offset 20078923 not 4-aligned (not required)
+   note: res/RJ.png: uncompressed, offset 20147579 not 4-aligned (not required)
+   note: res/Wn.png: uncompressed, offset 20158863 not 4-aligned (not required)
+   note: res/o-.png: uncompressed, offset 20191671 not 4-aligned (not required)
+   note: res/tM.png: uncompressed, offset 20208863 not 4-aligned (not required)
+   note: res/yn.png: uncompressed, offset 20275843 not 4-aligned (not required)
+   note: META-INF/MANIFEST.MF: uncompressed, offset 20288334 not 4-aligned (not required)
+   note: META-INF/CERT.SF: uncompressed, offset 20295786 not 4-aligned (not required)
+   note: META-INF/CERT.RSA: uncompressed, offset 20303366 not 4-aligned (not required)
+RESULT: PASS
+
+== management_toolbox-1.1.1-android-x86_64.apk (24152279 bytes)
+   sha256=447a93d2bb527eb3ff35e1bb4d6bdd1150071979b1fc64c7f70ec49ad52cf325
+   entries=63 stored=18 abis=['x86_64']
+   apksigtool: v2=True v3=True VERIFIED=2 sig-algos=['0x103']
+   note: res/9w.png: uncompressed, offset 23892863 not 4-aligned (not required)
+   note: res/FS.png: uncompressed, offset 23895359 not 4-aligned (not required)
+   note: res/IL.png: uncompressed, offset 23901319 not 4-aligned (not required)
+   note: res/RJ.png: uncompressed, offset 23969975 not 4-aligned (not required)
+   note: res/Wn.png: uncompressed, offset 23981259 not 4-aligned (not required)
+   note: res/o-.png: uncompressed, offset 24014067 not 4-aligned (not required)
+   note: res/tM.png: uncompressed, offset 24031259 not 4-aligned (not required)
+   note: res/yn.png: uncompressed, offset 24098239 not 4-aligned (not required)
+   note: META-INF/MANIFEST.MF: uncompressed, offset 24110730 not 4-aligned (not required)
+   note: META-INF/CERT.SF: uncompressed, offset 24118167 not 4-aligned (not required)
+RESULT: PASS
+

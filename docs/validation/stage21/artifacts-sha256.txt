@@ -1,0 +1,6 @@
+71892eb3ac76dc3b038552a75c35c1c13a975760adc1466dae1f26bf054529ac  management_toolbox-1.1.1-android-universal.apk
+c165a7bfadebf55870040354ce06d32589998986b32c9c5962add5eed76f40e5  management_toolbox-1.1.1-android-arm64-v8a.apk
+0d66f31dc88b33bc1706ab91b557136aa54874b4df3759c574d04484356479f5  management_toolbox-1.1.1-android-armeabi-v7a.apk
+447a93d2bb527eb3ff35e1bb4d6bdd1150071979b1fc64c7f70ec49ad52cf325  management_toolbox-1.1.1-android-x86_64.apk
+617ab6187e208ab3df1c5e7a871b0e4ebb56b28550858d1739fb5b23e646698f  management_toolbox-1.1.1-android-bundle-UNSIGNED.aab
+6faa2600587943729600a8868ad979a07647fc25e729cc069d5b6ce43cde128e  management_toolbox-1.1.1-windows-x64-portable.zip

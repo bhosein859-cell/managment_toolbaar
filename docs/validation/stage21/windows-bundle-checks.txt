@@ -1,0 +1,9 @@
+# بررسی بستهٔ Windows x64 در میزبان Linux (بدون اجرای EXE)
+
+entries: 39 CRC test: None
+REQUIRED missing: none
+dlls: ['flutter_windows.dll', 'share_plus_plugin.dll', 'sqlite3.dll', 'url_launcher_windows_plugin.dll']
+empty: none
+exe: PE magic=b'PE' machine=0x8664 sections=6 bytes=114688
+flutter_assets files: 31
+vazirmatn fonts: ['data/flutter_assets/assets/fonts/Vazirmatn-Bold.ttf', 'data/flutter_assets/assets/fonts/Vazirmatn-Regular.ttf']

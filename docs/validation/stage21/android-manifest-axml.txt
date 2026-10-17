@@ -1,0 +1,14 @@
+# AndroidManifest کامپایل‌شدهٔ همان فایل‌های تحویلی (parsing محلی AXML)
+
+== signed/management_toolbox-1.1.1-android-universal.apk
+   manifest attrs: {'versionCode': 11101, 'versionName': '1.1.1', 'compileSdkVersion': 36, 'compileSdkVersionCodename': '16', 'package': 'com.managementtoolbox.management_toolbox', 'platformBuildVersionCode': 36, 'platformBuildVersionName': 16}
+   elements: 34
+   <uses-sdk> {'minSdkVersion': 26, 'targetSdkVersion': 36}
+   <uses-permission> {'name': 'com.managementtoolbox.management_toolbox.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION'}
+   <application> {'label': 'جعبه\u200cابزار مدیریت', 'icon': 'ref:0x7f0a0000', 'name': 'android.app.Application', 'extractNativeLibs': 0, 'appComponentFactory': 'androidx.core.app.CoreComponentFactory'}
+== signed/management_toolbox-1.1.1-android-arm64-v8a.apk
+   manifest attrs: {'versionCode': 13101, 'versionName': '1.1.1', 'compileSdkVersion': 36, 'compileSdkVersionCodename': '16', 'package': 'com.managementtoolbox.management_toolbox', 'platformBuildVersionCode': 36, 'platformBuildVersionName': 16}
+   elements: 34
+   <uses-sdk> {'minSdkVersion': 26, 'targetSdkVersion': 36}
+   <uses-permission> {'name': 'com.managementtoolbox.management_toolbox.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION'}
+   <application> {'label': 'جعبه\u200cابزار مدیریت', 'icon': 'ref:0x7f0a0000', 'name': 'android.app.Application', 'extractNativeLibs': 0, 'appComponentFactory': 'androidx.core.app.CoreComponentFactory'}
